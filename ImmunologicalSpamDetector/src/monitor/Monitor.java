@@ -1,4 +1,4 @@
-package main;
+package monitor;
 
 public class Monitor {
 	

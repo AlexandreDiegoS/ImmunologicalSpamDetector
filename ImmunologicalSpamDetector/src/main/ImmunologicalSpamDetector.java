@@ -2,7 +2,8 @@ package main;
 
 import java.util.List;
 
-import util.Detector;
+import census.Census;
+import detector.Detector;
 
 public class ImmunologicalSpamDetector {
 

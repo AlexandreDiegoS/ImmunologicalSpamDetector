@@ -2,3 +2,9 @@
 /main/
 /spamWords.txt
 /util/
+/spamDictionary.txt
+/detector/
+/setup.properties
+/census/
+/monitor/
+/stopWords.txt
