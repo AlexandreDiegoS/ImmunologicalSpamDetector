@@ -12,8 +12,10 @@ import util.file.ProjectProperties;
 public class ImmunologicalSpamDetector {
 	static Properties projectProperties = ProjectProperties.getProperties();
 	public static void main(String[] args) {
-		List<File> emails = new IOManipulation().listFilesInDirectory(projectProperties.getProperty("base"));
+		List<File> emails = new IOManipulation().
+				listFilesInDirectory(projectProperties.getProperty("base"));
 		String email = new Email().getEmail(emails.get(0));
-		System.out.println(PreprocessEmail.clearEmail(PreprocessEmail.clearHeader(email)));	
+		System.out.println(PreprocessEmail.
+				clearEmail(PreprocessEmail.clearHeader(email)));
 	}
 }
