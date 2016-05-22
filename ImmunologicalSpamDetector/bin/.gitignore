@@ -2,3 +2,8 @@
 /main/
 /validEmails/
 /spamEmails/
+/census/
+/detector/
+/monitor/
+/spams/
+/acceptedDetectors.txt
