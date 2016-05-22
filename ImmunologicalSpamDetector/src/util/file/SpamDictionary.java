@@ -24,8 +24,6 @@ public class SpamDictionary {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
 		return spamDictionary;
 	}
-	
 }

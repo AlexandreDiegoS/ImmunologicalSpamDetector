@@ -1,22 +1,19 @@
 package main;
 
+import java.io.File;
 import java.util.List;
+import java.util.Properties;
 
-import census.Census;
-import detector.Detector;
+import util.PreprocessEmail;
+import util.file.Email;
+import util.file.IOManipulation;
+import util.file.ProjectProperties;
 
 public class ImmunologicalSpamDetector {
-
+	static Properties projectProperties = ProjectProperties.getProperties();
 	public static void main(String[] args) {
-		List<Detector> detectors = new Census().generateDetectors(2);
-		List<String> keywords;
-		for(int i = 0; i < 2; i++){
-			keywords = detectors.get(i).getKeywords();
-			for(int j = 0; j < keywords.size(); j++)
-				System.out.println(keywords.get(j));
-		}
-		new Census();
-		System.out.println(Census.hamming("sexo", "amor"));
+		List<File> emails = new IOManipulation().listFilesInDirectory(projectProperties.getProperty("base"));
+		String email = new Email().getEmail(emails.get(0));
+		System.out.println(PreprocessEmail.clearEmail(PreprocessEmail.clearHeader(email)));	
 	}
-
 }

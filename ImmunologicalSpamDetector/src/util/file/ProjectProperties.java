@@ -10,7 +10,7 @@ public class ProjectProperties {
 		Properties properties = new Properties();
 		FileInputStream propertiesFile;
 		try {
-			propertiesFile = new FileInputStream("res/dados.properties");
+			propertiesFile = new FileInputStream("res/setup.properties");
 			properties.load(propertiesFile);
 		} catch (IOException e) {
 			e.printStackTrace();
