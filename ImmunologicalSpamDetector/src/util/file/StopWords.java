@@ -10,7 +10,7 @@ import java.util.List;
 public class StopWords {
 	
 	@SuppressWarnings("resource")
-	public List<String> getStopWords() {
+	public static List<String> getStopWords() {
 		List<String> stopWords = null;
 		
 		try {

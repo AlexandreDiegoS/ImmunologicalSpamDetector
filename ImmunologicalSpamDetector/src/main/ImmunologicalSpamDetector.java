@@ -2,18 +2,22 @@ package main;
 
 import java.io.File;
 import java.util.List;
-import java.util.Properties;
 
-import util.PreprocessEmail;
-import util.file.Email;
-import util.file.IOManipulation;
-import util.file.ProjectProperties;
+import census.Census;
+import detector.Detector;
+import monitor.Monitor;
 
 public class ImmunologicalSpamDetector {
-	static Properties projectProperties = ProjectProperties.getProperties();
 	public static void main(String[] args) {
-		List<File> emails = new IOManipulation().listFilesInDirectory(projectProperties.getProperty("base"));
-		String email = new Email().getEmail(emails.get(0));
-		System.out.println(PreprocessEmail.clearEmail(PreprocessEmail.clearHeader(email)));	
+		//Fase de censo, onde serão gerados e avaliados os detectores
+		List<Detector> detectorsCandidates = Census.generateDetectors();
+		Census.evaluatesDetectors(detectorsCandidates);
+		
+		//Fase de monitoramento, onde será criado o monitor para que o mesmo
+		//possa avaliar se algum email é válido ou não.
+		Monitor monitor = new Monitor();
+		boolean isValid = monitor.verifyEmail(new File("res/spams/0017.txt"));
+		
+		System.out.println("Verificação: " + isValid);	
 	}
 }

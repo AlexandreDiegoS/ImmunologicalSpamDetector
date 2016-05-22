@@ -10,13 +10,11 @@ import util.file.SpamDictionary;
 
 public class Detector {
 	private List<String> keywords;
-	private List<String> spamDictionary;
-	private int numberOfWordsInDictionary;
 	
 	public Detector() {
 		this.keywords = new ArrayList<String>();
-		this.spamDictionary = SpamDictionary.getSpamDictionary();
-		this.numberOfWordsInDictionary = spamDictionary.size();
+		List<String> spamDictionary = SpamDictionary.getSpamDictionary();
+		int numberOfWordsInDictionary = spamDictionary.size();
 		
 		Random index = new Random();
 		String word = "";
@@ -31,6 +29,10 @@ public class Detector {
 				wordsOnDetector++;
 			}
 		}while(wordsOnDetector < sizeOfDetectors);
+	}
+	
+	public Detector(List<String> keyWords) {
+		this.keywords = keyWords;
 	}
 	
 	public List<String> getKeywords() {
