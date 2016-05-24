@@ -2,4 +2,13 @@
 /main/
 /validEmails/
 /spamEmails/
+<<<<<<< HEAD
 /GUI/
+=======
+/census/
+/detector/
+/monitor/
+/spams/
+/acceptedDetectors.txt
+>>>>>>> 5379a1d3a325d150e05d08ea9da59f83e6613cb7
+/org/

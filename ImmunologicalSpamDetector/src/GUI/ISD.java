@@ -5,19 +5,16 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import java.awt.Dimension;
 import java.awt.GridLayout;
-import javax.swing.BoxLayout;
 import java.awt.Toolkit;
 import javax.swing.JLabel;
-import java.awt.BorderLayout;
 import javax.swing.SwingConstants;
-import javax.xml.transform.OutputKeys;
-import javax.swing.ImageIcon;
+
+import main.ImmunologicalSpamDetector;
+
 import javax.swing.JFileChooser;
 
 import java.awt.Font;
 import javax.swing.JPanel;
-import java.awt.GridBagLayout;
-import java.awt.GridBagConstraints;
 import java.awt.Color;
 import javax.swing.JTextPane;
 import javax.swing.JMenuBar;
@@ -26,11 +23,8 @@ import java.awt.Desktop;
 
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
-import javax.swing.JPopupMenu;
 import javax.swing.JMenu;
-import javax.swing.AbstractAction;
 import java.awt.event.ActionEvent;
-import javax.swing.Action;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
@@ -38,9 +32,6 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.FocusAdapter;
-import java.awt.event.FocusEvent;
-import java.awt.event.MouseMotionAdapter;
 
 public class ISD {
 
@@ -133,7 +124,7 @@ public class ISD {
 		mMoreAbout.setBackground(Color.WHITE);
 		mMenu.add(mMoreAbout);
 		
-		JMenuItem mVerify = new JMenuItem("Verify Email");
+		JMenuItem mVerify = new JMenuItem("Verify Emails - Using Saved Detectors");
 		mVerify.addMouseListener(new MouseAdapter() {
 			public void mouseEntered(MouseEvent arg0) {
 				mVerify.setBackground(Color.GRAY);
@@ -149,14 +140,14 @@ public class ISD {
 						"Verify Emails", JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
 				if(option == JOptionPane.OK_OPTION){
 					final JFileChooser search = new JFileChooser();
-					search.setFileSelectionMode(search.FILES_AND_DIRECTORIES);
+					search.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
 					search.showOpenDialog(mVerify);
 					File selected = search.getSelectedFile();
 					if(selected != null){
 						String filename = selected.getAbsolutePath();
-						ISDVerify newVerification = new ISDVerify(filename);
-						newVerification.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+						ISDVerify newVerification = new ISDVerify(frmImmunologicalSpamDetector, filename);
 						newVerification.setVisible(true);
+						frmImmunologicalSpamDetector.setVisible(false);
 					}
 				}
 			}
@@ -164,10 +155,51 @@ public class ISD {
 		mVerify.setBackground(Color.WHITE);
 		mMenu.add(mVerify);
 		
+		JMenuItem mVerifyGenerate = new JMenuItem("Verify Emails - Generate New Detectors");
+		mVerifyGenerate.addMouseListener(new MouseAdapter() {
+			public void mouseEntered(MouseEvent arg0) {
+				mVerifyGenerate.setBackground(Color.GRAY);
+			}
+			public void mouseExited(MouseEvent arg0) {
+				mVerifyGenerate.setBackground(Color.WHITE);
+			}
+		});
+		mVerifyGenerate.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				GenerateDetectors newDetectors = new GenerateDetectors();
+				newDetectors.setVisible(true);
+				
+				new Thread(new Runnable() {
+					public void run() {
+						ImmunologicalSpamDetector.generateBaseOfDetectors();
+						newDetectors.dispose();
+
+						int option = JOptionPane.showConfirmDialog(
+								mVerifyGenerate, "Select one email file or one directory that containing them.", 
+								"Verify Emails", JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
+						if(option == JOptionPane.OK_OPTION){
+							final JFileChooser search = new JFileChooser();
+							search.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
+							search.showOpenDialog(mVerifyGenerate);
+							File selected = search.getSelectedFile();
+							if(selected != null){
+								String filename = selected.getAbsolutePath();
+								ISDVerify newVerification = new ISDVerify(frmImmunologicalSpamDetector, filename);
+								newVerification.setVisible(true);
+								frmImmunologicalSpamDetector.setVisible(false);
+							}
+						}
+					}
+				}).start();	
+			}
+		});
+		mVerifyGenerate.setBackground(Color.WHITE);
+		mMenu.add(mVerifyGenerate);
+		
 		JLabel lblCopyright = new JLabel("\u00A9 2016  A.A.A.");
 		lblCopyright.setBounds(493, 342, 95, 23);
 		panel.add(lblCopyright);
-		frmImmunologicalSpamDetector.setIconImage(Toolkit.getDefaultToolkit().getImage(ISD.class.getResource("/GUI/resources/negative_icon.png")));
+		frmImmunologicalSpamDetector.setIconImage(Toolkit.getDefaultToolkit().getImage(ISD.class.getResource("/GUI/img/negative_icon.png")));
 		frmImmunologicalSpamDetector.setMaximumSize(new Dimension(1024, 768));
 		frmImmunologicalSpamDetector.setTitle("Immunological Spam Detector");
 		frmImmunologicalSpamDetector.setBounds(100, 100, 600, 400);

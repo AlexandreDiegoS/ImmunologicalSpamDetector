@@ -6,20 +6,24 @@ import java.io.File;
 
 public class IOManipulation {
 	
-	public List<File> listFilesInDirectory(String directory) {
+	public static List<File> listFilesInDirectory(String directory) {
 		List<File> files = null;
 		try{
 			final File folder = new File(directory);
 			files = new ArrayList<File>();
-		    for (final File fileEntry : folder.listFiles()) {
-		        if (fileEntry.isDirectory()) {
-		        	List<File> internFiles = listFilesInDirectory(fileEntry.toString());
-		        	for (File file : internFiles) {
-		        		files.add(file);
-		        	}
-		        } else {
-		            files.add(fileEntry);
-		        }
+		    if(folder.isDirectory()){
+				for (File fileEntry : folder.listFiles()) {
+			        if (fileEntry.isDirectory()) {
+			        	List<File> internFiles = listFilesInDirectory(fileEntry.toString());
+			        	for (File file : internFiles) {
+			        		files.add(file);
+			        	}
+			        } else {
+			            files.add(fileEntry);
+			        }
+			    }
+		    }else{
+		    	files.add(folder);
 		    }
 		}catch(Exception e){
 			e.printStackTrace();
