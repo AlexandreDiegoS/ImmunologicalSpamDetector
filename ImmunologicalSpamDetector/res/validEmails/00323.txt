@@ -1,106 +1,75 @@
-From fork-admin@xent.com  Mon Aug 26 22:08:03 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Mon Aug 12 11:05:17 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id DF1ED43F9B
-	for <jm@localhost>; Mon, 26 Aug 2002 17:08:02 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id A439D4414D
+	for <jm@localhost>; Mon, 12 Aug 2002 05:55:49 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Mon, 26 Aug 2002 22:08:02 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7QL8DZ09668 for <jm@jmason.org>;
-    Mon, 26 Aug 2002 22:08:16 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 4C7C22941D2; Mon, 26 Aug 2002 13:38:57 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from docserver.cac.washington.edu (docserver.cac.washington.edu
-    [140.142.32.13]) by xent.com (Postfix) with ESMTP id 825EF294099 for
-    <fork@xent.com>; Wed, 21 Aug 2002 16:33:32 -0700 (PDT)
-Received: (from daemon@localhost) by docserver.cac.washington.edu
-    (8.12.1+UW01.12/8.12.1+UW02.06) id g7LNKH73018839 for fork <fork@xent.com>;
-    Wed, 21 Aug 2002 16:20:17 -0700
-Message-Id: <200208212320.g7LNKH73018839@docserver.cac.washington.edu>
-To: fork <fork@spamassassin.taint.org>
-From: UW Email Robot <pine-robot@docserver.cac.washington.edu>
-Subject: The MIME information you requested (last changed 3154 Feb 14)
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+	for jm@localhost (single-drop); Mon, 12 Aug 2002 10:55:49 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g79M3Hb26989 for
+    <jm-ilug@jmason.org>; Fri, 9 Aug 2002 23:03:22 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id XAA31310; Fri, 9 Aug 2002 23:00:23 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from web13901.mail.yahoo.com (web13901.mail.yahoo.com
+    [216.136.175.27]) by lugh.tuatha.org (8.9.3/8.9.3) with SMTP id XAA31277
+    for <ilug@linux.ie>; Fri, 9 Aug 2002 23:00:17 +0100
+Message-Id: <20020809220015.80151.qmail@web13901.mail.yahoo.com>
+Received: from [159.134.176.22] by web13901.mail.yahoo.com via HTTP;
+    Sat, 10 Aug 2002 00:00:15 CEST
+Date: Sat, 10 Aug 2002 00:00:15 +0200 (CEST)
+From: =?iso-8859-1?q?Paul=20Linehan?= <plinehan@yahoo.com>
+Subject: Re: [ILUG] ILUG newsgroup(s)?
+To: John Reilly <jr@inconspicuous.org>
+Cc: "Irish Linux Users' Group" <ilug@linux.ie>
+In-Reply-To: <001801c23fd4$5dedfe10$ea5012ac@xelector.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Wed, 21 Aug 2002 16:20:17 -0700
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
---------------------------------------------------------------------------
 
-What is MIME?
+John Reilly <jr@inconspicuous.org> a écrit:
 
-MIME stands for "Multipurpose Internet Mail Extensions".  It is the
-standard for how to send multipart, multimedia, and binary data using the
-world-wide Internet email system.  Typical uses of MIME include sending
-images, audio, wordprocessing documents, programs, or even plain text
-files when it is important that the mail system does not modify any part
-of the file.  MIME also allows for labelling message parts so that a
-recipient (or mail program) may determine what to do with them. 
+> > Newsgroups are great for threading of discussions,
+> > working offline and I feel that they work
+> > much better for this sort of technical discussion
+> > than a mailing list.
 
-How can I read a MIME message?
+ 
+> I suppose its all down to personal preference, but I
+> disagree strongly.
 
-Since MIME is only a few years old, there are still some mailers in use
-which do not understand MIME messages.  However, there are a growing
-number of mail programs that have MIME support built-in.  (One popular
-MIME-capable mailer for Unix, VMS and PCs is Pine, developed at the
-University of Washington and available via anonymous FTP from the host
-ftp.cac.washington.edu in the file /pine/pine.tar.Z)
 
-In addition, several proprietary email systems provide MIME translation
-capability in their Internet gateway products.  However, even if you do
-not have access to a MIME-capable mailer or suitable gateway, there is
-still hope! 
+I suppose it is - however, nobody knows that
+this message is a response to your one or a 
+follow-up to my own first message. 
 
-There are a number of stand-alone programs that can interpret a MIME
-message.  One of the more versatile is called "munpack".  It was developed
-at Carnegie Mellon University and is available via anonymous FTP from the
-host ftp.andrew.cmu.edu in the directory pub/mpack/.  There are versions
-available for Unix, PC, Mac and Amiga systems.  For compabibility with
-older forms of transferring binary files, the munpack program can also
-decode messages in split-uuencoded format. 
+With a newsgroup structure, this is obvious. 
 
-Does MIME replace UUENCODE?
+This helps the reader eliminate threads which
+are irrelevant to them or whatever.
 
-Yes.  UUENCODE has been used for some time for encoding binary files so
-that they can be sent via Internet mail, but it has several technical
-limitations and interoperability problems.  MIME uses a more robust
-encoding called "Base64" which has been carefully designed to survive the
-message transformations made by certain email gateways. 
 
-How can I learn more about MIME?
+Paul...
 
-The MIME Internet standard is described in RFC-1521, available via
-anonymous FTP from many different Internet hosts, including: 
-                                                       
-     o  US East Coast                            
-        Address:  ds.internic.net (198.49.45.10)        
-                                                        
-     o  US West Coast                            
-        Address:  ftp.isi.edu (128.9.0.32)      
-                                                        
-     o  Pacific Rim                              
-        Address:  munnari.oz.au (128.250.1.21)  
-                                                        
-     o  Europe                                   
-        Address:  nic.nordu.net (192.36.148.17) 
 
-Look for the file /rfc/rfc1521.txt
 
-Another source of information is the Internet news group "comp.mail.mime",
-which includes a periodic posting of a "Frequently Asked Questions" list.
+___________________________________________________________
+Do You Yahoo!? -- Une adresse @yahoo.fr gratuite et en français !
+Yahoo! Mail : http://fr.mail.yahoo.com
 
---------------------------------------------------------------------------
-http://xent.com/mailman/listinfo/fork
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
 

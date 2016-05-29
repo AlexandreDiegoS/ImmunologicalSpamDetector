@@ -1,85 +1,100 @@
-From fork-admin@xent.com  Thu Aug 29 11:27:33 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Tue Aug 13 10:29:27 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 074EC43F99
-	for <jm@localhost>; Thu, 29 Aug 2002 06:27:33 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 6BA4F4412D
+	for <jm@localhost>; Tue, 13 Aug 2002 05:21:59 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Thu, 29 Aug 2002 11:27:33 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7TASnZ08263 for <jm@jmason.org>;
-    Thu, 29 Aug 2002 11:28:49 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 7A1BF2940C4; Thu, 29 Aug 2002 03:26:09 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from mandark.labs.netnoteinc.com (unknown [212.2.188.179]) by
-    xent.com (Postfix) with ESMTP id 00B5C294099 for <fork@xent.com>;
-    Thu, 29 Aug 2002 03:25:11 -0700 (PDT)
-Received: from phobos.labs.netnoteinc.com (phobos.labs.netnoteinc.com
-    [192.168.2.14]) by mandark.labs.netnoteinc.com (8.11.6/8.11.6) with ESMTP
-    id g7TARC502451; Thu, 29 Aug 2002 11:27:12 +0100
-Received: by phobos.labs.netnoteinc.com (Postfix, from userid 500) id
-    93A1F43F99; Thu, 29 Aug 2002 06:24:44 -0400 (EDT)
-Received: from phobos (localhost [127.0.0.1]) by
-    phobos.labs.netnoteinc.com (Postfix) with ESMTP id 8EA5933D8D;
-    Thu, 29 Aug 2002 11:24:44 +0100 (IST)
-To: Gary Lawrence Murphy <garym@canada.com>
-Cc: harley@argote.ch (Robert Harley), fork@spamassassin.taint.org
-Subject: Re: Java is for kiddies
-In-Reply-To: Message from Gary Lawrence Murphy <garym@canada.com> of
-    "28 Aug 2002 15:06:39 EDT."
-    <m2vg5u3irk.fsf@maya.dyndns.org>
-From: yyyy@spamassassin.taint.org (Justin Mason)
-X-GPG-Key-Fingerprint: 0A48 2D8B 0B52 A87D 0E8A  6ADD 4137 1B50 6E58 EF0A
-X-Habeas-Swe-1: winter into spring
-X-Habeas-Swe-2: brightly anticipated
-X-Habeas-Swe-3: like Habeas SWE (tm)
-X-Habeas-Swe-4: Copyright 2002 Habeas (tm)
-X-Habeas-Swe-5: Sender Warranted Email (SWE) (tm). The sender of this
-X-Habeas-Swe-6: email in exchange for a license for this Habeas
-X-Habeas-Swe-7: warrant mark warrants that this is a Habeas Compliant
-X-Habeas-Swe-8: Message (HCM) and not spam.  Please report use of this
-X-Habeas-Swe-9: mark in spam to <http://www.habeas.com/report/>.
-Message-Id: <20020829102444.93A1F43F99@phobos.labs.netnoteinc.com>
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+	for jm@localhost (single-drop); Tue, 13 Aug 2002 10:21:59 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7D5wQb19159 for
+    <jm-ilug@jmason.org>; Tue, 13 Aug 2002 06:58:26 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id GAA27326; Tue, 13 Aug 2002 06:57:37 +0100
+Received: from puma.dub0.ie.cp.net ([62.17.137.250]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id GAA27284 for <ilug@linux.ie>; Tue,
+    13 Aug 2002 06:57:29 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host [62.17.137.250] claimed to
+    be puma.dub0.ie.cp.net
+Received: from localhost.localdomain (10.40.2.34) by puma.dub0.ie.cp.net
+    (6.7.009) id 3D4AB188000093C9 for ilug@linux.ie; Tue, 13 Aug 2002 06:56:58
+    +0100
+Subject: Re: [ILUG] RH7.3 on Cobalt - the saga continues
+From: Anders Holm <anders.holm@criticalpath.net>
+To: ilug@linux.ie
+In-Reply-To: <20020812164951.GB1858@jinny.ie>
+References: <20020812164951.GB1858@jinny.ie>
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+X-Mailer: Ximian Evolution 1.0.5
+Date: 13 Aug 2002 06:54:28 +0100
+Message-Id: <1029218068.4889.9.camel@aholm>
+MIME-Version: 1.0
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Thu, 29 Aug 2002 11:24:39 +0100
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
+
+John,
+
+let me guess, you haven't tried the boot parameter root=/dev/hda2 if you
+are using lilo??
+
+//Anders//
+
+On Mon, 2002-08-12 at 17:49, John P. Looney wrote:
+>  I'm getting places.
+> 
+>  Turns out that you can't have your /boot filesystem ext3, and the
+> /boot/vmlinux.gz file has to be a gzipped vmlinux file (not a vmlinuz one,
+> which though obvious...isn't, when you've been hitting your head off a
+> wall for a few days).
+> 
+>  Also, when you mkfs a filesystem that's called "/boot", as far as the
+> redhat /etc/fstab is concerned, it wipes that, so when you boot a rescue
+> CD, it doesn't mount /dev/hda1 as /boot, and doesn't inform you of this.
+> 
+>  (so, it's dead easy to work away on /mnt/sysimage/boot thinking you are
+> working on /dev/hda1, and wondering why no matter what you do, nothing
+> changes).
+> 
+>  Aaaaanyway. I have it booting the redhat kernel. But, the kernel isn't
+> loading root as /dev/hda2 - it keeps mounting /dev/hda1.
+> 
+>  Curiously, when I go into the boot prom, an use
+> 
+>  "set_params" I can tell it to mount /dev/hda2 as root. But then it uses
+> the PROM copy of the kernel (dodgy 2.2.16 kernel), which doesn't know
+> ext3, so wants to fsck up my disk.
+> 
+>  rdev on the vmlinux file, before gzipping doesn't work. I assume you
+> can't run rdev on the gzipped version. Any other ideas on how to tell a
+> kernel where it's root fs is ?
+> 
+> Kate
+> 
+> 
+> -- 
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+> List maintainer: listmaster@linux.ie
+-- 
+Best Regards
+Anders Holm
+Critical Path Technical Support Engineer
+========================================
+Tel USA/Canada: 1 800 353 8437
+Tel Worldwide:  +1 801 736 0806
+E-mail:         technical.support@cp.net
+Internet:       http://support.cp.net
 
 
-Gary Lawrence Murphy said:
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
-> I envy some of those posting to this list.  I've been in business for
-> 24 years and I haven't yet had the luxury of writing every line of
-> code for any project. We are always coerced by budgets and time to
-> maximize the amount of work done elsewhere.  
-
-For consultancy, integration or open source work, sure, perl, python or
-java with free use of external libs makes a lot of sense IMO.
-
-I should note that normally when I've used C or C++ in the past, it's
-dictated by the fact that I would be working on a commercial product,
-written from the ground up, where the code you're generating is important
-IP for the company; in this case, using a third-party lib often is not an
-option, or would be a PITA licensing-wise.
-
-Also, cutting out third-party dependencies can reduce the risk of "oops,
-there goes the company that makes that library I depend on, now to shop
-around for something vaguely similar, figure out what bugs it's got,
-rewrite my code to use the new API, and hope for the best".
-
-This can be a *very* big deal, for obvious reasons ;)    Open source
-knockers should note that this is not a problem when using LGPL'd libs ;)
-
---j.
 

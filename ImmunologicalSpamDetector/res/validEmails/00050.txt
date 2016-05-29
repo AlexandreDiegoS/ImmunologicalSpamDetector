@@ -1,146 +1,74 @@
-From spamassassin-talk-admin@lists.sourceforge.net  Thu Aug 29 16:42:46 2002
-Return-Path: <spamassassin-talk-admin@example.sourceforge.net>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From social-admin@linux.ie  Wed Aug  7 10:03:56 2002
+Return-Path: <social-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id EDB0C43F9B
-	for <zzzz@localhost>; Thu, 29 Aug 2002 11:42:43 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 65370440A8
+	for <jm@localhost>; Wed,  7 Aug 2002 05:03:56 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Thu, 29 Aug 2002 16:42:44 +0100 (IST)
-Received: from usw-sf-list2.sourceforge.net (usw-sf-fw2.sourceforge.net
-    [216.136.171.252]) by dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id
-    g7TFYvZ18369 for <zzzz-sa@spamassassin.taint.org>; Thu, 29 Aug 2002 16:34:58 +0100
-Received: from usw-sf-list1-b.sourceforge.net ([10.3.1.13]
-    helo=usw-sf-list1.sourceforge.net) by usw-sf-list2.sourceforge.net with
-    esmtp (Exim 3.31-VA-mm2 #1 (Debian)) id 17kRI7-0008KP-00; Thu,
-    29 Aug 2002 08:33:03 -0700
-Received: from moonbase.zanshin.com ([167.160.213.139]) by
-    usw-sf-list1.sourceforge.net with esmtp (Cipher TLSv1:DES-CBC3-SHA:168)
-    (Exim 3.31-VA-mm2 #1 (Debian)) id 17kRHG-000488-00 for
-    <spamassassin-talk@lists.sourceforge.net>; Thu, 29 Aug 2002 08:32:10 -0700
-Received: from aztec.zanshin.com (IDENT:schaefer@aztec.zanshin.com
-    [167.160.213.132]) by moonbase.zanshin.com (8.11.0/8.11.0) with ESMTP id
-    g7TFW8J23933 for <spamassassin-talk@lists.sourceforge.net>; Thu,
-    29 Aug 2002 08:32:08 -0700
-From: Bart Schaefer <schaefer@zanshin.com>
-To: Spamassassin-Talk <spamassassin-talk@example.sourceforge.net>
-Subject: Re: [SAtalk] O.T. Habeus -- Why?
-In-Reply-To: <3D6E255A.CB569D9B@hallikainen.com>
-Message-Id: <Pine.LNX.4.44.0208290714450.30051-100000@aztec.zanshin.com>
+	for jm@localhost (single-drop); Wed, 07 Aug 2002 10:03:56 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g77920k18624 for
+    <jm+ilug-social@jmason.org>; Wed, 7 Aug 2002 10:02:00 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id KAA12771; Wed, 7 Aug 2002 10:00:21 +0100
+Received: from telutil12a.ml.com (telutil12a-v.ml.com [199.43.34.196]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id KAA12740 for <social@linux.ie>;
+    Wed, 7 Aug 2002 10:00:15 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host telutil12a-v.ml.com
+    [199.43.34.196] claimed to be telutil12a.ml.com
+Received: from telutil13a.ml.com (telutil13a [146.125.226.11]) by
+    telutil12a.ml.com (8.11.3/8.11.3/telutil12a-1.2) with ESMTP id
+    g7790Ef16358 for <social@linux.ie>; Wed, 7 Aug 2002 05:00:14 -0400 (EDT)
+Received: from ehudwt01.exchange.ml.com (ehudwt01.exchange.ml.com
+    [199.201.37.22]) by telutil13a.ml.com (8.11.3/8.11.3/telutil13a-1.1) with
+    SMTP id g7790Ef06109 for <social@linux.ie>; Wed, 7 Aug 2002 05:00:14 -0400
+    (EDT)
+Received: from 169.243.202.61 by ehudwt01.exchange.ml.com with ESMTP (
+    Tumbleweed MMS SMTP Relay (MMS v4.7);); Wed, 07 Aug 2002 04:59:59 -0400
+X-Server-Uuid: 3789b954-9c4e-11d3-af68-0008c73b0911
+Received: by dubim07742.ie.ml.com with Internet Mail Service (
+    5.5.2654.52) id <3TCXMRWG>; Wed, 7 Aug 2002 10:00:11 +0100
+Message-Id: <A3C83F41488BD61195C3000802252FC135B99E@dubim07742.ie.ml.com>
+From: "Breathnach, Proinnsias (Dublin)" <breatpro@exchange.ie.ml.com>
+To: social@linux.ie
+Subject: RE: [ILUG-Social] Online Bookstores
+Date: Wed, 7 Aug 2002 10:00:11 +0100
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: spamassassin-talk-admin@example.sourceforge.net
-Errors-To: spamassassin-talk-admin@example.sourceforge.net
-X-Beenthere: spamassassin-talk@example.sourceforge.net
-X-Mailman-Version: 2.0.9-sf.net
+X-Mailer: Internet Mail Service (5.5.2654.52)
+X-WSS-Id: 114E3E04196354-01-01
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: social-admin@linux.ie
+Errors-To: social-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:spamassassin-talk-request@example.sourceforge.net?subject=help>
-List-Post: <mailto:spamassassin-talk@example.sourceforge.net>
-List-Subscribe: <https://example.sourceforge.net/lists/listinfo/spamassassin-talk>,
-    <mailto:spamassassin-talk-request@lists.sourceforge.net?subject=subscribe>
-List-Id: Talk about SpamAssassin <spamassassin-talk.example.sourceforge.net>
-List-Unsubscribe: <https://example.sourceforge.net/lists/listinfo/spamassassin-talk>,
-    <mailto:spamassassin-talk-request@lists.sourceforge.net?subject=unsubscribe>
-List-Archive: <http://www.geocrawler.com/redir-sf.php3?list=spamassassin-talk>
-X-Original-Date: Thu, 29 Aug 2002 08:32:08 -0700 (PDT)
-Date: Thu, 29 Aug 2002 08:32:08 -0700 (PDT)
+List-Id: Irish Linux Users' Group social events <social.linux.ie>
+X-Beenthere: social@linux.ie
 
-On 28 Aug 2002, Daniel Quinlan wrote:
+What's wrong with good ol' www.eason.ie ?
 
-> Dan Kohn <dan@dankohn.com> writes:
+Delivery isn't too expensive, and they seem to have a reasonable stocklist
+... not only that, but they've got b&m[0] stores too ...
+
+P
+[0] Bricks 'n' Mortar
+
+> -----Original Message-----
+> > On Tue, Aug 06, 2002 at 04:21:22 +0100, David O'Callaghan wrote:
+> > > 
+> > > Hello,
+> > > 
+> > > What are your recommendations for buying books (technical and
+> > > otherwise) online, from Irish or European sellers. Is there 
+> > > anywhere that has as good a selection as, say, Amazon but
+> > > deals in Euro?
 > 
-> > Daniel, it's easy enough for you to change the Habeas scores yourself
-> > on your installation.  If Habeas fails to live up to its promise to
-> > only license the warrant mark to non-spammers and to place all
-> > violators on the HIL, then I have no doubt that Justin and Craig will
-> > quickly remove us from the next release.  But, you're trying to kill
-> > Habeas before it has a chance to show any promise.
-> 
-> I think I've worked on SA enough to understand that I can localize a
-> score.  I'm just not comfortable with using SpamAssassin as a vehicle
-> for drumming up your business at the expense of our user base.
-
-I have to agree here.  If Habeas is going to die just because SA does not
-support it, that's a serious problem with the business model; but that is
-nobody's problem but Habeas's.
-
-A possible solution is for Habeas's business model to include some kind of
-incentive for users of SA to give it the benefit of the doubt.  I have yet
-to think of an incentive that fits the bill ...
-
-On Thu, 29 Aug 2002, Justin Mason wrote:
-
-> I don't see a problem supporting it in SpamAssassin -- but I see Dan's
-> points.
-> 
->   - high score: as far as I can see, that's because SpamAssassin is
->     assigning such high scores to legit newsletters these days, and the
->     Habeas mark has to bring it down below that. :(   IMO we have to fix
->     the high-scorers anyway -- no spam ever *needs* to score over 5 in our
->     scoring system, 5 == tagged anyway.
-
-This is off the topic of the rest of this discussion, but amavisd (in all
-its incarnations) and MIMEDefang and several other MTA plugins all reject
-at SMTP time messages that scores higher than some threshold (often 10).  
-If some new release were to start scoring all spam no higher than 5.1,
-there'd better be _zero_ FPs, because all those filters would drop their
-thresholds to 5.
-
-On Thu, 29 Aug 2002, Michael Moncur wrote:
-
-> But I agree that there needs to be more focus on eliminating rules that
-> frequently hit on newsletters. If any newsletters actually use the Habeas
-> mark, that will be one way to help.
-
-Newsletters won't use the mark.  Habeas is priced way too high -- a factor
-of at least 20 over what the market will bear, IMO -- on a per-message
-basis for most typical mailing lists (Lockergnome, say) to afford it.
-
-On Thu, 29 Aug 2002, Harold Hallikainen wrote:
-
-> Habeus has come up with a very clever way to use existing law to battle
-> spam. It seems that at some point they could drop the licensing fee to
-> $1 or less and make all their income off suing the spammers for
-> copyright infringement.
-
-Sorry, that just can't work.
-
-If the Habeas mark actually becomes both widespread enough in non-spam,
-and effectively-enforced enough to be absent from spam, such that, e.g.,
-SA could assign a positive score to messages that do NOT have it, then
-spammers are out of business and Habeas has no one to sue.  There's nobody
-left to charge except the people who want (or are forced against their
-will because their mail won't get through otherwise) to use the mark.
-
-Conversely, if there are enough spammers forging the mark for Habeas to
-make all its income suing them, then the mark is useless for the purpose
-for which it was designed.
-
-Either way it seems to me that, after maybe a couple of lawsuits against
-real spammers and a lot of cease-and-desist letters to clueless Mom&Pops,
-then either (a) they're out of business, (b) they have to sell the rights
-to use the mark to increasingly questionable senders, or (c) they've both
-created and monopolized a market for "internet postage stamps" that
-everybody has to pay them for.
-
-The latter would be quite a coup if they [*] could pull it off -- they do
-absolutely nothing useful, unless you consider threatening people with
-lawsuits useful, yet still collect a fee either directly or indirectly
-from everyone on the internet -- effectively we'll be paying them for the
-privilege of policing their trademark for them.  I don't believe they'll
-ever get that far, but I don't particularly want to help them make it.
-
-[*] And I use the term "they" loosely, because the whole company could 
-consist of one lawyer if it really got to that point.
 
 
+-- 
+Irish Linux Users' Group Social Events: social@linux.ie
+http://www.linux.ie/mailman/listinfo/social for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
--------------------------------------------------------
-This sf.net email is sponsored by:ThinkGeek
-Welcome to geek heaven.
-http://thinkgeek.com/sf
-_______________________________________________
-Spamassassin-talk mailing list
-Spamassassin-talk@lists.sourceforge.net
-https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
 

@@ -1,59 +1,76 @@
-From tony@svanstrom.com  Wed Aug 28 11:02:33 2002
-Return-Path: <tony@svanstrom.com>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From ilug-admin@linux.ie  Wed Jul 31 17:37:35 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 3334043F99
-	for <zzzz@localhost>; Wed, 28 Aug 2002 06:02:32 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id E3C4B440C8
+	for <jm@localhost>; Wed, 31 Jul 2002 12:37:33 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 28 Aug 2002 11:02:32 +0100 (IST)
-Received: from moon.campus.luth.se (root@moon.campus.luth.se
-    [130.240.202.158]) by dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id
-    g7S4MwZ10483 for <zzzz@spamassassin.taint.org>; Wed, 28 Aug 2002 05:22:58 +0100
-Received: from moon.campus.luth.se (tony@moon.campus.luth.se
-    [130.240.202.158]) by moon.campus.luth.se (8.12.3/8.12.3) with ESMTP id
-    g7S4N9Mg010720; Wed, 28 Aug 2002 06:23:09 +0200 (CEST) (envelope-from
-    tony@svanstrom.com)
-Date: Wed, 28 Aug 2002 06:23:09 +0200 (CEST)
-From: "Tony L. Svanstrom" <tony@svanstrom.com>
-X-X-Sender: tony@moon.campus.luth.se
-To: Robin Lynn Frank <rlfrank-dated-1030938274.aa158a@paradigm-omega.com>
-Cc: Justin Mason <zzzz@spamassassin.taint.org>,
-	<SpamAssassin-talk@lists.sourceforge.net>, <tmda-users@tmda.net>
-Subject: Re: [SAtalk] Re: patent on TMDA-like system
-In-Reply-To: <1030506273.18567.TMDA@omega.paradigm-omega.net>
-Message-Id: <20020828062019.Y10668-100000@moon.campus.luth.se>
+	for jm@localhost (single-drop); Wed, 31 Jul 2002 17:37:33 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6VGbN201197 for
+    <jm-ilug@jmason.org>; Wed, 31 Jul 2002 17:37:23 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id RAA16907; Wed, 31 Jul 2002 17:35:13 +0100
+Received: from mandark.labs.netnoteinc.com ([213.105.180.140]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id RAA16829 for <ilug@linux.ie>;
+    Wed, 31 Jul 2002 17:35:00 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host [213.105.180.140] claimed
+    to be mandark.labs.netnoteinc.com
+Received: from triton.labs.netnoteinc.com
+    (lbedford@triton.labs.netnoteinc.com [192.168.2.12]) by
+    mandark.labs.netnoteinc.com (8.11.6/8.11.6) with SMTP id g6VGYFp15606;
+    Wed, 31 Jul 2002 17:34:15 +0100
+Date: Wed, 31 Jul 2002 17:34:14 +0100
+From: Liam Bedford <lbedford@lbedford.org>
+To: deedsmis@aculink.net, ilug@linux.ie
+Subject: Re: [ILUG] Re: removing lilo
+Message-Id: <20020731173414.4123f075.lbedford@lbedford.org>
+In-Reply-To: <3D4814D0.6A61E6E5@cdm01.deedsmiscentral.net>
+References: <5FE418B3F962D411BED40000E818B33C9C8E65@HASSLE>
+    <3D4814D0.6A61E6E5@cdm01.deedsmiscentral.net>
+Organization: Netnote International
+X-Mailer: Sylpheed version 0.8.0claws6 (GTK+ 1.2.10; i386-debian-linux-gnu)
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
+Precedence: bulk
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-On Tue, 27 Aug 2002 the voices made Robin Lynn Frank write:
+On Wed, 31 Jul 2002 10:48:16 -0600
+SoloCDM claiming to think:
 
-> > Tony Svanstrom, on SpamAssassin-talk, noted this US patent:
-> >
-> > http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=/netah
-> >tml/PTO/search-adv.html&r=62&f=G&l=50&d=PG01&s1=spam&p=2&OS=haiku&RS=spam
+> "Hunt, Bryan" stated the following:
+> > 
+> > you need to do a "fdisk /mbr" from a bootable windoze floppy
+> > alternatively boot from linux boot disk and do fdisk, delete all partitions.
+> 
+> I need to ask a question concerning this issue.
+> 
+> What if I don't want to get rid of the MBR -- it will destroy the OS
+> on that drive.  How do I remove lilo without the above fdisk
+> procedure?
+> 
+fdisk /mbr will restore a dos MBR.. it'll leave the partitions alone.
 
-> I took a bit of time to review what is on the above URL.  If I were a news
-> editor, the headline would be:
->
-> "Inventor" from country that ignores patents and copyrights, seeks patent for
-> inventing the wheel!
+linux fdisk and deleting all partitions will actually leave LILO in the
+MBR though.
 
- The wheel is already patented in Australia; Melbourne man patents the wheel:
-
- <URL: http://216.239.39.100/search?q=cache:usJnd2dwCDQC:www.theage.com.au/news/state/2001/07/02/FFX0ADFPLOC.html+%22patents+the+wheel%22&hl=en&lr=lang_en|lang_sv&ie=UTF-8 >
-
-
- The sad news is that there seems to be a lot of patents (pending or not)
-that's for very basic/general ideas; it's the current form of "domainnapping",
-and it might turn uggly when people start trying to enfoce these patents.
-
-
-	/Tony
+L.
 -- 
-# Per scientiam ad libertatem! // Through knowledge towards freedom! #
-# Genom kunskap mot frihet! =*= (c) 1999-2002 tony@svanstrom.com =*= #
+     dBP   dBBBBb | If you're looking at me to be an accountant
+              dBP | Then you will look but you will never see
+   dBP    dBBBK'  | If you're looking at me to start having babies
+  dBP    dB' db   | Then you can wish because I'm not here to fool around
+ dBBBBP dBBBBP'   | Belle & Sebastian (Family Tree)
 
-     perl -e'print$_{$_} for sort%_=`lynx -dump svanstrom.com/t`'
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

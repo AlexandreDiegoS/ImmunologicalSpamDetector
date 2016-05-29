@@ -1,69 +1,110 @@
-From craig@deersoft.com  Mon Sep  2 23:00:06 2002
-Return-Path: <craig@deersoft.com>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (unknown [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id 9B7CA16F2D
-	for <zzzz@localhost>; Mon,  2 Sep 2002 23:00:05 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Mon Jul 22 18:13:05 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id C9F69440DC
+	for <jm@localhost>; Mon, 22 Jul 2002 13:12:28 -0400 (EDT)
+Received: from dogma.slashnull.org [212.17.35.15]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Mon, 02 Sep 2002 23:00:05 +0100 (IST)
-Received: from maynard.mail.mindspring.net (maynard.mail.mindspring.net
-    [207.69.200.243]) by dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id
-    g82HPmZ11569 for <zzzz@spamassassin.taint.org>; Mon, 2 Sep 2002 18:25:48 +0100
-Received: from user-1120fqe.dsl.mindspring.com ([66.32.63.78]
-    helo=belphegore.hughes-family.org) by maynard.mail.mindspring.net with
-    esmtp (Exim 3.33 #1) id 17luxa-0003hi-00; Mon, 02 Sep 2002 13:25:58 -0400
-Received: from balam.hughes-family.org (balam.hughes-family.org
-    [10.0.240.3]) by belphegore.hughes-family.org (Postfix) with ESMTP id
-    764503E7FC; Mon,  2 Sep 2002 10:25:57 -0700 (PDT)
-Date: Mon, 2 Sep 2002 10:25:57 -0700
-Subject: Re: bad DCC traffic from e-corp.net
-Content-Type: text/plain; charset=US-ASCII; format=flowed
-MIME-Version: 1.0 (Apple Message framework v482)
-Cc: Justin Mason <zzzz@spamassassin.taint.org>
-To: dcc@calcite.rhyolite.com
-From: "Craig R.Hughes" <craig@deersoft.com>
-In-Reply-To: <200209021702.g82H271q025288@calcite.rhyolite.com>
-Message-Id: <0B1C586E-BE99-11D6-B0C6-00039396ECF2@deersoft.com>
-Content-Transfer-Encoding: 7bit
-X-Mailer: Apple Mail (2.482)
+	for jm@localhost (single-drop); Mon, 22 Jul 2002 18:12:28 +0100 (IST)
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6MFGM901412 for
+    <jm-ilug@jmason.org>; Mon, 22 Jul 2002 16:16:22 +0100
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    webnote.net (8.9.3/8.9.3) with ESMTP id QAA32611 for <jm-ilug@jmason.org>;
+    Mon, 22 Jul 2002 16:04:27 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id PAA32422; Mon, 22 Jul 2002 15:56:06 +0100
+Received: from milexc01.maxtor.com ([134.6.205.206]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id PAA32177 for <ilug@linux.ie>; Mon,
+    22 Jul 2002 15:55:44 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host [134.6.205.206] claimed to
+    be milexc01.maxtor.com
+Received: by milexc01.maxtor.com with Internet Mail Service (5.5.2653.19)
+    id <PC8XVJH9>; Mon, 22 Jul 2002 15:55:44 +0100
+Message-Id: <0D443C91DCE9CD40B1C795BA222A729E01885483@milexc01.maxtor.com>
+From: "Wynne, Conor" <conor_wynne@maxtor.com>
+To: "'Irish Linux Users Group'" <ilug@linux.ie>
+Subject: RE: [ILUG] hard- vs. soft-links [was: How to copy some files ]
+Date: Mon, 22 Jul 2002 15:55:42 +0100
+MIME-Version: 1.0
+X-Mailer: Internet Mail Service (5.5.2653.19)
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by lugh.tuatha.org id
+    PAA32177
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
+Precedence: bulk
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-Vernon,
+Use the GUI and don't delete files, use the other option, whats it called
+again, the dustbin or something ;-)
 
-I'm changing the instructions in the SpamAssassin INSTALL file 
-right now to:
+Conor who only knows about symbolic links ;-))
 
-tar xfvz dcc-dccproc.tar.Z
-cd dcc-dccproc-X.X.X
-./configure && make && make install
-cdcc 'info'
+I'm pretty sure that I have a softlink from
+/mnt/public/mnt/public/downloads/Linux/wasteCPU/setiathome to
+/home/cwynne/seti
 
+The /mnt/pub....../seti.. directory resides on an external raidvolume and
+/home/../seti is on the internal IDE2 drive. 
+So I dont have to cd around the gaf. I suppose that would count as across
+different devices. 
 
-Let me know ASAP if that's innapropriate, since we're shipping 
-2.40 today!
+If you're wondering [probably not] why /mnt/public is there twice, its
+because I restored from tapebackup and I didn't know that it keeps the
+directory structure. I know now ;-)
 
-C
+Actually, how can I fix that quickly and easily? I thought about firstly
+mv'ing the structure to /tmp. Then copying it back again but I'm sure some
+wee genius knows a quickie solution. Mind you I never even bothered trying a
+its not a priority now that its all linked anyway. 
 
-On Monday, September 2, 2002, at 10:02  AM, Vernon Schryver wrote:
+CW
 
->> Here are the instructions in the spamassassin README:
->>
->>     # tar xfvz dcc-dccproc.tar.Z
->>     # cd dcc-dccproc-X.X.X
->>     # ./configure && make && make install
->>     # cdcc 'new map'
->>     # cdcc 'add dcc.rhyolite.com'
->>     # cdcc 'info'
->
-> That's ok, except that the 'new map' and "add dcc.rhyolite.com'
-> are respectively unnecessary and wrong.  The map file that comes
-> with the source points to localhost and dcc.dcc-servers.net.  Those
-> two shipped entries usually do the right thing if there is a local
-> server.  If there is no local server or if the local server fails,
-> requests are instantly sent to one of the public server names listed
-> in the main DCC web page at
-> http://www.rhyolite.com/anti-spam/dcc/ and http://www.dcc-
-> servers.net/dcc/
-> dcc.rhyolite.com has not been listed for months.
+--------------------------------
+ hum.  interesting variation on the classic technique of
+ redefining `rm' to `mv' the files into `./.trash/' (or
+ with a prefix of `#' or a suffix of `~'; the variations
+ are endless).  these classic techniques only provide a
+ means to roll back accidental `rm's, so there is still
+ considerable scope for data lost as there are other ways
+ of deleting files --- which is not a problem for this
+ hard link idea.
+
+ but, like the classic techniques, there is no rolling
+ back of accidental overwrites.
+
+ ( rolling back overwrites reminds me of the "snapshot"
+  facility on NetWork Appliance fileservers.  and of the
+  various "versioning" filesystems which appeared --- and
+  then vanished? --- over the years.... )
+
+ one severe(?) gotcha is some files shouldn't have any
+ hard links.  both RCS *,v (and hence CVS) and SCCS s.*
+ files are like this --- the RCS(/CVS?)/SCCS toolsets
+ complain if there are hard links.
+
+cheers,
+	-blf-
+--
+ Innovative, very experienced, Unix and      | Brian Foster    Dublin,
+Ireland
+ Chorus (embedded RTOS) kernel internals     | e-mail: blf@utvinternet.ie
+ expert looking for a new position ...       | mobile: (+353 or 0)86 854
+9268
+  For a résumé, contact me, or see my website  http://www.blf.utvinternet.ie
+
+    Stop E$$o (ExxonMobile):  «Whatever you do, don't buy Esso --- they
+     don't give a damn about global warming.»    http://www.stopesso.com
+     Supported by Greenpeace, Friends of the Earth, and numerous others...
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

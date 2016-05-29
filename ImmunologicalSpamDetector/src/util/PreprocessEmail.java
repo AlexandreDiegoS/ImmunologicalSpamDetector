@@ -68,10 +68,32 @@ public class PreprocessEmail {
 		return cleanEmailsContents;
 	}
 	
+	public static String removeTagsHTML(String source) {
+		char[] array = new char[source.length()];
+		int arrayIndex = 0;
+		boolean inside = false;
+		for (int i = 0; i < source.length(); i++) {
+		    char let = source.charAt(i);
+		    if (let == '<') {
+				inside = true;
+				continue;
+		    }
+		    if (let == '>') {
+				inside = false;
+				continue;
+		    }
+		    if (!inside) {
+				array[arrayIndex] = let;
+				arrayIndex++;
+		    }
+		}
+		return new String(array, 0, arrayIndex);
+	}
+	
 	public static String normalizeEmail(String email){
 		String normalizedEmail = "";
 		String noTags = "";
-		noTags = email.replaceAll("\\<.*?>","");
+		noTags = removeTagsHTML(email);
 		normalizedEmail = Normalizer.normalize(noTags, Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", " ");
 		
 		return normalizedEmail.replaceAll("[^a-zA-Z0-9]+"," ").replaceAll("\\s+", " ").trim().toLowerCase();

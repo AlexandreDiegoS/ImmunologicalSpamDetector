@@ -1,84 +1,79 @@
-From fork-admin@xent.com  Wed Oct  9 10:55:20 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id 1299416F67
-	for <zzzz@localhost>; Wed,  9 Oct 2002 10:53:03 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Tue Aug  6 13:58:11 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 6FC0144141
+	for <jm@localhost>; Tue,  6 Aug 2002 08:48:31 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 09 Oct 2002 10:53:03 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g9902iK08056 for <zzzz@spamassassin.taint.org>;
-    Wed, 9 Oct 2002 01:02:47 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 828FB2940EB; Tue,  8 Oct 2002 17:02:03 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from mail.evergo.net (unknown [206.191.151.2]) by xent.com
-    (Postfix) with SMTP id 7F8EF2940E3 for <Fork@xent.com>; Tue,
-    8 Oct 2002 17:01:36 -0700 (PDT)
-Received: (qmail 509 invoked from network); 9 Oct 2002 00:02:07 -0000
-Received: from dsl.206.191.151.102.evergo.net (HELO JMHALL)
-    (206.191.151.102) by mail.evergo.net with SMTP; 9 Oct 2002 00:02:07 -0000
-Reply-To: <johnhall@evergo.net>
-From: "John Hall" <johnhall@evergo.net>
-To: <Fork@xent.com>
-Subject: RE: The Disappearing Alliance
-Message-Id: <000801c26f27$1c087840$0200a8c0@JMHALL>
+	for jm@localhost (single-drop); Tue, 06 Aug 2002 13:48:31 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g76Bxok26589 for
+    <jm-ilug@jmason.org>; Tue, 6 Aug 2002 12:59:50 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id MAA27510; Tue, 6 Aug 2002 12:56:27 +0100
+Received: from ie.suberic.net (owsla.ie.suberic.net [62.17.162.83]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id MAA27475 for <ilug@linux.ie>;
+    Tue, 6 Aug 2002 12:56:20 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host owsla.ie.suberic.net
+    [62.17.162.83] claimed to be ie.suberic.net
+Received: from owsla.ie.suberic.net (owsla [127.0.0.1]) by ie.suberic.net
+    (8.11.6/8.11.6) with ESMTP id g76BuJY17612 for <ilug@linux.ie>;
+    Tue, 6 Aug 2002 12:56:19 +0100
+Date: Tue, 6 Aug 2002 12:56:17 +0100
+To: Matthew French <mfrench42@yahoo.co.uk>
+Cc: Declan Houlihan <deccy@csn.ul.ie>, ilug@linux.ie
+Subject: Re: [ILUG] Sparc Solaris (was: Dell GX260 V Redhat 7.3)
+Message-Id: <20020806125617.F17211@ie.suberic.net>
+References: <653270E74A8DD31197AF009027AA4F8B01845F1B@LIMXMMF303>
+    <20020805224355.GB26632@csn.ul.ie>
+    <001501c23d25$c21ba0b0$3864a8c0@sabeo.ie>
 MIME-Version: 1.0
-Content-Type: text/plain; charset="us-ascii"
-Content-Transfer-Encoding: 7bit
-X-Priority: 3 (Normal)
-X-Msmail-Priority: Normal
-X-Mailer: Microsoft Outlook, Build 10.0.2627
-X-Mimeole: Produced By Microsoft MimeOLE V6.00.2600.0000
-In-Reply-To: <p05111a20b9c9098b7f7c@[66.149.49.6]>
-Importance: Normal
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.2.5.1i
+In-Reply-To: <001501c23d25$c21ba0b0$3864a8c0@sabeo.ie>; from
+    mfrench42@yahoo.co.uk on Tue, Aug 06, 2002 at 09:46:27AM +0100
+X-Operating-System: Linux 2.4.18-5 i686
+X-GPG-Fingerprint: 9C1D 16F4 11F1 6BD2 933C  048D ACC7 9840 89D0 7646
+From: kevin lyda <kevin+dated+1029066979.c30bc3@ie.suberic.net>
+Mail-Followup-To: kevin+dated+1029066978.898607@ie.suberic.net,
+	mfrench42@yahoo.co.uk, deccy@csn.ul.ie, ilug@linux.ie
+X-Delivery-Agent: TMDA/0.57
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Tue, 8 Oct 2002 17:02:08 -0700
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-
-> From: fork-admin@xent.com [mailto:fork-admin@xent.com] On Behalf Of R.
-A.
-> Hettinga
-> Subject: The Disappearing Alliance
+On Tue, Aug 06, 2002 at 09:46:27AM +0100, Matthew French wrote:
+> Declan Houlihan mentioned:
+> > We're actually investigating switching from Sparc/Solaris to
+> > Intel/Linux.
 > 
-> http://www.techcentralstation.com/1051/printer.jsp?CID=1051-100802B
-> 
-> 
-> 
-> The Disappearing Alliance
-> By Dale Franks 10/08/2002
+> And then:
+> > At the moment at work, if we want a new workstation, we just
+> > buy whatever Sun's latest system is, we jumpstart it, and
+> > that's it, it's up and running.
 
-> Obviously, in such a
-> political atmosphere, the opportunities for conflict will inevitably
-> increase.
+sorry, i missed this.  redhat supplies something similar called kickstart
+(guess who inspired them?).  pc hardware is dumb, so you'll need to use
+a floppy.  otoh, every jumpstart config i've seen required rarp plus
+plugging the new box's ethernet+ip into a file.  a kickstart boot can
+just use a dhcp server.
 
-Given current trends, particularly in demographics, such conflict won't
-be military.  Europe wouldn't stand a chance now and things are getting
-worse in a hurry.  They are SOL.
+kevin
 
-Not to mention that when push comes to shove they wouldn't stand united.
+-- 
+kevin@suberic.net     that a believer is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspace place: home       than a sober one. the happiness of credulity is a
+http://ie.suberic.net/~kevin   cheap & dangerous quality -- g.b. shaw
 
-> 
-> That thought is frightening enough. Even more frightening, however, is
-the
-> thought that such a conflict might be averted by our own acceptance of
-the
-> new ideology of transnational progressivism.
-
-Now that is a scary thought.
-]
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

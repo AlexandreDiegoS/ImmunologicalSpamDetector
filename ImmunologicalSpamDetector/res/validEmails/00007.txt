@@ -1,88 +1,136 @@
-From martin@srv0.ems.ed.ac.uk  Thu Aug 22 14:54:40 2002
-Return-Path: <martin@srv0.ems.ed.ac.uk>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From exmh-workers-admin@redhat.com  Wed Aug 21 16:46:03 2002
+Return-Path: <exmh-workers-admin@spamassassin.taint.org>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id E3D7B47C66
-	for <zzzz@localhost>; Thu, 22 Aug 2002 09:54:39 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 7B74843C32
+	for <jm@localhost>; Wed, 21 Aug 2002 11:46:03 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Thu, 22 Aug 2002 14:54:40 +0100 (IST)
-Received: from n11.grp.scd.yahoo.com (n11.grp.scd.yahoo.com
-    [66.218.66.66]) by dogma.slashnull.org (8.11.6/8.11.6) with SMTP id
-    g7MDt8Z09193 for <zzzz@spamassassin.taint.org>; Thu, 22 Aug 2002 14:55:10 +0100
-X-Egroups-Return: sentto-2242572-52738-1030024499-zzzz=spamassassin.taint.org@returns.groups.yahoo.com
-Received: from [66.218.66.94] by n11.grp.scd.yahoo.com with NNFMP;
-    22 Aug 2002 13:55:03 -0000
-X-Sender: martin@srv0.ems.ed.ac.uk
-X-Apparently-To: zzzzteana@yahoogroups.com
-Received: (EGP: mail-8_1_0_1); 22 Aug 2002 13:54:59 -0000
-Received: (qmail 43039 invoked from network); 22 Aug 2002 13:54:58 -0000
-Received: from unknown (66.218.66.216) by m1.grp.scd.yahoo.com with QMQP;
-    22 Aug 2002 13:54:58 -0000
-Received: from unknown (HELO haymarket.ed.ac.uk) (129.215.128.53) by
-    mta1.grp.scd.yahoo.com with SMTP; 22 Aug 2002 13:54:58 -0000
-Received: from srv0.ems.ed.ac.uk (srv0.ems.ed.ac.uk [129.215.117.0]) by
-    haymarket.ed.ac.uk (8.11.6/8.11.6) with ESMTP id g7MDsv311745 for
-    <forteana@yahoogroups.com>; Thu, 22 Aug 2002 14:54:57 +0100 (BST)
-Received: from EMS-SRV0/SpoolDir by srv0.ems.ed.ac.uk (Mercury 1.44);
-    22 Aug 02 14:54:56 +0000
-Received: from SpoolDir by EMS-SRV0 (Mercury 1.44); 22 Aug 02 14:54:29 +0000
-Organization: Management School
-To: zzzzteana@yahoogroups.com
-Message-Id: <3D64FB27.18538.63DEC17@localhost>
-Priority: normal
-X-Mailer: Pegasus Mail for Windows (v4.01)
-Content-Description: Mail message body
-From: "Martin Adamson" <martin@srv0.ems.ed.ac.uk>
+	for jm@localhost (single-drop); Wed, 21 Aug 2002 16:46:03 +0100 (IST)
+Received: from listman.spamassassin.taint.org (listman.spamassassin.taint.org [66.187.233.211]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7LFlwZ32032 for
+    <jm-exmh@jmason.org>; Wed, 21 Aug 2002 16:47:58 +0100
+Received: from listman.spamassassin.taint.org (localhost.localdomain [127.0.0.1]) by
+    listman.redhat.com (Postfix) with ESMTP id 8ED1C3F0F1; Wed, 21 Aug 2002
+    11:48:01 -0400 (EDT)
+Delivered-To: exmh-workers@listman.spamassassin.taint.org
+Received: from int-mx1.corp.spamassassin.taint.org (int-mx1.corp.spamassassin.taint.org
+    [172.16.52.254]) by listman.redhat.com (Postfix) with ESMTP id B092B3F09F
+    for <exmh-workers@listman.redhat.com>; Wed, 21 Aug 2002 11:47:39 -0400
+    (EDT)
+Received: (from mail@localhost) by int-mx1.corp.spamassassin.taint.org (8.11.6/8.11.6)
+    id g7LFlah29920 for exmh-workers@listman.redhat.com; Wed, 21 Aug 2002
+    11:47:36 -0400
+Received: from mx1.spamassassin.taint.org (mx1.spamassassin.taint.org [172.16.48.31]) by
+    int-mx1.corp.redhat.com (8.11.6/8.11.6) with SMTP id g7LFlaY29916 for
+    <exmh-workers@redhat.com>; Wed, 21 Aug 2002 11:47:36 -0400
+Received: from austin-jump.vircio.com
+    (IDENT:0sRmOSixVxcwiN8rBh2qRymktC2BIreP@jump-austin.vircio.com
+    [192.12.3.99]) by mx1.redhat.com (8.11.6/8.11.6) with SMTP id g7LFXEl30998
+    for <exmh-workers@redhat.com>; Wed, 21 Aug 2002 11:33:14 -0400
+Received: (qmail 29729 invoked by uid 104); 21 Aug 2002 15:47:35 -0000
+Received: from cwg-exmh@DeepEddy.Com by localhost.localdomain with
+    qmail-scanner-0.90 (uvscan: v4.1.60/v4218. . Clean. Processed in 0.687936
+    secs); 21/08/2002 10:47:35
+Received: from deepeddy.vircio.com ([10.1.2.1]) (envelope-sender
+    <cwg-exmh@DeepEddy.Com>) by austin-jump.vircio.com (qmail-ldap-1.03) with
+    SMTP for <exmh-workers@redhat.com>; 21 Aug 2002 15:47:35 -0000
+Received: (qmail 3148 invoked from network); 21 Aug 2002 15:47:34 -0000
+Received: from localhost (HELO deepeddy.vircio.com) ([127.0.0.1])
+    (envelope-sender <cwg-exmh@DeepEddy.Com>) by localhost (qmail-ldap-1.03)
+    with SMTP for <exmh-workers@redhat.com>; 21 Aug 2002 15:47:34 -0000
+X-Mailer: exmh version 2.5 07/13/2001 with nmh-1.0.4
+Cc: Robert Elz <kre@munnari.OZ.AU>, exmh-workers@spamassassin.taint.org
+Subject: Re: New Sequences Window
+In-Reply-To: <1029944441.398.TMDA@deepeddy.vircio.com>
+References: <1029882468.3116.TMDA@deepeddy.vircio.com>
+    <9627.1029933001@munnari.OZ.AU>
+    <1029943066.26919.TMDA@deepeddy.vircio.com>
+    <1029944441.398.TMDA@deepeddy.vircio.com>
+X-Url: http://www.DeepEddy.Com/~cwg
+X-Image-Url: http://www.DeepEddy.Com/~cwg/chris.gif
 MIME-Version: 1.0
-Mailing-List: list zzzzteana@yahoogroups.com; contact
-    forteana-owner@yahoogroups.com
-Delivered-To: mailing list zzzzteana@yahoogroups.com
+Content-Type: multipart/signed;
+    boundary="==_Exmh_-2080822444P";
+    micalg=pgp-sha1;
+    protocol="application/pgp-signature"
+Content-Transfer-Encoding: 7bit
+Message-Id: <1029944854.3139.TMDA@deepeddy.vircio.com>
+From: Chris Garrigues <cwg-exmh@DeepEddy.Com>
+X-Delivery-Agent: TMDA/0.57
+Reply-To: Chris Garrigues <cwg-dated-1030376854.d4b7b4@DeepEddy.Com>
+X-Loop: exmh-workers@spamassassin.taint.org
+Sender: exmh-workers-admin@spamassassin.taint.org
+Errors-To: exmh-workers-admin@spamassassin.taint.org
+X-Beenthere: exmh-workers@spamassassin.taint.org
+X-Mailman-Version: 2.0.1
 Precedence: bulk
-List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
-Date: Thu, 22 Aug 2002 14:54:25 +0100
-Subject: [zzzzteana] Playboy wants to go out with a bang
-Reply-To: zzzzteana@yahoogroups.com
-Content-Type: text/plain; charset=ISO-8859-1
-Content-Transfer-Encoding: 8bit
-X-MIME-Autoconverted: from quoted-printable to 8bit by dogma.slashnull.org
-    id g7MDt8Z09193
+List-Help: <mailto:exmh-workers-request@spamassassin.taint.org?subject=help>
+List-Post: <mailto:exmh-workers@spamassassin.taint.org>
+List-Subscribe: <https://listman.spamassassin.taint.org/mailman/listinfo/exmh-workers>,
+    <mailto:exmh-workers-request@redhat.com?subject=subscribe>
+List-Id: Discussion list for EXMH developers <exmh-workers.spamassassin.taint.org>
+List-Unsubscribe: <https://listman.spamassassin.taint.org/mailman/listinfo/exmh-workers>,
+    <mailto:exmh-workers-request@redhat.com?subject=unsubscribe>
+List-Archive: <https://listman.spamassassin.taint.org/mailman/private/exmh-workers/>
+Date: Wed, 21 Aug 2002 10:47:32 -0500
 
-The Scotsman - 22 August 2002
+--==_Exmh_-2080822444P
+Content-Type: text/plain; charset=us-ascii
 
- Playboy wants to go out with a bang 
- 
- 
- AN AGEING Berlin playboy has come up with an unusual offer to lure women into
- his bed - by promising the last woman he sleeps with an inheritance of 250,000
- (£160,000). 
- 
- Rolf Eden, 72, a Berlin disco owner famous for his countless sex partners,
- said he could imagine no better way to die than in the arms of an attractive
- young woman - preferably under 30. 
- 
- "I put it all in my last will and testament - the last woman who sleeps with
- me gets all the money," Mr Eden told Bild newspaper. 
- 
- "I want to pass away in the most beautiful moment of my life. First a lot of
- fun with a beautiful woman, then wild sex, a final orgasm - and it will all
- end with a heart attack and then I’m gone." 
- 
- Mr Eden, who is selling his nightclub this year, said applications should be
- sent in quickly because of his age. "It could end very soon," he said.
+> From:  Chris Garrigues <cwg-exmh@DeepEddy.Com>
+> Date:  Wed, 21 Aug 2002 10:40:39 -0500
+>
+> > From:  Chris Garrigues <cwg-exmh@DeepEddy.Com>
+> > Date:  Wed, 21 Aug 2002 10:17:45 -0500
+> >
+> > > From:  Robert Elz <kre@munnari.OZ.AU>
+> > > Date:  Wed, 21 Aug 2002 19:30:01 +0700
+> > >
+> > > Second, I've been used to having a key binding which was to Msg_MarkUnseen
+> > > which doesn't seem to exist any more, and I'm not sure what I should replace
+> > > that with.   There's obviously a way as the "Sequences" menu does this.
+> > > The "Mark Unseen" menu entry in the message "More" menu is still wanting
+> > > that function as well...
+> 
+> {Msg_Mark unseen}
+> 
+> I'm not sure how I missed the need to fix this in app-defaults for "Mark 
+> Unseen".  I guess that'll be my next CVS fix.
+
+Okay, that was easy...fixed in CVS.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
 
 
------------------------- Yahoo! Groups Sponsor ---------------------~-->
-4 DVDs Free +s&p Join Now
-http://us.click.yahoo.com/pt6YBB/NXiEAA/mG3HAA/7gSolB/TM
----------------------------------------------------------------------~->
-
-To unsubscribe from this group, send an email to:
-forteana-unsubscribe@egroups.com
-
- 
-
-Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
 
 
+--==_Exmh_-2080822444P
+Content-Type: application/pgp-signature
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Exmh version 2.2_20000822 06/23/2000
+
+iD8DBQE9Y7YUK9b4h5R0IUIRAtwwAKCMaAHTzEMkIm1Lb7voD0y9i36uHQCcD+Ib
+eKMiTiUj35WyS0s1AeCQQFQ=
+=lW45
+-----END PGP SIGNATURE-----
+
+--==_Exmh_-2080822444P--
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
 

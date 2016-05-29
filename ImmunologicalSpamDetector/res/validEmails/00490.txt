@@ -1,92 +1,51 @@
-From fork-admin@xent.com  Sat Sep  7 21:53:37 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id 2604216F22
-	for <jm@localhost>; Sat,  7 Sep 2002 21:52:41 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From iiu-admin@taint.org  Wed Jul 24 05:33:50 2002
+Return-Path: <iiu-admin@taint.org>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 367F1440CD
+	for <jm@localhost>; Wed, 24 Jul 2002 00:33:49 -0400 (EDT)
+Received: from dogma.slashnull.org [212.17.35.15]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Sat, 07 Sep 2002 21:52:41 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g87Fp7C24925 for <jm@jmason.org>;
-    Sat, 7 Sep 2002 16:51:08 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id DAA892940F2; Sat,  7 Sep 2002 08:48:03 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from isolnetsux.techmonkeys.net (isolnetsux.techmonkeys.net
-    [64.243.46.20]) by xent.com (Postfix) with SMTP id BFFB129409E for
-    <fork@xent.com>; Sat,  7 Sep 2002 08:47:11 -0700 (PDT)
-Received: (qmail 26499 invoked by uid 501); 7 Sep 2002 15:49:41 -0000
-Received: from localhost (sendmail-bs@127.0.0.1) by localhost with SMTP;
-    7 Sep 2002 15:49:41 -0000
-From: CDale <cdale@techmonkeys.net>
-To: Russell Turpin <deafbox@hotmail.com>
-Cc: fork@spamassassin.taint.org
-Subject: Re: Selling Wedded Bliss (was Re: Ouch...)
-In-Reply-To: <F221f9Sp2WEnKS7vzxg00000d04@hotmail.com>
-Message-Id: <Pine.LNX.4.44.0209071049200.13901-100000@isolnetsux.techmonkeys.net>
-MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+	for jm@localhost (single-drop); Wed, 24 Jul 2002 05:33:49 +0100 (IST)
+Received: from dogma.slashnull.org (localhost [127.0.0.1]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6O4Y1420235 for
+    <jm-list-admin-iiu@jmason.org>; Wed, 24 Jul 2002 05:34:01 +0100
+Received: from dogma.slashnull.org (localhost [127.0.0.1]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6O4X1420185 for
+    <iiu-admin@iiu.taint.org>; Wed, 24 Jul 2002 05:33:01 +0100
+Date: Wed, 24 Jul 2002 05:33:01 +0100
+Message-Id: <20020724043301.20182.49751.Mailman@dogma.slashnull.org>
+Subject: IIU post from emailharvest@email.com requires approval
+From: iiu-admin@taint.org
+To: iiu-admin@taint.org
+X-Ack: no
+X-Beenthere: iiu@iiu.taint.org
+X-Mailman-Version: 2.0.10
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Sat, 7 Sep 2002 10:49:41 -0500 (CDT)
+Sender: iiu-owner@taint.org
+Errors-To: iiu-owner@taint.org
+X-Beenthere: iiu@iiu.taint.org
+List-Unsubscribe: <http://iiu.taint.org/mailman/listinfo/iiu>,
+    <mailto:iiu-request@iiu.taint.org?subject=unsubscribe>
+List-Id: Irish Internet Users <iiu.iiu.taint.org>
+List-Post: <mailto:iiu@iiu.taint.org>
+List-Help: <mailto:iiu-request@iiu.taint.org?subject=help>
+List-Subscribe: <http://iiu.taint.org/mailman/listinfo/iiu>,
+    <mailto:iiu-request@iiu.taint.org?subject=subscribe>
+List-Archive: <http://iiu.taint.org/pipermail/iiu/>
 
-Oh, well, uh, thank you, Russell.  LOL@#!  (I think?)
-C
+As list administrator, your authorization is requested for the
+following mailing list posting:
 
-On Sat, 7 Sep 2002, Russell Turpin wrote:
+    List:    IIU@iiu.taint.org
+    From:    emailharvest@email.com
+    Subject: Harvest lots of E-mail addresses quickly !
+    Reason:  Post by non-member to a members-only list
 
-> Robert Harley:
-> >It is perfectly obvious that (heterosexual) promiscuity is exactly, 
-> >precisely identical between males and females.
-> 
-> Yeah, assuming approximately equal populations.
-> But that obscures the different modes of
-> promiscuity. Both the person who gives sex for
-> money or power or companionship and the person
-> who uses money and power and companionship to
-> get sex are promiscuous, in the broadest sense
-> of the word. But their motives and behavior are
-> quite different.
-> 
-> Langur monkeys were the example in the cited
-> article. "Dominant males .. kill babies that
-> are not their own." "The dominant male monkey
-> .. seeks to defend his harem of females." But
-> cozying up to the current dominant male isn't
-> the best strategy for female langurs, because
-> "dominant males are dethroned by rivals every
-> 27 months or so." "By mating with as many
-> extra-group males as possible, female langurs
-> ensure their offspring against infanticide,"
-> by the male who is likely next to rule the
-> roost.
-> 
-> Maybe it's just me, but that doesn't paint a
-> picture of carefree females engaged in joyously
-> promiscuous couplings. The dom cab driver who
-> is taking her two boy toys to New Orleans is a
-> better picture of that. ;-)
-> 
-> 
-> 
-> 
-> 
-> _________________________________________________________________
-> Chat with friends online, try MSN Messenger: http://messenger.msn.com
-> 
+At your convenience, visit:
 
--- 
-"I don't take no stocks in mathematics, anyway" --Huckleberry Finn
+    http://iiu.taint.org/mailman/admindb/iiu
+        
+to approve or deny the request.
 
 

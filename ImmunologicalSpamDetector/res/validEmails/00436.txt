@@ -1,72 +1,73 @@
-From fork-admin@xent.com  Thu Sep  5 11:31:23 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id 3BC4F16F82
-	for <jm@localhost>; Thu,  5 Sep 2002 11:28:41 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Mon Aug 19 11:02:28 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id C668644191
+	for <jm@localhost>; Mon, 19 Aug 2002 05:54:14 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Thu, 05 Sep 2002 11:28:41 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g854d1Z04493 for <jm@jmason.org>;
-    Thu, 5 Sep 2002 05:39:01 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 1EC3E294241; Wed,  4 Sep 2002 21:36:03 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from crank.slack.net (slack.net [166.84.151.181]) by xent.com
-    (Postfix) with ESMTP id 8130C2940AA for <FoRK@xent.com>; Wed,
-    4 Sep 2002 21:35:46 -0700 (PDT)
-Received: by crank.slack.net (Postfix, from userid 596) id A49DC3EDF7;
-    Thu,  5 Sep 2002 00:41:24 -0400 (EDT)
-Received: from localhost (localhost [127.0.0.1]) by crank.slack.net
-    (Postfix) with ESMTP id A33413EDAD; Thu,  5 Sep 2002 00:41:24 -0400 (EDT)
-From: Tom <tomwhore@slack.net>
-To: "Mr. FoRK" <fork_list@hotmail.com>
-Cc: FoRK <FoRK@xent.com>
-Subject: Re: CD player UI for toddlers
-In-Reply-To: <DAV16XoivCNoMKrwDVT0000bc1e@hotmail.com>
-Message-Id: <Pine.BSO.4.44.0209050036160.9755-100000@crank.slack.net>
+	for jm@localhost (single-drop); Mon, 19 Aug 2002 10:54:14 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7GKo4602913 for
+    <jm-ilug@jmason.org>; Fri, 16 Aug 2002 21:50:04 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id VAA20343; Fri, 16 Aug 2002 21:49:35 +0100
+Received: from hawk.dcu.ie (mail.dcu.ie [136.206.1.5]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id VAA20305 for <ilug@linux.ie>; Fri,
+    16 Aug 2002 21:49:27 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host mail.dcu.ie [136.206.1.5]
+    claimed to be hawk.dcu.ie
+Received: from prodigy.redbrick.dcu.ie (136.206.15.10) by hawk.dcu.ie
+    (6.0.040) id 3D36BB4A000AAD40 for ilug@linux.ie; Fri, 16 Aug 2002 21:49:25
+    +0100
+Received: by prodigy.redbrick.dcu.ie (Postfix, from userid 7298) id
+    A9BCADA4A; Fri, 16 Aug 2002 21:49:25 +0100 (IST)
+Date: Fri, 16 Aug 2002 21:49:25 +0100
+From: Declan <skyhawk@redbrick.dcu.ie>
+To: ilug@linux.ie
+Subject: Re: [ILUG] ADSL, routers and firewalls
+Message-Id: <20020816214925.B10958@prodigy.Redbrick.DCU.IE>
+References: <200208161622.50538.CP.Hennessy@iname.com>
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.2.5i
+In-Reply-To: <200208161622.50538.CP.Hennessy@iname.com>; from
+    CP.Hennessy@iname.com on Fri, Aug 16, 2002 at 04:22:50PM +0100
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Thu, 5 Sep 2002 00:41:24 -0400 (EDT)
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-On Wed, 4 Sep 2002, Mr. FoRK wrote:
---]It'd be an MP3 player with solid state storage... instant on.
+Hey there,
+Im using the standard ADSL package
+With the speedtouch usb modem
 
+I have a 3 machine network(it was a 4 machine till my laptop crapped out)
+Anyway
+I have a dedicated linux server running debian 3.0 with the ADSL modem
+plugged directly into it.
+I have a 5 port switch connecting the home net, all have their own 10/100 nic.
+The server runs my firewall/net gateway/etc.
+And I have some firewall rules for masquerading 
+which shares the connection over the lan just nicely.
 
-Getting new media on is a bit out of the reach of the kindala. With a CD
-solution you hand em a disc and in it goes.
+Once the machine is configured for adsl  (thats the tough bit)
+the network stuff is quite easy.
 
-Tradeoffs abound.
-
-Heather got a CD player when she was 5. Even though it was a crappy
-handmedown it worked great other than the batterys poping out..bad bad ui
-there. Her next one was a store bought.  Its an all Audio player, no mp3
-decoders for her yet. I wanted to do the bottom line Volt but momala put
-the kabash on anything costing over 30 bucks. heck I had to scrounge ebay
-to get her a palm m100 for about 25 bucks.
-
-The only hitch is new music. Upshot is we spend time going over usenet
-listing togther:)-
-
-Its a happy family.
-
-Now for Benjamin, yea id love to have something like the amazingly cool
-Fisher Price My First (cd, casset, vasectomy, dirtybomb) products. Perhaps
-the My First Cd might work...time to let ebay do the walking.
+I found that to be the simpelst way to go.
 
 
+-- 
 
+Redbrick - Dublin City University Networking Society
+Declan McMullen - Education Officer
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 

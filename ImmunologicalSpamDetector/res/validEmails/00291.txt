@@ -1,83 +1,89 @@
-From rpm-list-admin@freshrpms.net  Wed Oct  9 10:53:15 2002
-Return-Path: <rpm-zzzlist-admin@freshrpms.net>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id 7447D16F7F
-	for <zzzz@localhost>; Wed,  9 Oct 2002 10:52:16 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Thu Aug  8 15:54:19 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 74BB3440E0
+	for <jm@localhost>; Thu,  8 Aug 2002 09:10:38 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 09 Oct 2002 10:52:16 +0100 (IST)
-Received: from egwn.net (auth02.nl.egwn.net [193.172.5.4]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g9999BK27619 for
-    <zzzz-rpm@spamassassin.taint.org>; Wed, 9 Oct 2002 10:09:11 +0100
-Received: from auth02.nl.egwn.net (localhost [127.0.0.1]) by egwn.net
-    (8.11.6/8.11.6/EGWN) with ESMTP id g99941f25722; Wed, 9 Oct 2002 11:04:01
-    +0200
-Received: from python (gw01.es3.egwn.net [212.9.66.13]) (authenticated) by
-    egwn.net (8.11.6/8.11.6/EGWN) with ESMTP id g9993Df23422 for
-    <rpm-list@freshrpms.net>; Wed, 9 Oct 2002 11:03:13 +0200
-From: Matthias Saou <matthias@rpmforge.net>
-To: rpm-zzzlist@freshrpms.net
-Subject: Re: Apt repository authentication: it's time
-Message-Id: <20021009110311.32c22ea5.matthias@rpmforge.net>
-In-Reply-To: <20021008175452.581c0e50.kilroy@kamakiriad.com>
-References: <20021008175452.581c0e50.kilroy@kamakiriad.com>
-Organization: freshrpms.net / rpmforge.net
-X-Mailer: Sylpheed version 0.8.3claws (GTK+ 1.2.10; i386-redhat-linux)
-X-Operating-System: Red Hat GNU/Linux forever!
-X-Subliminal-Message: Use Linux... use Linux... use Linux...
+	for jm@localhost (single-drop); Thu, 08 Aug 2002 14:10:38 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g78DCR207554 for
+    <jm-ilug@jmason.org>; Thu, 8 Aug 2002 14:12:27 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id OAA16826; Thu, 8 Aug 2002 14:07:53 +0100
+Received: from ie.suberic.net (owsla.ie.suberic.net [62.17.162.83]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id OAA16804 for <ilug@linux.ie>;
+    Thu, 8 Aug 2002 14:07:47 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host owsla.ie.suberic.net
+    [62.17.162.83] claimed to be ie.suberic.net
+Received: from owsla.ie.suberic.net (owsla [127.0.0.1]) by ie.suberic.net
+    (8.11.6/8.11.6) with ESMTP id g78D7kY19924 for <ilug@linux.ie>;
+    Thu, 8 Aug 2002 14:07:46 +0100
+Date: Thu, 8 Aug 2002 14:07:45 +0100
+To: ilug@linux.ie
+Subject: Re: [ILUG] slashdot EW Dijkstra humor
+Message-Id: <20020808140745.A19598@ie.suberic.net>
+References: <200208081032.LAA09312@lugh.tuatha.org>
+    <20020808114227.B17967@ie.suberic.net> <3D524F34.1080608@corvil.com>
 MIME-Version: 1.0
-Content-Type: text/plain; charset=US-ASCII
-Content-Transfer-Encoding: 7bit
-X-Mailscanner: Found to be clean, Found to be clean
-Sender: rpm-zzzlist-admin@freshrpms.net
-Errors-To: rpm-zzzlist-admin@freshrpms.net
-X-Beenthere: rpm-zzzlist@freshrpms.net
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.2.5.1i
+In-Reply-To: <3D524F34.1080608@corvil.com>; from padraig.brady@corvil.com
+    on Thu, Aug 08, 2002 at 12:00:04PM +0100
+X-Operating-System: Linux 2.4.18-5 i686
+X-GPG-Fingerprint: 9C1D 16F4 11F1 6BD2 933C  048D ACC7 9840 89D0 7646
+From: kevin lyda <kevin+dated+1029244066.f56e49@ie.suberic.net>
+Mail-Followup-To: kevin+dated+1029244066.f56e49@ie.suberic.net,
+	ilug@linux.ie
+X-Delivery-Agent: TMDA/0.57
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-Reply-To: rpm-zzzlist@freshrpms.net
-List-Help: <mailto:rpm-zzzlist-request@freshrpms.net?subject=help>
-List-Post: <mailto:rpm-zzzlist@freshrpms.net>
-List-Subscribe: <http://lists.freshrpms.net/mailman/listinfo/rpm-zzzlist>,
-    <mailto:rpm-list-request@freshrpms.net?subject=subscribe>
-List-Id: Freshrpms RPM discussion list <rpm-zzzlist.freshrpms.net>
-List-Unsubscribe: <http://lists.freshrpms.net/mailman/listinfo/rpm-zzzlist>,
-    <mailto:rpm-list-request@freshrpms.net?subject=unsubscribe>
-List-Archive: <http://lists.freshrpms.net/pipermail/rpm-zzzlist/>
-X-Original-Date: Wed, 9 Oct 2002 11:03:11 +0200
-Date: Wed, 9 Oct 2002 11:03:11 +0200
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-Once upon a time, Brian wrote :
+On Thu, Aug 08, 2002 at 12:00:04PM +0100, Padraig Brady wrote:
+> Yes a clever term usually (and deservedly) attributed to perl.
 
->      OK, it's now time to work out the PGP securing of apt repository
->      traffic. I've never gotten anything but "sitename.whatever will not
->      be authenticated" until running Redhat 8.0 when I get something
->      about having "No Key" for various files.
+there's no need for perl to be write only.
 
-I don't think gpg signing my repositories will help anything, as it will
-just ensure that my passphrase was typed to confirm the md5 signatures of
-all pgklists and srclists. Basically, you'll then just be sure that it's me
-who generated the files, and this will of course prevent automating the
-process of updating the apt repository when Red Hat updates show up.
+> Of course you can create write-only code in any language.
+> There's even a competition for obfuscated C code which is always
+> worth a look: http://www.es.ioccc.org/main.html
 
-In Red Hat Linux 8.0 though, the warnings about "No Key" appear until you
-import the right gpg public keys directly with rpm, for example :
-rpm --import /usr/share/doc/apt-0.5.4cnc7/RPM-GPG-KEY
-(this will import my key, which is used to sign all freshrpms.net packages)
+yes, always fun.  it's a good way to learn the little details of c.
 
-Hopefully it is possible to the tell rpm to install *only* packages who
-verify against an imported gpg key? This for me would be the optimal way to
-ensure integrity with the way things curently work.
+> p.s. what sort of processing do you do with:
+> kevin+dated+1029235349.f17378@ie.suberic.net
 
-Matthias
+that's a dated address:
+
+    % tmda-check-address kevin+dated+1029235349.f17378@ie.suberic.net
+    STATUS:  VALID
+    EXPIRES: Tue Aug 13 10:42:29 2002 UTC
+
+which means anyone can send email to that address with no problem until
+that date.  after that they have to confirm.  more info can be found
+here: www.tmda.net.
+
+as an aside, it is possible to filter mail to a mailman mailing list
+with tmda as well.  subscribers can post to the list without a confirm;
+non-subscribers would need to confirm their posts.
+
+kevin
 
 -- 
-Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
-Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi
-Load : 0.14 0.18 0.17
+kevin@suberic.net     that a believer is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspace place: home       than a sober one. the happiness of credulity is a
+http://ie.suberic.net/~kevin   cheap & dangerous quality -- g.b. shaw
 
-_______________________________________________
-RPM-List mailing list <RPM-List@freshrpms.net>
-http://lists.freshrpms.net/mailman/listinfo/rpm-list
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

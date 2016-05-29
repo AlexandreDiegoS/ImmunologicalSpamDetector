@@ -1,54 +1,71 @@
-From fork-admin@xent.com  Mon Aug 26 19:44:44 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Fri Aug  9 15:41:33 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 7E64E43F99
-	for <jm@localhost>; Mon, 26 Aug 2002 14:44:42 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id BFB4E440DD
+	for <jm@localhost>; Fri,  9 Aug 2002 10:34:49 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Mon, 26 Aug 2002 19:44:42 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7QIgfZ04806 for <jm@jmason.org>;
-    Mon, 26 Aug 2002 19:42:42 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id B7B46294164; Mon, 26 Aug 2002 11:40:09 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from crank.slack.net (slack.net [166.84.151.181]) by xent.com
-    (Postfix) with ESMTP id 2495E294162 for <FoRK@xent.com>; Mon,
-    26 Aug 2002 11:39:11 -0700 (PDT)
-Received: by crank.slack.net (Postfix, from userid 596) id 55E983EE34;
-    Mon, 26 Aug 2002 14:43:23 -0400 (EDT)
-Received: from localhost (localhost [127.0.0.1]) by crank.slack.net
-    (Postfix) with ESMTP id 4E6013EDEC; Mon, 26 Aug 2002 14:43:23 -0400 (EDT)
-From: Tom <tomwhore@slack.net>
-To: Jim Whitehead <ejw@cse.ucsc.edu>
-Cc: FoRK <FoRK@xent.com>
-Subject: Re: How unlucky can you get?
-In-Reply-To: <AMEPKEBLDJJCCDEJHAMIOECLFFAA.ejw@cse.ucsc.edu>
-Message-Id: <Pine.BSO.4.44.0208261442530.5449-100000@crank.slack.net>
+	for jm@localhost (single-drop); Fri, 09 Aug 2002 15:34:49 +0100 (IST)
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g79EVIb07574 for
+    <jm-ilug@jmason.org>; Fri, 9 Aug 2002 15:31:18 +0100
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    webnote.net (8.9.3/8.9.3) with ESMTP id XAA01915 for <jm-ilug@jmason.org>;
+    Thu, 8 Aug 2002 23:58:09 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id XAA09184; Thu, 8 Aug 2002 23:56:23 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from byron.heanet.ie (byron.heanet.ie [193.1.219.90]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id XAA09149 for <ilug@linux.ie>;
+    Thu, 8 Aug 2002 23:56:16 +0100
+Received: from [2002:c101:da82::1] (helo=heanet.ie) by byron.heanet.ie
+    with esmtp (Exim 4.05) id 17cwDn-0004Cn-00 for ilug@linux.ie;
+    Thu, 08 Aug 2002 23:57:35 +0100
+Message-Id: <3D52F76C.1000903@heanet.ie>
+Date: Thu, 08 Aug 2002 23:57:48 +0100
+From: Dave Wilson <dave.wilson@heanet.ie>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.9) Gecko/20020408
+X-Accept-Language: en-us, en
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+To: ilug@linux.ie
+Content-Type: text/plain; charset=ISO-8859-15; format=flowed
+Content-Transfer-Encoding: 7bit
+Subject: [ILUG] Dialup on debian
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Mon, 26 Aug 2002 14:43:23 -0400 (EDT)
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-On Mon, 26 Aug 2002, Jim Whitehead wrote:
---]a sledgehammer)? We hadn't done anything unusual to the toilet in the recent
---]past -- just normal use. I've *never* heard of this happening to anyone I
---]know. The guts, yeah, they fail all the time. But the storage bowl -- never.
---]
+Hi all,
 
-Do you have any Tesla nuts inthe hood? Them hooligans and thier beams..
+I have a debian machine with an external ISDN terminal adapter, which 
+I'm trying to get to dial a Cisco 3600 running CHAP. wvdial on Red Hat 
+copes fine with this. However, I get the same results if i use pon or 
+wvdial on Debian: pppd negotiation is detected, pppd is started -- and 
+I'm never assigned an IP address.
 
-http://xent.com/mailman/listinfo/fork
+Looking at the logs on the Cisco, I see that in place of the username I 
+seem to be transmitting a six-digit hex number. e.g.:
+
+Aug  8 23:35:00.311 UTC+1: %ISDN-6-CONNECT: Interface Serial0/0:19 is 
+now connected to <phonenum> 19eb85
+
+The last entry should be my dialup username. (Substitute incoming phone 
+number for <phonenum>).
+
+Any ideas what I'm doing wrong?
+
+Cheers,
+Dave
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
 

@@ -1,79 +1,69 @@
-From sentto-2242572-56021-1034080421-zzzz=spamassassin.taint.org@returns.groups.yahoo.com  Tue Oct  8 14:40:28 2002
-Return-Path: <sentto-2242572-56021-1034080421-zzzz=spamassassin.taint.org@returns.groups.yahoo.com>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id 25B6416F17
-	for <zzzz@localhost>; Tue,  8 Oct 2002 14:39:49 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Tue Jul 30 15:57:43 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 54C1B440F3
+	for <jm@localhost>; Tue, 30 Jul 2002 10:57:38 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Tue, 08 Oct 2002 14:39:49 +0100 (IST)
-Received: from n38.grp.scd.yahoo.com (n38.grp.scd.yahoo.com
-    [66.218.66.106]) by dogma.slashnull.org (8.11.6/8.11.6) with SMTP id
-    g98CX0K15512 for <zzzz@spamassassin.taint.org>; Tue, 8 Oct 2002 13:33:00 +0100
-X-Egroups-Return: sentto-2242572-56021-1034080421-zzzz=spamassassin.taint.org@returns.groups.yahoo.com
-Received: from [66.218.67.199] by n38.grp.scd.yahoo.com with NNFMP;
-    08 Oct 2002 12:33:42 -0000
-X-Sender: timc@2ubh.com
-X-Apparently-To: zzzzteana@yahoogroups.com
-Received: (EGP: mail-8_2_2_0); 8 Oct 2002 12:33:41 -0000
-Received: (qmail 72027 invoked from network); 8 Oct 2002 12:33:40 -0000
-Received: from unknown (66.218.66.218) by m6.grp.scd.yahoo.com with QMQP;
-    8 Oct 2002 12:33:40 -0000
-Received: from unknown (HELO rhenium.btinternet.com) (194.73.73.93) by
-    mta3.grp.scd.yahoo.com with SMTP; 8 Oct 2002 12:33:40 -0000
-Received: from host217-35-11-51.in-addr.btopenworld.com ([217.35.11.51])
-    by rhenium.btinternet.com with esmtp (Exim 3.22 #8) id 17ytYR-0005ta-00
-    for forteana@yahoogroups.com; Tue, 08 Oct 2002 13:33:39 +0100
-X-Mailer: Microsoft Outlook Express Macintosh Edition - 4.5 (0410)
-To: zzzzteana <zzzzteana@yahoogroups.com>
-X-Priority: 3
-Message-Id: <E17ytYR-0005ta-00@rhenium.btinternet.com>
-From: "Tim Chapman" <timc@2ubh.com>
-X-Yahoo-Profile: tim2ubh
+	for jm@localhost (single-drop); Tue, 30 Jul 2002 15:57:38 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6UEtDq00499 for
+    <jm-ilug@jmason.org>; Tue, 30 Jul 2002 15:55:13 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id PAA12736; Tue, 30 Jul 2002 15:53:42 +0100
+Received: from hawk.dcu.ie (mail.dcu.ie [136.206.1.5]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id PAA12701; Tue, 30 Jul 2002 15:53:36 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host mail.dcu.ie [136.206.1.5]
+    claimed to be hawk.dcu.ie
+Received: from prodigy.redbrick.dcu.ie (136.206.15.10) by hawk.dcu.ie
+    (6.0.040) id 3D36BB4A000452A1; Tue, 30 Jul 2002 15:53:35 +0100
+Received: by prodigy.redbrick.dcu.ie (Postfix, from userid 666) id
+    B64ABDA4A; Tue, 30 Jul 2002 15:53:35 +0100 (IST)
+Date: Tue, 30 Jul 2002 15:53:35 +0100
+From: =?iso-8859-1?Q?Colm_MacC=E1rthaigh?= <colmmacc@redbrick.dcu.ie>
+To: Niall O Broin <niall@linux.ie>, ilug@linux.ie
+Subject: Re: [ILUG] Installing lilo on another disk.
+Message-Id: <20020730155335.A8413@prodigy.Redbrick.DCU.IE>
+References: <20020730144740.GA3482@bagend.makalumedia.com>
 MIME-Version: 1.0
-Mailing-List: list zzzzteana@yahoogroups.com; contact
-    forteana-owner@yahoogroups.com
-Delivered-To: mailing list zzzzteana@yahoogroups.com
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.2.5i
+In-Reply-To: <20020730144740.GA3482@bagend.makalumedia.com>;
+    from niall@linux.ie on Tue, Jul 30, 2002 at 03:47:40PM +0100
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
-Date: Tue, 08 Oct 2002 13:32:45 +0100
-Subject: [zzzzteana] Astro bits
-Reply-To: zzzzteana@yahoogroups.com
-Content-Type: text/plain; charset=US-ASCII
-Content-Transfer-Encoding: 7bit
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-HUBBLE SPOTS AN ICY WORLD FAR BEYOND PLUTO
-------------------------------------------
-Astronomers have discovered a distant body that appears to be the
-largest object in the Kuiper Belt, a body half the size of Pluto that
-raises new questions about the definition of a planet. The icy world
-2002 LM60 has been dubbed "Quaoar".
+On Tue, Jul 30, 2002 at 03:47:40PM +0100, Niall O Broin wrote:
+> I'm installing warm standby disks on a number of boxes. These disks will be
+> the same size (sometimes bigger) than the main disk. The idea is that every
+> night I'll rsync the partitions on the main disk to the standby disk so that
+> in the case of disaster, the first port of call, before the tapes, is the
+> standby disk. (We did consider running Linux md RAID on the disks but RAID
+> gives you no protection against slips of the finger)
 
-    http://spaceflightnow.com/news/n0210/07quaoar/
+actually, on a related note, has anyone tried snapfs ?
 
+> Unfortunately suck and it and see is rather tricky - the machines concerned
+> are not to hand.
 
-ASTRONOMERS SLICE AND DICE GALAXIES
------------------------------------
-New views of star birth and the heart of a spiral galaxy have been
-seen by a state-of-the-art astronomical instrument on its first
-night. The new spectrometer has a revolutionary ability to 'slice'
-any object in the sky into sections, producing a three dimensional
-view of the conditions throughout entire galaxies in a single
-observation.
+just keep root as hda, you can change boot all you want, that's
+where it will get written when you run lilo from the prompt.
+just have a sane lilo.conf (with root=/dev/hda) and use lilo -b
+to write to different devices.
 
-    http://spaceflightnow.com/news/n0210/08galaxies/
+-- 
+colmmacc@redbrick.dcu.ie        PubKey: colmmacc+pgp@redbrick.dcu.ie  
+Web:                                 http://devnull.redbrick.dcu.ie/ 
 
------------------------- Yahoo! Groups Sponsor ---------------------~-->
-Sell a Home with Ease!
-http://us.click.yahoo.com/SrPZMC/kTmEAA/MVfIAA/7gSolB/TM
----------------------------------------------------------------------~->
-
-To unsubscribe from this group, send an email to:
-forteana-unsubscribe@egroups.com
-
- 
-
-Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

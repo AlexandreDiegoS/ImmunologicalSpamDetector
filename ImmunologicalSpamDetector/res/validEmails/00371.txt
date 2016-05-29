@@ -1,85 +1,102 @@
-From fork-admin@xent.com  Mon Sep  2 16:22:11 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Tue Aug 13 10:29:44 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 54EB744159
-	for <jm@localhost>; Mon,  2 Sep 2002 11:21:52 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id B92F744131
+	for <jm@localhost>; Tue, 13 Aug 2002 05:22:05 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Mon, 02 Sep 2002 16:21:52 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g8217rZ14223 for <jm@jmason.org>;
-    Mon, 2 Sep 2002 02:07:53 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id B2B372940B0; Sun,  1 Sep 2002 18:05:02 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from imf07bis.bellsouth.net (mail307.mail.bellsouth.net
-    [205.152.58.167]) by xent.com (Postfix) with ESMTP id B20EC294099 for
-    <fork@xent.com>; Sun,  1 Sep 2002 18:04:21 -0700 (PDT)
-Received: from regina ([68.154.230.7]) by imf07bis.bellsouth.net
-    (InterMail vM.5.01.04.19 201-253-122-122-119-20020516) with SMTP id
-    <20020902010819.PEKG29588.imf07bis.bellsouth.net@regina>; Sun,
-    1 Sep 2002 21:08:19 -0400
-From: "Geege Schuman" <geege4@bellsouth.net>
-To: "Joseph S. Barrera III" <joe@barrera.org>, "FoRK" <fork@spamassassin.taint.org>
-Subject: RE: revocation of grlygrl201@
-Message-Id: <ILEHJNJFPDLMDEKNIAKCEEAHCAAA.geege4@bellsouth.net>
+	for jm@localhost (single-drop); Tue, 13 Aug 2002 10:22:05 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7D8agb23313 for
+    <jm-ilug@jmason.org>; Tue, 13 Aug 2002 09:36:42 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id JAA00835; Tue, 13 Aug 2002 09:35:58 +0100
+Received: from smtpout.xelector.com ([62.17.160.131]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id JAA00802 for <ilug@linux.ie>; Tue,
+    13 Aug 2002 09:35:52 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host [62.17.160.131] claimed to
+    be smtpout.xelector.com
+Received: from [172.18.80.234] (helo=xeljreilly) by smtpout.xelector.com
+    with smtp (Exim 3.34 #2) id 17eWwo-0007CP-00; Tue, 13 Aug 2002 09:22:38
+    +0100
+Message-Id: <001f01c242a3$c8c2d770$ea5012ac@xelector.com>
+From: "John Reilly" <jr@inconspicuous.org>
+To: <macarthy@iol.ie>, "Ilug@Linux.Ie" <ilug@linux.ie>
+References: <OFEGLPGPCHPACFLJPAILMEOIDPAA.macarthy@iol.ie>
+Subject: Re: [ILUG] CVS question
+Date: Tue, 13 Aug 2002 09:31:13 +0100
 MIME-Version: 1.0
-Content-Type: text/plain; charset="us-ascii"
+Content-Type: text/plain; charset="iso-8859-1"
 Content-Transfer-Encoding: 7bit
-X-Priority: 3 (Normal)
+X-Priority: 3
 X-Msmail-Priority: Normal
-X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2911.0)
-In-Reply-To: <3D72A81A.1010901@barrera.org>
-X-Mimeole: Produced By Microsoft MimeOLE V5.50.4910.0300
-Importance: Normal
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+X-Mailer: Microsoft Outlook Express 5.00.2919.6600
+X-Mimeole: Produced By Microsoft MimeOLE V5.00.2919.6600
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Sun, 1 Sep 2002 21:05:28 -0400
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-beberg, would you rather mrsrobinson@bellsouth.net?
-
-into plastics too,
-schuman
-
------Original Message-----
-From: fork-admin@xent.com [mailto:fork-admin@xent.com]On Behalf Of
-Joseph S. Barrera III
-Sent: Sunday, September 01, 2002 7:52 PM
-To: FoRK
-Subject: Re: revocation of grlygrl201@
+Assuming cvspserver is actually running (try "netstat -na | grep 2401" to
+see if its there), make sure you have firewalling turned off or you have
+added a rule for it.
 
 
-bitbitch@magnesium.net wrote:
- > Well Beberg, unless you're really into Anime and actually hold true
- > that dead people can send email, I think Geege's subject is just
- > dandy.
 
-Funny you should mention that, as I just came back from refilling
-the green coolant in my Navi.
 
- > (bonus FoRK points if Adam knows what anime i'm refering to)
+> Hi, I'm setting up a CVS server on a RedHat 7.* box. First time.
+>
+> When I try to log in via telnet with an account that is in the "cvs" group
+> and run
+>
+> cvs login
+> password: xxxxx
+>
+> I get
+>
+> cvs [login aborted]: connect to localhost:2401 failed: Connection refused
+>
+>
+> > chkconfig --list  returns
+>
+> xinetd based services:
+>         linuxconf-web:  off
+>         swat:   on
+>         telnet: on
+>         cvspserver:     on
+>
+> As a cvs user
+>
+> [cvsdev1@localhost cvsdev1]$ echo $CVSROOT
+> :pserver:cvsdev1@localhost:/home/cvsroot/repository
+>
+> [cvsdev1@localhost cvsdev1]$ ls -la /home/cvsroot/repository/
+> total 12
+> drwxrws---    3 cvs      cvs          4096 Aug 12 11:26 .
+> drwxrwx---    7 cvs      cvs          4096 Aug 12 11:26 ..
+> drwxrwsr-x    3 cvs      cvs          4096 Aug 12 11:26 CVSROOT
+> [cvsdev1@localhost cvsdev1]$
+>
+>
+>
+> Where should I start looking?
+>
+> Thanks Justin
+>
+>
+> --
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription
+information.
+> List maintainer: listmaster@linux.ie
 
-I guess I don't get any points, do I? No, didn't think so.
-
-- Joe
-
-P.S. We've just started watching Boogiepop Phantom...
 
 -- 
-The Combatant State is your father and your mother, your only
-protector, the totality of your interests. No discipline can
-be stern enough for the man who denies that by word or deed.
-
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

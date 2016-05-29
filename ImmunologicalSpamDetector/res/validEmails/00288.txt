@@ -1,80 +1,91 @@
-From rpm-list-admin@freshrpms.net  Wed Oct  9 10:52:31 2002
-Return-Path: <rpm-zzzlist-admin@freshrpms.net>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id 7E0A116F22
-	for <zzzz@localhost>; Wed,  9 Oct 2002 10:51:32 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Thu Aug  8 14:12:06 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 9A59F44136
+	for <jm@localhost>; Thu,  8 Aug 2002 08:32:34 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 09 Oct 2002 10:51:32 +0100 (IST)
-Received: from egwn.net (auth02.nl.egwn.net [193.172.5.4]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g996xEK23238 for
-    <zzzz-rpm@spamassassin.taint.org>; Wed, 9 Oct 2002 07:59:14 +0100
-Received: from auth02.nl.egwn.net (localhost [127.0.0.1]) by egwn.net
-    (8.11.6/8.11.6/EGWN) with ESMTP id g996u5f26135; Wed, 9 Oct 2002 08:56:05
-    +0200
-Received: from python (80-24-132-206.uc.nombres.ttd.es [80.24.132.206])
-    (authenticated) by egwn.net (8.11.6/8.11.6/EGWN) with ESMTP id
-    g996tHf25655 for <rpm-list@freshrpms.net>; Wed, 9 Oct 2002 08:55:17 +0200
-From: Matthias Saou <matthias@rpmforge.net>
-To: rpm-zzzlist@freshrpms.net
-Subject: Re: Zoot apt/openssh & new DVD playing doc
-Message-Id: <20021009085508.7d183613.matthias@rpmforge.net>
-In-Reply-To: <1034134030.26329.85.camel@ckk.rdu.spamassassin.taint.org>
-References: <20021008163613.0c1dcc72.matthias@rpmforge.net>
-    <1034134030.26329.85.camel@ckk.rdu.redhat.com>
-Organization: freshrpms.net / rpmforge.net
-X-Mailer: Sylpheed version 0.8.3claws (GTK+ 1.2.10; i386-redhat-linux)
-X-Operating-System: Red Hat GNU/Linux forever!
-X-Subliminal-Message: Use Linux... use Linux... use Linux...
+	for jm@localhost (single-drop); Thu, 08 Aug 2002 13:32:34 +0100 (IST)
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g78CGI201934 for
+    <jm-ilug@JMASON.ORG>; Thu, 8 Aug 2002 13:16:18 +0100
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    webnote.net (8.9.3/8.9.3) with ESMTP id LAA29504 for <jm-ilug@jmason.org>;
+    Thu, 8 Aug 2002 11:34:40 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id LAA09362; Thu, 8 Aug 2002 11:33:07 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from mail05.svc.cra.dublin.eircom.net
+    (mail05.svc.cra.dublin.eircom.net [159.134.118.21]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with SMTP id LAA09312 for <ilug@linux.ie>; Thu,
+    8 Aug 2002 11:32:55 +0100
+Message-Id: <200208081032.LAA09312@lugh.tuatha.org>
+Received: (qmail 76245 messnum 353213 invoked from
+    network[159.134.237.77/kearney.eircom.net]); 8 Aug 2002 10:32:24 -0000
+Received: from kearney.eircom.net (HELO webmail.eircom.net)
+    (159.134.237.77) by mail05.svc.cra.dublin.eircom.net (qp 76245) with SMTP;
+    8 Aug 2002 10:32:24 -0000
+From: "wintermute" <cout@eircom.net>
+To: ilug@linux.ie
+Subject: Re: [ILUG] slashdot EW Dijkstra humor
+Date: Thu, 8 Aug 2002 11:27:59 +0100
 MIME-Version: 1.0
-Content-Type: text/plain; charset=US-ASCII
-Content-Transfer-Encoding: 7bit
-X-Mailscanner: Found to be clean, Found to be clean
-Sender: rpm-zzzlist-admin@freshrpms.net
-Errors-To: rpm-zzzlist-admin@freshrpms.net
-X-Beenthere: rpm-zzzlist@freshrpms.net
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 8bit
+X-Originating-Ip: 213.190.156.48
+X-Mailer: Eircom Net CRC Webmail (http://www.eircom.net/)
+Organization: Eircom Net (http://www.eircom.net/)
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-Reply-To: rpm-zzzlist@freshrpms.net
-List-Help: <mailto:rpm-zzzlist-request@freshrpms.net?subject=help>
-List-Post: <mailto:rpm-zzzlist@freshrpms.net>
-List-Subscribe: <http://lists.freshrpms.net/mailman/listinfo/rpm-zzzlist>,
-    <mailto:rpm-list-request@freshrpms.net?subject=subscribe>
-List-Id: Freshrpms RPM discussion list <rpm-zzzlist.freshrpms.net>
-List-Unsubscribe: <http://lists.freshrpms.net/mailman/listinfo/rpm-zzzlist>,
-    <mailto:rpm-list-request@freshrpms.net?subject=unsubscribe>
-List-Archive: <http://lists.freshrpms.net/pipermail/rpm-zzzlist/>
-X-Original-Date: Wed, 9 Oct 2002 08:55:08 +0200
-Date: Wed, 9 Oct 2002 08:55:08 +0200
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-Once upon a time, Chris wrote :
-
-> On Tue, 2002-10-08 at 10:36, Matthias Saou wrote:
-> > Hi there,
-> > 
-> > Two new things today :
-> > 
-> > 1) I've had to install a Red Hat Linux 6.2 server because of an old
-> > proprietary IVR software that doesn't work on newer releases :-( So
-> > I've recompiled both the latest apt and openssh packages for it, and
-> > they are now available with a complete "os, updates & freshrpms" apt
-> > repository at apt.freshrpms.net, for those who might be interested.
 > 
-> Gack. Did you try 7.3 with the compat-glibc first? Or does it require an
-> antique kernel?
+> Thought this was funny.
+> In the slashdot thread about
+> EW Dijkstra passing away on
+> tuesday, there was:
+> 
+> GOTO Heaven
+>        Re:GOTO Heaven
+>        I'll bet he gets there by the shortest path.
+> 
+> Referring to his "Goto considered harmful" etc.
+> 
+> Sad to see these people go. 3 others I've
+> noticed lately were: Richard Stevens, Jim Ellis
+> and Jon Postel.
+> 
+> Pádraig.
 
-It requires a 2.2 kernel, plus antique just-about-everything :-/ Real crap!
+Interesting. I've always wondered about things 'considered' to be bad. 
+Example the GOTO, most languages support a goto of some sort, so are gotos really bad?
 
-Matthias
+Is a loop or a recursive call actually any better than a goto 
+or is the goto used as a kind of common enemy of 
+programming syntax
+to make sure people use loops or recursion?
+<<To iterate is human, to recurse divine>>
+
+Kind of makes you wonder about things considered to be 'good'.
+For example people bang on about polymorphism, but is there actually any advantage in using an overloaded function based on class inheritance?
+
+Hmm.
+
+I'm only laughing on the outside 
+My smile is just skin deep 
+If you could see inside I'm really crying 
+You might join me for a weep.
+<<At your service Madame>>
+
 
 -- 
-Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
-Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi
-Load : 0.00 0.03 0.00
-
-_______________________________________________
-RPM-List mailing list <RPM-List@freshrpms.net>
-http://lists.freshrpms.net/mailman/listinfo/rpm-list
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

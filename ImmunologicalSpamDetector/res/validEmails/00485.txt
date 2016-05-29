@@ -1,55 +1,52 @@
-From fork-admin@xent.com  Sat Sep  7 21:53:30 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id CE34616F16
-	for <jm@localhost>; Sat,  7 Sep 2002 21:52:37 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From iiu-admin@taint.org  Fri Jul 19 15:39:22 2002
+Return-Path: <iiu-admin@taint.org>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 9E8FE43FAD
+	for <jm@localhost>; Fri, 19 Jul 2002 10:39:20 -0400 (EDT)
+Received: from dogma.slashnull.org [212.17.35.15]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Sat, 07 Sep 2002 21:52:37 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g87Du7C22075 for <jm@jmason.org>;
-    Sat, 7 Sep 2002 14:56:07 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id AD1A32940A0; Sat,  7 Sep 2002 06:53:03 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from argote.ch (argote.ch [80.65.224.17]) by xent.com (Postfix)
-    with ESMTP id 4B03129409E for <fork@xent.com>; Sat,  7 Sep 2002 06:52:10
-    -0700 (PDT)
-Received: by argote.ch (Postfix, from userid 500) id 7E5CBC44D;
-    Sat,  7 Sep 2002 15:52:57 +0200 (CEST)
-To: fork@spamassassin.taint.org
-Subject: Re: Selling Wedded Bliss (was Re: Ouch...)
-Message-Id: <20020907135257.7E5CBC44D@argote.ch>
-From: harley@argote.ch (Robert Harley)
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+	for jm@localhost (single-drop); Fri, 19 Jul 2002 15:39:20 +0100 (IST)
+Received: from dogma.slashnull.org (localhost [127.0.0.1]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6JET1J04575 for
+    <jm@jmason.org>; Fri, 19 Jul 2002 15:29:01 +0100
+Received: from dogma.slashnull.org (localhost [127.0.0.1]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6JES1J04499 for
+    <iiu-admin@iiu.taint.org>; Fri, 19 Jul 2002 15:28:02 +0100
+Date: Fri, 19 Jul 2002 15:28:01 +0100
+Message-Id: <20020719142801.4497.78836.Mailman@dogma.slashnull.org>
+Subject: Irish Internet Users post from yyyycc@hackwatch.com requires approval
+From: iiu-admin@taint.org
+To: iiu-admin@taint.org
+X-Ack: no
+X-Beenthere: iiu@iiu.taint.org
+X-Mailman-Version: 2.0.10
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Sat,  7 Sep 2002 15:52:57 +0200 (CEST)
+Sender: iiu-owner@taint.org
+Errors-To: iiu-owner@taint.org
+X-Beenthere: iiu@iiu.taint.org
+List-Unsubscribe: <http://iiu.taint.org/mailman/listinfo/iiu>,
+    <mailto:iiu-request@iiu.taint.org?subject=unsubscribe>
+List-Id: Irish Internet Users List. See http://iiu.taint.org/
+    <iiu.iiu.taint.org>
+List-Post: <mailto:iiu@iiu.taint.org>
+List-Help: <mailto:iiu-request@iiu.taint.org?subject=help>
+List-Subscribe: <http://iiu.taint.org/mailman/listinfo/iiu>,
+    <mailto:iiu-request@iiu.taint.org?subject=subscribe>
+List-Archive: <http://iiu.taint.org/pipermail/iiu/>
 
-CDale URLed thusly:
->http://www.news.harvard.edu/gazette/2000/10.19/01_monogamy.html
+As list administrator, your authorization is requested for the
+following mailing list posting:
 
->The assumption that females of all species tend to be less promiscuous
->than males simply does not fit the facts, Hrdy contended.
+    List:    Irish Internet Users@iiu.taint.org
+    From:    yyyycc@hackwatch.com
+    Subject: Re: [IIU] IE nameserver problems
+    Reason:  Post to moderated list
 
-Well, DUH!!!
+At your convenience, visit:
 
-It is perfectly obvious that (heterosexual) promiscuity is exactly,
-precisely identical between males and females.
-
-Of course the shapes of the distributions may differ.
-
-
-R
+    http://iiu.taint.org/mailman/admindb/iiu
+        
+to approve or deny the request.
 
 

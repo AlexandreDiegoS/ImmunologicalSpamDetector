@@ -1,50 +1,100 @@
-From fork-admin@xent.com  Thu Sep  5 11:31:16 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id 78EE616F80
-	for <jm@localhost>; Thu,  5 Sep 2002 11:28:38 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Fri Aug 16 15:17:01 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 6466943C36
+	for <jm@localhost>; Fri, 16 Aug 2002 10:16:55 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Thu, 05 Sep 2002 11:28:38 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g853F1Z02278 for <jm@jmason.org>;
-    Thu, 5 Sep 2002 04:15:01 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id CADE029422D; Wed,  4 Sep 2002 20:12:03 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from crank.slack.net (slack.net [166.84.151.181]) by xent.com
-    (Postfix) with ESMTP id 8DE6E2940AA for <fork@xent.com>; Wed,
-    4 Sep 2002 20:11:13 -0700 (PDT)
-Received: by crank.slack.net (Postfix, from userid 596) id 49B613ED5B;
-    Wed,  4 Sep 2002 23:16:51 -0400 (EDT)
-Received: from localhost (localhost [127.0.0.1]) by crank.slack.net
-    (Postfix) with ESMTP id 46F9A3EC0F for <fork@xent.com>; Wed,
-    4 Sep 2002 23:16:51 -0400 (EDT)
-From: Tom <tomwhore@slack.net>
-To: fork@spamassassin.taint.org
-Subject: Adam dont job for no one, see.
-In-Reply-To: <143118772134.20020904230741@magnesium.net>
-Message-Id: <Pine.BSO.4.44.0209042315320.9755-100000@crank.slack.net>
+	for jm@localhost (single-drop); Fri, 16 Aug 2002 15:16:55 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7GEHta21801 for
+    <jm-ilug@jmason.org>; Fri, 16 Aug 2002 15:18:00 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id PAA32576; Fri, 16 Aug 2002 15:16:35 +0100
+Received: from nologic.org ([217.114.163.124]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with SMTP id PAA32554 for <ilug@linux.ie>; Fri,
+    16 Aug 2002 15:16:29 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host [217.114.163.124] claimed
+    to be nologic.org
+Received: (qmail 6343 invoked from network); 16 Aug 2002 14:18:19 -0000
+Received: from localhost (HELO nologic.org) (127.0.0.1) by 0 with SMTP;
+    16 Aug 2002 14:18:19 -0000
+Received: from cacher3-ext.wise.edt.ericsson.se ([194.237.142.30])
+    (proxying for 159.107.166.28) (SquirrelMail authenticated user
+    cj@nologic.org) by mail.nologic.org with HTTP; Fri, 16 Aug 2002 15:18:19
+    +0100 (BST)
+Message-Id: <22262.194.237.142.30.1029507499.squirrel@mail.nologic.org>
+Date: Fri, 16 Aug 2002 15:18:19 +0100 (BST)
+Subject: RE: [ILUG] Backup solutions
+From: "Ciaran Johnston" <cj@nologic.org>
+To: <Brian.ODonoghue@kbs.ie>
+In-Reply-To: <55DA5264CE16D41186F600D0B74D6B09247289@KBS01>
+References: <55DA5264CE16D41186F600D0B74D6B09247289@KBS01>
+X-Priority: 3
+Importance: Normal
+X-Msmail-Priority: Normal
+Cc: <ilug@linux.ie>
+X-Mailer: SquirrelMail (version 1.2.5)
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset=iso-8859-15
+Content-Transfer-Encoding: 8bit
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Wed, 4 Sep 2002 23:16:51 -0400 (EDT)
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
+
+Brian ODonoghue said:
+>
+>
+>> -----Original Message-----
+>> From: Ciaran Johnston [mailto:cj@nologic.org]
+>> Sent: 16 August 2002 15:09
+>> To: ilug@linux.ie
+>> Subject: [ILUG] Backup solutions
+>>
+>> Hi folks,
+>> I maintain a colocated server on behalf of a small group of
+>> individuals, and am looking at backup solutions. Is it possible to get
+>> some sort of low-
+>> end internal tape / other solution that could be used to back up
+>> approx. 40
+>> Gigs of data or am I just dreaming? My ISP does offer backups at extra
+>> cost
+>> but the only problem with that is, well, the extra cost.
+>>
+>> What I was hoping to do was to install some kind of internal tape
+>> device, then swap tapes round every month, so I had an onsite backup
+>> of say the last 24 hours and an offsite backup of the last month. Is
+>> this feasible? I'm beginning to think it isn't. External devices are
+>> not an option as part
+>> of the charge for colocation is rackspace.
+>>
+>> Thanks,
+>> Ciaran.
+>
+> I'd recommend a good external DLT drive.
+> You will probably need a SCSI card for that too.
+
+Yeah, so would I, but as I said, external ain't really an option.
+
+/Ciaran.
+
+>
+> Mmmm.
+>
+> --
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription
+> information. List maintainer: listmaster@linux.ie
 
 
-A groys gesheft zol er hobn mit shroyre vus er hot, zol men bay im nit
-fregn, un vos men fregt zol er nisht hobn, and if that aint the truth
-nutin is.
 
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 

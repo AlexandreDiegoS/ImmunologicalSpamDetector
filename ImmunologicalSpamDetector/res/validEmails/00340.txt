@@ -1,71 +1,78 @@
-From fork-admin@xent.com  Tue Aug 27 05:18:20 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Mon Aug 12 11:07:21 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 7C04E43F99
-	for <jm@localhost>; Tue, 27 Aug 2002 00:18:20 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 377914415E
+	for <jm@localhost>; Mon, 12 Aug 2002 05:56:07 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Tue, 27 Aug 2002 05:18:20 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7R4J5Z25625 for <jm@jmason.org>;
-    Tue, 27 Aug 2002 05:19:09 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 439232941F6; Mon, 26 Aug 2002 21:16:11 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from crank.slack.net (slack.net [166.84.151.181]) by xent.com
-    (Postfix) with ESMTP id D558829409E for <fork@xent.com>; Mon,
-    26 Aug 2002 21:15:25 -0700 (PDT)
-Received: by crank.slack.net (Postfix, from userid 596) id CB2493ED7E;
-    Tue, 27 Aug 2002 00:19:37 -0400 (EDT)
-Received: from localhost (localhost [127.0.0.1]) by crank.slack.net
-    (Postfix) with ESMTP id C9A6B3ED3B for <fork@xent.com>; Tue,
-    27 Aug 2002 00:19:37 -0400 (EDT)
-From: Tom <tomwhore@slack.net>
-To: fork@spamassassin.taint.org
-Subject: Re: The GOv gets tough on Net Users.....er Pirates..
-In-Reply-To: <5.1.1.6.0.20020826113243.034de5d0@techdirt.com>
-Message-Id: <Pine.BSO.4.44.0208270013110.5449-100000@crank.slack.net>
+	for jm@localhost (single-drop); Mon, 12 Aug 2002 10:56:07 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7C59ub30453 for
+    <jm-ilug@jmason.org>; Mon, 12 Aug 2002 06:09:56 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id GAA26751; Mon, 12 Aug 2002 06:08:57 +0100
+Received: from puma.dub0.ie.cp.net ([62.17.137.250]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id GAA26714 for <ilug@linux.ie>; Mon,
+    12 Aug 2002 06:08:49 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host [62.17.137.250] claimed to
+    be puma.dub0.ie.cp.net
+Received: from AHOLM.elivefree.net (10.40.2.248) by puma.dub0.ie.cp.net
+    (6.7.009) id 3D4AB18800007DF5; Mon, 12 Aug 2002 06:08:06 +0100
+Message-Id: <5.1.1.6.0.20020812060425.026632b0@mail.elivefree.net>
+X-Sender: anders.holm@mail.elivefree.net
+X-Mailer: QUALCOMM Windows Eudora Version 5.1.1
+Date: Mon, 12 Aug 2002 06:05:32 +0100
+To: "Damian O' Sullivan" <Damian.OSullivan@bcs.ie>,
+	"'Albert White - SUN Ireland'" <albert.white@ireland.sun.com>,
+	ilug@linux.ie
+From: Anders Holm <anders.holm@elivefree.net>
+Subject: RE: [ILUG] Sparc Solaris (was: Dell GX260 V Redhat 7.3)
+In-Reply-To: <214A52C16E44D51186FB00508BB83E0F7C0D60@w2k-server.bcs.ie>
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Tue, 27 Aug 2002 00:19:37 -0400 (EDT)
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
+
+Hi Damian.
+
+SuSe has a Sparc version I previously been running on a Sun Ultra 5 at 
+least. Worked fine, albeit a bit slow... ;)
+
+//Anders
+
+At 14:32 09/08/2002, Damian O' Sullivan wrote:
+>I use gnome here on half a dozen sunray 150 boxen. Been trying to get linux
+>on them for along time with mixed results.. Has anyone succeeded in this?
+>
+> > -> It does work on SunRays. Just install it normally on the
+> > server, the sun
+> > install will make the necessary changes to the dtlogin screen
+> > and you can just
+> > select gnome from there. AFAIK you can do this for any window
+> > manager. But I
+> > don't admin sunray servers so I'm not fully aware of the
+> > issues or exact
+> > requirements.
+> >
+> > Cheers,
+> > ~Al
+> >
+>
+>
+>--
+>Irish Linux Users' Group: ilug@linux.ie
+>http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+>List maintainer: listmaster@linux.ie
 
 
-What are you trying to sell???? What is the Value???
-
-Example...Does Pratchett sell paper bound by glue or does he sell stories?
-
-
-
-Question...When I buy a book have I purchased the story? When I sell the
-book does any of that revenue go to mr Pratchett?
-
-What if I read the book and  give it to someone, who then reads it
-and gives it  to someone who then reads it and gives it to
-someones....(bookcrossing.com though with  more succesfull passings). Does
-each reader send Mr Pratchett money?
-
-Have Used Bookstores, Recorstores etc destroyed the system of book/record
-economy?
-
-AS to the resident sourpuss, in germany bitter may be better but here its
-just plain stinkin thinkin.
-
-
--tom
-
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

@@ -1,64 +1,102 @@
-From fork-admin@xent.com  Thu Sep  5 11:31:55 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id 9AE3216F56
-	for <jm@localhost>; Thu,  5 Sep 2002 11:28:51 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Mon Aug 19 11:02:29 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id B832E44192
+	for <jm@localhost>; Mon, 19 Aug 2002 05:54:15 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Thu, 05 Sep 2002 11:28:51 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g857iEZ09117 for <jm@jmason.org>;
-    Thu, 5 Sep 2002 08:44:14 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id B1E99294233; Thu,  5 Sep 2002 00:38:02 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from localhost.localdomain
-    (dsl-208-151-246-47.dsl.easystreet.com [208.151.246.47]) by xent.com
-    (Postfix) with ESMTP id 92FAB294221 for <FoRK@xent.com>; Thu,
-    5 Sep 2002 00:37:34 -0700 (PDT)
-Received: (from karl@localhost) by localhost.localdomain (8.11.6/8.11.6)
-    id g857qCu12404; Thu, 5 Sep 2002 00:52:12 -0700
-X-Authentication-Warning: localhost.localdomain: karl set sender to
-    kra@monkey.org using -f
-To: "Jim Whitehead" <ejw@cse.ucsc.edu>
-Cc: "FoRK" <FoRK@xent.com>
-Subject: Re: CD player UI for toddlers
-References: <AMEPKEBLDJJCCDEJHAMIIECDFGAA.ejw@cse.ucsc.edu>
-From: Karl Anderson <kra@monkey.org>
-Organization: Ape Mgt.
-In-Reply-To: "Jim Whitehead"'s message of "Wed, 4 Sep 2002 11:03:03 -0700"
-Message-Id: <m3admwrhzn.fsf@localhost.localdomain>
-User-Agent: Gnus/5.0802 (Gnus v5.8.2) Emacs/20.7
+	for jm@localhost (single-drop); Mon, 19 Aug 2002 10:54:15 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7GLLu604019 for
+    <jm-ilug@jmason.org>; Fri, 16 Aug 2002 22:21:56 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id WAA21762; Fri, 16 Aug 2002 22:21:00 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from host4.the-web-host.com (host4.the-web-host.com
+    [209.239.49.190]) by lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id WAA21727
+    for <ilug@linux.ie>; Fri, 16 Aug 2002 22:20:53 +0100
+Received: from rfitzsimons (spamisevil.test.ie.vianw.net [212.17.60.214])
+    by host4.the-web-host.com (8.10.2/8.10.2) with ESMTP id g7GLKn804324;
+    Fri, 16 Aug 2002 17:20:49 -0400
+Received: from bob by rfitzsimons with local (Exim 3.35 #1 (Debian)) id
+    17foVD-0000QS-00; Fri, 16 Aug 2002 21:19:27 +0000
+Date: Fri, 16 Aug 2002 21:19:26 +0000
+From: Robert Fitzsimons <robfitz@273k.net>
+To: Justin MacCarthy <macarthy@iol.ie>
+Cc: "Ilug@Linux.Ie" <ilug@linux.ie>
+Subject: Re: [ILUG] extending a HAN with Wireless..
+Message-Id: <20020816211926.GB1412@rfitzsimons>
+References: <00ea01c24540$7778e3b0$ea5012ac@xelector.com>
+    <OFEGLPGPCHPACFLJPAILGEJDEAAA.macarthy@iol.ie>
 MIME-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Disposition: inline
+In-Reply-To: <OFEGLPGPCHPACFLJPAILGEJDEAAA.macarthy@iol.ie>
+User-Agent: Mutt/1.4i
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: 05 Sep 2002 00:52:12 -0700
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-"Jim Whitehead" <ejw@cse.ucsc.edu> writes:
+Hello Justin
 
-> The CD player we have combines play and pause in a single button, but
-> doesn't provide *instantaneous* feedback that the button was pushed, instead
-> requiring you to wait until the music starts, 5-10 seconds. This is a UI
-> disaster. Since Tatum doesn't get feedback right away, she presses the
-> button again, thereby pausing the CD before it even plays. She'll only ever
-> get music if she presses the button an odd number of times. This happens a
-> surprising amount of the time, since she eventually hits the button again
-> when the music doesn't play.
+The simplest setup would be to connect a wireless access point to you
+hub then use a wireless pcmcia network card in your laptop.  You could
+also get some pcmcia to pci adapters or wireless pci network cards for
+your desktop machines.
 
-Nice to hear that somebody else does this too.
+The access point would be configured with a network name (essid) and a
+channel number for you wireless network.  The client machine would be
+configured with the same network name, it should be able to auto detect
+the channel number.
+
+Driver support is very good, there are only a few wireless chipsets,
+and I believe that all but the newest 802.11b Plus (22Mbps) and 802.11a
+hardware has Linux drivers.
+
+If you need anymore help or info checkout the forums and irc channel at
+<URL:http://www.irishwan.org/>.
+
+Robert Fitzsimons
+robfitz@273k.net
+
+On Fri, Aug 16, 2002 at 05:39:21PM +0100, Justin MacCarthy wrote:
+> I have a small network at home,
+> 
+> Connected by 5 port hub....
+> "smoothwall" smoothwall server  	192.168.1.1
+> "shaftoe" 	Windows 2000		192.168.1.75
+> "gotodengo"	Linux				192.168.1.50
+> 
+> 
+> The family has a new pc I want to plug in, to use the ISDN in smoothwall.
+> I also have a notebook.
+> 
+> 
+> I want to plug both of these into the network using a wireless connection.
+> What's the best way to do this??? I need to plug a wireless hub into my 5
+> port hub; right? What wireless hardware is good for both Linux & windows???
+> I'm know very little about wireless...
+> 
+> Thanks
+> 
+> Justin
+> 
+> 
+> 
+> 
+> 
+> -- 
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+> List maintainer: listmaster@linux.ie
 
 -- 
-Karl Anderson      kra@monkey.org           http://www.monkey.org/~kra/
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 

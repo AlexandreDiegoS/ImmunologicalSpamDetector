@@ -1,71 +1,83 @@
-From rpm-list-admin@freshrpms.net  Wed Oct  9 10:52:30 2002
-Return-Path: <rpm-zzzlist-admin@freshrpms.net>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id DAD2D16F21
-	for <zzzz@localhost>; Wed,  9 Oct 2002 10:51:29 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Thu Aug  8 14:11:51 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 0617A44135
+	for <jm@localhost>; Thu,  8 Aug 2002 08:32:33 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 09 Oct 2002 10:51:29 +0100 (IST)
-Received: from egwn.net (auth02.nl.egwn.net [193.172.5.4]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g996ujK23217 for
-    <zzzz-rpm@spamassassin.taint.org>; Wed, 9 Oct 2002 07:56:45 +0100
-Received: from auth02.nl.egwn.net (localhost [127.0.0.1]) by egwn.net
-    (8.11.6/8.11.6/EGWN) with ESMTP id g996h2f09269; Wed, 9 Oct 2002 08:43:02
-    +0200
-Received: from adsl-63-192-217-110.dsl.snfc21.pacbell.net
-    (adsl-63-192-217-110.dsl.snfc21.pacbell.net [63.192.217.110]) by egwn.net
-    (8.11.6/8.11.6/EGWN) with ESMTP id g996fmf24650 for
-    <rpm-list@freshrpms.net>; Wed, 9 Oct 2002 08:41:48 +0200
-Received: from eecs.berkeley.edu (localhost [127.0.0.1]) by
-    adsl-63-192-217-110.dsl.snfc21.pacbell.net (Postfix) with ESMTP id
-    814973B72C for <rpm-list@freshrpms.net>; Tue,  8 Oct 2002 23:41:46 -0700
-    (PDT)
-Message-Id: <3DA3CFAA.9EFC7FB7@eecs.berkeley.edu>
-From: Ben Liblit <liblit@eecs.berkeley.edu>
-X-Mailer: Mozilla 4.79 [en] (X11; U; Linux 2.4.19 i686)
-X-Accept-Language: en
+	for jm@localhost (single-drop); Thu, 08 Aug 2002 13:32:33 +0100 (IST)
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g78CGD201928 for
+    <jm-ilug@JMASON.ORG>; Thu, 8 Aug 2002 13:16:13 +0100
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    webnote.net (8.9.3/8.9.3) with ESMTP id LAA29489 for <jm-ilug@jmason.org>;
+    Thu, 8 Aug 2002 11:32:38 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id LAA09223; Thu, 8 Aug 2002 11:31:21 +0100
+Received: from homer.jinny.ie ([193.120.171.3]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id LAA09179 for <ilug@linux.ie>; Thu,
+    8 Aug 2002 11:31:07 +0100
+Received: from jlooney.jinny.ie (fw [193.120.171.2]) by homer.jinny.ie
+    (8.9.3/8.11.2) with ESMTP id LAA19989 for <ilug@linux.ie>; Thu,
+    8 Aug 2002 11:30:36 +0100
+Received: (from john@localhost) by jlooney.jinny.ie (8.11.6/8.11.6) id
+    g78AV2K02355 for ilug@linux.ie; Thu, 8 Aug 2002 11:31:02 +0100
+X-Authentication-Warning: jlooney.jinny.ie: john set sender to
+    jlooney@jinny.ie using -f
+Date: Thu, 8 Aug 2002 11:31:01 +0100
+From: "John P. Looney" <valen@tuatha.org>
+To: ilug@linux.ie
+Message-Id: <20020808103101.GA1853@jinny.ie>
+Reply-To: valen@tuatha.org
+Mail-Followup-To: ilug@linux.ie
 MIME-Version: 1.0
-To: rpm-zzzlist@freshrpms.net
-Subject: Re: RedHat 8.0 and his own freetype
-References: <20021004155451.52f9ecd5.matthias_haase@bennewitz.com>
-    <3D9E1F20.3050300@eecs.berkeley.edu>
-    <20021008202424.67c6e32c.matthias_haase@bennewitz.com>
-    <3DA3C96B.7050007@eecs.berkeley.edu>
 Content-Type: text/plain; charset=us-ascii
-Content-Transfer-Encoding: 7bit
-X-Mailscanner: Found to be clean, Found to be clean
-Sender: rpm-zzzlist-admin@freshrpms.net
-Errors-To: rpm-zzzlist-admin@freshrpms.net
-X-Beenthere: rpm-zzzlist@freshrpms.net
-X-Mailman-Version: 2.0.11
+Content-Disposition: inline
+User-Agent: Mutt/1.4i
+X-Url: http://www.redbrick.dcu.ie/~valen
+X-Os: Red Hat Linux 7.3/Linux 2.4.18-3
+X-Gnupg-Publickey: http://www.redbrick.dcu.ie/~valen/public.asc
+Subject: [ILUG] Cobalt question
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-Reply-To: rpm-zzzlist@freshrpms.net
-List-Help: <mailto:rpm-zzzlist-request@freshrpms.net?subject=help>
-List-Post: <mailto:rpm-zzzlist@freshrpms.net>
-List-Subscribe: <http://lists.freshrpms.net/mailman/listinfo/rpm-zzzlist>,
-    <mailto:rpm-list-request@freshrpms.net?subject=subscribe>
-List-Id: Freshrpms RPM discussion list <rpm-zzzlist.freshrpms.net>
-List-Unsubscribe: <http://lists.freshrpms.net/mailman/listinfo/rpm-zzzlist>,
-    <mailto:rpm-list-request@freshrpms.net?subject=unsubscribe>
-List-Archive: <http://lists.freshrpms.net/pipermail/rpm-zzzlist/>
-X-Original-Date: Tue, 08 Oct 2002 23:41:46 -0700
-Date: Tue, 08 Oct 2002 23:41:46 -0700
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-I wrote:
-> [The bytecode interpreter] may improve non-antialiased rendering, but
-> only at the expense of making a mess of antialiased rendering.
+ Try this little problem on for size:
 
-Then again, perhaps the particular font I'm using just has bad
-bytecodes.  That font is "QuickType II", grabbed off my Windows
-partition, where it was installed by I-have-no-idea-which-application.
+ I've installed Redhat 7.3 on a raq3's disk. But fscked if I can get the
+kernel in /boot/vmlinuz-2.4.18-3 to boot. It's insisting pulling the
+kernel from ... somewhere else. The old cobalt kernel.
 
-Anybody else experimenting with bytecode-enabled freetype, presumably
-with different fonts?  Do you find the same bad antialiased rendering
-that I found, or do other fonts work well?
+ I've booted the disk with a redhat rescue CD, and installed grub on the
+MBR and hda1 & hda2 (just in case). No luck. The cobalt BIOS says "Booting
+default method - From disk".
 
-_______________________________________________
-RPM-List mailing list <RPM-List@freshrpms.net>
-http://lists.freshrpms.net/mailman/listinfo/rpm-list
+ Any ideas how I can get this thing to boot *my* kernel ? Anyone care to
+guess how the cobalt boot process ? Google seems very quiet on the
+subject of the cobalt boot process, and what is there doesn't seem to
+work. Simple stuff like:
+
+ (how to boot a different kernel)
+ http://list.cobalt.com/pipermail/cobalt-developers/1999-December/022014.html
+
+ And, on boot:
+
+Cobalt:Main Menu> bfd /boot/vmlinuz-2.4.18-3
+First stage kernel: Decompressing - done
+Second stage kernel: Decompressing - done
+Linux version 2.2.16C28 (konkers@unicron.cobalt.com)
+
+ Note the descrepancy between what I want to boot, and actually booted.
+
+Kate
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

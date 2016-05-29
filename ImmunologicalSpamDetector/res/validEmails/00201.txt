@@ -1,42 +1,41 @@
-From ilug-admin@linux.ie  Wed Aug 28 10:47:51 2002
+From ilug-admin@linux.ie  Thu Aug  1 17:17:13 2002
 Return-Path: <ilug-admin@linux.ie>
-Delivered-To: zzzz@localhost.netnoteinc.com
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id BD9B044156
-	for <zzzz@localhost>; Wed, 28 Aug 2002 05:47:26 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 7922E440F0
+	for <jm@localhost>; Thu,  1 Aug 2002 12:17:10 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 28 Aug 2002 10:47:26 +0100 (IST)
+	for jm@localhost (single-drop); Thu, 01 Aug 2002 17:17:10 +0100 (IST)
 Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7RKKoZ24338 for
-    <zzzz-ilug@spamassassin.taint.org>; Tue, 27 Aug 2002 21:20:50 +0100
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g71GAd220645 for
+    <jm-ilug@jmason.org>; Thu, 1 Aug 2002 17:10:39 +0100
 Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
-    (8.9.3/8.9.3) with ESMTP id VAA14593; Tue, 27 Aug 2002 21:19:19 +0100
-Received: from marklar.elive.net (smtp.elive.ie [212.120.138.41]) by
-    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id VAA14557 for <ilug@linux.ie>;
-    Tue, 27 Aug 2002 21:19:09 +0100
-Received: from gonzo.waider.ie
-    (IDENT:zbCsu2qvvPxAMgKG5/1BoVz7fvAHq4ae@1Cust48.tnt3.dub2.ie.uudial.net
-    [213.116.44.48]) by marklar.elive.net (8.11.6/8.11.6) with ESMTP id
-    g7RJolM28597 for <ilug@linux.ie>; Tue, 27 Aug 2002 20:50:47 +0100
-Received: from klortho.waider.ie
-    (IDENT:rRil9DCzd2WX06YswshhhkU/ahFcueXZ@klortho.waider.ie [10.0.0.100]) by
-    gonzo.waider.ie (8.11.6/8.11.6) with ESMTP id g7RKJ8730825 for
-    <ilug@linux.ie>; Tue, 27 Aug 2002 21:19:08 +0100
-Received: (from waider@localhost) by klortho.waider.ie (8.11.6/8.11.6) id
-    g7RKJAA18082; Tue, 27 Aug 2002 21:19:10 +0100
-X-Authentication-Warning: klortho.waider.ie: waider set sender to
-    waider@waider.ie using -f
+    (8.9.3/8.9.3) with ESMTP id RAA18578; Thu, 1 Aug 2002 17:08:26 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from relay.dub-t3-1.nwcgroup.com
+    (postfix@relay.dub-t3-1.nwcgroup.com [195.129.80.16]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id RAA18556 for <ilug@linux.ie>; Thu,
+    1 Aug 2002 17:08:20 +0100
+Received: from corvil.com (k100-75.bas1.dbn.dublin.eircom.net
+    [159.134.100.75]) by relay.dub-t3-1.nwcgroup.com (Postfix) with ESMTP id
+    01FD670092 for <ilug@linux.ie>; Thu,  1 Aug 2002 15:58:42 +0100 (IST)
+Received: from corvil.com (pixelbeat.local.corvil.com [172.18.1.170]) by
+    corvil.com (8.11.6/8.11.6) with ESMTP id g71Ewfr63937 for <ilug@linux.ie>;
+    Thu, 1 Aug 2002 15:58:42 +0100 (IST) (envelope-from
+    padraig.brady@corvil.com)
+Message-Id: <3D494C9E.3040004@corvil.com>
+Date: Thu, 01 Aug 2002 15:58:38 +0100
+From: Padraig Brady <padraig.brady@corvil.com>
+Organization: Corvil Networks
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.9) Gecko/20020408
+X-Accept-Language: en-us, en
 MIME-Version: 1.0
-Content-Type: text/plain; charset=us-ascii
-Content-Transfer-Encoding: 7bit
-Message-Id: <15723.57022.25028.68954@klortho.waider.ie>
-Date: Tue, 27 Aug 2002 21:19:10 +0100
-From: Ronan Waide <waider@waider.ie>
-To: ILUG list <ilug@linux.ie>
-X-Mailer: VM 7.07 under Emacs 21.2.1
-Organization: poor at best.
-Subject: [ILUG] doolin
+To: ilug@linux.ie
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+Subject: [ILUG] Am I cracked?
 Sender: ilug-admin@linux.ie
 Errors-To: ilug-admin@linux.ie
 X-Mailman-Version: 1.1
@@ -44,19 +43,37 @@ Precedence: bulk
 List-Id: Irish Linux Users' Group <ilug.linux.ie>
 X-Beenthere: ilug@linux.ie
 
-If you're not in Doolin, beg, borrow, or steal your way there before
-the LBW folk depart. It's far too much fun.
+Well you know what I mean.
 
-Cheers,
-Waider. Just back.
--- 
-waider@waider.ie / Yes, it /is/ very personal of me.
-"...we are in fact well and truly doomed. She says that if I leave now, 
- I can probably get a good head start before they realize that I'm gone."
-                                                    - Jamie Zawinski
+I noticed 2 connections from my
+(freshly installed RH7.3) machine to
+port 80 of the following addresses.
+
+216.145.20.5
+216.254.17.87
+
+Both resolve to cytocin.hubbe.NET
+using CCOM.NET & speakeasy.NET DNS
+servers respectively.
+
+Both connections lasted about 20
+seconds and were about 2 minutes apart.
+Any ideas?
+
+I didn't see what processes they came from,
+but I'm keeping a close eye now.
+
+Thanks,
+Pádraig.
+
+p.s. I'm can't subscribe to the list
+at the moment for some reason? so please
+reply directly.
+
 
 -- 
 Irish Linux Users' Group: ilug@linux.ie
 http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
 List maintainer: listmaster@linux.ie
+
 

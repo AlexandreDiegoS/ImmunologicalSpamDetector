@@ -1,69 +1,82 @@
-From fork-admin@xent.com  Fri Sep  6 11:42:28 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id ABC3916F76
-	for <jm@localhost>; Fri,  6 Sep 2002 11:39:51 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Mon Aug 19 14:05:46 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id BC39443C32
+	for <jm@localhost>; Mon, 19 Aug 2002 09:05:45 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Fri, 06 Sep 2002 11:39:51 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g869e8C28612 for <jm@jmason.org>;
-    Fri, 6 Sep 2002 10:40:08 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 10D7D294291; Fri,  6 Sep 2002 02:37:03 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from venus.phpwebhosting.com (venus.phpwebhosting.com
-    [64.29.16.27]) by xent.com (Postfix) with SMTP id DDED7294290 for
-    <fork@xent.com>; Fri,  6 Sep 2002 02:36:04 -0700 (PDT)
-Received: (qmail 31903 invoked by uid 508); 6 Sep 2002 09:38:40 -0000
-Received: from unknown (HELO hydrogen.leitl.org) (217.80.40.31) by
-    venus.phpwebhosting.com with SMTP; 6 Sep 2002 09:38:40 -0000
-Received: from localhost (eugen@localhost) by hydrogen.leitl.org
-    (8.11.6/8.11.6) with ESMTP id g869caH32655; Fri, 6 Sep 2002 11:38:36 +0200
-X-Authentication-Warning: hydrogen.leitl.org: eugen owned process doing -bs
-From: Eugen Leitl <eugen@leitl.org>
-To: <bitbitch@magnesium.net>
-Cc: "Adam L. Beberg" <beberg@mithral.com>, <fork@spamassassin.taint.org>
-Subject: Re[2]: Selling Wedded Bliss (was Re: Ouch...)
-In-Reply-To: <155207191859.20020905234116@magnesium.net>
-Message-Id: <Pine.LNX.4.33.0209061122540.30472-100000@hydrogen.leitl.org>
+	for jm@localhost (single-drop); Mon, 19 Aug 2002 14:05:45 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7JD3B624022 for
+    <jm-ilug@jmason.org>; Mon, 19 Aug 2002 14:03:12 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id OAA07112; Mon, 19 Aug 2002 14:02:09 +0100
+Received: from corvil.com. (k100-159.bas1.dbn.dublin.eircom.net
+    [159.134.100.159]) by lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id OAA07072
+    for <ilug@linux.ie>; Mon, 19 Aug 2002 14:02:01 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host k100-159.bas1.dbn.dublin.eircom.net
+    [159.134.100.159] claimed to be corvil.com.
+Received: from corvil.com (pixelbeat.local.corvil.com [172.18.1.170]) by
+    corvil.com. (8.12.5/8.12.5) with ESMTP id g7JD20n4037526 for
+    <ilug@linux.ie>; Mon, 19 Aug 2002 14:02:01 +0100 (IST) (envelope-from
+    padraig.brady@corvil.com)
+Message-Id: <3D60EC37.5040200@corvil.com>
+Date: Mon, 19 Aug 2002 14:01:43 +0100
+From: Padraig Brady <padraig.brady@corvil.com>
+Organization: Corvil Networks
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.9) Gecko/20020408
+X-Accept-Language: en-us, en
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+To: ilug@linux.ie
+Subject: Re: [ILUG] expanding a string multiple times
+References: <3D5D27B9.9080009@corvil.com>
+    <20020817122603.GA1805@bagend.makalumedia.com>
+    <3D60BA1D.8040504@corvil.com>
+    <20020819123945.GC3182@bagend.makalumedia.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Fri, 6 Sep 2002 11:38:36 +0200 (CEST)
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-On Thu, 5 Sep 2002 bitbitch@magnesium.net wrote:
+Niall O Broin wrote:
+> On Mon, Aug 19, 2002 at 10:27:57AM +0100, Padraig Brady wrote:
+> 
+> 
+>>>Well, here's a solution using seq and sed - IMHO its a rather dim solution
+>>>and it definitely dies if STRING contains / (and probably has other ways to
+>>>die too) and a bash loop would certainly be faster, but you know how to do
+>>>it with loops :-)
+>>>
+>>>PREFIX=seq -s "" $NUMBER|sed "s/./$STRING/g"OA
+>>
+>>clever. A bit more robust is:
+>>#first param is number of
+>>#times to repeat second param
+>>#
+>>#e.g. quote=`repeat 3 '> '`
+>>repeat() {
+>>    seq -s , $1 | sed "s¬[0-9]\{1,\}[,]*¬$2¬g"
+>>}
+> 
+> But it's such a crap colution anyway, why would you want to make it more
+> robust ?
+> 
 
-> If guys still have silly antequated ideas about 'women's role' then
-> their opportunities for finding women _will_ be scarce.  
+Give yourself credit :-) it's a nice solution,
+with just 2 lightweight processes. The same thing
+coded in shell loops wouldn't be nearly as elegant
+and not as scalable to boot.
 
-What is silly and antiquated depends a lot on which country you live in.
+Pádraig.
 
-I don't have statistics on the love half life, but it seems long-term 
-relationships use something else for glue.
 
-Clearly our non-silly non-antiquated ideas about relationships have
-resulted in mostly short-duration relationships and single-parented,
-dysfunctional kids (not enough of them too boot, so to keep our
-demographics from completely keeling over we're importing them from places
-with mostly silly and antiquated ideas).
-
-At least from the viewpoint of demographics sustainability and
-counterpressure to gerontocracy and resulting innovatiophobia we're doing
-something wrong.
-
-Maybe we should really go dirty Tleilaxu all the way.
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 

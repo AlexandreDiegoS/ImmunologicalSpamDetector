@@ -1,101 +1,66 @@
-From sentto-2242572-53808-1031308225-zzzz=spamassassin.taint.org@returns.groups.yahoo.com  Fri Sep  6 11:49:00 2002
-Return-Path: <sentto-2242572-53808-1031308225-zzzz=spamassassin.taint.org@returns.groups.yahoo.com>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id E17DE16F96
-	for <zzzz@localhost>; Fri,  6 Sep 2002 11:41:58 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Tue Aug  6 11:51:28 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 8D15A441DF
+	for <jm@localhost>; Tue,  6 Aug 2002 06:48:11 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Fri, 06 Sep 2002 11:41:58 +0100 (IST)
-Received: from n21.grp.scd.yahoo.com (n21.grp.scd.yahoo.com
-    [66.218.66.77]) by dogma.slashnull.org (8.11.6/8.11.6) with SMTP id
-    g86AUBC32505 for <zzzz@spamassassin.taint.org>; Fri, 6 Sep 2002 11:30:11 +0100
-X-Egroups-Return: sentto-2242572-53808-1031308225-zzzz=spamassassin.taint.org@returns.groups.yahoo.com
-Received: from [66.218.67.195] by n21.grp.scd.yahoo.com with NNFMP;
-    06 Sep 2002 10:30:25 -0000
-X-Sender: martin@srv0.ems.ed.ac.uk
-X-Apparently-To: zzzzteana@yahoogroups.com
-Received: (EGP: mail-8_1_0_1); 6 Sep 2002 10:30:24 -0000
-Received: (qmail 76905 invoked from network); 6 Sep 2002 10:30:24 -0000
-Received: from unknown (66.218.66.217) by m2.grp.scd.yahoo.com with QMQP;
-    6 Sep 2002 10:30:24 -0000
-Received: from unknown (HELO haymarket.ed.ac.uk) (129.215.128.53) by
-    mta2.grp.scd.yahoo.com with SMTP; 6 Sep 2002 10:30:24 -0000
-Received: from srv0.ems.ed.ac.uk (srv0.ems.ed.ac.uk [129.215.117.0]) by
-    haymarket.ed.ac.uk (8.11.6/8.11.6) with ESMTP id g86AUN309856 for
-    <forteana@yahoogroups.com>; Fri, 6 Sep 2002 11:30:23 +0100 (BST)
-Received: from EMS-SRV0/SpoolDir by srv0.ems.ed.ac.uk (Mercury 1.44);
-    6 Sep 02 11:30:22 +0000
-Received: from SpoolDir by EMS-SRV0 (Mercury 1.44); 6 Sep 02 11:30:13 +0000
-Organization: Management School
-To: zzzzteana@yahoogroups.com
-Message-Id: <3D7891CB.3124.52C34AEB@localhost>
-Priority: normal
-X-Mailer: Pegasus Mail for Windows (v4.01)
-Content-Description: Mail message body
-From: "Martin Adamson" <martin@srv0.ems.ed.ac.uk>
+	for jm@localhost (single-drop); Tue, 06 Aug 2002 11:48:11 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g738Ouv06320 for
+    <jm-ilug@jmason.org>; Sat, 3 Aug 2002 09:24:56 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id JAA21297; Sat, 3 Aug 2002 09:22:31 +0100
+Received: from bubble.oceanfree.net ([212.2.162.35]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id JAA21259 for <ilug@linux.ie>; Sat,
+    3 Aug 2002 09:22:20 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host [212.2.162.35] claimed to
+    be bubble.oceanfree.net
+Received: from [159.134.228.21] (helo=there) by bubble.oceanfree.net with
+    smtp (Exim 3.33 #3) id 17auB1-00037o-00; Sat, 03 Aug 2002 09:22:19 +0100
+Content-Type: text/plain; charset="iso-8859-1"
+From: Robert Synnott <r.synnott@oceanfree.net>
+To: "Gregory McRandal (ext 722)" <Gregory.McRandal@fineos.com>,
+	"Irish Linux User's Group (E-mail)" <ilug@linux.ie>
+Subject: Re: [ILUG] Quake 3
+Date: Sat, 3 Aug 2002 09:21:17 +0100
+X-Mailer: KMail [version 1.3.1]
+References: <D0A7D6543169D3119B3E00902789397E044219E7@oasis006.msc.ie>
+In-Reply-To: <D0A7D6543169D3119B3E00902789397E044219E7@oasis006.msc.ie>
 MIME-Version: 1.0
-Mailing-List: list zzzzteana@yahoogroups.com; contact
-    forteana-owner@yahoogroups.com
-Delivered-To: mailing list zzzzteana@yahoogroups.com
-Precedence: bulk
-List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
-Date: Fri, 6 Sep 2002 11:30:04 +0100
-Subject: [zzzzteana] Scissors are a snip for Third World
-Reply-To: zzzzteana@yahoogroups.com
-Content-Type: text/plain; charset=ISO-8859-1
 Content-Transfer-Encoding: 8bit
-X-MIME-Autoconverted: from quoted-printable to 8bit by dogma.slashnull.org
-    id g86AUBC32505
+Message-Id: <E17auB1-00037o-00@bubble.oceanfree.net>
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
+Precedence: bulk
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-The Times
+On Friday 02 August 2002 09:41, Gregory McRandal (ext 722) wrote:
+> Hi,
+>
+> I've installed Quake 3 onto my computer and it starts to run up ok but as
+> soon as the graphics start it bails out.  It complains that there is an
+> error in sis_drv.o,  the line before this says that it is starting Quake in
+> 24 bit depth, now from http://www.winischhofer.net/linuxsis630.shtml I
+> understand that the sis630 won't do 24 bit depth.  So is there a way to
+> make Quake start up in 16 bit depth?  I've done some "google"ing but drawn
+> a blank.....
+>
+> Thanks
+>
+> Greg
 
- September 06, 2002
- 
- Scissors are a snip for Third World
- From Richard Owen in Rome
- 
- 
- 
- IT IS one of the unanswered questions of the past year: what happens to the
- millions of nail scissors confiscated by airport security officials from
- passengers’ hand luggage? Most are thrown away or recycled after being seized
- as part of security measures since September 11. But an enterprising chaplain
- is sending them to Catholic missionaries for distribution to Third World
- hospitals and clinics. In theory travellers who have left nail scissors, nail
- files, corkscrews or manicure sets from their hand luggage can arrange for
- them to be returned. In practice many just shrug and leave the scissors by the
- X-ray scanners. 
- 
- Father Arturo Rossini, chaplain of Malpensa airport in Milan, said that
- scissors were costly or unavailable in many parts of Africa, Asia and Latin
- America. 
- 
- He told Corriere della Sera that he had “plucked up the courage” to ask the
- authorities if he could have the confiscated scissors. With the help of a
- retired airport policeman, he had packaged 60,000 nail scissors and manicure
- sets, using the airport chapel as a packing centre. 
- 
- Packages were shipped in aircraft holds to Peru, Brasil, India, Mozambique,
- Argentina, Zambia and Kenya. “In such countries, what we think of as a
- personal grooming accessory can be a vital tool.” 
- 
- The idea has been taken up at other Italian airports. 
- 
- 
+If your card has its own MesaGL drivers it may want you to remove the one in 
+the Quake directory (certainly NVidia cards do this). Have a look at the docs 
+for your card's Linux drivers.
+Bob
 
-
------------------------- Yahoo! Groups Sponsor ---------------------~-->
-Plan to Sell a Home?
-http://us.click.yahoo.com/J2SnNA/y.lEAA/MVfIAA/7gSolB/TM
----------------------------------------------------------------------~->
-
-To unsubscribe from this group, send an email to:
-forteana-unsubscribe@egroups.com
-
- 
-
-Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

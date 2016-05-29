@@ -1,38 +1,38 @@
-From ilug-admin@linux.ie  Wed Aug 28 10:49:25 2002
+From ilug-admin@linux.ie  Fri Aug  2 09:25:23 2002
 Return-Path: <ilug-admin@linux.ie>
-Delivered-To: zzzz@localhost.netnoteinc.com
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 684BD44158
-	for <zzzz@localhost>; Wed, 28 Aug 2002 05:48:19 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id DB4A1440F1
+	for <jm@localhost>; Fri,  2 Aug 2002 04:25:22 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 28 Aug 2002 10:48:19 +0100 (IST)
+	for jm@localhost (single-drop); Fri, 02 Aug 2002 09:25:22 +0100 (IST)
 Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7S8wTZ17205 for
-    <zzzz-ilug@spamassassin.taint.org>; Wed, 28 Aug 2002 09:58:29 +0100
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g728NI212523 for
+    <jm-ilug@jmason.org>; Fri, 2 Aug 2002 09:23:19 +0100
 Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
-    (8.9.3/8.9.3) with ESMTP id JAA12291; Wed, 28 Aug 2002 09:57:42 +0100
-Received: from corvil.com. (k100-159.bas1.dbn.dublin.eircom.net
-    [159.134.100.159]) by lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id JAA12252
-    for <ilug@linux.ie>; Wed, 28 Aug 2002 09:57:32 +0100
-X-Authentication-Warning: lugh.tuatha.org: Host k100-159.bas1.dbn.dublin.eircom.net
-    [159.134.100.159] claimed to be corvil.com.
-Received: from corvil.com (pixelbeat.local.corvil.com [172.18.1.170]) by
-    corvil.com. (8.12.5/8.12.5) with ESMTP id g7S8vSn4051594 for
-    <ilug@linux.ie>; Wed, 28 Aug 2002 09:57:28 +0100 (IST) (envelope-from
-    padraig.brady@corvil.com)
-Message-Id: <3D6C9060.7090308@corvil.com>
-Date: Wed, 28 Aug 2002 09:57:04 +0100
-From: Padraig Brady <padraig.brady@corvil.com>
-Organization: Corvil Networks
-User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.9) Gecko/20020408
-X-Accept-Language: en-us, en
-MIME-Version: 1.0
+    (8.9.3/8.9.3) with ESMTP id JAA25564; Fri, 2 Aug 2002 09:20:43 +0100
+Received: from AUSADMMSRR503.aus.amer.dell.com ([143.166.83.90]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with SMTP id JAA25531 for <ilug@linux.ie>;
+    Fri, 2 Aug 2002 09:20:37 +0100
+From: Stephen_Reilly@dell.com
+X-Authentication-Warning: lugh.tuatha.org: Host [143.166.83.90] claimed to
+    be AUSADMMSRR503.aus.amer.dell.com
+Received: from 143.166.227.176 by AUSADMMSRR503.aus.amer.dell.com with
+    ESMTP (Tumbleweed MMS SMTP Relay (MMS v4.7);); Fri, 02 Aug 2002 03:19: 59
+    -0500
+X-Server-Uuid: 91331657-2068-4fb8-8b09-a4fcbc1ed29f
+Received: by ausxc08.us.dell.com with Internet Mail Service (5.5.2650.21 )
+    id <PFCD10YX>; Fri, 2 Aug 2002 03:12:16 -0500
+Message-Id: <653270E74A8DD31197AF009027AA4F8B01845F1A@LIMXMMF303>
 To: ilug@linux.ie
-Subject: Re: [ILUG] directory merging
-References: <20020827082935.GS13271@jinny.ie>
-Content-Type: text/plain; charset=ISO-8859-1; format=flowed
-Content-Transfer-Encoding: 8bit
+Subject: RE: [ILUG] Dell GX260 V Redhat 7.3
+Date: Fri, 2 Aug 2002 03:19:53 -0500
+MIME-Version: 1.0
+X-Mailer: Internet Mail Service (5.5.2650.21)
+X-WSS-Id: 11549F255534852-01-01
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
 Sender: ilug-admin@linux.ie
 Errors-To: ilug-admin@linux.ie
 X-Mailman-Version: 1.1
@@ -40,26 +40,37 @@ Precedence: bulk
 List-Id: Irish Linux Users' Group <ilug.linux.ie>
 X-Beenthere: ilug@linux.ie
 
-John P. Looney wrote:
->  I've two directories, that once upon a time contained the same files.
-> 
->  Now, they don't.
-> 
->  Is there a tool to merge the two - create a new directory where if the
-> files are the same, they aren't changed, if they are different, the one
-> with the most recent datestamp is used...
+>> I swear to god you have to be so carefull with dell machines 
+>> and linux. 
+...
+>> to have some cheapo piece of hardware (eth card, modem, 
+>> sound, graphics )
+>> that is incompatable/unsupported. 
+...
+>> with some crap
+>> dell machine that 
+yes, yes, all terribly insightful and extremely useful information.
+ 
+> We just got some new Dell GX260 machines here are work and 
+> I'm supposed to
+> be putting Linux on them. I tried installing RedHat 7.3. It 
+> just didn't want
+> to know about the graphics card. I's an onboard Intel DVMT chip. No
+> dedicated memory, it takes it from the onboard RAM.
+The onboard DVMT card has an Intel 845 G/GL chipset.
+http://www.intel.com/support/graphics/linux/ or
+http://www.intel.com/support/graphics/intel845g/linux.htm has more specific
+information. There is help available there.
 
-Just for the record mc has a nice directory
-comparison function. This is really nice
-when using the ftp VFS for e.g. Of course
-if you use something like ftpfs you can use
-the previously mentioned tools.
+I also found somewhere (not through personal experience though) that
+2.4.19-pre10ac2 includes drivers for the chipset ?
 
-Pádraig.
+Steve
 
 
 -- 
 Irish Linux Users' Group: ilug@linux.ie
 http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
 List maintainer: listmaster@linux.ie
+
 

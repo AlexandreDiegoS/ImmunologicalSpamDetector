@@ -1,99 +1,99 @@
-From sentto-2242572-56004-1034050340-zzzz=spamassassin.taint.org@returns.groups.yahoo.com  Tue Oct  8 10:58:43 2002
-Return-Path: <sentto-2242572-56004-1034050340-zzzz=spamassassin.taint.org@returns.groups.yahoo.com>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id 5046A16F22
-	for <zzzz@localhost>; Tue,  8 Oct 2002 10:57:16 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Mon Jul 29 11:28:21 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id CAD0144127
+	for <jm@localhost>; Mon, 29 Jul 2002 06:25:18 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Tue, 08 Oct 2002 10:57:16 +0100 (IST)
-Received: from n4.grp.scd.yahoo.com (n4.grp.scd.yahoo.com [66.218.66.88])
-    by dogma.slashnull.org (8.11.6/8.11.6) with SMTP id g984BeK32546 for
-    <zzzz@spamassassin.taint.org>; Tue, 8 Oct 2002 05:11:41 +0100
-X-Egroups-Return: sentto-2242572-56004-1034050340-zzzz=spamassassin.taint.org@returns.groups.yahoo.com
-Received: from [66.218.67.193] by n4.grp.scd.yahoo.com with NNFMP;
-    08 Oct 2002 04:12:21 -0000
-X-Sender: felinda@frogstone.net
-X-Apparently-To: zzzzteana@yahoogroups.com
-Received: (EGP: mail-8_2_2_0); 8 Oct 2002 04:12:20 -0000
-Received: (qmail 11245 invoked from network); 8 Oct 2002 04:12:19 -0000
-Received: from unknown (66.218.66.216) by m11.grp.scd.yahoo.com with QMQP;
-    8 Oct 2002 04:12:19 -0000
-Received: from unknown (HELO mail2.athenet.net) (209.103.196.16) by
-    mta1.grp.scd.yahoo.com with SMTP; 8 Oct 2002 04:12:19 -0000
-Received: from [209.103.203.17] (209-103-203-17.dial-in1.osh.athenet.net
-    [209.103.203.17]) by mail2.athenet.net (8.11.6/8.11.6) with ESMTP id
-    g984CH428341 for <forteana@yahoogroups.com>; Mon, 7 Oct 2002 23:12:18
-    -0500
-X-Sender: felinda@pop2.athenet.net (Unverified)
-Message-Id: <a05200a01b9c80b70e2c2@[209.103.203.17]>
-In-Reply-To: <3DA23A55.B985F5D6@mindspring.com>
-References: <a05200a00b9c44165aea1@[209.103.203.12]>
-    <3D9E980B.2B2BBE50@mindspring.com>
-    <a05200a01b9c44d30723e@[209.103.203.12]>
-    <3DA23A55.B985F5D6@mindspring.com>
-To: zzzzteana@yahoogroups.com
-From: That Goddess Chick <felinda@frogstone.net>
-X-Yahoo-Profile: felinda
+	for jm@localhost (single-drop); Mon, 29 Jul 2002 11:25:18 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6T2TJi04564 for
+    <jm-ilug@jmason.org>; Mon, 29 Jul 2002 03:29:19 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id DAA12842; Mon, 29 Jul 2002 03:25:57 +0100
+Received: from ie.suberic.net (owsla.ie.suberic.net [62.17.162.83]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id DAA12807 for <ilug@linux.ie>;
+    Mon, 29 Jul 2002 03:25:50 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host owsla.ie.suberic.net
+    [62.17.162.83] claimed to be ie.suberic.net
+Received: from owsla.ie.suberic.net (owsla [127.0.0.1]) by ie.suberic.net
+    (8.11.6/8.11.6) with ESMTP id g6T2PnY06410 for <ilug@linux.ie>;
+    Mon, 29 Jul 2002 03:25:49 +0100
+Date: Mon, 29 Jul 2002 03:25:47 +0100
+To: irish linux users group <ilug@linux.ie>
+Message-Id: <20020729032547.A5170@ie.suberic.net>
 MIME-Version: 1.0
-Mailing-List: list zzzzteana@yahoogroups.com; contact
-    forteana-owner@yahoogroups.com
-Delivered-To: mailing list zzzzteana@yahoogroups.com
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.2.5.1i
+X-Operating-System: Linux 2.4.18-5 i686
+X-GPG-Fingerprint: 9C1D 16F4 11F1 6BD2 933C  048D ACC7 9840 89D0 7646
+From: kevin lyda <kevin+dated+1028341549.b9da18@ie.suberic.net>
+X-Delivery-Agent: TMDA/0.57
+Subject: [ILUG] web amusements...
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
-Date: Mon, 7 Oct 2002 23:11:58 -0500
-Subject: Re: [zzzzteana] The Cafe Forteana is back online!!!
-Reply-To: zzzzteana@yahoogroups.com
-Content-Type: text/plain; charset=US-ASCII
-Content-Transfer-Encoding: 7bit
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
->That Goddess Chick wrote:
->>
->>  >Thanks Fel.  Got no scanner.  My photo is in that group of 100 obsessive
->>  >compulsive clipsters in FT, 1996 or 1997.
->>  >
->>  >Terry
->>
->>  Great, and right now all my pre '98s are in Washington state, in a
->>  cardboard box in a shed in the back of Sydde's garage. Probably mice
->>  nests by now. :-(  Put a scanner on your Christmas list right above
->>  world peace!
->>  --
->>
->>  Fel
->>  NEW!! Cafe Forteana is back: 
->><http://www.frogstone.net/Cafe/CafeForteana.html>http://www.frogstone.net/Cafe/CafeForteana.html
->
->Maybe a kind soul with access to that issue and a scanner could scan it and
->forward to you.
->
->Terry
->
+ok, so i was also learning about css this weekend (thanks to the fine
+folks in irc.linux.ie, #linux!).  i came up with the following in
+my travels.  first, two style sheets:
 
-I would appreciate that very much as I won't be getting back to 
-Washington until December.
+http://ie.suberic.net/css/style.css:
+    body {
+	color : black;
+	background-color : white;
+    }
+
+http://ie.suberic.net/css/style-windows.css:
+    body {
+	background-image : url("http://ie.suberic.net/images/use.linux.gif");
+	background-repeat: repeat;
+    }
+
+then i include the css in an html page like so:
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+    <html>
+    <head>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>blah</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+    </head>
+
+now i use mod_rewrite to rewrite requests for /css/style.css to
+/css/style-windows.css if the browser is on windows by putting this
+in httpd.conf:
+
+    RewriteEngine   on
+    #RewriteLog     "/tmp/foo.log"  # use this for debugging
+    #RewriteLogLevel        3
+    RewriteCond     %{HTTP_USER_AGENT}      Windows
+    RewriteRule     ^/css/style\.css$       /css/style-windows.css
+
+oh, and of course images/use.linux.gif is an animated gif that is
+transparent for 55 seconds and then displays "use linux!" in a large
+blue font for 5 seconds.  :)
+
+and the way to create animated gifs is to put each frame in a layer in
+the gimp.  pick any name for each layer, but make sure each layer ends
+with (XXXms) where XXX is the number of milliseconds the frame displays.
+then use the animation tool to export the animation.
+
+kevin
+
 -- 
+kevin@suberic.net     that a believer is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspace place: home       than a sober one. the happiness of credulity is a
+http://ie.suberic.net/~kevin   cheap & dangerous quality -- g.b. shaw
 
-
-Fel
-NEW!! Cafe Forteana is back: http://www.frogstone.net/Cafe/CafeForteana.html
-http://www.frogstone.net
-Weird Page: http://my.athenet.net/~felinda/WeirdPage.html
-
-[Non-text portions of this message have been removed]
-
-
------------------------- Yahoo! Groups Sponsor ---------------------~-->
-Sell a Home with Ease!
-http://us.click.yahoo.com/SrPZMC/kTmEAA/MVfIAA/7gSolB/TM
----------------------------------------------------------------------~->
-
-To unsubscribe from this group, send an email to:
-forteana-unsubscribe@egroups.com
-
- 
-
-Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

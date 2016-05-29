@@ -1,40 +1,34 @@
-From ilug-admin@linux.ie  Wed Aug 28 13:55:22 2002
+From ilug-admin@linux.ie  Fri Aug  2 16:33:45 2002
 Return-Path: <ilug-admin@linux.ie>
-Delivered-To: zzzz@localhost.netnoteinc.com
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id EE8BC43F9B
-	for <zzzz@localhost>; Wed, 28 Aug 2002 08:55:21 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 585F944102
+	for <jm@localhost>; Fri,  2 Aug 2002 11:32:46 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 28 Aug 2002 13:55:22 +0100 (IST)
+	for jm@localhost (single-drop); Fri, 02 Aug 2002 16:32:46 +0100 (IST)
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g72Eksn01618 for
+    <jm-ilug@jmason.org>; Fri, 2 Aug 2002 15:46:54 +0100
 Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7SCrbZ24883 for
-    <zzzz-ilug@spamassassin.taint.org>; Wed, 28 Aug 2002 13:53:37 +0100
+    webnote.net (8.9.3/8.9.3) with ESMTP id NAA02877 for <jm-ilug@jmason.org>;
+    Fri, 2 Aug 2002 13:44:42 +0100
 Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
-    (8.9.3/8.9.3) with ESMTP id NAA26270; Wed, 28 Aug 2002 13:52:45 +0100
-X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
-    claimed to be lugh
-Received: from bramg1.net.external.hp.com (bramg1.net.external.hp.com
-    [192.6.126.73]) by lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id NAA26233
-    for <ilug@linux.ie>; Wed, 28 Aug 2002 13:52:36 +0100
-Received: from fowey.BR.ITC.HP.COM (fowey.br.itc.hp.com [15.145.8.186]) by
-    bramg1.net.external.hp.com (Postfix) with SMTP id 04D30200 for
-    <ilug@linux.ie>; Wed, 28 Aug 2002 14:52:35 +0200 (METDST)
-Received: from 15.145.8.186 by fowey.BR.ITC.HP.COM (InterScan E-Mail
-    VirusWall NT); Wed, 28 Aug 2002 13:52:35 +0100
-Received: by fowey.br.itc.hp.com with Internet Mail Service (5.5.2655.55)
-    id <RV1HA6Q5>; Wed, 28 Aug 2002 13:52:35 +0100
-Message-Id: <253B1BDA4E68D411AC3700D0B77FC5F807C0F1CE@patsydan.dublin.hp.com>
-From: "HAMILTON,DAVID (HP-Ireland,ex2)" <david_hamilton3@hp.com>
-To: "'ilug@linux.ie'" <ilug@linux.ie>
-Date: Wed, 28 Aug 2002 13:52:32 +0100
+    (8.9.3/8.9.3) with ESMTP id NAA08062; Fri, 2 Aug 2002 13:44:13 +0100
+Received: from UKExt5.uk.exel.com ([193.132.29.98]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id NAA08036 for <ilug@linux.ie>; Fri,
+    2 Aug 2002 13:44:07 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host [193.132.29.98] claimed to
+    be UKExt5.uk.exel.com
+From: "Dermot Beirne" <Dermot.Beirne@exel.com>
+To: "ilug" <ilug@linux.ie>
+Message-Id: <OF804176DA.23B0755F-ON80256C09.003E8977@uk.exel.com>
+Date: Fri, 2 Aug 2002 12:23:04 +0100
+X-Mimetrack: Serialize by Router on UKExt5/Exel-External(Release 5.0.9a
+    |January 7, 2002) at 02/08/2002 13:44:06
 MIME-Version: 1.0
-X-Mailer: Internet Mail Service (5.5.2655.55)
-Content-Type: text/plain; charset="windows-1251"
-Content-Transfer-Encoding: 8bit
-X-MIME-Autoconverted: from quoted-printable to 8bit by lugh.tuatha.org id
-    NAA26233
-Subject: [ILUG] Hayes Accura ISDN PCI
+Content-Type: text/plain; charset=us-ascii
+Subject: [ILUG] Dermot Beirne/Dublin/IE/Exel is out of the office.
 Sender: ilug-admin@linux.ie
 Errors-To: ilug-admin@linux.ie
 X-Mailman-Version: 1.1
@@ -42,19 +36,28 @@ Precedence: bulk
 List-Id: Irish Linux Users' Group <ilug.linux.ie>
 X-Beenthere: ilug@linux.ie
 
-Does anyone know if this is supported under 2.4.18 kernels or higher?
+I will be out of the office starting  02/08/2002 and will not return until
+06/08/2002.
 
-I need to buy an ISDN TA quick, and PC World have these in stock for ˆ65.
+I am out of the office until Tuesday 6th August.   I will reply to messages
+on my return.
 
-Thanks,
-	David.
+Thank you.
+DermotImportant Email Information
 
-David Hamilton
-Senior Technical Consultant
-HP Ireland 
+The information in this email is confidential and may be legally
+privileged. It is intended solely for the addressee. Access to this email
+by anyone else is unauthorized. If you are not the intended recipient, any
+disclosure, copying, distribution or any action taken or omitted to be
+taken in reliance on it, is prohibited and may be unlawful. If you are not
+the intended addressee please contact the sender and dispose of this
+e-mail.
+
+
 
 -- 
 Irish Linux Users' Group: ilug@linux.ie
 http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
 List maintainer: listmaster@linux.ie
+
 

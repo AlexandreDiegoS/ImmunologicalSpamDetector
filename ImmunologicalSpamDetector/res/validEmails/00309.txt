@@ -1,65 +1,68 @@
-From fork-admin@xent.com  Mon Aug 26 18:01:13 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Fri Aug  9 15:21:22 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id A263843F99
-	for <jm@localhost>; Mon, 26 Aug 2002 13:01:12 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 7B5F743FB1
+	for <jm@localhost>; Fri,  9 Aug 2002 10:21:03 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Mon, 26 Aug 2002 18:01:12 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7QGvfZ01544 for <jm@jmason.org>;
-    Mon, 26 Aug 2002 17:57:41 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 9FA452940B7; Mon, 26 Aug 2002 09:55:10 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from crank.slack.net (slack.net [166.84.151.181]) by xent.com
-    (Postfix) with ESMTP id 42DCE2940A2 for <fork@xent.com>; Mon,
-    26 Aug 2002 09:54:52 -0700 (PDT)
-Received: by crank.slack.net (Postfix, from userid 596) id 347AA3EE33;
-    Mon, 26 Aug 2002 12:59:07 -0400 (EDT)
-Received: from localhost (localhost [127.0.0.1]) by crank.slack.net
-    (Postfix) with ESMTP id 3305F3EE32; Mon, 26 Aug 2002 12:59:07 -0400 (EDT)
-From: Tom <tomwhore@slack.net>
-To: RossO <fork@ordersomewherechaos.com>
-Cc: fork@spamassassin.taint.org
-Subject: Re: Computational Recreations
-In-Reply-To: <D27C2881-B909-11D6-9880-00039344DDD6@ordersomewherechaos.com>
-Message-Id: <Pine.BSO.4.44.0208261252210.16631-100000@crank.slack.net>
+	for jm@localhost (single-drop); Fri, 09 Aug 2002 15:21:03 +0100 (IST)
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g79EJJb06065 for
+    <jm-ilug@jmason.org>; Fri, 9 Aug 2002 15:19:19 +0100
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    webnote.net (8.9.3/8.9.3) with ESMTP id JAA04638 for <jm-ilug@jmason.org>;
+    Fri, 9 Aug 2002 09:54:26 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id JAA30726; Fri, 9 Aug 2002 09:53:11 +0100
+Received: from matrix.netsoc.tcd.ie (netsoc.tcd.ie [134.226.83.50]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id JAA30697 for <ilug@linux.ie>;
+    Fri, 9 Aug 2002 09:53:06 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host netsoc.tcd.ie
+    [134.226.83.50] claimed to be matrix.netsoc.tcd.ie
+Received: from matrix (localhost [127.0.0.1]) by matrix.netsoc.tcd.ie
+    (Postfix) with ESMTP id AE3003445B for <ilug@linux.ie>; Fri,
+    9 Aug 2002 09:52:35 +0100 (IST)
+Date: Fri, 9 Aug 2002 09:52:33 +0100
+To: "'ilug@linux.ie'" <ilug@linux.ie>
+Subject: Re: [ILUG] slashdot EW Dijkstra humor
+Message-Id: <20020809095233.A22778@netsoc.tcd.ie>
+References: <55DA5264CE16D41186F600D0B74D6B09247243@KBS01>
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <55DA5264CE16D41186F600D0B74D6B09247243@KBS01>
+User-Agent: Mutt/1.3.23i
+X-Operating-System: SunOS matrix 5.8 Generic_108528-09 sun4u sparc
+From: Gary Coady <gary+dated+1029315155.6bcd09@netsoc.tcd.ie>
+Mail-Followup-To: ilug@linux.ie
+X-Delivery-Agent: TMDA/0.59
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Mon, 26 Aug 2002 12:59:07 -0400 (EDT)
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-On 26 Aug 2002, RossO wrote:
+On Thu, Aug 08, 2002 at 01:40:30PM +0100, Brian O'Donoghue wrote:
+> One thing that really bugs me is when people say things like.
+> 
+> "On the machies we have these days you don't have to worry about
+>  writing optimised code" or "don't worry about writing
+>  things inline, just use a function"
 
---]Does anyone here know if the Computational Recreations columns from
---]Scientific American in the 70's/80's were compiled into a book or two? I
---]think I remember Martin Gardner publishing the earlier Mathematical
---]Recreations in a couple of hard covers, but I'm unsure about the later
---]column. Help?
---]
+Oops, I tend to feel like that most times! I tend to feel that if we
+have extremely good compilation tools, then those tools should be able
+to do the inlining and optimisation far better than I could. That's the
+theory anyway :) And there's always a tradeoff with inlining between
+speed and memory bloat (which may sometimes be no tradeoff if swap
+starts getting involved...)
 
-Not sure about MG, though I know pretty much everything he penned got into
-print at one time or another.  SA needs to do what National Geo did and
-put out thier back issues on CD.
+Gary.
 
-Post MG in the 80's there were the colums by A K Dewdney that I dug a
-bunch put into a book  called Turing Omnibus and then there is , of
-course, all the goodens put out by Dougy Hoffstadler.
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
-
-
-http://xent.com/mailman/listinfo/fork
 

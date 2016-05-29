@@ -1,60 +1,72 @@
-From fork-admin@xent.com  Mon Aug 26 16:57:05 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Fri Aug  9 15:21:07 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 9B45F44156
-	for <jm@localhost>; Mon, 26 Aug 2002 11:57:02 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 5DC63440CF
+	for <jm@localhost>; Fri,  9 Aug 2002 10:20:58 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Mon, 26 Aug 2002 16:57:02 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7QFqfZ31604 for <jm@jmason.org>;
-    Mon, 26 Aug 2002 16:52:42 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id E2431294171; Mon, 26 Aug 2002 08:50:09 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from mlug.missouri.edu (mlug.missouri.edu [128.206.61.230]) by
-    xent.com (Postfix) with ESMTP id 7371B29416F for <fork@xent.com>;
-    Mon, 26 Aug 2002 08:49:33 -0700 (PDT)
-Received: from mlug.missouri.edu (mogmios@localhost [127.0.0.1]) by
-    mlug.missouri.edu (8.12.3/8.12.3/Debian -4) with ESMTP id g7QFpTKL021128
-    (version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=FAIL);
-    Mon, 26 Aug 2002 10:51:30 -0500
-Received: from localhost (mogmios@localhost) by mlug.missouri.edu
-    (8.12.3/8.12.3/Debian -4) with ESMTP id g7QFpTIt021124; Mon,
-    26 Aug 2002 10:51:29 -0500
-From: Michael <mogmios@mlug.missouri.edu>
-To: Lucas Gonze <lgonze@panix.com>
-Cc: FoRK <fork@spamassassin.taint.org>
-Subject: Re: The GOv gets tough on Net Users.....er Pirates..
-In-Reply-To: <Pine.LNX.4.44.0208241002330.17440-100000@localhost.localdomain>
-Message-Id: <Pine.LNX.4.44.0208261049170.19073-100000@mlug.missouri.edu>
+	for jm@localhost (single-drop); Fri, 09 Aug 2002 15:20:58 +0100 (IST)
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g79EJ8b06055 for
+    <jm-ilug@jmason.org>; Fri, 9 Aug 2002 15:19:08 +0100
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    webnote.net (8.9.3/8.9.3) with ESMTP id JAA04583 for <jm-ilug@jmason.org>;
+    Fri, 9 Aug 2002 09:44:59 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id JAA30120; Fri, 9 Aug 2002 09:42:13 +0100
+Received: from homer.jinny.ie ([193.120.171.3]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id JAA30091 for <ilug@linux.ie>; Fri,
+    9 Aug 2002 09:42:08 +0100
+Received: from jlooney.jinny.ie (fw [193.120.171.2]) by homer.jinny.ie
+    (8.9.3/8.11.2) with ESMTP id JAA29002 for <ilug@linux.ie>; Fri,
+    9 Aug 2002 09:41:37 +0100
+Received: (from john@localhost) by jlooney.jinny.ie (8.11.6/8.11.6) id
+    g798g0c28328 for ilug@linux.ie; Fri, 9 Aug 2002 09:42:00 +0100
+X-Authentication-Warning: jlooney.jinny.ie: john set sender to
+    jlooney@jinny.ie using -f
+Date: Fri, 9 Aug 2002 09:42:00 +0100
+From: "John P. Looney" <valen@tuatha.org>
+To: ilug@linux.ie
+Subject: Re: [ILUG] Cobalt question
+Message-Id: <20020809084200.GD27461@jinny.ie>
+Reply-To: ilug@linux.ie
+Mail-Followup-To: ilug@linux.ie
+References: <20020808103101.GA1853@jinny.ie>
+    <20020808175118.GC30251@iulus.wunsch.org>
+    <20020809080152.GE23620@jinny.ie> <3D537CB9.7050902@corvil.com>
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <3D537CB9.7050902@corvil.com>
+User-Agent: Mutt/1.4i
+X-Os: Red Hat Linux 7.3/Linux 2.4.18-3
+X-Url: http://www.redbrick.dcu.ie/~valen
+X-Gnupg-Publickey: http://www.redbrick.dcu.ie/~valen/public.asc
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Mon, 26 Aug 2002 10:51:29 -0500 (CDT)
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-Hire a really talented skywriter to doodle nudie pics in the sky and see
-if they figure out what to charge you with. Exactly how far into the sky
-does the border of your local district reach?
+On Fri, Aug 09, 2002 at 09:26:33AM +0100, Padraig Brady mentioned:
+> ext2 can mount an ext3 partition, but there are
+> probably small changes required (to the BIOS)
+> to support this?
 
-> > If the creator didnt say you could have it without paying, it's theft,
-> > so simple, hell that's even in all the major holy books.
->
-> Wow, I've got a great idea!  I'll hire a skywriter to write "you can't
-> look at this without paying," then lock up everybody who looked at it
-> and didn't pay!  It can't fail -- Jesus is on my side!
+ Most likely. But, seeing as I've flashed the thing with the most
+up-to-date BIOS I could get (with all the screaming 'experimental' stuff
+you usually see), and no luck.
 
-http://xent.com/mailman/listinfo/fork
+ Next trick is to format /boot as ext2, and try again.
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
 

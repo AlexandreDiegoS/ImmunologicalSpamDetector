@@ -1,71 +1,81 @@
-From ilug-admin@linux.ie  Mon Oct  7 12:06:30 2002
+From ilug-admin@linux.ie  Mon Jul 22 18:13:16 2002
 Return-Path: <ilug-admin@linux.ie>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id 60E9616F6C
-	for <zzzz@localhost>; Mon,  7 Oct 2002 12:04:50 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 5A2A7440DD
+	for <jm@localhost>; Mon, 22 Jul 2002 13:12:32 -0400 (EDT)
+Received: from dogma.slashnull.org [212.17.35.15]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Mon, 07 Oct 2002 12:04:50 +0100 (IST)
-Received: from lugh.tuatha.org (postfix@lugh.tuatha.org [194.125.145.45])
-    by dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g978QRK24206 for
-    <zzzz-ilug@spamassassin.taint.org>; Mon, 7 Oct 2002 09:26:27 +0100
-Received: from lugh.tuatha.org (localhost [127.0.0.1]) by lugh.tuatha.org
-    (Postfix) with ESMTP id BE70F34204; Mon,  7 Oct 2002 09:27:11 +0100 (IST)
-Delivered-To: linux.ie-ilug@localhost
-Received: from dspsrv.com (vir.dspsrv.com [193.120.211.34]) by
-    lugh.tuatha.org (Postfix) with ESMTP id 8072F341F2 for <ilug@linux.ie>;
-    Mon,  7 Oct 2002 09:26:11 +0100 (IST)
-Received: from [195.17.199.3] (helo=waider.ie) by dspsrv.com with asmtp
-    (Exim 3.36 #1) id 17yTDP-0001gv-00 for ilug@linux.ie; Mon, 07 Oct 2002
-    09:26:11 +0100
-Message-Id: <3DA144C8.2060707@waider.ie>
-From: Waider <waider@waider.ie>
+	for jm@localhost (single-drop); Mon, 22 Jul 2002 18:12:32 +0100 (IST)
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6MG4QY17730 for
+    <jm-ilug@jmason.org>; Mon, 22 Jul 2002 17:04:26 +0100
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    webnote.net (8.9.3/8.9.3) with ESMTP id OAA23692 for <jm-ilug@jmason.org>;
+    Sat, 20 Jul 2002 14:27:09 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id OAA04712; Sat, 20 Jul 2002 14:26:41 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from smtp013.mail.yahoo.com (smtp013.mail.yahoo.com
+    [216.136.173.57]) by lugh.tuatha.org (8.9.3/8.9.3) with SMTP id OAA04597
+    for <ilug@linux.ie>; Sat, 20 Jul 2002 14:26:19 +0100
+Received: from p102.as1.cra.dublin.eircom.net (HELO mfrenchw2k)
+    (mfrench42@159.134.176.102 with login) by smtp.mail.vip.sc5.yahoo.com with
+    SMTP; 20 Jul 2002 13:26:16 -0000
+Message-Id: <002d01c22ff0$81f10cb0$f264a8c0@sabeo.ie>
+From: "Matthew French" <mfrench42@yahoo.co.uk>
+To: "kevin lyda" <kevin+dated+1027549838.74d3af@linux.ie>,
+	<ilug@linux.ie>
+References: <200207191959.g6JJxHX04486@linux.local>
+    <002c01c22f67$4216c280$f264a8c0@sabeo.ie>
+    <20020719233036.B12390@ie.suberic.net>
+Subject: Re: [ILUG] hard- vs. soft-links [was: How to copy some files ]
+Date: Sat, 20 Jul 2002 14:22:30 +0100
 MIME-Version: 1.0
-To: Irish Linux Users Group <ilug@linux.ie>
-Content-Type: text/plain; charset=us-ascii; format=flowed
+Content-Type: text/plain; charset="iso-8859-1"
 Content-Transfer-Encoding: 7bit
-Subject: [ILUG] serial port transient failure
+X-Priority: 3
+X-Msmail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-Mimeole: Produced By Microsoft MimeOLE V6.00.2600.0000
 Sender: ilug-admin@linux.ie
 Errors-To: ilug-admin@linux.ie
-X-Beenthere: ilug@linux.ie
-X-Mailman-Version: 2.0.11
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:ilug-request@linux.ie?subject=help>
-List-Post: <mailto:ilug@linux.ie>
-List-Subscribe: <http://www.linux.ie/mailman/listinfo/ilug>,
-    <mailto:ilug-request@linux.ie?subject=subscribe>
 List-Id: Irish Linux Users' Group <ilug.linux.ie>
-List-Unsubscribe: <http://www.linux.ie/mailman/listinfo/ilug>,
-    <mailto:ilug-request@linux.ie?subject=unsubscribe>
-List-Archive: <http://www.linux.ie/pipermail/ilug/>
-X-Original-Date: Mon, 07 Oct 2002 10:24:40 +0200
-Date: Mon, 07 Oct 2002 10:24:40 +0200
+X-Beenthere: ilug@linux.ie
 
-Here's a weird and wacky problem:
+Kevin wrote:
+> am i the only one who thinks this is like "friday night 80's" for ilug?
+> and here's an answer from 1989.  for those perceptive folks in the
+> audience you'll note that it makes no reference to a windows icons.
+<snip>
+> so yeah, unrm would be nice, but obviously it's not a simple problem.
+> millions of lines of code, hundreds of projects, no unrm.  heck, the
+> hurd will probably release 1.0 before unrm shows up.
 
-I'm currently out of the country with my trusty Evo N600c laptop. When I 
-tried to use the serial port to talk to my mobile phone, Linux behaved 
-pretty much as if the port was fried. Bizarre, I thought, because I'd 
-used it successfully while in the office. The only difference was that I 
-was trying the thing in the hotel. I entertained brief notions of having 
-somehow fried the serial drivers, then rebooted the laptop to Windows 
-and tried again. Worked perfectly. Back to Linux. Still not talking. 
-Considered that it might be flaky power, so I ran the laptop on battery. 
-Nope. Tried moving the laptop to a differnet part of the room where 
-there might be less bogon flux. Still not working. Eventually I gave up 
-and used the IrDA port instead - which is usually the serial connection 
-of doom, grief, and teeth-grinding.
+So what this tells us is:
+1) There are very few new ideas.
+2) Problems exists until someone gets annoyed enough to actually fix them
+rather than find bizarre ways to solve the problem.
+3) I have too much creative time on my hands with not enough productive
+time.
 
-This morning, in the office, the damn thing is working without a hitch.
+>>From which we can infer that no work on unrm will be happening on my
+computer for a long time.
 
-Anyone like to suggest what mystery technology is in use in the hotel 
-that prevents serial ports from working under Linux?
+:)
 
-Cheers,
-Waider.
--- 
-waider@waider.ie / Yes, it /is/ very personal of me
+- Matthew
+
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.comm
+
 
 -- 
 Irish Linux Users' Group: ilug@linux.ie

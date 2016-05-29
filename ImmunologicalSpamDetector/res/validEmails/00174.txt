@@ -1,105 +1,76 @@
-From jkahila@world.std.com  Wed Aug 28 10:53:34 2002
-Return-Path: <jkahila@world.std.com>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From ilug-admin@linux.ie  Wed Jul 31 12:00:31 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 26F9944155
-	for <zzzz@localhost>; Wed, 28 Aug 2002 05:53:32 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 5EE054407C
+	for <jm@localhost>; Wed, 31 Jul 2002 07:00:28 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 28 Aug 2002 10:53:32 +0100 (IST)
-Received: from n13.grp.scd.yahoo.com (n13.grp.scd.yahoo.com
-    [66.218.66.68]) by dogma.slashnull.org (8.11.6/8.11.6) with SMTP id
-    g7S3q3Z09666 for <zzzz@spamassassin.taint.org>; Wed, 28 Aug 2002 04:52:03 +0100
-X-Egroups-Return: sentto-2242572-53124-1030506729-zzzz=spamassassin.taint.org@returns.groups.yahoo.com
-Received: from [66.218.67.200] by n13.grp.scd.yahoo.com with NNFMP;
-    28 Aug 2002 03:52:09 -0000
-X-Sender: jkahila@world.std.com
-X-Apparently-To: zzzzteana@yahoogroups.com
-Received: (EGP: mail-8_1_0_1); 28 Aug 2002 03:52:09 -0000
-Received: (qmail 34412 invoked from network); 28 Aug 2002 03:52:08 -0000
-Received: from unknown (66.218.66.217) by m8.grp.scd.yahoo.com with QMQP;
-    28 Aug 2002 03:52:08 -0000
-Received: from unknown (HELO TheWorld.com) (199.172.62.103) by
-    mta2.grp.scd.yahoo.com with SMTP; 28 Aug 2002 03:52:08 -0000
-Received: from amdk62450 (ppp0c006.std.com [208.192.102.6]) by
-    TheWorld.com (8.9.3/8.9.3) with ESMTP id XAA29517 for
-    <forteana@yahoogroups.com>; Tue, 27 Aug 2002 23:52:06 -0400
-To: <zzzzteana@yahoogroups.com>
-Message-Id: <MABBJEOBGNGLDOCBFDPBAECNDHAA.jkahila@world.std.com>
-X-Priority: 3 (Normal)
-X-Msmail-Priority: Normal
-X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2910.0)
-X-Mimeole: Produced By Microsoft MimeOLE V6.00.2600.0000
-In-Reply-To: <001501c24e28$d2c3c960$21aa9840@oemcomputer>
-Importance: Normal
-From: "John Kahila" <jkahila@world.std.com>
-X-Yahoo-Profile: jkahila
+	for jm@localhost (single-drop); Wed, 31 Jul 2002 12:00:28 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6VAu0217594 for
+    <jm-ilug@jmason.org>; Wed, 31 Jul 2002 11:56:00 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id LAA31068; Wed, 31 Jul 2002 11:53:46 +0100
+Received: from ie.suberic.net (owsla.ie.suberic.net [62.17.162.83]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id LAA31042 for <ilug@linux.ie>;
+    Wed, 31 Jul 2002 11:53:41 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host owsla.ie.suberic.net
+    [62.17.162.83] claimed to be ie.suberic.net
+Received: from owsla.ie.suberic.net (owsla [127.0.0.1]) by ie.suberic.net
+    (8.11.6/8.11.6) with ESMTP id g6VAreY13412 for <ilug@linux.ie>;
+    Wed, 31 Jul 2002 11:53:40 +0100
+Date: Wed, 31 Jul 2002 11:53:38 +0100
+To: ILUG <ilug@linux.ie>
+Subject: Re: [ILUG] C++ and C Mailing Lists for Beginners and Advanced
+Message-Id: <20020731115338.D11938@ie.suberic.net>
+References: <200207311043.g6VAhuq10699@cdm01.deedsmiscentral.net>
+    <20020731125129.B11532@wanadoo.fr>
 MIME-Version: 1.0
-Mailing-List: list zzzzteana@yahoogroups.com; contact
-    forteana-owner@yahoogroups.com
-Delivered-To: mailing list zzzzteana@yahoogroups.com
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.2.5.1i
+In-Reply-To: <20020731125129.B11532@wanadoo.fr>; from dneary@wanadoo.fr on
+    Wed, Jul 31, 2002 at 12:51:29PM +0200
+X-Operating-System: Linux 2.4.18-5 i686
+X-GPG-Fingerprint: 9C1D 16F4 11F1 6BD2 933C  048D ACC7 9840 89D0 7646
+From: kevin lyda <kevin+dated+1028544820.c7b215@linux.ie>
+Mail-Followup-To: kevin+dated+1028544820.c7b215@linux.ie,
+	ilug@linux.ie
+X-Delivery-Agent: TMDA/0.57
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
-Date: Tue, 27 Aug 2002 23:57:42 -0400
-Subject: RE: [zzzzteana] Moon over ocean
-Reply-To: zzzzteana@yahoogroups.com
-Content-Type: text/plain; charset=US-ASCII
-Content-Transfer-Encoding: 7bit
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
->David asked:
->> My wife noticed something odd.  The nearly-full moon was about 30
->> degrees above the horizon.  There was a notable glow on the horizon,
->> except under the moon.  The moon seemed to be in a column of darkness
->> that was about three times the apparent width of the moon.  We could see
->> the column over its entire length as a strip of sky darker than the sky
->> around it.
->>
->> Any of you ever see this?  Do you have any idea what could have caused
->> it?  I suspect it's due to some pecularity of the visual system, but
->> have no clear idea.
+On Wed, Jul 31, 2002 at 12:51:29PM +0200, David Neary wrote:
+> Also, you should keep a bookmark pointing at the comp.lang.c FAQ at 
+> http://www.eskimo.com/~scs/C-faq/top.html
 
-Bill Jacobs:
-> I'm surprised to not find this phenomenon in Corlis. I could have sworn I
-> saw it there. He does have the somewhat similar dark sky between a rainbow
-> and a secondary bow. I personally have seen a rainbow enclosing a
-> semi-circle of darker sky.
->
-> I know I've read about pillars under the Sun and Moon elsewhere,
-> but I can't recall if they were reportedly dark or bright. I do know
-> these sorts of things are supposed to be quirks of optics not of the
-> visual system. I'm sorry I haven't got any answers, but a search
-> through some books on atmospheric optics ought to turn a few hints up.
+and don't forget the c iaq.  that's here:
 
-Some links:
+    http://www.plethora.net/~seebs/faqs/c-iaq.html
 
-comprehensive
-http://www.meteoros.de/indexe.htm
+an example:
 
-Atmospheric Light Phenomena
-http://www.auf.asn.au/meteorology/section12.html
+    1.3: If I write the code int i, j; can I assume that (&i + 1) == &j?
 
-interesting observational stuff from the prior millenium including pix
-(click 1997 / colour plates)
-http://www.ursa.fi/ursa/jaostot/halot/ehp/index.html
+    Only sometimes. It's not portable, because in EBCDIC, i and j are not
+    adjacent.
 
-more pix, many of which flip to negative to highlight details (hover cursor)
-http://idefix.taide.turkuamk.fi/~iluukkon/taivas/valok/88.html and
-subsequent links
+kevin
 
-john k
+-- 
+kevin@suberic.net     that a believer is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspace place: home       than a sober one. the happiness of credulity is a
+http://ie.suberic.net/~kevin   cheap & dangerous quality -- g.b. shaw
 
-
------------------------- Yahoo! Groups Sponsor ---------------------~-->
-4 DVDs Free +s&p Join Now
-http://us.click.yahoo.com/pt6YBB/NXiEAA/MVfIAA/7gSolB/TM
----------------------------------------------------------------------~->
-
-To unsubscribe from this group, send an email to:
-forteana-unsubscribe@egroups.com
-
- 
-
-Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

@@ -1,79 +1,62 @@
-From barbarabarrett@orchidserve.com  Wed Aug 28 11:19:35 2002
-Return-Path: <barbarabarrett@orchidserve.com>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From ilug-admin@linux.ie  Wed Jul 31 18:57:55 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 1BEAE43F9B
-	for <zzzz@localhost>; Wed, 28 Aug 2002 06:19:34 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 944E5440A8
+	for <jm@localhost>; Wed, 31 Jul 2002 13:57:53 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 28 Aug 2002 11:19:34 +0100 (IST)
-Received: from n32.grp.scd.yahoo.com (n32.grp.scd.yahoo.com
-    [66.218.66.100]) by dogma.slashnull.org (8.11.6/8.11.6) with SMTP id
-    g7SAL7Z19761 for <zzzz@spamassassin.taint.org>; Wed, 28 Aug 2002 11:21:07 +0100
-X-Egroups-Return: sentto-2242572-53142-1030529779-zzzz=spamassassin.taint.org@returns.groups.yahoo.com
-Received: from [66.218.67.199] by n32.grp.scd.yahoo.com with NNFMP;
-    28 Aug 2002 10:16:19 -0000
-X-Sender: barbarabarrett@orchidserve.com
-X-Apparently-To: zzzzteana@yahoogroups.com
-Received: (EGP: mail-8_1_0_1); 28 Aug 2002 10:16:18 -0000
-Received: (qmail 92514 invoked from network); 28 Aug 2002 10:16:18 -0000
-Received: from unknown (66.218.66.216) by m6.grp.scd.yahoo.com with QMQP;
-    28 Aug 2002 10:16:18 -0000
-Received: from unknown (HELO clustermail.minx.net.uk) (212.85.249.131) by
-    mta1.grp.scd.yahoo.com with SMTP; 28 Aug 2002 10:16:18 -0000
-Received: from ppp-0-61.read-a-2.access.uk.tiscali.com ([80.40.83.61]
-    helo=orchidserve.com) by clustermail.minx.net.uk with esmtp (Exim 3.22 #2)
-    id 17jzt8-0006a2-00 for forteana@yahoogroups.com; Wed, 28 Aug 2002
-    11:17:27 +0100
-Message-Id: <3D6CA2B0.EEF2DD84@orchidserve.com>
-X-Mailer: Mozilla 4.73 [en] (Win95; I)
-X-Accept-Language: en
-To: zzzzteana@yahoogroups.com
-References: <3D6B46AB.16257.1ED4E92C@localhost>
-    <p05111b04b99175ab55e4@[62.190.203.250]>
-From: Barbara Barrett <barbarabarrett@orchidserve.com>
-X-Yahoo-Profile: nfrwalso
+	for jm@localhost (single-drop); Wed, 31 Jul 2002 18:57:53 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6VHpr203957 for
+    <jm-ilug@jmason.org>; Wed, 31 Jul 2002 18:51:53 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id SAA20540; Wed, 31 Jul 2002 18:48:58 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from linuxmafia.com (linuxmafia.COM [198.144.195.186]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id SAA20517 for <ilug@linux.ie>;
+    Wed, 31 Jul 2002 18:48:52 +0100
+Received: from rick by linuxmafia.com with local (Exim 3.35 #1 (Debian))
+    id 17ZxaX-0001l7-00 for <ilug@linux.ie>; Wed, 31 Jul 2002 10:48:45 -0700
+Date: Wed, 31 Jul 2002 10:48:44 -0700
+To: ilug@linux.ie
+Subject: Re: [ILUG] removing lilo
+Message-Id: <20020731174844.GR4974@linuxmafia.com>
+References: <3D351C3E@webmail.ucc.ie>
 MIME-Version: 1.0
-Mailing-List: list zzzzteana@yahoogroups.com; contact
-    forteana-owner@yahoogroups.com
-Delivered-To: mailing list zzzzteana@yahoogroups.com
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <3D351C3E@webmail.ucc.ie>
+User-Agent: Mutt/1.4i
+From: Rick Moen <rick@linuxmafia.com>
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
-Date: Wed, 28 Aug 2002 11:15:12 +0100
-Subject: Re: [zzzzteana] Secondhand books online
-Reply-To: zzzzteana@yahoogroups.com
-Content-Type: text/plain; charset=US-ASCII
-Content-Transfer-Encoding: 7bit
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
+Quoting jac1 (jac1@student.cs.ucc.ie):
 
+> i recently had to wipe linux from my pc but forgot to restore the original
+> MBR (NT). Anyone know how i can do this? linux is entirely gone and no boot
+> floppy. formatting the entire disk doesn't do it either.
 
-> Martin Mentioned:
-> >I've used this a few times and can thoroughly recommend it. It really 
-> >doeswork. Frankly, the only drawback is finding too much stuff.
+The easy way is just to install whatever Microsoft or whatever OS you
+have in mind:  It should overwrite the MBR.  Indeed, the problem is
+usually _preventing_ this from happening, as Microsoft Corporation's
+installers seem to forever be overwriting your MBRs when you least wish
+it, without asking your permission.
 
->Rachel Rote; 
-> I'll be amazed if there's anyone on here who isn't already a heavy user!
+-- 
+Cheers,               "We're sorry; you have reached an imaginary number.
+Rick Moen             Please rotate your 'phone ninety degrees and try again."
+rick@linuxmafia.com
 
-Barbara Babbles;
-Be amazed - I've never bought anything online since an almighty cock up
-with amazon dot con (that's not a typo) a few years back where I lost
-all the dosh I'd paid them and had no books to show for it either. Had
-it been the UK branch I'd have had them in the small claims court
-quicker than you could drop LOTR on your foot and say "ouch", but as it
-was the US branch I'd just no comeback.
-Barbara
-
------------------------- Yahoo! Groups Sponsor ---------------------~-->
-4 DVDs Free +s&p Join Now
-http://us.click.yahoo.com/pt6YBB/NXiEAA/MVfIAA/7gSolB/TM
----------------------------------------------------------------------~->
-
-To unsubscribe from this group, send an email to:
-forteana-unsubscribe@egroups.com
-
- 
-
-Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

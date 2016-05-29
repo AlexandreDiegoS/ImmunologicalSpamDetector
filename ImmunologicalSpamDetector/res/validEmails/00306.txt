@@ -1,76 +1,92 @@
-From fork-admin@xent.com  Mon Aug 26 16:02:17 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Fri Aug  9 15:21:06 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id D03F84415D
-	for <jm@localhost>; Mon, 26 Aug 2002 11:00:01 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id C722C440DB
+	for <jm@localhost>; Fri,  9 Aug 2002 10:20:55 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Mon, 26 Aug 2002 16:00:01 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7QEbFZ25119 for <jm@jmason.org>;
-    Mon, 26 Aug 2002 15:37:20 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 37F612940CF; Mon, 26 Aug 2002 07:12:10 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from www.fastmail.fm (fastmail.fm [209.61.183.86]) by xent.com
-    (Postfix) with ESMTP id DD0C42940C6 for <fork@xent.com>; Mon,
-    26 Aug 2002 07:11:25 -0700 (PDT)
-Received: from www.fastmail.fm (localhost [127.0.0.1]) by
-    localhost.localdomain (Postfix) with ESMTP id 5D82E6DC0B; Mon,
-    26 Aug 2002 09:13:19 -0500 (CDT)
-Received: from server3.fastmail.fm (server3.internal [10.202.2.134]) by
-    www.fastmail.fm (Postfix) with ESMTP id 0A70F6DC05; Mon, 26 Aug 2002
-    09:13:18 -0500 (CDT)
-Received: by server3.fastmail.fm (Postfix, from userid 99) id 668E12FD84;
-    Mon, 26 Aug 2002 09:13:15 -0500 (CDT)
-Content-Disposition: inline
-Content-Transfer-Encoding: 8bit
-Content-Type: text/plain; charset="ISO-8859-1"
+	for jm@localhost (single-drop); Fri, 09 Aug 2002 15:20:55 +0100 (IST)
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g79EHlb05899 for
+    <jm-ilug@jmason.org>; Fri, 9 Aug 2002 15:17:47 +0100
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    webnote.net (8.9.3/8.9.3) with ESMTP id KAA04801 for <jm-ilug@jmason.org>;
+    Fri, 9 Aug 2002 10:21:22 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id KAA32016; Fri, 9 Aug 2002 10:18:25 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from smtp013.mail.yahoo.com (smtp013.mail.yahoo.com
+    [216.136.173.57]) by lugh.tuatha.org (8.9.3/8.9.3) with SMTP id KAA31986
+    for <ilug@linux.ie>; Fri, 9 Aug 2002 10:18:18 +0100
+Received: from unknown (HELO mfrenchw2k) (mfrench42@62.254.163.42 with
+    login) by smtp.mail.vip.sc5.yahoo.com with SMTP; 9 Aug 2002 09:18:16 -0000
+Message-Id: <008401c23f85$2e10ac00$3864a8c0@sabeo.ie>
+From: "Matthew French" <mfrench42@yahoo.co.uk>
+To: "Gary Coady" <gary+dated+1029315155.6bcd09@netsoc.tcd.ie>,
+	<ilug@linux.ie>
+References: <55DA5264CE16D41186F600D0B74D6B09247243@KBS01>
+    <20020809095233.A22778@netsoc.tcd.ie>
+Subject: Re: [ILUG] slashdot EW Dijkstra humor
+Date: Fri, 9 Aug 2002 10:14:33 +0100
 MIME-Version: 1.0
-X-Mailer: MIME::Lite 1.2  (F2.6; T1.001; A1.48; B2.12; Q2.03)
-From: "James Tauber" <jtauber@jtauber.com>
-To: johnhall@evergo.net, fork@spamassassin.taint.org
-X-Epoch: 1030371199
-X-Sasl-Enc: iWV+p6yrD5pZuD2zbyVJhA
-Subject: Re: My source: RE: A biblical digression
-Message-Id: <20020826141315.668E12FD84@server3.fastmail.fm>
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-Msmail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-Mimeole: Produced By Microsoft MimeOLE V6.00.2600.0000
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Mon, 26 Aug 2002 14:13:15 UT
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
+
+Gary Coady wrote:
+> Oops, I tend to feel like that most times! I tend to feel that if we
+> have extremely good compilation tools, then those tools should be able
+> to do the inlining and optimisation far better than I could. That's the
+> theory anyway :) And there's always a tradeoff with inlining between
+> speed and memory bloat (which may sometimes be no tradeoff if swap
+> starts getting involved...)
+
+<mild rant>
+This is something that often annoys me. Programmers can spend hours inlining
+code and relying on optimisation tools to improve performance. The best
+performance improvement can be obtained by fixing the algorithm.
+
+Most function calls get made very rarely. Optimising them often makes no
+sense, produces illegable code and nonsense algorithms.
+
+Inlining will help in functions that get called frequently and are small -
+such as string manipulation routines. But these are a small part of most
+applications.
+
+One example I frequently see is people optimising a database function call.
+Most database accesses involve many abstraction layers and millions of
+instruction cycles. Trying to save a few instruction cycles would be a cost
+saving of, say, 5 seconds in 20 hours.
+
+But a simple hashmap cache of common data without any compiler or inline
+optimisations can turn that same 20 hours into 10 minutes.
+
+</mild rant>
+
+- Matthew (who really should be writing code)
 
 
->>From what I read, the rest of it looked quite good so it does seem odd
-they would make the seemingly incorrect blanket statement about the
-Hebrew for "steal". One possibility is that the page is a summary of
-information gathered from a variety of sources of varying qualities.
-
-James
-
-On Sun, 25 Aug 2002 10:17:46 -0700, "John Hall" <johnhall@evergo.net>
-said:
-> Remember I didn't say it was necessarily a good source, just that it
-> looked good.
-> 
-> The site was http://www.religioustolerance.org/chr_10c7.htm
-> 
-> My memory of what they said was accurate.  I do not have the competence
-> to defend what they said.  James Tauber's response indicates a breadth
-> of knowledge I can't match.
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
 
 
 -- 
-  James Tauber
-  jtauber@jtauber.com
-http://xent.com/mailman/listinfo/fork
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
 

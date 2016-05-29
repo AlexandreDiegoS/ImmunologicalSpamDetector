@@ -1,94 +1,91 @@
-From rpm-list-admin@freshrpms.net  Tue Oct  8 10:55:22 2002
-Return-Path: <rpm-zzzlist-admin@freshrpms.net>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id 4B66916F16
-	for <zzzz@localhost>; Tue,  8 Oct 2002 10:55:17 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Mon Jul 29 11:28:25 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id CBFA344157
+	for <jm@localhost>; Mon, 29 Jul 2002 06:25:19 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Tue, 08 Oct 2002 10:55:17 +0100 (IST)
-Received: from egwn.net (auth02.nl.egwn.net [193.172.5.4]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g987avK05522 for
-    <zzzz-rpm@spamassassin.taint.org>; Tue, 8 Oct 2002 08:36:57 +0100
-Received: from auth02.nl.egwn.net (localhost [127.0.0.1]) by egwn.net
-    (8.11.6/8.11.6/EGWN) with ESMTP id g987U2f06824; Tue, 8 Oct 2002 09:30:02
-    +0200
-Received: from snickers.hotpop.com (snickers.hotpop.com [204.57.55.49]) by
-    egwn.net (8.11.6/8.11.6/EGWN) with ESMTP id g987TMf04275 for
-    <rpm-list@freshrpms.net>; Tue, 8 Oct 2002 09:29:22 +0200
-Received: from punkass.com (kubrick.hotpop.com [204.57.55.16]) by
-    snickers.hotpop.com (Postfix) with SMTP id B5FC0707E2 for
-    <rpm-list@freshrpms.net>; Tue,  8 Oct 2002 07:29:10 +0000 (UTC)
-Received: from punkass.com (unknown [80.178.1.203]) by smtp-2.hotpop.com
-    (Postfix) with ESMTP id 4BADD1B8497 for <rpm-list@freshrpms.net>;
-    Tue,  8 Oct 2002 07:28:31 +0000 (UTC)
-Message-Id: <3DA28982.6020709@punkass.com>
-From: Roi Dayan <dejavo@punkass.com>
-User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.0.1) Gecko/20020830
-X-Accept-Language: en-us, en, he
+	for jm@localhost (single-drop); Mon, 29 Jul 2002 11:25:19 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6T5fRi12646 for
+    <jm-ilug@jmason.org>; Mon, 29 Jul 2002 06:41:27 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id GAA19822; Mon, 29 Jul 2002 06:39:10 +0100
+Received: from odin.isw.intel.com (swfdns01.isw.intel.com [192.55.37.143])
+    by lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id GAA19746 for
+    <ilug@linux.ie>; Mon, 29 Jul 2002 06:39:02 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host swfdns01.isw.intel.com
+    [192.55.37.143] claimed to be odin.isw.intel.com
+Received: from swsmsxvs01.isw.intel.com (swsmsxvs01.isw.intel.com
+    [172.28.130.22]) by odin.isw.intel.com (8.11.6/8.11.6/d: solo.mc,
+    v 1.42 2002/05/23 22:21:11 root Exp $) with SMTP id g6T5d1u19413 for
+    <ilug@linux.ie>; Mon, 29 Jul 2002 05:39:01 GMT
+Received: from swsmsx17.isw.intel.com ([172.28.130.21]) by
+    swsmsxvs01.isw.intel.com (NAVGW 2.5.2.11) with SMTP id
+    M2002072906375012076 ; Mon, 29 Jul 2002 06:37:50 +0100
+Received: by swsmsx17.isw.intel.com with Internet Mail Service
+    (5.5.2653.19) id <L81TBA3M>; Mon, 29 Jul 2002 06:42:57 +0100
+Message-Id: <A92DB5482F76D51193290002A50A56120156329F@irsmsx103.ir.intel.com>
+From: "Satelle, StevenX" <stevenx.satelle@intel.com>
+To: "'Robert Synnott'" <r.synnott@oceanfree.net>,
+	Liam Bedford <lbedford@netnoteinc.com>, ilug@linux.ie
+Subject: RE: [ILUG] [OT] Oceanfree Dial-up Number
+Date: Mon, 29 Jul 2002 06:38:52 +0100
 MIME-Version: 1.0
-To: rpm-zzzlist@freshrpms.net
-Subject: xine src packge still gives errors
-References: <1033908698.1724.11.camel@lillpelle>
-Content-Type: text/plain; charset=us-ascii; format=flowed
-Content-Transfer-Encoding: 7bit
-X-Hotpop: ----------------------------------------------- Sent By
-    HotPOP.com FREE Email Get your FREE POP email at www.HotPOP.com
-    -----------------------------------------------
-X-Mailscanner: Found to be clean, Found to be clean
-Sender: rpm-zzzlist-admin@freshrpms.net
-Errors-To: rpm-zzzlist-admin@freshrpms.net
-X-Beenthere: rpm-zzzlist@freshrpms.net
-X-Mailman-Version: 2.0.11
+X-Mailer: Internet Mail Service (5.5.2653.19)
+Content-Type: text/plain; charset="iso-8859-15"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by lugh.tuatha.org id
+    GAA19746
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-Reply-To: rpm-zzzlist@freshrpms.net
-List-Help: <mailto:rpm-zzzlist-request@freshrpms.net?subject=help>
-List-Post: <mailto:rpm-zzzlist@freshrpms.net>
-List-Subscribe: <http://lists.freshrpms.net/mailman/listinfo/rpm-zzzlist>,
-    <mailto:rpm-list-request@freshrpms.net?subject=subscribe>
-List-Id: Freshrpms RPM discussion list <rpm-zzzlist.freshrpms.net>
-List-Unsubscribe: <http://lists.freshrpms.net/mailman/listinfo/rpm-zzzlist>,
-    <mailto:rpm-list-request@freshrpms.net?subject=unsubscribe>
-List-Archive: <http://lists.freshrpms.net/pipermail/rpm-zzzlist/>
-X-Original-Date: Tue, 08 Oct 2002 09:30:10 +0200
-Date: Tue, 08 Oct 2002 09:30:10 +0200
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-Hi
+I've found that while my win2k box doesnt care what username/passwd it uses
+the linux box wont work except using oceanfree/oceanfree. Whether this is a
+machine or oceanfree issue I leave to yourself to decide.
 
-I try to rebuild xine from src package and I get these errors:
-
-.
-.
-.
-.
-.
-Finding  Provides: /usr/lib/rpm/find-provides
-Finding  Requires: /usr/lib/rpm/find-requires
-PreReq: rpmlib(PayloadFilesHavePrefix) <= 4.0-1 
-rpmlib(CompressedFileNames) <= 3.0.4-1
-Requires(rpmlib): rpmlib(PayloadFilesHavePrefix) <= 4.0-1 
-rpmlib(CompressedFileNames) <= 3.0.4-1
-Requires: xine-libs = 0.9.13 /bin/sh
-Obsoletes: xine-devel
+-----Original Message-----
+From: Robert Synnott [mailto:r.synnott@oceanfree.net]
+Sent: 27 July 2002 11:39
+To: Liam Bedford; ilug@linux.ie
+Subject: Re: [ILUG] [OT] Oceanfree Dial-up Number
 
 
-RPM build errors:
-    user dude does not exist - using root
-    user dude does not exist - using root
-    user dude does not exist - using root
-    user dude does not exist - using root
-    user dude does not exist - using root
-    File not found: /var/tmp/xine-root/usr/bin/aaxine
+Actually, they do; though they aren't case sensitive. It seems to have some 
+trouble wtih PAP/CHAP authentication  as well; you might have to do it by 
+script?
 
+On Friday 26 July 2002 12:37, Liam Bedford wrote:
+> On Fri, 26 Jul 2002 12:23:24 +0100
+>
+> HAMILTON,DAVID (HP-Ireland,ex2) claiming to think:
+> > Hi All,
+> >
+> > I am trying to find the Oceanfree ISDN dialup number for Dublin.
+> > http://iiu.taint.org/ appears to be down, or at least I can't get to it,
+> > and I don't want to pay oceanfree ¤10 per second for tech support :-).
+>
+> 01-2434321
+> username: oceanfree
+> password: oceanfree
+>
+> don't think the username and password matter much though.
+>
+> L.
 
-thx,
-Roi
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
-
-
-
-_______________________________________________
-RPM-List mailing list <RPM-List@freshrpms.net>
-http://lists.freshrpms.net/mailman/listinfo/rpm-list
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

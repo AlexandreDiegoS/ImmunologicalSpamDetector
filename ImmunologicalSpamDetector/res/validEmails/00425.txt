@@ -1,52 +1,70 @@
-From fork-admin@xent.com  Thu Sep  5 11:30:27 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id B488816F79
-	for <jm@localhost>; Thu,  5 Sep 2002 11:28:25 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Fri Aug 16 15:02:05 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id A650943C46
+	for <jm@localhost>; Fri, 16 Aug 2002 09:58:53 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Thu, 05 Sep 2002 11:28:25 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g84KZ2Z18149 for <jm@jmason.org>;
-    Wed, 4 Sep 2002 21:35:02 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 0F11A29413C; Wed,  4 Sep 2002 13:32:03 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from localhost.localdomain
-    (pool-162-83-146-127.ny5030.east.verizon.net [162.83.146.127]) by xent.com
-    (Postfix) with ESMTP id 5E6622940AA for <fork@xent.com>; Wed,
-    4 Sep 2002 13:31:18 -0700 (PDT)
-Received: from localhost (lgonze@localhost) by localhost.localdomain
-    (8.11.6/8.11.6) with ESMTP id g84KRun04845 for <fork@xent.com>;
-    Wed, 4 Sep 2002 16:27:56 -0400
-X-Authentication-Warning: localhost.localdomain: lgonze owned process
-    doing -bs
-From: lucas@gonze.com
-X-X-Sender: lgonze@localhost.localdomain
-To: FoRK <fork@spamassassin.taint.org>
-Subject: whoa
-Message-Id: <Pine.LNX.4.44.0209041626430.4768-100000@localhost.localdomain>
+	for jm@localhost (single-drop); Fri, 16 Aug 2002 14:58:53 +0100 (IST)
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7GDp5a19910 for
+    <jm-ilug@jmason.org>; Fri, 16 Aug 2002 14:53:22 +0100
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    webnote.net (8.9.3/8.9.3) with ESMTP id OAA14199 for <jm-ilug@jmason.org>;
+    Fri, 16 Aug 2002 14:36:17 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id OAA30099; Fri, 16 Aug 2002 14:34:57 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from mail04.svc.cra.dublin.eircom.net
+    (mail04.svc.cra.dublin.eircom.net [159.134.118.20]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with SMTP id OAA30062 for <ilug@linux.ie>; Fri,
+    16 Aug 2002 14:34:51 +0100
+Received: (qmail 50698 messnum 1156866 invoked from
+    network[213.190.156.48/unknown]); 16 Aug 2002 13:34:21 -0000
+Received: from unknown (HELO XENON16) (213.190.156.48) by
+    mail04.svc.cra.dublin.eircom.net (qp 50698) with SMTP; 16 Aug 2002
+    13:34:21 -0000
+Message-Id: <003c01c24529$e17df820$e600000a@XENON16>
+From: "wintermute" <cout@eircom.net>
+To: <ilug@linux.ie>
+References: <3D5CFB9A.6060209@cunniffe.net>
+Subject: Re: [ILUG] replacement xircom dongle?
+Date: Fri, 16 Aug 2002 14:36:09 +0100
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset="ISO-8859-15"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-Msmail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.50.4522.1200
+X-Mimeole: Produced By Microsoft MimeOLE V5.50.4910.0300
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Wed, 4 Sep 2002 16:27:56 -0400 (EDT)
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
+
+> Anyone know where in Ireland I can get a replacement external dongle
+> for a Xircom CE3B-100 PCMCIA NIC?
+>
+> Failing that, who delivers fastest to Ireland?
+>
+> Regards,
+>
+> Vin
 
 
-This just blew my mind:
-http://www.earthviewer.com/
+I went into Maplin looking for exactly this sort of thing, only to be told I
+would have to by a whole new card.....
+Buy & Sell I'd say else just by a new NIC...(which I didn't do) I just live
+with the fact I have to angle the CAT 5 at a certain angle to my NIC or the
+dongle will fall out!
 
-The detail of my neighborhood -- even my building -- is unbelievable.
 
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 

@@ -1,119 +1,95 @@
-From fork-admin@xent.com  Thu Aug 29 11:03:53 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Tue Aug 13 10:28:43 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 55F2C44156
-	for <jm@localhost>; Thu, 29 Aug 2002 06:03:45 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 7B0E444128
+	for <jm@localhost>; Tue, 13 Aug 2002 05:21:43 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Thu, 29 Aug 2002 11:03:45 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7SJIkZ07106 for <jm@jmason.org>;
-    Wed, 28 Aug 2002 20:18:47 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 4B6B129423C; Wed, 28 Aug 2002 12:16:10 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from smtp1.auracom.net (smtp1.auracom.net [165.154.140.23]) by
-    xent.com (Postfix) with ESMTP id 7200129423B for <fork@xent.com>;
-    Wed, 28 Aug 2002 12:15:20 -0700 (PDT)
-Received: from maya.dyndns.org (ts5-015.ptrb.interhop.net
-    [165.154.190.79]) by smtp1.auracom.net (8.11.2/8.11.2) with ESMTP id
-    g7SIp0V22231; Wed, 28 Aug 2002 14:51:01 -0400 (EDT)
-Received: by maya.dyndns.org (Postfix, from userid 501) id 643D01C388;
-    Wed, 28 Aug 2002 15:06:40 -0400 (EDT)
-To: harley@argote.ch (Robert Harley)
-Cc: fork@spamassassin.taint.org
-Subject: Re: Java is for kiddies
-References: <20020828165937.B53E9C44D@argote.ch>
-From: Gary Lawrence Murphy <garym@canada.com>
-X-Home-Page: http://www.teledyn.com
-Organization: TCI Business Innovation through Open Source Computing
-Message-Id: <m2vg5u3irk.fsf@maya.dyndns.org>
-Reply-To: Gary Lawrence Murphy <garym@canada.com>
-X-Url: http://www.teledyn.com/
+	for jm@localhost (single-drop); Tue, 13 Aug 2002 10:21:43 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7CKktb00886 for
+    <jm-ilug@jmason.org>; Mon, 12 Aug 2002 21:46:55 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id VAA06551; Mon, 12 Aug 2002 21:46:24 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from linuxmafia.com (linuxmafia.COM [198.144.195.186]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id VAA06436 for <ilug@linux.ie>;
+    Mon, 12 Aug 2002 21:46:04 +0100
+Received: from rick by linuxmafia.com with local (Exim 3.35 #1 (Debian))
+    id 17eM4h-0000lp-00 for <ilug@linux.ie>; Mon, 12 Aug 2002 13:46:03 -0700
+Date: Mon, 12 Aug 2002 13:46:03 -0700
+To: ilug@linux.ie
+Subject: Re: [ILUG] SUSE 8 disks? (thread changed slightly)
+Message-Id: <20020812204603.GK25331@linuxmafia.com>
+References: <20020811182012.GD25331@linuxmafia.com>
+    <20020812094352.97487.qmail@web13906.mail.yahoo.com>
 MIME-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Disposition: inline
+In-Reply-To: <20020812094352.97487.qmail@web13906.mail.yahoo.com>
+User-Agent: Mutt/1.4i
+From: Rick Moen <rick@linuxmafia.com>
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: 28 Aug 2002 15:06:39 -0400
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
->>>>> "R" == Robert Harley <harley@argote.ch> writes:
+Quoting Paul Linehan (plinehan@yahoo.com):
 
-    R> GLM wrote:
-    >> And a Java program, due to the extensive class libraries, will
-    >> weigh in at 10% the number of lines of the equivalent C
-    >> program.  QED.
+> I'm confused. I thought it was GPL'ed and that the money you paid SuSE
+> was for your 60 day support or whatever? 
 
-    R> There are massive amounts of libraries for C, Fortran and so
-    R> on.  To pick an obvious example., if you want to do linear
-    R> algebra, then Java isn't a serious candidate at all.
+Yes, you're confused.
 
-If you want to do http, C gets pretty muddy (curl is about the best
-choice I've found) but I grant you that: No language is the be-all and
-end-all.
+A Linux distribution (_any_ Linux distribution) contains lots and lots
+of separate codebases.  Some are under the GNU GPL.  Many are not.  Are
+you clear on this point, now?  This is my second try.  One suspects that
+you actually understand perfectly, but just don't like it.
 
-I envy some of those posting to this list.  I've been in business for
-24 years and I haven't yet had the luxury of writing every line of
-code for any project. We are always coerced by budgets and time to
-maximize the amount of work done elsewhere.  
+You're further confused if you think the GNU GPL gives you the right to
+get covered software for free.  It does not.  It provides that _if_
+you've lawfully received a copy of the covered binary version, you have
+rights to also receive the matching source code.
 
-As much as I hate dealing with someone else's blackbox, as much as
-I've spent sleepless nights second-guessing external libs, I've never
-ever had the luxury to do otherwise. It must be wonderful to be
-responsible for something you are actually responsible for, and I am
-so sick of being blamed for other people's design mistakes.
+> I don't particularly need support, so I'm not really interested in
+> purchasing a set of disks with 4 billion apps which I'll never use.
 
-Maybe there's an archive somewhere I need to know about, but I've been
-using C since DrDobbs first published SmallC and yet I've never found
-any decent LGPL libs cataloged in such a way that I can just type in
-the task and get back an API.  Because of Javadoc, which is by no
-means perfect, Java provides me the second best catalog of 3rd-party
-libs, second only to Perl's CPAN -- Perl is one language I also really
-hate with a passion, yet end up using the most for exactly this reason.
+Then, if you nonetheless want a SuSE boxed set's contents, the only way
+you can do that without copyright violation _and_ without having to pay
+the purchase price is to get someone to _give_ (not "lend" or duplicate) 
+you his copy.
 
-For example, take the recent CBC Olympics site: I needed to roll
-together a telnet client with a tokenizer, perl-regex preprocessing a
-stream to produce parseable XML, project that XML into relational
-databases using only the DTD to generate the rdbms schema, and open an
-XMLRPC interface to read and post items into the news stream.  Where
-can I find C libs for those components?  
+> Yes, thanks for your input. Anyway, I've a friend with 7.3 pro, so
+> I'll just ask him.
 
-On the webserver, we then needed a multithreaded read-only http socket
-which can spawn persistent data-caching servlets that periodically
-refresh themselves over socket connections to the relational database,
-presenting the retreived values through XSLT-defined transforms, and
-again, where can I find such stuff for C ... or for any other langauge
-but Java?  Wombat (servlet spec for Perl) was inviting, but it's not
-ready for prime-time, and re-inventing that entire shopping list in C
-is just not feasible for one programmer to do inside of 8 weeks.
+Ask him _what_?  If you're asking him to "lend" or duplicate his CDs,
+then you'll be ripping off SuSE Linux AG illegally.
 
-When you need C libs, or even C++ libs, where's the best place to shop?
-Where do you find standards-based portable RDBMS API? (ODBC?) How do
-you evaluate these things without actually fetching every one and
-trying it out?
+Don't like SuSE's product licensing?  Write your own distribution.  You
+can even grab most of what you need _from SuSE_.  All you have to do is 
+heed the licensing terms on the individual pieces.
 
-In a perfect universe, I'd use Ocaml or even Ruby, but I don't see the
-social infrastructure for either happening during my professional
-lifetime.
-
-    R> Why do so many people outside of Sun's marketing department
-    R> consider Java to be "Write Once, Debug Everywhere" ?
-
-A collegue at Cognos (Henk?) called C "the nearly-portable assembler"
+What, you think that's too much work?  Then, try a different
+distribution.  Clue:  _Not_ one packaged in a retail boxed set.  Even RH
+7.3 retail boxed sets include non-freely redistributable applications on
+the Star office 5.2 CD and the Productivity Applications CD, among
+others.  (The core 3-CD set of the basic RH distribution, on the other
+hand, contains only software that may be freely redistributed, whether 
+open source or not.)
 
 -- 
-Gary Lawrence Murphy <garym@teledyn.com> TeleDynamics Communications Inc
- Business Advantage through Community Software : http://www.teledyn.com
-"Computers are useless.  They can only give you answers."(Pablo Picasso)
+Hi! I'm a .signature virus! Copy me into your ~/.signature  to help me spread.
+Hi!p I'm a .signature spread virus! Copy into your ~/.signature to help me
+Hilp I'm .sign turepread virus! into your ~/.signature! help me! Copy
+Help I'm traped in your ~/signature help me!       -- Joe Slater
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 
