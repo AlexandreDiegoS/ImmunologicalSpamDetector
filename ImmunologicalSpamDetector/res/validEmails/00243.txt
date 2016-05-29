@@ -1,79 +1,60 @@
-From sentto-2242572-53763-1031265221-zzzz=spamassassin.taint.org@returns.groups.yahoo.com  Fri Sep  6 11:48:55 2002
-Return-Path: <sentto-2242572-53763-1031265221-zzzz=spamassassin.taint.org@returns.groups.yahoo.com>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id D2D7516F94
-	for <zzzz@localhost>; Fri,  6 Sep 2002 11:41:53 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Tue Aug  6 11:51:25 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id B651A441DE
+	for <jm@localhost>; Tue,  6 Aug 2002 06:48:10 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Fri, 06 Sep 2002 11:41:53 +0100 (IST)
-Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g869rCC29246 for
-    <zzzz@spamassassin.taint.org>; Fri, 6 Sep 2002 10:53:12 +0100
-Received: from n11.grp.scd.yahoo.com (n11.grp.scd.yahoo.com
-    [66.218.66.66]) by webnote.net (8.9.3/8.9.3) with SMTP id XAA19037 for
-    <zzzz@spamassassin.taint.org>; Thu, 5 Sep 2002 23:34:12 +0100
-X-Egroups-Return: sentto-2242572-53763-1031265221-zzzz=spamassassin.taint.org@returns.groups.yahoo.com
-Received: from [66.218.66.94] by n11.grp.scd.yahoo.com with NNFMP;
-    05 Sep 2002 22:33:41 -0000
-X-Sender: jon@eclipse.co.uk
-X-Apparently-To: zzzzteana@yahoogroups.com
-Received: (EGP: mail-8_1_0_1); 5 Sep 2002 22:33:40 -0000
-Received: (qmail 30555 invoked from network); 5 Sep 2002 22:33:40 -0000
-Received: from unknown (66.218.66.216) by m1.grp.scd.yahoo.com with QMQP;
-    5 Sep 2002 22:33:40 -0000
-Received: from unknown (HELO carbon) (194.73.73.92) by
-    mta1.grp.scd.yahoo.com with SMTP; 5 Sep 2002 22:33:40 -0000
-Received: from [217.42.100.248] (helo=oemcomputer) by carbon with smtp
-    (Exim 3.22 #8) id 17n5Bz-0005zZ-00 for forteana@yahoogroups.com;
-    Thu, 05 Sep 2002 23:33:39 +0100
-Message-Id: <006001c25523$9ab58980$f8642ad9@oemcomputer>
-To: <zzzzteana@yahoogroups.com>
-References: <MBBBKOLNBOHINOMCCDJDMEGADHAA.sbeacock@adan.kingston.net>
-    <002d01c2552c$076e8240$e66278d5@b5w3e9>
-Organization: CFZ
-X-Priority: 3
-X-Msmail-Priority: Normal
-X-Mailer: Microsoft Outlook Express 5.00.2615.200
-X-Mimeole: Produced By Microsoft MimeOLE V5.00.2615.200
-From: "Jon Downes" <jon@eclipse.co.uk>
-X-Yahoo-Profile: jondownes2001
+	for jm@localhost (single-drop); Tue, 06 Aug 2002 11:48:10 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g735YUv02123 for
+    <jm-ilug@jmason.org>; Sat, 3 Aug 2002 06:34:30 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id GAA15837; Sat, 3 Aug 2002 06:32:08 +0100
+Received: from UKExt5.uk.exel.com ([193.132.29.98]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id GAA15812 for <ilug@linux.ie>; Sat,
+    3 Aug 2002 06:32:02 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host [193.132.29.98] claimed to
+    be UKExt5.uk.exel.com
+From: "Dermot Beirne" <Dermot.Beirne@exel.com>
+To: "ilug" <ilug@linux.ie>
+Message-Id: <OF74F509D8.B096369C-ON80256C0A.001E0A06@uk.exel.com>
+Date: Sat, 3 Aug 2002 06:28:06 +0100
+X-Mimetrack: Serialize by Router on UKExt5/Exel-External(Release 5.0.9a
+    |January 7, 2002) at 03/08/2002 06:32:02
 MIME-Version: 1.0
-Mailing-List: list zzzzteana@yahoogroups.com; contact
-    forteana-owner@yahoogroups.com
-Delivered-To: mailing list zzzzteana@yahoogroups.com
+Content-Type: text/plain; charset=us-ascii
+Subject: [ILUG] Dermot Beirne/Dublin/IE/Exel is out of the office.
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
-Date: Thu, 5 Sep 2002 22:31:31 +0100
-Subject: Re: [zzzzteana] FWD (TLCB) Jimmy Carter: The Troubling, New Face of America
-Reply-To: zzzzteana@yahoogroups.com
-Content-Type: text/plain; charset=Windows-1252
-Content-Transfer-Encoding: 7bit
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-Of course, everyone knows that Owlman is a work of fuggin` genius
+I will be out of the office starting  02/08/2002 and will not return until
+06/08/2002.
 
-J
+I am out of the office until Tuesday 6th August.   I will reply to messages
+on my return.
+
+Thank you.
+DermotImportant Email Information
+
+The information in this email is confidential and may be legally
+privileged. It is intended solely for the addressee. Access to this email
+by anyone else is unauthorized. If you are not the intended recipient, any
+disclosure, copying, distribution or any action taken or omitted to be
+taken in reliance on it, is prohibited and may be unlawful. If you are not
+the intended addressee please contact the sender and dispose of this
+e-mail.
 
 
 
-
-> Hey, I met the wizard bloke from Owlman, who wants to touch me!!
-> 
-> Dave
-
-
-
------------------------- Yahoo! Groups Sponsor ---------------------~-->
-4 DVDs Free +s&p Join Now
-http://us.click.yahoo.com/pt6YBB/NXiEAA/MVfIAA/7gSolB/TM
----------------------------------------------------------------------~->
-
-To unsubscribe from this group, send an email to:
-forteana-unsubscribe@egroups.com
-
- 
-
-Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

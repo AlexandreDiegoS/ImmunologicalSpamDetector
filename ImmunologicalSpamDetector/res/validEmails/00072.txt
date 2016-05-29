@@ -1,68 +1,92 @@
-From fork-admin@xent.com  Mon Aug 26 15:31:00 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Fri Jul 19 21:03:25 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 1144B4416B
-	for <jm@localhost>; Mon, 26 Aug 2002 10:25:14 -0400 (EDT)
-Received: from phobos [127.0.0.1]
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 4DBF1440C8
+	for <jm@localhost>; Fri, 19 Jul 2002 16:03:25 -0400 (EDT)
+Received: from dogma.slashnull.org [212.17.35.15]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Mon, 26 Aug 2002 15:25:14 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7NKcVZ07401 for <jm@jmason.org>;
-    Fri, 23 Aug 2002 21:38:31 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 75D1F2940E3; Fri, 23 Aug 2002 13:36:08 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from mail3.panix.com (mail3.panix.com [166.84.1.74]) by xent.com
-    (Postfix) with ESMTP id 8A596294099 for <fork@xent.com>; Fri,
-    23 Aug 2002 13:35:46 -0700 (PDT)
-Received: from 159-98.nyc.dsl.access.net (159-98.nyc.dsl.access.net
-    [166.84.159.98]) by mail3.panix.com (Postfix) with ESMTP id CB5F09844B for
-    <fork@xent.com>; Fri, 23 Aug 2002 16:37:33 -0400 (EDT)
-From: Lucas Gonze <lgonze@panix.com>
-X-X-Sender: lgonze@localhost.localdomain
-Cc: "Fork@Xent.Com" <fork@spamassassin.taint.org>
-Subject: Re: The case for spam
-In-Reply-To: <Pine.LNX.4.30.0208221935220.31207-100000@tux.w3.org>
-Message-Id: <Pine.LNX.4.44.0208231610470.17440-100000@localhost.localdomain>
+	for jm@localhost (single-drop); Fri, 19 Jul 2002 21:03:25 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6JK2TJ30883 for
+    <jm-ilug@jmason.org>; Fri, 19 Jul 2002 21:02:29 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id VAA29178; Fri, 19 Jul 2002 21:01:58 +0100
+Received: from linux.local ([195.218.108.203]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id VAA29146 for <ilug@linux.ie>; Fri,
+    19 Jul 2002 21:01:37 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host [195.218.108.203] claimed
+    to be linux.local
+Received: from linux.local (localhost [127.0.0.1]) by linux.local
+    (8.11.6/8.11.6/SuSE Linux 0.5) with ESMTP id g6JJgJX04327 for
+    <ilug@linux.ie>; Fri, 19 Jul 2002 20:42:19 +0100
+Message-Id: <200207191942.g6JJgJX04327@linux.local>
+To: Irish Linux Users Group <ilug@linux.ie>
+Reply-To: Irish Linux Users Group <ilug@linux.ie>
+Subject: Re: [ILUG] CORRECTION - How to copy some files
+In-Reply-To: Message from Brian Foster <blf@utvinternet.ie> of
+    "Fri, 19 Jul 2002 16:15:49 BST."
+    <200207191515.g6JFFnX02981@linux.local>
+X-Mailer: [nmh-1.0.4] MH.6.8, SuSE Linux 7.3
+X-Url: http://www.blf.utvinternet.ie
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset="utf-8"
+Content-Id: <4324.1027107739.1@linux.local>
+Date: Fri, 19 Jul 2002 20:42:19 +0100
+From: Brian Foster <blf@utvinternet.ie>
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by lugh.tuatha.org id
+    VAA29146
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Fri, 23 Aug 2002 16:30:01 -0400 (EDT)
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-Dan Brickley wrote:
-> Except that thanks to the magic of spam, it's usually some else's locale
+  | Date: Fri, 19 Jul 2002 16:15:49 +0100
+  | From: Brian Foster <blf@utvinternet.ie>
+  |[ ... ]
+  |  the issue here is tar(1) (and cpio(1)) archives always
+  |  contain the data for each name of a hard link.  [ ... ]
 
-yeah, physical mail makes more sense for physical locales.
+ ARRGGGHHHH!!!!!
+ profuse apologies, the wrong version of my reply was posted
+ (blame it on being late for the pub).  ;-(
 
-> There are better technical solutions to privacy
-> protection than sending a copy of the same message to everyone on the
-> Internet, so the recipients can't be blamed for reading it.
+ the above is almost pure B*S* --- I got my `tar's and `cpio's
+ confused.  what I said _is_ correct, but for cpio(1) archives;
+ tar(1) archives do _not_ replicate the data for hard links.
 
-Such as?
+ I spotted this confusion on my part before I posted my reply,
+ and re-wrote it to be more correct, yet somehow the wrong
+ version got sent anyways.  ARRGGGHHHH!!!!!  ;-(  ;-(  ;-(
 
-Anything equivalent will be spam, just not email spam.  Dump entry IPs for
-an anonymizing network onto a public bulletin board that's used for other
-purposes -- still spam.  Etc etc.
+ anyways, GNU `cpio -p' does not do spurious reads or writes.
+ GNU `tar cf - ... | tar xf - ...' also does not, albeit each
+ `tar' both reads and writes the data.  hence, there is twice
+ (not thrice!) the I/O of `cpio -p', maybe an issue for c.60Gb.
 
-I'm not arguing against other solutions, I'm arguing that spam is speech.  
-If you let governments ban it, you're giving them the power to choose who 
-gets to speak.
+ using strace(1), I've verified my claim GNU `cpio -p' does
+ not do spurious reads or writes, i.e. it link(2)s.  but having
+ just come back from the pub, perhaps this should also be taken
+ with extra skepticism ......   ;-\ 
 
-- Lucas
+sorry.  cheers!
+	-blf-
+--
+ Innovative, very experienced, Unix and      | Brian Foster    Dublin, Ireland
+ Chorus (embedded RTOS) kernel internals     | e-mail: blf@utvinternet.ie
+ expert looking for a new position ...       | mobile: (+353 or 0)86 854 9268
+  For a résumé, contact me, or see my website  http://www.blf.utvinternet.ie
 
+    Stop E$$o (ExxonMobile):  «Whatever you do, don't buy Esso --- they
+     don't give a damn about global warming.»    http://www.stopesso.com
+     Supported by Greenpeace, Friends of the Earth, and numerous others...
 
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
-http://xent.com/mailman/listinfo/fork
 

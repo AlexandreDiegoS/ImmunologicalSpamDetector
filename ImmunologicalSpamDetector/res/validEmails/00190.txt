@@ -1,134 +1,88 @@
-From fork-admin@xent.com  Wed Aug 28 10:50:03 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From ilug-admin@linux.ie  Wed Jul 31 17:37:40 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id E8BC743F99
-	for <zzzz@localhost>; Wed, 28 Aug 2002 05:49:37 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 1E2CE440A8
+	for <jm@localhost>; Wed, 31 Jul 2002 12:37:39 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 28 Aug 2002 10:49:37 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7RIKgZ20480 for <zzzz@spamassassin.taint.org>;
-    Tue, 27 Aug 2002 19:20:43 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 4E9BD2940C3; Tue, 27 Aug 2002 11:18:09 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from smtp1.superb.net (smtp1.superb.net [207.228.225.14]) by
-    xent.com (Postfix) with SMTP id C557E2940C3 for <fork@xent.com>;
-    Tue, 27 Aug 2002 11:17:58 -0700 (PDT)
-Received: (qmail 1107 invoked from network); 27 Aug 2002 18:19:59 -0000
-Received: from unknown (HELO maya.dyndns.org) (165.154.190.88) by
-    smtp1.superb.net with SMTP; 27 Aug 2002 18:19:59 -0000
-Received: by maya.dyndns.org (Postfix, from userid 501) id 16A5F1C388;
-    Tue, 27 Aug 2002 13:49:26 -0400 (EDT)
-To: Mike Masnick <mike@techdirt.com>
-Cc: "Adam L. Beberg" <beberg@mithral.com>, Tom <tomwhore@slack.net>,
-	<fork@xent.com>
-Subject: Re: The GOv gets tough on Net Users.....er Pirates..
-References: <Pine.BSO.4.44.0208231900430.16631-100000@crank.slack.net>
-    <5.1.1.6.0.20020826113243.034de5d0@techdirt.com>
-From: Gary Lawrence Murphy <garym@canada.com>
-X-Home-Page: http://www.teledyn.com
-Organization: TCI Business Innovation through Open Source Computing
-Message-Id: <m2elcknqe2.fsf@maya.dyndns.org>
-Reply-To: Gary Lawrence Murphy <garym@canada.com>
-X-Url: http://www.teledyn.com/
+	for jm@localhost (single-drop); Wed, 31 Jul 2002 17:37:39 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6VGcF201249 for
+    <jm-ilug@jmason.org>; Wed, 31 Jul 2002 17:38:15 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id RAA17034; Wed, 31 Jul 2002 17:36:00 +0100
+Received: from linux.local ([195.218.108.65]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id RAA16990 for <ilug@linux.ie>; Wed,
+    31 Jul 2002 17:35:39 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host [195.218.108.65] claimed
+    to be linux.local
+Received: from linux.local (localhost [127.0.0.1]) by linux.local
+    (8.11.6/8.11.6/SuSE Linux 0.5) with ESMTP id g6VFxhX09665 for
+    <ilug@linux.ie>; Wed, 31 Jul 2002 16:59:43 +0100
+Message-Id: <200207311559.g6VFxhX09665@linux.local>
+To: Irish Linux Users Group <ilug@linux.ie>
+Reply-To: Irish Linux Users Group <ilug@linux.ie>
+Subject: Re: [ILUG] Piping to multiple processes (which might die)?
+In-Reply-To: Message from Ronan Cunniffe <ronan@cunniffe.net> of
+    "Wed, 31 Jul 2002 15:13:23 BST."
+    <1028124803.3d47f0834c261@webmail.gameshrine.com>
+X-Mailer: [nmh-1.0.4] MH.6.8, SuSE Linux 7.3
+X-Url: http://www.blf.utvinternet.ie
 MIME-Version: 1.0
-Content-Type: text/plain; charset=us-ascii
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset="utf-8"
+Content-Id: <9662.1028131183.1@linux.local>
+Date: Wed, 31 Jul 2002 16:59:43 +0100
+From: Brian Foster <blf@utvinternet.ie>
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by lugh.tuatha.org id
+    RAA16990
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: 27 Aug 2002 13:49:25 -0400
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
->>>>> "M" == Mike Masnick <mike@techdirt.com> writes:
+  | Date: Wed, 31 Jul 2002 15:13:23 +0100
+  | From: Ronan Cunniffe <ronan@cunniffe.net>
+  | 
+  | Um, my test was to tee to a fifo I didn't read from... resulting
+  | in the other reader hanging around forever.... not realising that
+  | never-opened-for-reading and opened-and-later-closed might be
+  | different.
 
-    M> In which world are we talking about?  That may be true for the
-    M> first sale, but once something is out in the world, the
-    M> "creator" loses control... If I buy a chair you built, and then
-    M> decide to give it away to my neighbor, by you're definition, he
-    M> just stole from you.
+ ah!  yes!  this is one of those gotchas everyone stumbles
+ over.  the writer of a never-opened-for-reading pipe will
+ quickly block (as soon as the pipe's limited buffer fills
+ up).  but the writer of opened-and-later-closed pipe gets
+ an EPIPE error (and the usually-terminal SIGPIPE signal).
 
-I don't endorse the whole RIAA thing, but to be accurate, you would
-have to duplicate the chair so that both you and your neighbour could
-continue to sit down, and yes, I suppose that would be more serious.
+ the typical stumble is someone creates an anonymous pipe
+ with pipe(2), but forgets to close(2) the reader's fd in
+ the writer-process (or visa-versa) .... and then wonders
+ why the real reader never sees an EOF and/or the writer
+ is never gets an EPIPE/SIGPIPE.  various FAQs and many
+ books probably discuss this topic in depth to the death.
 
-They can sit on /your/ copy, but if you start churning out exact dups
-of a name-brand artifact, people with law degrees start to smell
-money.  For example, I could copy a Gibson Guitar /exactly/ so long as
-(a) I don't put Orville's name on the headstock and (b) I license the
-patented bracing methods.  If I instead try to sell a homebuilt guitar
-on eBay with "Gibson" written in crayon on the headstock, and then
-claim it is a true Les Paul limited edition, I expect people would get
-upset.
+  |             Sensible behaviour has now been observed.
 
-    M> Why is it that people don't understand that giving stuff away
-    M> is a perfectly acceptable tactic in capitalist businesses?  
+ good!  and good luck.
+cheers,
+	-blf-
+--
+«How many surrealists does it take to    |  Brian Foster    Dublin, Ireland
+ change a lightbulb?  Three.  One calms  |  e-mail: blf@utvinternet.ie
+ the warthog, and two fill the bathtub   |  mobile: (+353 or 0)86 854 9268
+ with brightly-coloured machine tools.»  |  http://www.blf.utvinternet.ie
 
-To play the Devil's Advocate here, it's not about giving /stuff/ away,
-it is about granting endless and cascading duplication/distribution
-rights.  Even if _I_ only make the copy I give to you, that doesn't
-stop you from making 10000 copies to sell.
-
-    M> Access to free stuff often helps to sell other stuff.  
-
-This is the difficult question:  How will they draw the distinction?
-The "other stuff" is just as easy to duplicate as the free stuff.
-This is why MS is hunting people with illegal Windows; it's no harder
-to dup than a Linux CD, only what is there that actually prevents
-people from doing it?
-
-Personally, I don't think the issue should have anything to do with
-sales or units.  The issue is that basic phallacy that says a suit
-should be able to "own" someone else's intellectual property.  Sarah
-McLaughlin isn't suing you, it's her label's legal dept because it's
-the label who stands to lose; Sarah's already fat beyond her wildest
-dreams, so a few bucks here or there, or even if the well dried up
-tomorrow, it's not going to really traumatize her (unless she's been
-blazingly stupid with her money)
-
-But the label ... like Disney and Mickey, they need the cash cow so
-they can keep all sorts of uncreative hangers-on in limos and coke.
-If you thought only Elvis or Brian Jones or Dennis Wilson had problems
-with beautiful-people deadbeat leech "friends" draining their riches,
-think again.
-
-The problem is really very simple because it is semantic, and until we
-make the semantic flip, it's unsolvable, but like trisecting an angle,
-all it takes is looking at the same situation in a different
-way.  Here's the revelation: Elvis never ever made a hit record.
-
-Elvis didn't make the hits, his /fans/ made the hits.  His fans did
-the work cleaning toilets, manning the convenience stores, driving
-milk trucks, sitting at endless office desks, they did the /real/
-labour that paid for every last one of Elvis Presley's pills.  All
-Elvis did was sing into a microphone every so often, and pen or
-collect the odd song that all those /people/ liked and wanted as
-something of their own.  But it's not _Elvis_ who made them universal
-statements, it is the universe of fans who slurped the songs into
-their own lives, it was pull-technology, not push.
-
-Therefore the question becomes: how many times must these fans pay
-before they own what they themselves have created?  They pay royalties
-for listening to the radio, for blank tapes, for concert tickets, for
-a beer in a bar with a cover band ... they pay over and over and over
-again for the /right/ to make some hack writer's song /their/
-favourite song????  That's where the whole system has been seriously
-warped by the record companies and ad companies reframing it into your
-thinking that it is the Elvis who makes the Elvis.  It's not.  It's
-the people who make them; the songs are already theirs.
+    Stop E$$o (ExxonMobile):  «Whatever you do, don't buy Esso --- they
+     don't give a damn about global warming.»    http://www.stopesso.com
+     Supported by Greenpeace, Friends of the Earth, and numerous others...
 
 -- 
-Gary Lawrence Murphy <garym@teledyn.com> TeleDynamics Communications Inc
- Business Advantage through Community Software : http://www.teledyn.com
-"Computers are useless.  They can only give you answers."(Pablo Picasso)
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

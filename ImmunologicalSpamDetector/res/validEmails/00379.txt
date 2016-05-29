@@ -1,85 +1,70 @@
-From fork-admin@xent.com  Mon Sep  2 23:01:30 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (unknown [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id C86A516F23
-	for <jm@localhost>; Mon,  2 Sep 2002 23:01:07 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Tue Aug 13 10:30:22 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 3653C44138
+	for <jm@localhost>; Tue, 13 Aug 2002 05:22:17 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Mon, 02 Sep 2002 23:01:07 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g82GXqZ09955 for <jm@jmason.org>;
-    Mon, 2 Sep 2002 17:33:53 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 751382940A6; Mon,  2 Sep 2002 09:31:02 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from mojo-jojo.ebuilt.net (mojo-jojo.ebuilt.net [209.216.43.10])
-    by xent.com (Postfix) with SMTP id 9B7F2294099 for <fork@xent.com>;
-    Mon,  2 Sep 2002 09:30:17 -0700 (PDT)
-Received: (qmail 23019 invoked from network); 2 Sep 2002 16:32:40 -0000
-Received: from nat.ebuilt.com (HELO thedudebvi1wob) (209.216.46.200) by
-    mojo-jojo.ebuilt.net with SMTP; 2 Sep 2002 16:32:40 -0000
-Reply-To: <rbfar@ebuilt.com>
-From: "Reza B'Far (eBuilt)" <rbfar@ebuilt.com>
-To: "Adam L. Beberg" <beberg@mithral.com>,
-	"Mr. FoRK" <fork_list@hotmail.com>
-Cc: <fork@spamassassin.taint.org>
-Subject: RE: Java is for kiddies
-Message-Id: <NCBBJMBPOKEEKDAILFNGOEBKFEAA.rbfar@ebuilt.com>
+	for jm@localhost (single-drop); Tue, 13 Aug 2002 10:22:17 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7D98Wb24510 for
+    <jm-ilug@jmason.org>; Tue, 13 Aug 2002 10:08:32 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id KAA03278; Tue, 13 Aug 2002 10:06:52 +0100
+Received: from homer.jinny.ie ([193.120.171.3]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id KAA03249 for <ilug@linux.ie>; Tue,
+    13 Aug 2002 10:06:45 +0100
+Received: from jlooney.jinny.ie (fw [193.120.171.2]) by homer.jinny.ie
+    (8.9.3/8.11.2) with ESMTP id KAA09675; Tue, 13 Aug 2002 10:06:15 +0100
+Received: (from john@localhost) by jlooney.jinny.ie (8.11.6/8.11.6) id
+    g7D96TG04926; Tue, 13 Aug 2002 10:06:29 +0100
+X-Authentication-Warning: jlooney.jinny.ie: john set sender to
+    jlooney@jinny.ie using -f
+Date: Tue, 13 Aug 2002 10:06:29 +0100
+From: "John P. Looney" <valen@tuatha.org>
+To: "Damian O' Sullivan" <Damian.OSullivan@bcs.ie>
+Cc: "'ilug@linux.ie'" <ilug@linux.ie>
+Subject: Re: [ILUG] RH7.3 on Cobalt - the saga continues
+Message-Id: <20020813090629.GD2019@jinny.ie>
+Reply-To: ilug@linux.ie
+Mail-Followup-To: Damian O' Sullivan <Damian.OSullivan@bcs.ie>,
+	"'ilug@linux.ie'" <ilug@linux.ie>
+References: <214A52C16E44D51186FB00508BB83E0F7C0D68@w2k-server.bcs.ie>
 MIME-Version: 1.0
-Content-Type: text/plain; charset="us-ascii"
-Content-Transfer-Encoding: 7bit
-X-Priority: 3 (Normal)
-X-Msmail-Priority: Normal
-X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2910.0)
-Importance: Normal
-X-Mimeole: Produced By Microsoft MimeOLE V5.50.4522.1200
-In-Reply-To: <Pine.LNX.4.33.0209012058020.3683-100000@watcher.mithral.com>
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <214A52C16E44D51186FB00508BB83E0F7C0D68@w2k-server.bcs.ie>
+User-Agent: Mutt/1.4i
+X-Os: Red Hat Linux 7.3/Linux 2.4.18-3
+X-Url: http://www.redbrick.dcu.ie/~valen
+X-Gnupg-Publickey: http://www.redbrick.dcu.ie/~valen/public.asc
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Mon, 2 Sep 2002 09:30:22 -0700
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-With the increasing prevalence of web services (not that they are always a
-good thing), I doubt that parsing XML will be something that will remain at
-the Java application layer for long... Recent threads here on Fork
-indicating the move towards hardware parsing or this code even become part
-of the native implementation of Java on various platforms...
+On Tue, Aug 13, 2002 at 10:03:14AM +0100, Damian O' Sullivan mentioned:
+> But how did you get to the prom on it? I have an assortment of qubes and
+> raqs here and they have lcd displays but I see no way of entering commands
+> that way. You using a serial cable or something?
 
-Reza B'Far
+ Yep.
 
------Original Message-----
-From: fork-admin@xent.com [mailto:fork-admin@xent.com]On Behalf Of Adam
-L. Beberg
-Sent: Sunday, September 01, 2002 9:01 PM
-To: Mr. FoRK
-Cc: fork@spamassassin.taint.org
-Subject: Re: Java is for kiddies
+ Power on the box while pushing the recessed button near the LCD with a
+paper clip. On the serial console, you'll see "press space to enter the
+prom".
+
+ It's a crap prom, but a prom, nonetheless.
+
+Kate
 
 
-On Sun, 1 Sep 2002, Mr. FoRK wrote:
-
-> > 6.  Hardware is getting so fast that I'm not sure if the performance
-> > difference between Java and C/C++ are relevant any more.
->
-> When out-of-the-box parsing & transform of XML in java is 25x slower than
-> C++ on the same hardware then it does matter.
-
-Yea, and that on top of the 100x of all the parsing engines over just
-bigendian'ing it and passing the data (5x+++) in the raw. Then it REALLY
-matters.
-
-- Adam L. "Duncan" Beberg
-  http://www.mithral.com/~beberg/
-  beberg@mithral.com
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

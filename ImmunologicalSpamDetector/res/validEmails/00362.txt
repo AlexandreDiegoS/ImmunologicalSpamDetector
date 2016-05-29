@@ -1,73 +1,120 @@
-From fork-admin@xent.com  Thu Aug 29 11:04:08 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Tue Aug 13 10:28:55 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 5B3624415B
-	for <jm@localhost>; Thu, 29 Aug 2002 06:03:50 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 051944412B
+	for <jm@localhost>; Tue, 13 Aug 2002 05:21:49 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Thu, 29 Aug 2002 11:03:50 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7T1KjZ22489 for <jm@jmason.org>;
-    Thu, 29 Aug 2002 02:20:46 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 0305A29418F; Wed, 28 Aug 2002 18:18:08 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from hotmail.com (dav26.law15.hotmail.com [64.4.22.83]) by
-    xent.com (Postfix) with ESMTP id 5709E2940AD for <FoRK@xent.com>;
-    Wed, 28 Aug 2002 18:17:12 -0700 (PDT)
-Received: from mail pickup service by hotmail.com with Microsoft SMTPSVC;
-    Wed, 28 Aug 2002 18:19:15 -0700
-X-Originating-Ip: [63.224.51.161]
-From: "Mr. FoRK" <fork_list@hotmail.com>
-To: "FoRK" <FoRK@xent.com>
-References: <AMEPKEBLDJJCCDEJHAMIGEFKFFAA.ejw@cse.ucsc.edu>
-Subject: Re: Another low probability event
+	for jm@localhost (single-drop); Tue, 13 Aug 2002 10:21:49 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7D0OVb10586 for
+    <jm-ilug@jmason.org>; Tue, 13 Aug 2002 01:24:31 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id BAA14853; Tue, 13 Aug 2002 01:23:55 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from mail2.mail.iol.ie (mail2.mail.iol.ie [194.125.2.193]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id BAA14820 for <ilug@linux.ie>;
+    Tue, 13 Aug 2002 01:23:49 +0100
+Received: from [213.202.164.73] (helo=excalibur.research.wombat.ie) by
+    mail2.mail.iol.ie with esmtp (Exim 3.35 #1) id 17ePLz-0003Qc-00;
+    Tue, 13 Aug 2002 01:16:08 +0100
+Received: (from kenn@localhost) by excalibur.research.wombat.ie
+    (8.11.6/8.11.6) id g7D0Nkd14513; Tue, 13 Aug 2002 01:23:46 +0100
+Date: Tue, 13 Aug 2002 01:23:46 +0100
+From: Kenn Humborg <kenn@linux.ie>
+To: Nick Murtagh <nickm@go2.ie>
+Cc: ilug@linux.ie
+Subject: Re: [ILUG] slashdot EW Dijkstra humor
+Message-Id: <20020813012346.A14435@excalibur.research.wombat.ie>
+References: <NBBBIGEGHIGMPCNKHCECEEGKEAAA.kenn@bluetree.ie>
+    <1029179159.9170.14.camel@gemini.windmill>
 MIME-Version: 1.0
-Content-Type: text/plain; charset="iso-8859-1"
-Content-Transfer-Encoding: 7bit
-X-Priority: 3
-X-Msmail-Priority: Normal
-X-Mailer: Microsoft Outlook Express 6.00.2600.0000
-X-Mimeole: Produced By Microsoft MimeOLE V6.00.2600.0000
-Message-Id: <DAV26WnOIwQO3OhV84d00009679@hotmail.com>
-X-Originalarrivaltime: 29 Aug 2002 01:19:15.0803 (UTC) FILETIME=[173672B0:01C24EFA]
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.2.5.1i
+In-Reply-To: <1029179159.9170.14.camel@gemini.windmill>; from nickm@go2.ie
+    on Mon, Aug 12, 2002 at 08:05:58PM +0100
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Wed, 28 Aug 2002 18:18:53 -0700
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-We met a family in our parent-baby group with a son born a few minutes
-before our daughter - not unlikely as all members were from the same
-hospital. But, this family happened to have lived in the exact same
-apartment unit a year before we had...
+On Mon, Aug 12, 2002 at 08:05:58PM +0100, Nick Murtagh wrote:
+> On Mon, 2002-08-12 at 19:56, Kenn Humborg wrote:
+> > Well, you should consider 'break' inside a 'select' statement
+> > to be part of the syntax, rather than a control flow modifier.
+> 
+> Why? When it comes down to the assembly level, it gets turned
+> into some kind of jump instruction. Should I pretend I don't know
+> this when I'm programming?
 
------ Original Message -----
-From: "Jim Whitehead" <ejw@cse.ucsc.edu>
-To: "FoRK" <FoRK@xent.com>
-Sent: Wednesday, August 28, 2002 10:40 AM
-Subject: Another low probability event
+I know that.  And no, you shouldn't.  But see below.
+
+> > A _mandatory_ part of the syntax, at that.
+> 
+> It's not mandatory. You can leave out the break, and the flow
+> of control will continue to the next case. Which can be useful
+> in certain circumstances.
+
+I know that, too.
+
+However, the discussion was tending towards
+"don't use things like goto and break to alter flow of control
+in your program".  While not valid 100% of the time, it's a 
+reasonable rule of thumb.  The idea is that, when looking at
+code, it's easier to see how control moves through a 
+function if your basic control blocks do all the work.  The
+specific example of replacing a break in a while loop with
+a modified while() expression shows this.  You only have to
+look in one place to see when you'll run off the end of the
+loop, not hunt through the whole loop.  (Although that particular
+example wasn't really that good, since the extra test was 
+adding on (... || done) and setting done = true in the loop.
+Which is much the same as a break really.)
+
+The idea is to surprise the next programmer as little as 
+possible when he sees the code.
+
+In a similar vein, having a break in every case of a select
+block makes the flow much clearer.  Flow goes in, zero or 
+one case blocks are executed and flows comes out the bottom.
+Leaving out break statements breaks this assumption.
+
+My point is that, while there are a few situations where it
+makes sense to leave out the breaks, I usually tend to 
+consider the break at the end of each case more like the
+brace at the end of the while block.  
+
+In fact, maybe it wouldn't have been a bad idea if the language
+was designed such that the continue statement meant fall through
+and break wasn't needed:
+
+   select (x) {
+      case 1:
+         /* do something - doesn't fall through */
+      case 2:
+         /* do something - falls through to next case*/
+         continue;
+      case 3:
+         /* do something - doesn't fall through */
+      default:
+         /* do something - doesn't fall through */
+   }
+
+Still, hindsight and all that.  Sigh.
+
+Later,
+Kenn
 
 
-> So, a new family moved in down the street, with two kids, making us very
-> excited that there might be a child around the same age (20 months) as our
-> daughter Tatum. While we're talking to the family, we discover that their
-> daughter Kiara was born the same day as Tatum, within two hours, in the
-same
-> exact maternity ward. Both mothers were undoubtedly in labor at the same
-> time.
->
-> Wow.
->
-> - Jim
->
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
 

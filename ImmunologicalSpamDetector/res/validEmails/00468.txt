@@ -1,54 +1,73 @@
-From fork-admin@xent.com  Fri Sep  6 15:28:27 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id B5C8216F1C
-	for <jm@localhost>; Fri,  6 Sep 2002 15:26:13 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Tue Aug 20 11:53:23 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id BCC8843C5D
+	for <jm@localhost>; Tue, 20 Aug 2002 06:52:01 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Fri, 06 Sep 2002 15:26:13 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g86EK4C10630 for <jm@jmason.org>;
-    Fri, 6 Sep 2002 15:20:04 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 90D1129429A; Fri,  6 Sep 2002 07:17:03 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from crank.slack.net (slack.net [166.84.151.181]) by xent.com
-    (Postfix) with ESMTP id BEACE2941EC for <fork@xent.com>; Fri,
-    6 Sep 2002 07:16:44 -0700 (PDT)
-Received: by crank.slack.net (Postfix, from userid 596) id 033B23ED7E;
-    Fri,  6 Sep 2002 10:22:35 -0400 (EDT)
-Received: from localhost (localhost [127.0.0.1]) by crank.slack.net
-    (Postfix) with ESMTP id 01C213ED56 for <fork@xent.com>; Fri,
-    6 Sep 2002 10:22:34 -0400 (EDT)
-From: Tom <tomwhore@slack.net>
-To: fork@spamassassin.taint.org
-Subject: The Needle and the damage done
-Message-Id: <Pine.BSO.4.44.0209061020430.32013-100000@crank.slack.net>
+	for jm@localhost (single-drop); Tue, 20 Aug 2002 11:52:01 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7KApEZ02716 for
+    <jm-ilug@jmason.org>; Tue, 20 Aug 2002 11:51:14 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id LAA30303; Tue, 20 Aug 2002 11:50:12 +0100
+Received: from hawk.dcu.ie (mail.dcu.ie [136.206.1.5]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id LAA30265 for <ilug@linux.ie>; Tue,
+    20 Aug 2002 11:50:05 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host mail.dcu.ie [136.206.1.5]
+    claimed to be hawk.dcu.ie
+Received: from prodigy.redbrick.dcu.ie (136.206.15.10) by hawk.dcu.ie
+    (6.0.040) id 3D6203D300001530 for ilug@linux.ie; Tue, 20 Aug 2002 11:50:05
+    +0100
+Received: by prodigy.redbrick.dcu.ie (Postfix, from userid 1023) id
+    37D1EDA4A; Tue, 20 Aug 2002 11:50:05 +0100 (IST)
+Date: Tue, 20 Aug 2002 11:50:05 +0100
+From: Philip Reynolds <phil@redbrick.dcu.ie>
+To: ilug@linux.ie
+Subject: Re: [ILUG] postfix
+Message-Id: <20020820115005.E4237@prodigy.Redbrick.DCU.IE>
+References: <20020820102914.GC12174@jinny.ie>
+    <20020820103247.30290.qmail@web12603.mail.yahoo.com>
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.2.5i
+In-Reply-To: <20020820103247.30290.qmail@web12603.mail.yahoo.com>;
+    from hrishys@yahoo.co.uk on Tue, Aug 20, 2002 at 11:32:47AM +0100
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Fri, 6 Sep 2002 10:22:34 -0400 (EDT)
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
->>From the Hoax or Hack Dept:
-Digital Needle - A Virtual Gramophone , a reported method to scan yourr
-old LPs on a flat bed scanner and then use the resulting images to make
-MP3's of the fine playing conatined therein. Its all still sketchy to the
-point of possible hoaxdom, but the idea is dang interesting.
+hrishy's [hrishys@yahoo.co.uk] 22 lines of wisdom included:
+> Hi All
+> 
+> 
+> I ahd some users test1 test2 etc.i deleted their
+> mailboxes from /var/mail/test1 etc.now the postfix
+> queue seems to be huge can anybody help what could be
+> wrong
 
-http://www.cs.huji.ac.il/~springer/
+Some logs might be of some help.
 
+1) some output of /var/log/maillog with some relevant error message
+(that could be /var/log/mail.log or some other log depending on your
+configuration)
 
+2) the output from ``postconf -n''
 
+On another note, you did recreate the mailboxes, didn't you?
+
+-- 
+  Philip Reynolds        
+   RFC Networks          tel: 01 8832063
+www.rfc-networks.ie      fax: 01 8832041
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 

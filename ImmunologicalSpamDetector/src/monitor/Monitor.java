@@ -11,7 +11,7 @@ import java.util.Properties;
 import census.Census;
 import detector.Detector;
 import util.PreprocessEmail;
-import util.file.Email;
+import util.file.IOManipulation;
 import util.file.ProjectProperties;
 
 public class Monitor {
@@ -53,24 +53,27 @@ public class Monitor {
 	public boolean verifyEmail(File email){
 		boolean isValid = true;
 		Properties projectProperties = ProjectProperties.getProperties();
-		String emailContent = PreprocessEmail.clearEmailContent((Email.readEmailContent(email)));
+		String emailContent = PreprocessEmail.clearEmailContent((IOManipulation.readEmailContent(email)));
 		String[] contentWords = emailContent.split(" ");
 		float spamDetectionPercentageThreshold = Float.parseFloat(projectProperties.getProperty("spamDetectionPercentageThreshold"));
 		int spamDetectionThreshold = Math.round(spamDetectionPercentageThreshold * this.detectors.size());
+		float keyWordMatchingPercentageThreshold = Float.parseFloat(projectProperties.getProperty("keyWordMatchingPercentageThreshold"));
+		int keyWordMatchingThreshold = 0;
 		
 		int detectorMatchCount = 0;
 		for(Detector detector : this.detectors){
 			int matchCount = 0;
 			for(String keyWord : detector.getKeywords()){
 				for(String word : contentWords){
-					if(Census.verifyTerms(keyWord, word)){
+					if(Monitor.verifyTerms(keyWord, word)){
 						matchCount++;
 						break;
 					}
 				}
 			}
 			
-			if(matchCount == detector.getKeywords().size()){
+			keyWordMatchingThreshold = Math.round(keyWordMatchingPercentageThreshold * detector.getKeywords().size());
+			if(matchCount >= keyWordMatchingThreshold){
 				detectorMatchCount++;
 			}
 		}
@@ -92,5 +95,18 @@ public class Monitor {
 		}
 		
 		return validEmails;
+	}
+	
+	public static boolean verifyTerms(String s1, String s2){
+		boolean termsMatches = false;
+		Properties projectProperties = ProjectProperties.getProperties();
+		int hammingDistanceThreshold = Integer.parseInt(projectProperties.getProperty("hammingDistanceThreshold"));
+		int hammingDistance = Census.hammingDistance(s1, s2);
+		
+		if(hammingDistance <= hammingDistanceThreshold){
+			termsMatches = true;
+		}
+		
+		return termsMatches;
 	}
 }

@@ -1,63 +1,80 @@
-From fork-admin@xent.com  Fri Sep  6 11:41:37 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id AFF3616F70
-	for <jm@localhost>; Fri,  6 Sep 2002 11:39:36 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Mon Aug 19 11:03:20 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id DC8954419F
+	for <jm@localhost>; Mon, 19 Aug 2002 05:54:40 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Fri, 06 Sep 2002 11:39:36 +0100 (IST)
-Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g868Y3W25987 for
-    <jm@jmason.org>; Fri, 6 Sep 2002 09:34:33 +0100
-Received: from xent.com ([64.161.22.236]) by webnote.net (8.9.3/8.9.3)
-    with ESMTP id EAA20098 for <jm@jmason.org>; Fri, 6 Sep 2002 04:34:22 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id B4DF82940AA; Thu,  5 Sep 2002 20:31:02 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from mithral.com (watcher.mithral.com [204.153.244.1]) by
-    xent.com (Postfix) with SMTP id C71A029409F for <fork@xent.com>;
-    Thu,  5 Sep 2002 20:30:46 -0700 (PDT)
-Received: (qmail 23335 invoked by uid 1111); 6 Sep 2002 03:33:18 -0000
-From: "Adam L. Beberg" <beberg@mithral.com>
-To: <bitbitch@magnesium.net>
-Cc: <fork@spamassassin.taint.org>
-Subject: Re: Selling Wedded Bliss (was Re: Ouch...)
-In-Reply-To: <77205735221.20020905231659@magnesium.net>
-Message-Id: <Pine.LNX.4.33.0209052030090.23284-100000@watcher.mithral.com>
+	for jm@localhost (single-drop); Mon, 19 Aug 2002 10:54:40 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7J9mx617091 for
+    <jm-ilug@jmason.org>; Mon, 19 Aug 2002 10:48:59 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id KAA30432; Mon, 19 Aug 2002 10:48:16 +0100
+Received: from smtpstore.strencom.net (ns1.strencom.net [217.75.0.66]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id KAA30400 for <ilug@linux.ie>;
+    Mon, 19 Aug 2002 10:48:09 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host ns1.strencom.net
+    [217.75.0.66] claimed to be smtpstore.strencom.net
+Received: from enterprise.wasptech.com (mail.wasptech.com [217.75.2.106])
+    by smtpstore.strencom.net (Postfix) with ESMTP id 81C6ECEE85 for
+    <ilug@linux.ie>; Mon, 19 Aug 2002 10:00:41 +0000 (AZOST)
+X-Mimeole: Produced By Microsoft Exchange V6.0.5762.3
+Content-Class: urn:content-classes:message
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset="us-ascii"
+Subject: RE: [ILUG] veritas backup on linux ?
+Date: Mon, 19 Aug 2002 10:42:23 +0100
+Message-Id: <45130FBE2F203649A4BABDB848A9C9D00E9C0A@enterprise.wasptech.com>
+X-MS-Has-Attach: 
+X-MS-Tnef-Correlator: 
+Thread-Topic: [ILUG] veritas backup on linux ?
+Thread-Index: AcJHYvA1p3SvV7fbQnCPiuQfsHl04QAAVrqA
+From: "Fergal Moran" <fergal.moran@wasptech.com>
+To: <ilug@linux.ie>
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by lugh.tuatha.org id
+    KAA30400
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Thu, 5 Sep 2002 20:33:18 -0700 (PDT)
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-On Thu, 5 Sep 2002 bitbitch@magnesium.net wrote:
+Yes indeed - there should be an agents directory on the Veritas CD - in
+the unix subdirectory there should be a file called be_agnt.tar which
+needs to be installed and configured.  I am not sure - but I think that
+you may need to purchase a serial number in order to get this to work..
 
-> Yet another case where 'marriage' is actually an inappropriate word
-> for these guys.  What they want is 'housekeeper' 'dog' and
-> 'prostitute'.
+Fergal.
 
-So, you're saying that product bundling works? Good point.
+> -----Original Message-----
+> From: John P. Looney [mailto:valen@tuatha.org] 
+> Sent: 19 August 2002 10:34
+> To: Irish LUG list
+> Subject: [ILUG] veritas backup on linux ?
+> 
+> 
+>  I've a solaris box & a windows 2000 box, both with DLT 
+> drives, controlled by Veritas Backup.
+> 
+>  Can I install some sort of client on the linux box to enable 
+> it to be backed up ? A browse of the Veritas site is a little 
+> quiet on this front.
+> 
+> Kate
+> 
+> 
+> -- 
+> Irish Linux Users' Group: ilug@linux.ie 
+> http://www.linux.ie/mailman/listinfo/ilug for 
+> (un)subscription information. List maintainer: listmaster@linux.ie
+> 
 
-And how is this any different from "normal" marriage exactly? Other then
-that the woman not only gets a man, but one in a country where both she and
-her offspring will have actual opportunities? Oh and the lack of
-"de-feminized, over-sized, self-centered, mercenary-minded" choices?
-
-
-- Adam L. "Duncan" Beberg
-  http://www.mithral.com/~beberg/
-  beberg@mithral.com
-
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 

@@ -1,96 +1,59 @@
-From fork-admin@xent.com  Mon Aug 26 22:28:34 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Mon Aug 12 11:05:47 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id DEFB243F99
-	for <jm@localhost>; Mon, 26 Aug 2002 17:28:33 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 577F544150
+	for <jm@localhost>; Mon, 12 Aug 2002 05:55:52 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Mon, 26 Aug 2002 22:28:33 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7QLMwZ10120 for <jm@jmason.org>;
-    Mon, 26 Aug 2002 22:22:58 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 878672941DE; Mon, 26 Aug 2002 13:39:22 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from mta6.snfc21.pbi.net (mta6.snfc21.pbi.net [206.13.28.240])
-    by xent.com (Postfix) with ESMTP id A9E7F2940F8 for <fork@xent.com>;
-    Sat, 24 Aug 2002 08:02:21 -0700 (PDT)
-Received: from endeavors.com ([66.126.120.171]) by mta6.snfc21.pbi.net
-    (iPlanet Messaging Server 5.1 (built May  7 2001)) with ESMTP id
-    <0H1C007C2SIRJB@mta6.snfc21.pbi.net> for fork@xent.com; Sat,
-    24 Aug 2002 08:04:11 -0700 (PDT)
-From: Gregory Alan Bolcer <gbolcer@endeavors.com>
-Subject: Re: Entrepreneurs
-To: fork@spamassassin.taint.org
-Message-Id: <3D67A063.7080502@endeavors.com>
-Organization: Endeavors Technology, Inc.
+	for jm@localhost (single-drop); Mon, 12 Aug 2002 10:55:52 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g79NMZb29786 for
+    <jm-ilug@jmason.org>; Sat, 10 Aug 2002 00:22:35 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id AAA01947; Sat, 10 Aug 2002 00:18:18 +0100
+Received: from hotmail.com (f25.law11.hotmail.com [64.4.17.25]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id AAA01912 for <ilug@linux.ie>;
+    Sat, 10 Aug 2002 00:18:12 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host f25.law11.hotmail.com
+    [64.4.17.25] claimed to be hotmail.com
+Received: from mail pickup service by hotmail.com with Microsoft SMTPSVC;
+    Fri, 9 Aug 2002 16:17:40 -0700
+Received: from 213.116.42.196 by lw11fd.law11.hotmail.msn.com with HTTP;
+    Fri, 09 Aug 2002 23:17:40 GMT
+X-Originating-Ip: [213.116.42.196]
+From: "Michael Treacy" <delphi91@hotmail.com>
+To: bryanroycroft@yahoo.com.au, ilug@linux.ie
+Subject: Re: [ILUG] yast2
+Date: Fri, 09 Aug 2002 23:17:40 +0000
 MIME-Version: 1.0
-Content-Type: text/plain; format=flowed; charset=us-ascii
-Content-Transfer-Encoding: 7bit
-X-Accept-Language: en-us
-User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:0.9.4.1)
-    Gecko/20020508 Netscape6/6.2.3
-References: <DD4216FF-B66F-11D6-837F-003065F93D3A@topsail.org>
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; format=flowed
+Message-Id: <F25kD5p0ZDR0cTc1yK100003fa7@hotmail.com>
+X-Originalarrivaltime: 09 Aug 2002 23:17:40.0321 (UTC) FILETIME=[F4EAFD10:01C23FFA]
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Sat, 24 Aug 2002 08:04:03 -0700
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-There's been well documented articles, studies of the
-French tax laws, corporate governance, and financial
-oversight that 1) dont' easily allow for ISOs, the root
-of almost all entrepreneurialship, and 2) the easy flow
-of capital to new ventures.  It was an extremely large
-issue, even debated widely in France.
+>has anyone had a problem with Yast2 not being able to
+>mount a source medium for installing new packages, on
+>suse 8.0?
 
-Greg
+Nope, can't say that I had any problems installing SuSE 8.0. Just stuck in 
+the DVD, did the install and WHAM, got a working distro. QUite an impressive 
+one too, by the way!
 
-Chuck Murcko wrote:
+Mike
 
-> According to my son, it was actually Homer Simpson, who claimed the 
-> French had no word for victory.
-> 
-> Chuck
-> 
-> On Thursday, August 22, 2002, at 01:58 PM, Robert Harley wrote:
-> 
->> An apparent quote from Dubya, from the Times (sent to me by my Dad):
->>
->> http://www.timesonline.co.uk/printFriendly/0,,1-43-351083,00.html
->>
->> ------------------------------------------------------------------------------ 
->>
->> TONY BLAIR's special relationship with George W. Bush is under
->> considerable strain. Not only do the two disagree on Yassir Arafat's
->> tenure as leader of the Palestinian Authority, but Blair has started
->> telling disparaging anecdotes about the President.
->>
->> Baroness Williams of Crosby recalled a story told to her by 'my good
->> friend Tony Blair' recently in Brighton. Blair, Bush and Jacques
->> Chirac were discussing economics and, in particular, the decline of
->> the French economy. 'The problem with the French,' Bush confided in
->> Blair, 'is that they don't have a word for entrepreneur.'
->> ------------------------------------------------------------------------------ 
->>
->>
->> R
->> http://xent.com/mailman/listinfo/fork
->>
-> 
-> http://xent.com/mailman/listinfo/fork
-> 
+_________________________________________________________________
+Send and receive Hotmail on your mobile device: http://mobile.msn.com
 
 
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
-http://xent.com/mailman/listinfo/fork
 

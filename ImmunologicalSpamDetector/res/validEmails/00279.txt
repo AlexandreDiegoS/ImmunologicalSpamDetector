@@ -1,71 +1,74 @@
-From rpm-list-admin@freshrpms.net  Wed Oct  9 10:49:42 2002
-Return-Path: <rpm-zzzlist-admin@freshrpms.net>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id 5E65C16F56
-	for <zzzz@localhost>; Wed,  9 Oct 2002 10:47:53 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Thu Aug  8 14:10:41 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id B74D94412D
+	for <jm@localhost>; Thu,  8 Aug 2002 08:32:23 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 09 Oct 2002 10:47:53 +0100 (IST)
-Received: from egwn.net (ns2.egwn.net [193.172.5.4]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g98KFbK32601 for
-    <zzzz-rpm@spamassassin.taint.org>; Tue, 8 Oct 2002 21:15:37 +0100
-Received: from auth02.nl.egwn.net (localhost [127.0.0.1]) by egwn.net
-    (8.11.6/8.11.6/EGWN) with ESMTP id g98K72f04022; Tue, 8 Oct 2002 22:07:02
-    +0200
-Received: from adsl-63-192-217-110.dsl.snfc21.pacbell.net
-    (adsl-63-192-217-110.dsl.snfc21.pacbell.net [63.192.217.110]) by egwn.net
-    (8.11.6/8.11.6/EGWN) with ESMTP id g98K5xf29420 for
-    <rpm-list@freshrpms.net>; Tue, 8 Oct 2002 22:06:00 +0200
-Received: from eecs.berkeley.edu (localhost [127.0.0.1]) by
-    adsl-63-192-217-110.dsl.snfc21.pacbell.net (Postfix) with ESMTP id
-    A34CB3BA5D for <rpm-list@freshrpms.net>; Tue,  8 Oct 2002 13:05:53 -0700
-    (PDT)
-Message-Id: <3DA33AA1.1A724EF5@eecs.berkeley.edu>
-From: Ben Liblit <liblit@eecs.berkeley.edu>
-X-Mailer: Mozilla 4.79 [en] (X11; U; Linux 2.4.19 i686)
-X-Accept-Language: en
+	for jm@localhost (single-drop); Thu, 08 Aug 2002 13:32:23 +0100 (IST)
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g78CCr201516 for
+    <jm-ilug@JMASON.ORG>; Thu, 8 Aug 2002 13:12:53 +0100
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    webnote.net (8.9.3/8.9.3) with ESMTP id MAA29799 for <jm-ilug@jmason.org>;
+    Thu, 8 Aug 2002 12:18:46 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id MAA11768; Thu, 8 Aug 2002 12:18:00 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from smtp016.mail.yahoo.com (smtp016.mail.yahoo.com
+    [216.136.174.113]) by lugh.tuatha.org (8.9.3/8.9.3) with SMTP id MAA11744
+    for <ilug@linux.ie>; Thu, 8 Aug 2002 12:17:54 +0100
+Received: from unknown (HELO mfrenchw2k) (mfrench42@62.254.163.42 with
+    login) by smtp.mail.vip.sc5.yahoo.com with SMTP; 8 Aug 2002 11:17:51 -0000
+Message-Id: <011601c23ecc$b8787df0$3864a8c0@sabeo.ie>
+From: "Matthew French" <mfrench42@yahoo.co.uk>
+To: <ilug@linux.ie>
+References: <200208081032.LAA09312@lugh.tuatha.org>
+    <20020808103749.GB1853@jinny.ie>
+Subject: Re: [ILUG] slashdot EW Dijkstra humor
+Date: Thu, 8 Aug 2002 12:14:09 +0100
 MIME-Version: 1.0
-To: rpm-zzzlist@freshrpms.net
-Subject: Re: RedHat 8.0 and his own freetype
-References: <20021004155451.52f9ecd5.matthias_haase@bennewitz.com>
-    <3D9E1F20.3050300@eecs.berkeley.edu>
-    <20021008202424.67c6e32c.matthias_haase@bennewitz.com>
-Content-Type: text/plain; charset=us-ascii
+Content-Type: text/plain; charset="iso-8859-1"
 Content-Transfer-Encoding: 7bit
-X-Mailscanner: Found to be clean, Found to be clean
-Sender: rpm-zzzlist-admin@freshrpms.net
-Errors-To: rpm-zzzlist-admin@freshrpms.net
-X-Beenthere: rpm-zzzlist@freshrpms.net
-X-Mailman-Version: 2.0.11
+X-Priority: 3
+X-Msmail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-Mimeole: Produced By Microsoft MimeOLE V6.00.2600.0000
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-Reply-To: rpm-zzzlist@freshrpms.net
-List-Help: <mailto:rpm-zzzlist-request@freshrpms.net?subject=help>
-List-Post: <mailto:rpm-zzzlist@freshrpms.net>
-List-Subscribe: <http://lists.freshrpms.net/mailman/listinfo/rpm-zzzlist>,
-    <mailto:rpm-list-request@freshrpms.net?subject=subscribe>
-List-Id: Freshrpms RPM discussion list <rpm-zzzlist.freshrpms.net>
-List-Unsubscribe: <http://lists.freshrpms.net/mailman/listinfo/rpm-zzzlist>,
-    <mailto:rpm-list-request@freshrpms.net?subject=unsubscribe>
-List-Archive: <http://lists.freshrpms.net/pipermail/rpm-zzzlist/>
-X-Original-Date: Tue, 08 Oct 2002 13:05:53 -0700
-Date: Tue, 08 Oct 2002 13:05:53 -0700
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-Matthias Haase wrote:
-> The recompile of the SPRM failed for me with:
-> #----
-> RPM build errors:
->     File not found by glob:
-> /var/tmp/freetype-2.1.2-root/usr/lib/libttf.so.*
->     File not found: /var/tmp/freetype-2.1.2-root/usr/lib/libttf.so
+JPL suggested:
+>  Recursion is only truely useful if you have an infinite stack. People
+> that think they have an infinite stack shouldn't be let near a compiler.
 
-Weird.  I had no problems at all rebuilding from the SRPM with specfile
-modified to enable the bytecode interpreter.  The "check-files" test
-warns that "/usr/share/aclocal/freetype2.m4" was not included in any
-package, but other then that, it's all perfectly clean.
+Well, when studying engineering the rule of thumb was that infinity was 10
+times bigger then the most you could expect to use.
 
-_______________________________________________
-RPM-List mailing list <RPM-List@freshrpms.net>
-http://lists.freshrpms.net/mailman/listinfo/rpm-list
+Therefore I believe in infinite stack.
+
+But I do not feel I am a compiler risk either. So where does this leave me?
+
+<grin>
+
+- Matthew
+
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

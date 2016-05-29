@@ -1,64 +1,66 @@
-From fork-admin@xent.com  Sat Sep  7 21:52:15 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id C977A16F03
-	for <jm@localhost>; Sat,  7 Sep 2002 21:52:13 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Tue Aug 20 23:59:11 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 81E0C43C32
+	for <jm@localhost>; Tue, 20 Aug 2002 18:59:11 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Sat, 07 Sep 2002 21:52:13 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g86JWFC21196 for <jm@jmason.org>;
-    Fri, 6 Sep 2002 20:32:15 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 7A3DE294176; Fri,  6 Sep 2002 12:29:03 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from crank.slack.net (slack.net [166.84.151.181]) by xent.com
-    (Postfix) with ESMTP id 7218E294172 for <FoRK@xent.com>; Fri,
-    6 Sep 2002 12:28:48 -0700 (PDT)
-Received: by crank.slack.net (Postfix, from userid 596) id 92ED43ED61;
-    Fri,  6 Sep 2002 15:34:40 -0400 (EDT)
-Received: from localhost (localhost [127.0.0.1]) by crank.slack.net
-    (Postfix) with ESMTP id 9083D3ED56; Fri,  6 Sep 2002 15:34:40 -0400 (EDT)
-From: Tom <tomwhore@slack.net>
-To: Jim Whitehead <ejw@cse.ucsc.edu>
-Cc: FoRK <FoRK@xent.com>
-Subject: Re: Googlecooking
-In-Reply-To: <AMEPKEBLDJJCCDEJHAMIIEGNFGAA.ejw@cse.ucsc.edu>
-Message-Id: <Pine.BSO.4.44.0209061531530.32013-100000@crank.slack.net>
+	for jm@localhost (single-drop); Tue, 20 Aug 2002 23:59:11 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7KMvcZ28087 for
+    <jm-ilug@jmason.org>; Tue, 20 Aug 2002 23:57:38 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id XAA29057; Tue, 20 Aug 2002 23:56:22 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from mail02.svc.cra.dublin.eircom.net
+    (mail02.svc.cra.dublin.eircom.net [159.134.118.18]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with SMTP id XAA29020 for <ilug@linux.ie>; Tue,
+    20 Aug 2002 23:56:14 +0100
+Received: (qmail 64653 messnum 31234 invoked from
+    network[194.125.165.67/ts03-067.cork.indigo.ie]); 20 Aug 2002 22:55:44
+    -0000
+Received: from ts03-067.cork.indigo.ie (HELO ?194.125.165.67?)
+    (194.125.165.67) by mail02.svc.cra.dublin.eircom.net (qp 64653) with SMTP;
+    20 Aug 2002 22:55:44 -0000
+User-Agent: Microsoft-Entourage/9.0.2509
+Date: Tue, 20 Aug 2002 23:51:16 +0100
+From: Tim <timod@esatclear.ie>
+To: ILUG <ilug@linux.ie>
+Message-Id: <B9888674.A460B%timod@esatclear.ie>
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+X-Face: 
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by lugh.tuatha.org id
+    XAA29020
+Subject: [ILUG] [OT] MacOSX mailing list?
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Fri, 6 Sep 2002 15:34:40 -0400 (EDT)
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-On Fri, 6 Sep 2002, Jim Whitehead wrote:
---]We've got Googlewhacking, Googlebombing and now we can add Googlecooking to
---]our lexicon. My mother types whatever ingredients she has on hand into
---]Google and then picks the most appealing recipe returned in the results.
---]What a good idea!
+Hi all,
+
+Sorry for the OT. Just wondering if anybody knows of a similar type mailing
+list specifically dealing with MacOSX?  (which, FYI is a version of BSD)
 
 
-Dude, this is at least two years old and probably older. Of course we had
-a more catchy phrase for it, we call it Iron Chef Google.
+Slán,
 
-When the garden was in full bloom a few summers back Dawn and I would
-google the ingrediants we just grew to come up with tasty recipes, or more
-often ideas from recipes from which toi make our own.
+Tim
 
-Fight the hypebuzzword war, be an army of one:)-
-
--tom (iron che tempah)wsmf
+-- 
+One month on the internet in Ireland: Eur720
+One month on the internet in Britain: Eur 25
+Visit http://www.irelandoffline.org
 
 
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 

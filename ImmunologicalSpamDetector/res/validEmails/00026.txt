@@ -1,116 +1,102 @@
-From fork-admin@xent.com  Fri Aug 23 11:08:20 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From social-admin@linux.ie  Wed Aug 21 16:23:53 2002
+Return-Path: <social-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 93D8944160
-	for <zzzz@localhost>; Fri, 23 Aug 2002 06:06:44 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 7690D43C32
+	for <jm@localhost>; Wed, 21 Aug 2002 11:23:53 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Fri, 23 Aug 2002 11:06:44 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7MIPTZ19588 for <zzzz@spamassassin.taint.org>;
-    Thu, 22 Aug 2002 19:25:29 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 94BC22940D4; Thu, 22 Aug 2002 11:23:08 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from localhost.localdomain (pm7-32.sba1.netlojix.net
-    [207.71.222.128]) by xent.com (Postfix) with ESMTP id 8C7AD294099 for
-    <fork@xent.com>; Thu, 22 Aug 2002 11:22:33 -0700 (PDT)
-Received: (from dave@localhost) by maltesecat (8.8.7/8.8.7a) id LAA21283;
-    Thu, 22 Aug 2002 11:11:58 -0700
-Message-Id: <200208221811.LAA21283@maltesecat>
-To: fork@spamassassin.taint.org
-Subject: RE: The Curse of India's Socialism
-In-Reply-To: Message from fork-request@xent.com of
-    "Wed, 21 Aug 2002 11:30:03 PDT."
-    <20020821183003.25673.41476.Mailman@lair.xent.com>
-From: Dave Long <dl@silcom.com>
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+	for jm@localhost (single-drop); Wed, 21 Aug 2002 16:23:53 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7LFMpZ31110 for
+    <jm+ilug-social@jmason.org>; Wed, 21 Aug 2002 16:22:51 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id QAA06299; Wed, 21 Aug 2002 16:22:45 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from nwd2mime2.analog.com (nwd2mime2.analog.com [137.71.25.114])
+    by lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id QAA06261 for
+    <social@linux.ie>; Wed, 21 Aug 2002 16:22:38 +0100
+Received: from nwd2gtw1 (unverified) by nwd2mime2.analog.com (Content
+    Technologies SMTPRS 4.2.5) with SMTP id
+    <T5cd8f570708947197215b@nwd2mime2.analog.com> for <social@linux.ie>;
+    Wed, 21 Aug 2002 11:22:35 -0400
+Received: from nwd2mhb1 ([137.71.5.12]) by nwd2gtw1; Wed, 21 Aug 2002
+    11:22:32 -0400 (EDT)
+Received: from dsun1.adbvdesign.analog.com ([137.71.42.101]) by
+    nwd2mhb1.analog.com with ESMTP (8.9.3 (PHNE_18979)/8.7.1) id LAA14172 for
+    <social@linux.ie>; Wed, 21 Aug 2002 11:22:31 -0400 (EDT)
+Received: from dsun358.adbvdesign.analog.com (dsun358 [137.71.41.58]) by
+    dsun1.adbvdesign.analog.com (8.11.6+Sun/8.11.6) with ESMTP id g7LFMOK02531
+    for <social@linux.ie>; Wed, 21 Aug 2002 16:22:24 +0100 (BST)
+Received: from dsun358 (localhost [127.0.0.1]) by
+    dsun358.adbvdesign.analog.com (8.8.8+Sun/8.8.8) with SMTP id QAA12618 for
+    <social@linux.ie>; Wed, 21 Aug 2002 16:22:34 +0100 (BST)
+Date: Wed, 21 Aug 2002 16:22:33 +0100
+From: Paul Askins <paul.askins@analog.com>
+To: social@linux.ie
+Subject: Re: [ILUG-Social] Re: [ILUG] Formatting a windows partition from Linux
+Message-Id: <20020821162233.70a68a68.paul.askins@adbvdesign.analog.com>
+In-Reply-To: <200208211601.ab21162@salmon.maths.tcd.ie>
+References: <20020821154732.1034974a.paul.askins@adbvdesign.analog.com>
+    <200208211601.ab21162@salmon.maths.tcd.ie>
+Organization: Analog Devices
+X-Mailer: Sylpheed version 0.7.8claws (GTK+ 1.2.7; )
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Sender: social-admin@linux.ie
+Errors-To: social-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Thu, 22 Aug 2002 11:11:57 -0700
+List-Id: Irish Linux Users' Group social events <social.linux.ie>
+X-Beenthere: social@linux.ie
 
+Lacking in a  _____
+	     / ___ \
+	    / /   \_\
+	  _| |__
+	 |_   __| 
+	  _| |__
+	 |_   __|
+	   | |     __
+	    \ \___/ /
+	     \_____/  symbol on stupid solaris, I decided to fall back on good
+ole' slang (and being in Limerick, used the local).  Besides, the quid is
+no more :(
 
+But floppy discs are still quite cheep, aren't they?
 
->                                 You have multiple generations of
-> peasants/squatters that cultivate and live on the lands almost as a
-> human parts of the property package.
+Paul, way to busy to be doing this.
 
-When I'd read that "getting legal title
-can take 20 years", when I believe that
-1 year ought to be more than sufficient,
-(and helped by the Cairo reference) I'd
-assumed that we were talking about the
-urban poor.
+Sure wasn't it Niall Brady <bradyn@maths.tcd.ie> 
+sometime around Wed, 21 Aug 2002 16:01:39 +0100 said:
 
-If I see people living in mansions, or
-even in suburban subdivisions, I assume
-they didn't have too much trouble with
-their titles.
+> On Wed, 21 Aug 2002 15:47:32 BST, Paul Askins said:
+> >
+> >Option 2, buy a floppy drive, they're only about 15 or 20 yoyos.
+> 							   ^^^^^
+>   ___  _   _ ___ ____  
+>  / _ \| | | |_ _|  _ \ 
+> | | | | | | || || | | |
+> | |_| | |_| || || |_| |
+>  \__\_\\___/|___|____/ 
+> 
+> [or at worst, squid :-)]
+>                        
+> -- 
+> 	Niall
+>
 
-If I see people living in shanties and
-haphazard alleyways, I tend to assume
-their parcels weren't exactly recorded
-on the government maps, or paid for with
-a bank loan, especially when nearby vacant
-lots have shotgun wielding men presumably
-intent on keeping them "development" free.
+-- 
+Paul Askins <:)
+Email:  Paul Askins <paul.askins@adbvdesign.analog.com>
 
-Now, it may be that "Manhattanites' view
-of America" to say that outside of Metro
-Manila, Davao, and maybe another city or
-two (Cebu?), everything else (literally)
-is the boondocks.  But going on that very
-broad assumption, I guess I'm describing
-the flip side of Mr. Roger's experience:
-the paisanos (who leave behind those who
-remain on a patron's rural land) move to
-Manila, and (the second assumption) squat
-in shantytowns there, at least until they
-can line up a middle-class job.
+The truth of a proposition has nothing to do with its credibility.  And
+vice versa.
 
-So, going on two large assumptions, I can
-come up with a scenario under which title
-would take 20 years: a shantytown arises
-somewhere in the midst of a section (or
-whatever the Spanish used to divvy up the
-land) and it takes decades of arguing to
-put together a package which somehow can
-both compensate the owner and record lots
-for the inhabitants.  Just transferring
-title to an existing lot, between parties
-who have money, ought not to be a problem.
-
-The obvious solution, at least to us
-barking farting chihuahuas on FoRK, is
-to "introduce market mechanisms".  It is
-left as an exercise to come up with one
-which works when many of the agents (are
-perceived to) have negligible NPV.
-
--Dave
-
->              [land reform] meant that all the agricultural producers had
-> to plant crops all the time (profitable or not) ...
-
-What happened to more highly-capitalized
-land?  Putting in trees instead of crops
-sounds like it might sidestep that.
-
-> Mr. Long, I think you'd particularly enjoy the De Soto work.
-
-On the "to find" list.  Any chance of
-an explanation of that "Bell Jar" in
-the meantime?
-
-http://xent.com/mailman/listinfo/fork
+-- 
+Irish Linux Users' Group Social Events: social@linux.ie
+http://www.linux.ie/mailman/listinfo/social for (un)subscription information.
+List maintainer: listmaster@linux.ie
 

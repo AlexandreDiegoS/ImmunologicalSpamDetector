@@ -1,124 +1,77 @@
-From sentto-2242572-56013-1034075904-zzzz=spamassassin.taint.org@returns.groups.yahoo.com  Tue Oct  8 12:27:27 2002
-Return-Path: <sentto-2242572-56013-1034075904-zzzz=spamassassin.taint.org@returns.groups.yahoo.com>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id 44A7E16F18
-	for <zzzz@localhost>; Tue,  8 Oct 2002 12:27:23 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Tue Jul 30 13:28:13 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 4EB9B440EF
+	for <jm@localhost>; Tue, 30 Jul 2002 08:28:13 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Tue, 08 Oct 2002 12:27:23 +0100 (IST)
-Received: from n23.grp.scd.yahoo.com (n23.grp.scd.yahoo.com
-    [66.218.66.79]) by dogma.slashnull.org (8.11.6/8.11.6) with SMTP id
-    g98BHgK12940 for <zzzz@spamassassin.taint.org>; Tue, 8 Oct 2002 12:17:42 +0100
-X-Egroups-Return: sentto-2242572-56013-1034075904-zzzz=spamassassin.taint.org@returns.groups.yahoo.com
-Received: from [66.218.67.200] by n23.grp.scd.yahoo.com with NNFMP;
-    08 Oct 2002 11:18:24 -0000
-X-Sender: timc@2ubh.com
-X-Apparently-To: zzzzteana@yahoogroups.com
-Received: (EGP: mail-8_2_2_0); 8 Oct 2002 11:18:23 -0000
-Received: (qmail 62648 invoked from network); 8 Oct 2002 11:18:23 -0000
-Received: from unknown (66.218.66.218) by m8.grp.scd.yahoo.com with QMQP;
-    8 Oct 2002 11:18:23 -0000
-Received: from unknown (HELO rhenium.btinternet.com) (194.73.73.93) by
-    mta3.grp.scd.yahoo.com with SMTP; 8 Oct 2002 11:18:23 -0000
-Received: from host217-35-11-51.in-addr.btopenworld.com ([217.35.11.51])
-    by rhenium.btinternet.com with esmtp (Exim 3.22 #8) id 17ysNa-00048e-00
-    for forteana@yahoogroups.com; Tue, 08 Oct 2002 12:18:22 +0100
-X-Mailer: Microsoft Outlook Express Macintosh Edition - 4.5 (0410)
-To: zzzzteana <zzzzteana@yahoogroups.com>
-X-Priority: 3
-Message-Id: <E17ysNa-00048e-00@rhenium.btinternet.com>
-From: "Tim Chapman" <timc@2ubh.com>
-X-Yahoo-Profile: tim2ubh
+	for jm@localhost (single-drop); Tue, 30 Jul 2002 13:28:13 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6UCOcq26151 for
+    <jm-ilug@jmason.org>; Tue, 30 Jul 2002 13:24:38 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id NAA04809; Tue, 30 Jul 2002 13:22:43 +0100
+Received: from hawk.dcu.ie (mail.dcu.ie [136.206.1.5]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id NAA04785 for <ilug@linux.ie>; Tue,
+    30 Jul 2002 13:22:38 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host mail.dcu.ie [136.206.1.5]
+    claimed to be hawk.dcu.ie
+Received: from prodigy.redbrick.dcu.ie (136.206.15.10) by hawk.dcu.ie
+    (6.0.040) id 3D36BB4A00043D57 for ilug@linux.ie; Tue, 30 Jul 2002 13:22:38
+    +0100
+Received: by prodigy.redbrick.dcu.ie (Postfix, from userid 1023) id
+    26ED7DA4A; Tue, 30 Jul 2002 13:22:38 +0100 (IST)
+Date: Tue, 30 Jul 2002 13:22:38 +0100
+From: Philip Reynolds <phil@redbrick.dcu.ie>
+To: ilug@linux.ie
+Subject: Re: [ILUG] ipfw vs ipchains vs iptables
+Message-Id: <20020730132238.C16164@prodigy.Redbrick.DCU.IE>
+References: <1027984303.58664.60.camel@flapjack.netability.ie>
 MIME-Version: 1.0
-Mailing-List: list zzzzteana@yahoogroups.com; contact
-    forteana-owner@yahoogroups.com
-Delivered-To: mailing list zzzzteana@yahoogroups.com
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.2.5i
+In-Reply-To: <1027984303.58664.60.camel@flapjack.netability.ie>;
+    from nick-lists@netability.ie on Tue, Jul 30, 2002 at 12:11:42AM +0100
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
-Date: Tue, 08 Oct 2002 12:17:28 +0100
-Subject: [zzzzteana] Nobel astrophysicists
-Reply-To: zzzzteana@yahoogroups.com
-Content-Type: text/plain; charset=US-ASCII
-Content-Transfer-Encoding: 7bit
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-Nobel Honors 3 for Astrophysics Work 
+Nick Hilliard's [nick-lists@netability.ie] 52 lines of wisdom included:
+> The standard release versions of ipfilter are unencumbered, as always.
+> 
+> > Nope, indeed IPFW2 has just been rolled out into -STABLE. (-STABLE
+> > is a stable branch of the code that has been rolled into -CURRENT
+> > first. It's basically a major release, that's still a work in
+> > progress)
+> 
+> I'm not so sure that ipfw2 is really ready for production yet, having
+> only been mfc'd last wednesday.  It certainly adds some nice syntactic
+> sugar, and is apparently much faster for certain types of complex
+> rulesets.  It will be good once it's had some time to settle down a
+> little.
 
-Tuesday October 8, 2002 12:00 PM
-STOCKHOLM, Sweden (AP) - Two Americans and a Japanese won the Nobel Prize in
-physics Tuesday for using some of the most obscure particles and waves in
-nature to understand the workings of astronomy's grandest wonders.
-Riccardo Giacconi, 71, of the Associated Universities Inc. in Washington,
-D.C., will get half of the $1 million prize for his role in ``pioneering
-contributions to astrophysics, which have led to the discovery of cosmic
-X-ray sources.''
-Raymond Davis, Jr., 87, of the University of Pennsylvania shares the other
-half of the prize with Japanese scientist Masatoshi Koshiba, 76, of the
-University of Tokyo. The two men pioneered the construction of giant
-underground chambers to detect neutrinos, elusive particles that stream from
-the sun by the billion.
-Neutrinos offer an unparalleled view of the sun's inner workings because
-they are produced in its heart by the same process that causes it to shine.
-In fact, Davis' early experiments, performed during the 1960s in a South
-Dakota gold mine, confirmed that the sun is powered by nuclear fusion.
-Koshiba won his share of the prize for his work at the Kamiokande neutrino
-detector in Japan. That experiment confirmed and extended Davis' work, and
-also discovered neutrinos coming from distant supernova explosions, some of
-the brightest objects in the universe.
-The Italian-born Giacconi, a U.S. citizen, was awarded half of the prize for
-building the first X-ray telescopes that provided ``completely new - and
-sharp - images of the universe,'' the academy said.
-His research laid the foundation for X-ray astronomy, which has led to the
-discovery of black holes and allowed researchers to peer deep into the
-hearts of the dusty young galaxies where stars are born.
-When academy officials reached Giacconi by phone at his home outside
-Washington, he said he was ``dumbstruck'' to learn of the prize. Koshiba
-also was phoned at home in Tokyo, but the academy was still trying to reach
-Davis, spokesman Erling Norrby said.
-This year's Nobel awards started Monday with the naming of Britons Sydney
-Brenner, 75, and Sir John E. Sulston, 60, and American H. Robert Horvitz,
-55, as winners of the medicine prize, selected by a committee at the
-Karolinska Institute.
-The researchers shared it for discoveries about how genes regulate organ
-growth and a process of programmed cell deaths that shed light on how
-viruses and bacteria invade human cells, including in conditions such as
-AIDS, strokes, cancer and heart attacks.
-The winner of the Nobel Prize in chemistry will be named on Wednesday
-morning and the Bank of Sweden Prize in Economic Sciences in Memory of
-Alfred Nobel later the same day.
-The literature prize winner will be announced on Thursday, the Swedish
-Academy said on Tuesday.
-The winner of the coveted peace prize - the only one not awarded in Sweden -
-will be announced Friday in Oslo, Norway.
-The award committees make their decisions in deep secrecy and candidates are
-not publicly revealed for 50 years.
-Alfred Nobel, the wealthy Swedish industrialist and inventor of dynamite who
-endowed the prizes left only vague guidelines for the selection committees.
-In his will he said the prize being revealed on Tuesday should be given to
-those who ``shall have conferred the greatest benefit on mankind'' and
-``shall have made the most important discovery or invention within the field
-of physics.''
-The Royal Swedish Academy of Sciences, which also chooses the chemistry and
-economics winners, invited nominations from previous recipients and experts
-in the fields before cutting down its choices. Deliberations are conducted
-in strict secrecy.
-The prizes are presented on Dec. 10, the anniversary of Nobel's death in
-1896, in Stockholm and in Oslo.
----
-On the Net:
-Nobel site, http://www.nobel.se 
+I would question anything being ready for "production" being in
+STABLE.
 
------------------------- Yahoo! Groups Sponsor ---------------------~-->
-Plan to Sell a Home?
-http://us.click.yahoo.com/J2SnNA/y.lEAA/MVfIAA/7gSolB/TM
----------------------------------------------------------------------~->
+He's kept backwards compatibility with ipfw, which is major plus.
 
-To unsubscribe from this group, send an email to:
-forteana-unsubscribe@egroups.com
+My point about IPFW2 being rolled out into stable was merely an
+illustration of the fact that ipfw is indeed not ipfilter, and that
+there are no license issues there :)
 
- 
+-- 
+  Philip Reynolds        
+   RFC Networks          tel: 01 8832063
+www.rfc-networks.ie      fax: 01 8832041
 
-Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

@@ -1,89 +1,64 @@
-From martin@srv0.ems.ed.ac.uk  Wed Aug 28 13:34:43 2002
-Return-Path: <martin@srv0.ems.ed.ac.uk>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From ilug-admin@linux.ie  Fri Aug  2 12:10:27 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 5C66043F9B
-	for <zzzz@localhost>; Wed, 28 Aug 2002 08:34:42 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id B519D440F8
+	for <jm@localhost>; Fri,  2 Aug 2002 07:10:19 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 28 Aug 2002 13:34:42 +0100 (IST)
-Received: from n21.grp.scd.yahoo.com (n21.grp.scd.yahoo.com
-    [66.218.66.77]) by dogma.slashnull.org (8.11.6/8.11.6) with SMTP id
-    g7SCXBZ24033 for <zzzz@spamassassin.taint.org>; Wed, 28 Aug 2002 13:33:11 +0100
-X-Egroups-Return: sentto-2242572-53154-1030537997-zzzz=spamassassin.taint.org@returns.groups.yahoo.com
-Received: from [66.218.67.198] by n21.grp.scd.yahoo.com with NNFMP;
-    28 Aug 2002 12:33:17 -0000
-X-Sender: martin@srv0.ems.ed.ac.uk
-X-Apparently-To: zzzzteana@yahoogroups.com
-Received: (EGP: mail-8_1_0_1); 28 Aug 2002 12:33:17 -0000
-Received: (qmail 84489 invoked from network); 28 Aug 2002 12:33:17 -0000
-Received: from unknown (66.218.66.216) by m5.grp.scd.yahoo.com with QMQP;
-    28 Aug 2002 12:33:17 -0000
-Received: from unknown (HELO haymarket.ed.ac.uk) (129.215.128.53) by
-    mta1.grp.scd.yahoo.com with SMTP; 28 Aug 2002 12:33:16 -0000
-Received: from srv0.ems.ed.ac.uk (srv0.ems.ed.ac.uk [129.215.117.0]) by
-    haymarket.ed.ac.uk (8.11.6/8.11.6) with ESMTP id g7SCXF319746 for
-    <forteana@yahoogroups.com>; Wed, 28 Aug 2002 13:33:15 +0100 (BST)
-Received: from EMS-SRV0/SpoolDir by srv0.ems.ed.ac.uk (Mercury 1.44);
-    28 Aug 02 13:33:14 +0000
-Received: from SpoolDir by EMS-SRV0 (Mercury 1.44); 28 Aug 02 13:33:05 +0000
-Organization: Management School
-To: zzzzteana@yahoogroups.com
-Message-Id: <3D6CD12A.10660.24D9E9BA@localhost>
-Priority: normal
-X-Mailer: Pegasus Mail for Windows (v4.01)
-Content-Description: Mail message body
-From: "Martin Adamson" <martin@srv0.ems.ed.ac.uk>
+	for jm@localhost (single-drop); Fri, 02 Aug 2002 12:10:19 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g72B8u219126 for
+    <jm-ilug@jmason.org>; Fri, 2 Aug 2002 12:08:56 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id MAA01523; Fri, 2 Aug 2002 12:07:02 +0100
+Received: from claymore.diva.ie (diva.ie [195.218.115.17] (may be forged))
+    by lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id MAA01489 for
+    <ilug@linux.ie>; Fri, 2 Aug 2002 12:06:54 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host diva.ie [195.218.115.17]
+    (may be forged) claimed to be claymore.diva.ie
+Received: from cunniffe.net (ts01-008.dublin.indigo.ie [194.125.134.8]) by
+    claymore.diva.ie (8.9.3/8.9.3) with ESMTP id MAA25581 for <ilug@linux.ie>;
+    Fri, 2 Aug 2002 12:06:36 +0100
+Message-Id: <3D4A6790.3070104@cunniffe.net>
+Date: Fri, 02 Aug 2002 12:05:52 +0100
+From: Vincent Cunniffe <vincent@cunniffe.net>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.0.0)
+    Gecko/20020530
+X-Accept-Language: en-us, en
 MIME-Version: 1.0
-Mailing-List: list zzzzteana@yahoogroups.com; contact
-    forteana-owner@yahoogroups.com
-Delivered-To: mailing list zzzzteana@yahoogroups.com
-Precedence: bulk
-List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
-Date: Wed, 28 Aug 2002 13:32:56 +0100
-Subject: [zzzzteana] 'Lost' penguins found alive
-Reply-To: zzzzteana@yahoogroups.com
-Content-Type: text/plain; charset=US-ASCII
+To: ilug <ilug@linux.ie>
+Subject: Re: [ILUG] Checking that cronjobs actually ran?
+References: <0D443C91DCE9CD40B1C795BA222A729E0188554A@milexc01.maxtor.com>
+Content-Type: text/plain; charset=us-ascii; format=flowed
 Content-Transfer-Encoding: 7bit
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
+Precedence: bulk
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-Evening Standard - 28 August 2002
+Wynne, Conor wrote:
+> Hi ladies,
+> 
+> I setup a cron job to do a full backup to tape drive there last night, but
+> I'm just wondering how I can verify that it actually ran? 
+> I suppose that a mail will be sent to root as I ran crontab -e as root. Is
+> that correct or should I be looking elsewhere?
 
-[Deft use of Fortean Unit of Measurement in 2nd para - MA]
+/var/log/cron
 
- 'Lost' penguins found alive
- 
- by Charles Miranda
+Logs user, name of job run, and pid it ran as.
 
- A colony of emperor penguins which was thought to have starved to death in
- Antarctica has been found alive in a "big huddle". 
+Regards,
 
- The birds were spotted by the crew of a USAF jet returning to base in New
- Zealand. Researchers had feared that a breakaway iceberg the size of Jamaica
- had all but wiped out the colony at Cape Crozier on Ross Island. 
- 
- Thousands of chicks are believed to have died as an increase in sea ice made
- it impossible for the adults to find food. A detailed count is planned in
- October. Antarctica (New Zealand) chief executive Lou Sanson said: "The
- penguins were in a big huddle. We can now hope that the emperors have had a
- successful breeding season over the winter." 
- 
- Some 1,000 pairs of emperors - the largest penguins in the world at 3.3ft tall
- and 88lb - usually nest at Cape Crozier, 50 miles from the US McMurdo research
- station. The 200,000-strong Adelie penguin colony, which also nests at the
- cape, may have lost up to third of its population. 
+Vin
 
 
------------------------- Yahoo! Groups Sponsor ---------------------~-->
-4 DVDs Free +s&p Join Now
-http://us.click.yahoo.com/pt6YBB/NXiEAA/MVfIAA/7gSolB/TM
----------------------------------------------------------------------~->
-
-To unsubscribe from this group, send an email to:
-forteana-unsubscribe@egroups.com
-
- 
-
-Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

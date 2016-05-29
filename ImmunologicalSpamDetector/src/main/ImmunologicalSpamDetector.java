@@ -3,62 +3,53 @@ package main;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
 
 import census.Census;
 import detector.Detector;
 import monitor.Monitor;
-import util.MapValidEmails;
+import util.Email;
 import util.PreprocessEmail;
-import util.file.Email;
 import util.file.IOManipulation;
-import util.file.ProjectProperties;
 
 public class ImmunologicalSpamDetector {
-	static Properties projectProperties = ProjectProperties.getProperties();
+	
 	public static void main(String[] args) {
-		//Fase de censo, onde serão gerados e avaliados os detectores
-		List<Detector> detectorsCandidates = Census.generateDetectors();
-		Census.evaluatesDetectors(detectorsCandidates);
-		
-		//Fase de monitoramento, onde será criado o monitor para que o mesmo
-		//possa avaliar se algum email é válido ou não.
-		Monitor monitor = new Monitor();
-		boolean isValid = monitor.verifyEmail(new File("res/spams/0001.txt"));
-		
-		System.out.println("Verificação: " + isValid);
+		Census.generateSpamDictionary();
+		System.out.println("fim");
 	}
+	
 	public static void generateBaseOfDetectors(){
 		List<Detector> detectorsCandidates = Census.generateDetectors();
 		Census.evaluatesDetectors(detectorsCandidates);
 	}
-	public static List<MapValidEmails> verifyEmailByLocation(String filename){
+	
+	public static List<Email> verifyEmailByLocation(String filename){
 		Monitor monitor = new Monitor();
 		File file = new File(filename);
-		List<File> emails = new ArrayList<File>();
-		List<MapValidEmails> mapEmails = new ArrayList<MapValidEmails>();
-		MapValidEmails emailInformation = null;
+		List<File> emailsFilesList = new ArrayList<File>();
+		List<Email> emailsList = new ArrayList<Email>();
+		Email email = null;
 		
 		if (file.isDirectory()){
-			emails = IOManipulation.listFilesInDirectory(filename);
-			List<File> validFiles = monitor.verifyEmails(emails);
-			for(File f : emails){
-				String emailFilename = f.getName();
-				String emailBody = PreprocessEmail.clearHeader(Email.readEmailContent(f));
-				boolean isValid = validFiles.contains(f);
-				emailInformation = new MapValidEmails(emailBody, emailFilename, isValid);
+			emailsFilesList = IOManipulation.listFilesInDirectory(filename);
+			List<File> validFiles = monitor.verifyEmails(emailsFilesList);
+			for(File emailFile : emailsFilesList){
+				String emailFilename = emailFile.getName();
+				String emailBody = PreprocessEmail.clearHeader(IOManipulation.readEmailContent(emailFile));
+				boolean isValid = validFiles.contains(emailFile);
+				email = new Email(emailBody, emailFilename, isValid);
 				
-				mapEmails.add(emailInformation);
+				emailsList.add(email);
 			}
-		}
-		else{
+		}else{
 			String emailFilename = file.getName();
-			String emailBody = PreprocessEmail.clearHeader(Email.readEmailContent(file));
+			String emailBody = PreprocessEmail.clearHeader(IOManipulation.readEmailContent(file));
 			boolean isValid = monitor.verifyEmail(file);
-			emailInformation = new MapValidEmails(emailBody, emailFilename, isValid);
-			mapEmails.add(emailInformation);
+			email = new Email(emailBody, emailFilename, isValid);
+			emailsList.add(email);
 		}
 		
-		return mapEmails;
+		return emailsList;
 	}
+	
 }

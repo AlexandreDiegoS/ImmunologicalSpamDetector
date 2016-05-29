@@ -1,89 +1,84 @@
-From fork-admin@xent.com  Sat Sep  7 22:08:12 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id 0271B16EFC
-	for <jm@localhost>; Sat,  7 Sep 2002 22:08:12 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From iiu-admin@taint.org  Fri Jul 26 17:13:19 2002
+Return-Path: <iiu-admin@taint.org>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id F0EE8440E8
+	for <jm@localhost>; Fri, 26 Jul 2002 12:13:16 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Sat, 07 Sep 2002 22:08:12 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g87Kx8C00526 for <jm@jmason.org>;
-    Sat, 7 Sep 2002 21:59:09 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 817592940F3; Sat,  7 Sep 2002 13:56:03 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from homer.perfectpresence.com (unknown [209.123.207.194]) by
-    xent.com (Postfix) with ESMTP id 76A7529409E for <fork@xent.com>;
-    Sat,  7 Sep 2002 13:55:20 -0700 (PDT)
-Received: from adsl-157-233-109.jax.bellsouth.net ([66.157.233.109]
-    helo=regina) by homer.perfectpresence.com with smtp (Exim 3.36 #1) id
-    17nmf5-0004Ay-00; Sat, 07 Sep 2002 16:58:35 -0400
-From: "Geege Schuman" <geege@barrera.org>
-To: "Russell Turpin" <deafbox@hotmail.com>, <fork@spamassassin.taint.org>
-Subject: RE: Selling Wedded Bliss (was Re: Ouch...)
-Message-Id: <ILEHJNJFPDLMDEKNIAKCEEDHCAAA.geege@barrera.org>
+	for jm@localhost (single-drop); Fri, 26 Jul 2002 17:13:17 +0100 (IST)
+Received: from dogma.slashnull.org (localhost [127.0.0.1]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6QGCxr09485;
+    Fri, 26 Jul 2002 17:12:59 +0100
+Received: from mail04.svc.cra.dublin.eircom.net
+    (mail04.svc.cra.dublin.eircom.net [159.134.118.20]) by dogma.slashnull.org
+    (8.11.6/8.11.6) with SMTP id g6QGBar09444 for <iiu@taint.org>;
+    Fri, 26 Jul 2002 17:11:36 +0100
+Received: (qmail 12902 messnum 1110424 invoked from
+    network[159.134.176.195/p195.as1.cra.dublin.eircom.net]); 26 Jul 2002
+    16:10:28 -0000
+Received: from p195.as1.cra.dublin.eircom.net (HELO tron.nua.ie)
+    (159.134.176.195) by mail04.svc.cra.dublin.eircom.net (qp 12902) with SMTP;
+    26 Jul 2002 16:10:28 -0000
+Message-Id: <5.0.2.1.0.20020726165855.03a40810@dogma.slashnull.org>
+X-Sender: antoinmail@dogma.slashnull.org
+X-Mailer: QUALCOMM Windows Eudora Version 5.0.2
+To: iiu@taint.org, iiu@taint.org
+From: Antoin O Lachtnain <antoin@eire.com>
+Subject: Re: [IIU] OCTR unlicensed band changes ...
+In-Reply-To: <5.1.0.14.2.20020726162611.02dd6cf0@gpo.iol.ie>
+References: <5.0.2.1.0.20020726133547.028d0a10@dogma.slashnull.org>
 MIME-Version: 1.0
-Content-Type: text/plain; charset="iso-8859-1"
-Content-Transfer-Encoding: 8bit
-X-Priority: 3 (Normal)
-X-Msmail-Priority: Normal
-X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2911.0)
-Importance: Normal
-In-Reply-To: <F198PIwomaOrNKlyWwn000217b7@hotmail.com>
-X-Mimeole: Produced By Microsoft MimeOLE V5.50.4910.0300
-X-Antiabuse: This header was added to track abuse, please include it with
-    any abuse report
-X-Antiabuse: Primary Hostname - homer.perfectpresence.com
-X-Antiabuse: Original Domain - xent.com
-X-Antiabuse: Originator/Caller UID/GID - [0 0] / [0 0]
-X-Antiabuse: Sender Address Domain - barrera.org
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset="us-ascii"; format=flowed
+Sender: iiu-admin@taint.org
+Errors-To: iiu-admin@taint.org
+X-Beenthere: iiu@iiu.taint.org
+X-Mailman-Version: 2.0.10
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Sat, 7 Sep 2002 16:56:48 -0400
-
-intersectedness: i'd be surprised if beberg ever had a BLOWjob he liked. i
-mean, it would have involved OTHERS, less EVOLVED others.
-
-:-)
-gg
+Reply-To: iiu@taint.org
+List-Unsubscribe: <http://iiu.taint.org/mailman/listinfo/iiu>,
+    <mailto:iiu-request@iiu.taint.org?subject=unsubscribe>
+List-Id: Irish Internet Users <iiu.iiu.taint.org>
+List-Post: <mailto:iiu@iiu.taint.org>
+List-Help: <mailto:iiu-request@iiu.taint.org?subject=help>
+List-Subscribe: <http://iiu.taint.org/mailman/listinfo/iiu>,
+    <mailto:iiu-request@iiu.taint.org?subject=subscribe>
+List-Archive: <http://iiu.taint.org/pipermail/iiu/>
+Date: Fri, 26 Jul 2002 16:59:22 +0100
 
 
+Does that mean that you could reach further, but you couldn't take up as 
+much bandwidth then?
 
------Original Message-----
-From: fork-admin@xent.com [mailto:fork-admin@xent.com]On Behalf Of
-Russell Turpin
-Sent: Saturday, September 07, 2002 3:07 PM
-To: fork@spamassassin.taint.org
-Subject: RE: Selling Wedded Bliss (was Re: Ouch...)
+a.
 
+At 04:27 PM 7/26/2002 +0100, Bernie Goldbach wrote:
+>Hi,
+>
+>I believe the higher allowance nationally comes with a prescribed specific 
+>frequency constraint, so if you want 2 watts, you will have to confine 
+>yourself to a tighter limit of the open spectrum. That could affect 
+>deployments that channel-hop when they encounter degradations in signal 
+>strength.
+>
+>regards
+>Bernie Goldbach
+>::talking to signs::
+>
+>
+>_______________________________________________
+>IIU mailing list
+>IIU@iiu.taint.org
+>http://iiu.taint.org/mailman/listinfo/iiu
 
-CDale:
->I guess [Geege] doesn't want everyone to know about all the kinky sex she
->and I have had.
+--
 
-Yeah, like I'm going to believe that without
-seeing the photos. Next, you'll be telling me
-that Beberg found a job he likes.
+Antoin O Lachtnain
+**  antoin@eire.com ** http://www.eire.com ** +353-87-240-6691
 
-
-
-_________________________________________________________________
-Join the world’s largest e-mail service with MSN Hotmail.
-http://www.hotmail.com
-
-
-
-
+_______________________________________________
+IIU mailing list
+IIU@iiu.taint.org
+http://iiu.taint.org/mailman/listinfo/iiu
 
 

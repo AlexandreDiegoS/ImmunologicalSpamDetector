@@ -1,69 +1,67 @@
-From fork-admin@xent.com  Thu Aug 29 11:03:51 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Tue Aug 13 10:28:44 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 5E92E43F9B
-	for <jm@localhost>; Thu, 29 Aug 2002 06:03:44 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id B5FED44129
+	for <jm@localhost>; Tue, 13 Aug 2002 05:21:44 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Thu, 29 Aug 2002 11:03:44 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7SIfpZ05766 for <jm@jmason.org>;
-    Wed, 28 Aug 2002 19:41:52 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 7AB33294235; Wed, 28 Aug 2002 11:39:09 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from smtp10.atl.mindspring.net (smtp10.atl.mindspring.net
-    [207.69.200.246]) by xent.com (Postfix) with ESMTP id C798F29409A for
-    <FoRK@xent.com>; Wed, 28 Aug 2002 11:38:18 -0700 (PDT)
-Received: from user-119ac86.biz.mindspring.com ([66.149.49.6]) by
-    smtp10.atl.mindspring.net with esmtp (Exim 3.33 #1) id 17k7jk-00025x-00;
-    Wed, 28 Aug 2002 14:40:16 -0400
+	for jm@localhost (single-drop); Tue, 13 Aug 2002 10:21:44 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7CL5Vb01627 for
+    <jm-ilug@jmason.org>; Mon, 12 Aug 2002 22:05:31 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id WAA07460; Mon, 12 Aug 2002 22:05:04 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from linuxmafia.com (linuxmafia.COM [198.144.195.186]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id WAA07403 for <ilug@linux.ie>;
+    Mon, 12 Aug 2002 22:04:56 +0100
+Received: from rick by linuxmafia.com with local (Exim 3.35 #1 (Debian))
+    id 17eMMx-0003FR-00 for <ilug@linux.ie>; Mon, 12 Aug 2002 14:04:55 -0700
+Date: Mon, 12 Aug 2002 14:04:55 -0700
+From: Rick Moen <rick@linuxmafia.com>
+To: ilug@linux.ie
+Subject: Re: [ILUG] SUSE 8 disks? (thread changed slightly)
+Message-Id: <20020812191450.GD25331@linuxmafia.com>
 MIME-Version: 1.0
-X-Sender: rahettinga@pop.earthlink.net
-Message-Id: <p05111a02b992bbb1c841@[66.149.49.6]>
-In-Reply-To: <AMEPKEBLDJJCCDEJHAMICEFKFFAA.ejw@cse.ucsc.edu>
-References: <AMEPKEBLDJJCCDEJHAMICEFKFFAA.ejw@cse.ucsc.edu>
-To: "Jim Whitehead" <ejw@cse.ucsc.edu>, "FoRK" <FoRK@xent.com>
-From: "R. A. Hettinga" <rah@shipwright.com>
-Subject: RE: Gecko adhesion finally sussed.
-Content-Type: text/plain; charset="us-ascii"
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <1029178811.9166.10.camel@gemini.windmill>
+User-Agent: Mutt/1.4i
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Wed, 28 Aug 2002 13:43:03 -0400
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-At 10:34 AM -0700 on 8/28/02, Jim Whitehead wrote:
+Quoting Nick Murtagh (nickm@go2.ie):
+> On Mon, 2002-08-12 at 19:26, Rick Moen wrote:
+>
+>> NON-freely redistributable apps (in boxed sets):
+>> -----------------------------------------------
+>> SAP database
+> 
+> The same one as provided on www.sapdb.org? 
+> Which is released under the GPL/LGPL?
 
+Looking at http://www.sapdb.org/history.htm , it seems that SAP went
+open-source some time in 2000, so my information likely was correct
+at the time I compiled that list.
 
-> Great, this is half of what I'd need to become Spider Man! Now all I need to
-> figure out is how to do that spider web shooting thing.
+In addition, please note that, just because a company decides to go open
+source with a codebase as of some new release version, that doesn't make
+all versions ever released open source retroactively.  A licence
+attaches to a _copy_ of a creative work.  So, if there was a
+proprietary, non-redistributable copy in SuSE boxed sets, it's still
+proprietary and non-redistributable -- unless SAP AG decided to mail out
+a separate permission grant for it.
 
-...That and be able to stick yourself upside down on a 20 foot ceiling from
-a standing jump...
-
-I remember someone recently doing the calculations in kilocalories required
-to be spiderman somewhere. Kind of like those flaming processor "analyses"
-done a couple of years ago...
-
-Cheers,
-RAH
 
 -- 
------------------
-R. A. Hettinga <mailto: rah@ibuc.com>
-The Internet Bearer Underwriting Corporation <http://www.ibuc.com/>
-44 Farquhar Street, Boston, MA 02131 USA
-"... however it may deserve respect for its usefulness and antiquity,
-[predicting the end of the world] has not been found agreeable to
-experience." -- Edward Gibbon, 'Decline and Fall of the Roman Empire'
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
 

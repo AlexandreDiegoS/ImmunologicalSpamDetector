@@ -1,108 +1,95 @@
-From fork-admin@xent.com  Thu Sep  5 11:31:06 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id 346B616F7C
-	for <jm@localhost>; Thu,  5 Sep 2002 11:28:30 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Fri Aug 16 15:28:00 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 8914643C34
+	for <jm@localhost>; Fri, 16 Aug 2002 10:27:59 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Thu, 05 Sep 2002 11:28:30 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g852Y1Z01236 for <jm@jmason.org>;
-    Thu, 5 Sep 2002 03:34:02 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 806EB294200; Wed,  4 Sep 2002 19:31:03 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from mail.datastore.ca (unknown [207.61.5.2]) by xent.com
-    (Postfix) with ESMTP id C5C9E2940AA for <FoRK@xent.com>; Wed,
-    4 Sep 2002 19:30:05 -0700 (PDT)
-Received: from maya.dyndns.org [207.61.5.143] by mail.datastore.ca
-    (SMTPD32-7.00) id A28361A001C; Wed, 04 Sep 2002 22:33:39 -0400
-Received: by maya.dyndns.org (Postfix, from userid 501) id 959DC1C336;
-    Wed,  4 Sep 2002 22:32:07 -0400 (EDT)
-To: Elias Sinderson <elias@cse.ucsc.edu>
-Cc: Jim Whitehead <ejw@soe.ucsc.edu>, FoRK <FoRK@xent.com>
-Subject: Re: Gecko adhesion finally sussed.
-References: <AMEPKEBLDJJCCDEJHAMICEFKFFAA.ejw@cse.ucsc.edu>
-    <3D768684.30702@cse.ucsc.edu>
-From: Gary Lawrence Murphy <garym@canada.com>
-X-Home-Page: http://www.teledyn.com
-Organization: TCI Business Innovation through Open Source Computing
-Message-Id: <m2bs7dp3o8.fsf@maya.dyndns.org>
-Reply-To: Gary Lawrence Murphy <garym@canada.com>
-X-Url: http://www.teledyn.com/
+	for jm@localhost (single-drop); Fri, 16 Aug 2002 15:27:59 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7GEPca22215 for
+    <jm-ilug@jmason.org>; Fri, 16 Aug 2002 15:25:38 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id PAA00576; Fri, 16 Aug 2002 15:23:56 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from mail.it-tallaght.ie (mail.it-tallaght.ie [193.1.120.163])
+    by lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id PAA00537 for
+    <ilug@linux.ie>; Fri, 16 Aug 2002 15:23:49 +0100
+Received: by mail.it-tallaght.ie with Internet Mail Service (5.5.2656.59)
+    id <QSA349G4>; Fri, 16 Aug 2002 15:21:48 +0100
+Message-Id: <A357A6B62E30D511804500B0D0AA789C0112E4BC@mail.it-tallaght.ie>
+From: "Smith, Graham - Computing Technician" <Graham.Smith@it-tallaght.ie>
+To: ilug@linux.ie
+Subject: RE: [ILUG] Backup solutions
+Date: Fri, 16 Aug 2002 15:21:42 +0100
 MIME-Version: 1.0
-Content-Type: text/plain; charset=us-ascii
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+X-Mailer: Internet Mail Service (5.5.2656.59)
+Content-Type: text/plain; charset="iso-8859-15"
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: 04 Sep 2002 22:32:07 -0400
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
->>>>> "E" == Elias Sinderson <elias@cse.ucsc.edu> writes:
+DDS-4 will hold 40 GB, media is about 42 (ex vat)euros per tape
+HP do DDS-4 backup tape drives to take those but they're
+about 1236 euros (ex vat) and thats for an internal model (taken from
+DCB Groups catalogue). There are other brands and various
+other tape formats to choose from, but just to give you a rough
+benchmark of pricing for that sorta capacity.
 
-    E> ... The strength to weight ratio of a spider is so high
-    E> that Spiderman is able to throw a bus several city blocks with
-    E> little effort. His endurance is similarly enhanced as well.
+Ther are options that will go up to crazy capacities by using
+using multiple tapes in a caddy... of course its gonna cost
+a lot more.
 
-Could this be as simple as a modified molecular structure where the
-humanoid cells are in fact exo-skeletally structured with more atoms
-per cubic angstrom to achieve the distance-squared tensile strength
-enhancements we find when we introduce smaller metal atoms between the
-lattice packed grid of iron atoms to create steel?  
+I'd also be ensuring I had some sort of disk mirroring set up
+also... the more redundancy the better (within reason).
 
-This 'steel-effect' might give bone structure and tendons dramatically
-(several orders of magnitude) more tensile strength without the need
-to significantly increase the weight (like magnesium-alloy or
-carbon-fiber weight compared to iron, Spidey could even be way under
-weight).  Only increasing tensile strength could accommodate the
-mobility and leverage feats since bones are actually formed from
-bubbles of organic material hydrolically assisted, tensile strength
-cross-sectionally would give his frame the strength to withstand the
-muscular enhancement.
+G.
 
-    E> As for the spidey senses, well they're really great, but AFAIK
-    E> not really well explained in the comic series. 
+___________________________
+ Graham Smith,
+ Network Administrator,
+ Department of Computing,
+ Institute of Technology,
+ Tallaght, Dublin 24
+ Phone: + 353 (01) 4042840
 
-If the same close-packing gap-filling arachne-molecular structure
-modification occurs in neural tissues, and there'd be no reason to
-think that these would grow differently from bones and tendons, then
-what we are seeing in spidey sense is no more than the heightened
-cerebral functions due to shorter/faster/stronger synapses throughout
-the entire nervous system.  
+-----Original Message-----
+From: Ciaran Johnston [mailto:cj@nologic.org]
+Sent: 16 August 2002 15:09
+To: ilug@linux.ie
+Subject: [ILUG] Backup solutions
 
-Since we know dogs and cats measure human emotions by smell, clearly
-hearing the heartbeats, and other subtle clues within their normal
-sensory ranges (but seem mystical to us) ...  for Peter Parker,
-everything from air currents on his facial-hairs to extremely subtle
-hormone smells might coallesce into a general gestalt of Spidey-Sense;
-don't forget that he'd acquired this ability in adolescence and thus
-would lack any cultural or even pathological basis to explain the
-heightened awareness to himself in anything but mystical terms. We
-know from issue #1 that his collision-avoidance reflex response time
-was far swifter than his cognitive awareness since he 'found' himself
-already stuck to the tree when the bicycle was already past and hence
-his disorientation ("You ok, Mister?") as if it was a hallucination.
 
-Hmmm ... it may even be physio-psychologically interesting to examine
-if Peter Parker's personal quandries arose _because_ his physiological
-'Spidey' infrastructure had been advanced whereas his psychological
-perception of his self had not, ie, "Peter" was not "Spiderman" but
-just the "driver of the bus".  Only, unlike ourselves, he found his
-self driving a body-vehicle not evolutionarily matched to his
-cognitive time-scales.
+Hi folks,
+I maintain a colocated server on behalf of a small group of individuals,
+and am looking at backup solutions. Is it possible to get some sort of low-
+end internal tape / other solution that could be used to back up approx. 40
+Gigs of data or am I just dreaming? My ISP does offer backups at extra cost
+but the only problem with that is, well, the extra cost.
+
+What I was hoping to do was to install some kind of internal tape device,
+then swap tapes round every month, so I had an onsite backup of say the
+last 24 hours and an offsite backup of the last month. Is this feasible?
+I'm beginning to think it isn't. External devices are not an option as part
+of the charge for colocation is rackspace.
+
+Thanks,
+Ciaran.
+
+
 
 -- 
-Gary Lawrence Murphy <garym@teledyn.com> TeleDynamics Communications Inc
- Business Advantage through Community Software : http://www.teledyn.com
-"Computers are useless.  They can only give you answers."(Pablo Picasso)
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 

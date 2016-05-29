@@ -1,55 +1,74 @@
-From fork-admin@xent.com  Tue Aug 27 02:35:15 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Mon Aug 12 11:07:03 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id F038C43F9B
-	for <jm@localhost>; Mon, 26 Aug 2002 21:35:14 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 16B324415B
+	for <jm@localhost>; Mon, 12 Aug 2002 05:56:03 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Tue, 27 Aug 2002 02:35:15 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7R1WfZ20918 for <jm@jmason.org>;
-    Tue, 27 Aug 2002 02:32:41 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 3FF0B2941F1; Mon, 26 Aug 2002 18:30:10 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from barrera.org (cpe-65-172-233-109.sanbrunocable.com
-    [65.172.233.109]) by xent.com (Postfix) with ESMTP id DE4E52941ED for
-    <fork@xent.com>; Mon, 26 Aug 2002 18:29:26 -0700 (PDT)
-Received: from  (127.0.0.1 [127.0.0.1]) by MailEnable Inbound Mail Agent
-    with ESMTP; Tue, 27 Aug 2002 01:30:45 -08:00
-Message-Id: <3D6AD645.7000709@barrera.org>
-From: "Joseph S. Barrera III" <joe@barrera.org>
-Organization: Wings over the World
-User-Agent: Mutt 5.00.2919.6900 DM (Nigerian Scammer Special Edition)
-X-Accept-Language: en-us, en, ja
+	for jm@localhost (single-drop); Mon, 12 Aug 2002 10:56:03 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7BBreb32265 for
+    <jm-ilug@jmason.org>; Sun, 11 Aug 2002 12:53:41 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id MAA21852; Sun, 11 Aug 2002 12:50:43 +0100
+Received: from homer.jinny.ie ([193.120.171.3]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id MAA21814 for <ilug@linux.ie>; Sun,
+    11 Aug 2002 12:50:36 +0100
+Received: from jlooney.jinny.ie (fw [193.120.171.2]) by homer.jinny.ie
+    (8.9.3/8.11.2) with ESMTP id MAA25325 for <ilug@linux.ie>; Sun,
+    11 Aug 2002 12:50:06 +0100
+Received: (from john@localhost) by jlooney.jinny.ie (8.11.6/8.11.6) id
+    g7BBoQC05897 for ilug@linux.ie; Sun, 11 Aug 2002 12:50:26 +0100
+X-Authentication-Warning: jlooney.jinny.ie: john set sender to
+    jlooney@jinny.ie using -f
+Date: Sun, 11 Aug 2002 12:50:26 +0100
+From: "John P. Looney" <valen@tuatha.org>
+To: ilug@linux.ie
+Subject: Re: [ILUG] Alan Cox doesn't like 2.5 so far!
+Message-Id: <20020811115026.GB4847@jinny.ie>
+Reply-To: ilug@linux.ie
+Mail-Followup-To: ilug@linux.ie
+References: <200208111018.LAA18371@lugh.tuatha.org>
 MIME-Version: 1.0
-To: fork@spamassassin.taint.org
-Subject: Re: The GOv gets tough on Net Users.....er Pirates..
-References: <Pine.LNX.4.33.0208261744120.5669-100000@watcher.mithral.com>
-Content-Type: text/plain; charset=us-ascii; format=flowed
-Content-Transfer-Encoding: 7bit
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <200208111018.LAA18371@lugh.tuatha.org>
+User-Agent: Mutt/1.4i
+X-Os: Red Hat Linux 7.3/Linux 2.4.18-3
+X-Url: http://www.redbrick.dcu.ie/~valen
+X-Gnupg-Publickey: http://www.redbrick.dcu.ie/~valen/public.asc
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Mon, 26 Aug 2002 18:30:45 -0700
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-Adam L. Beberg wrote:
- > Forwarding me stuff from a list is hardly handing me a job.
+On Sun, Aug 11, 2002 at 11:17:47AM +0100, wintermute mentioned:
+> > The impression I get from reading lkml the odd time is
+> > that IDE has gone downhill since Andre Hedrick was 
+> > effectively removed as maintainer. Martin Dalecki seems
+> > to have been unable to further development without 
+> > much breakage. 
+> 
+> Hmm... begs the question, why remove Handrick?
+> If it ain't broke, don't fix it.
 
-I was talking about the open reqs at Kana (the company I work for).
-Oh, but programming in Java is beneath you.
+ See, the IDE subsystem is like the One Ring. It's kludginess, due to
+having to support hundreds of dodgy chipsets & drives means that it is
+inherintly evil. A few months of looking at the code can turn you sour.
+Years of looking at it will turn you into an arsehole.
 
-- Joe
+ They haven't found a hobbit that can code, so mortal humans have to
+suffice. 
 
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

@@ -1,92 +1,68 @@
-From billjac@earthlink.net  Wed Aug 28 10:53:21 2002
-Return-Path: <billjac@earthlink.net>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From ilug-admin@linux.ie  Wed Jul 31 11:50:18 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 69CD643F9B
-	for <zzzz@localhost>; Wed, 28 Aug 2002 05:53:17 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id CCAD3440C9
+	for <jm@localhost>; Wed, 31 Jul 2002 06:50:12 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 28 Aug 2002 10:53:17 +0100 (IST)
-Received: from n21.grp.scd.yahoo.com (n21.grp.scd.yahoo.com
-    [66.218.66.77]) by dogma.slashnull.org (8.11.6/8.11.6) with SMTP id
-    g7S0P7Z03502 for <zzzz@spamassassin.taint.org>; Wed, 28 Aug 2002 01:25:07 +0100
-X-Egroups-Return: sentto-2242572-53121-1030494312-zzzz=spamassassin.taint.org@returns.groups.yahoo.com
-Received: from [66.218.67.199] by n21.grp.scd.yahoo.com with NNFMP;
-    28 Aug 2002 00:25:12 -0000
-X-Sender: billjac@earthlink.net
-X-Apparently-To: zzzzteana@yahoogroups.com
-Received: (EGP: mail-8_1_0_1); 28 Aug 2002 00:25:12 -0000
-Received: (qmail 93628 invoked from network); 28 Aug 2002 00:25:12 -0000
-Received: from unknown (66.218.66.217) by m6.grp.scd.yahoo.com with QMQP;
-    28 Aug 2002 00:25:12 -0000
-Received: from unknown (HELO scaup.mail.pas.earthlink.net)
-    (207.217.120.49) by mta2.grp.scd.yahoo.com with SMTP; 28 Aug 2002 00:25:12
-    -0000
-Received: from dialup-64.152.170.33.dial1.newyork1.level3.net
-    ([64.152.170.33] helo=oemcomputer) by scaup.mail.pas.earthlink.net with
-    smtp (Exim 3.33 #1) id 17jqdx-0001BR-00 for forteana@yahoogroups.com;
-    Tue, 27 Aug 2002 17:25:10 -0700
-Message-Id: <001501c24e28$d2c3c960$21aa9840@oemcomputer>
-To: <zzzzteana@yahoogroups.com>
-References: <19-3D6AD80C-3146@storefull-2336.public.lawson.webtv.net>
-X-Priority: 3
-X-Msmail-Priority: Normal
-X-Mailer: Microsoft Outlook Express 5.00.2919.6600
-X-Mimeole: Produced By Microsoft MimeOLE V5.00.2919.6600
-From: "Bill Jacobs" <billjac@earthlink.net>
-X-Yahoo-Profile: billjac2000
+	for jm@localhost (single-drop); Wed, 31 Jul 2002 11:50:12 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6VAjO217063 for
+    <jm-ilug@jmason.org>; Wed, 31 Jul 2002 11:45:24 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id LAA29987; Wed, 31 Jul 2002 11:43:55 +0100
+Received: from homer.jinny.ie ([193.120.171.3]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id LAA29958 for <ilug@linux.ie>; Wed,
+    31 Jul 2002 11:43:49 +0100
+Received: from jlooney.jinny.ie (fw [193.120.171.2]) by homer.jinny.ie
+    (8.9.3/8.11.2) with ESMTP id LAA29865 for <ilug@linux.ie>; Wed,
+    31 Jul 2002 11:43:19 +0100
+Received: (from john@localhost) by jlooney.jinny.ie (8.11.6/8.11.6) id
+    g6VAhn623280 for ilug@linux.ie; Wed, 31 Jul 2002 11:43:49 +0100
+X-Authentication-Warning: jlooney.jinny.ie: john set sender to
+    jlooney@jinny.ie using -f
+Date: Wed, 31 Jul 2002 11:43:49 +0100
+From: "John P. Looney" <valen@tuatha.org>
+To: Irish LUG <ilug@linux.ie>
+Subject: Re: [ILUG] Fwd: Linux Beer Hike
+Message-Id: <20020731104349.GS4594@jinny.ie>
+Reply-To: ilug@linux.ie
+Mail-Followup-To: Irish LUG <ilug@linux.ie>
+References: <A92DB5482F76D51193290002A50A5612015632A9@irsmsx103.ir.intel.com>
 MIME-Version: 1.0
-Mailing-List: list zzzzteana@yahoogroups.com; contact
-    forteana-owner@yahoogroups.com
-Delivered-To: mailing list zzzzteana@yahoogroups.com
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <A92DB5482F76D51193290002A50A5612015632A9@irsmsx103.ir.intel.com>
+User-Agent: Mutt/1.4i
+X-Os: Red Hat Linux 7.3/Linux 2.4.18-3
+X-Url: http://www.redbrick.dcu.ie/~valen
+X-Gnupg-Publickey: http://www.redbrick.dcu.ie/~valen/public.asc
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
-Date: Tue, 27 Aug 2002 14:42:46 -0400
-Subject: Re: [zzzzteana] Moon over ocean
-Reply-To: zzzzteana@yahoogroups.com
-Content-Type: text/plain; charset=US-ASCII
-Content-Transfer-Encoding: 7bit
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-David asked:
-> My wife noticed something odd.  The nearly-full moon was about 30
-> degrees above the horizon.  There was a notable glow on the horizon,
-> except under the moon.  The moon seemed to be in a column of darkness
-> that was about three times the apparent width of the moon.  We could see
-> the column over its entire length as a strip of sky darker than the sky
-> around it.
->
-> Any of you ever see this?  Do you have any idea what could have caused
-> it?  I suspect it's due to some pecularity of the visual system, but
-> have no clear idea.
+On Wed, Jul 31, 2002 at 11:28:05AM +0100, Satelle, StevenX mentioned:
+> When I was in school they pushed Irish down my throat. I developed a hatred
+> for Irish. I did French for 3 years and German for 6 months, I could
+> (almost) hold a basic conversation. I am proud of the fact that I don't know
+> one word of Irish. 
 
-I'm surprised to not find this phenomenon in Corlis. I could have sworn I
-saw it there. He does have the somewhat similar dark sky between a rainbow
-and a secondary bow. I personally have seen a rainbow enclosing a
-semi-circle of darker sky.
+ Sad, that.
 
-I know I've read about pillars under the Sun and Moon elsewhere, but I can't
-recall if they were reportedly dark or bright. I do know these sorts of
-things are supposed to be quirks of optics not of the visual system. I'm
-sorry I haven't got any answers, but a search through some books on
-atmospheric optics ought to turn a few hints up.
+ I felt like that till recently, but now wish that it wasn't rammed down
+my throat like worming tablets. If they hadn't, it is very possible I'd be
+an Irish speaker.
 
-Bill
-
-William Jacobs
-Freelance Unemployed Person
+John
 
 
------------------------- Yahoo! Groups Sponsor ---------------------~-->
-4 DVDs Free +s&p Join Now
-http://us.click.yahoo.com/pt6YBB/NXiEAA/MVfIAA/7gSolB/TM
----------------------------------------------------------------------~->
-
-To unsubscribe from this group, send an email to:
-forteana-unsubscribe@egroups.com
-
- 
-
-Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

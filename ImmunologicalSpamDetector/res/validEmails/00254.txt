@@ -1,47 +1,39 @@
-From ilug-admin@linux.ie  Fri Sep  6 11:40:30 2002
+From ilug-admin@linux.ie  Tue Aug  6 11:53:51 2002
 Return-Path: <ilug-admin@linux.ie>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id 8725D16F03
-	for <zzzz@localhost>; Fri,  6 Sep 2002 11:39:09 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 818F9441EB
+	for <jm@localhost>; Tue,  6 Aug 2002 06:48:25 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Fri, 06 Sep 2002 11:39:09 +0100 (IST)
-Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g869kOC28806 for
-    <zzzz-ilug@spamassassin.taint.org>; Fri, 6 Sep 2002 10:47:47 +0100
+	for jm@localhost (single-drop); Tue, 06 Aug 2002 11:48:25 +0100 (IST)
 Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
-    webnote.net (8.9.3/8.9.3) with ESMTP id AAA19327 for <zzzz-ilug@spamassassin.taint.org>;
-    Fri, 6 Sep 2002 00:52:16 +0100
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g74Hx9v03954 for
+    <jm-ilug@jmason.org>; Sun, 4 Aug 2002 18:59:09 +0100
 Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
-    (8.9.3/8.9.3) with ESMTP id AAA15843; Fri, 6 Sep 2002 00:50:53 +0100
+    (8.9.3/8.9.3) with ESMTP id SAA31096; Sun, 4 Aug 2002 18:56:25 +0100
 X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
     claimed to be lugh
-Received: from mail05.svc.cra.dublin.eircom.net
-    (mail05.svc.cra.dublin.eircom.net [159.134.118.21]) by lugh.tuatha.org
-    (8.9.3/8.9.3) with SMTP id AAA15809 for <ilug@linux.ie>; Fri,
-    6 Sep 2002 00:50:45 +0100
-Received: (qmail 46890 messnum 300912 invoked from
-    network[159.134.112.65/p112-65.as1.bdt.dublin.eircom.net]); 5 Sep 2002
-    23:50:14 -0000
-Received: from p112-65.as1.bdt.dublin.eircom.net (HELO calm.mc)
-    (159.134.112.65) by mail05.svc.cra.dublin.eircom.net (qp 46890) with SMTP;
-    5 Sep 2002 23:50:14 -0000
-Received: from mconry by calm.mc with local (Exim 3.35 #1 (Debian)) id
-    17n6O5-0000Fh-00; Fri, 06 Sep 2002 00:50:13 +0100
-Date: Fri, 6 Sep 2002 00:50:13 +0100
-From: Michael Conry <michael.conry@ucd.ie>
-To: eric nichols <matchsprint@trackbike.com>
-Cc: ilug@linux.ie
-Subject: Re: [ILUG] PCTel modules
-Message-Id: <20020905235013.GC887@calm.mc>
-Reply-To: michael.conry@ucd.ie
-References: <20020905221736.822B53942@sitemail.everyone.net>
+Received: from mail04.svc.cra.dublin.eircom.net
+    (mail04.svc.cra.dublin.eircom.net [159.134.118.20]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with SMTP id SAA31063 for <ilug@linux.ie>; Sun,
+    4 Aug 2002 18:56:20 +0100
+From: cout@eircom.net
+Message-Id: <200208041756.SAA31063@lugh.tuatha.org>
+Received: (qmail 78155 messnum 1117230 invoked from
+    network[159.134.237.75/jimbo.eircom.net]); 4 Aug 2002 17:55:49 -0000
+Received: from jimbo.eircom.net (HELO webmail.eircom.net) (159.134.237.75)
+    by mail04.svc.cra.dublin.eircom.net (qp 78155) with SMTP; 4 Aug 2002
+    17:55:49 -0000
+To: ilug@linux.ie
+Subject: Re: [ILUG] 3c509 & 2.4.19 problems
+Date: Sun, 4 Aug 2002 18:55:49 +0100
 MIME-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
-Content-Disposition: inline
-In-Reply-To: <20020905221736.822B53942@sitemail.everyone.net>
-User-Agent: Mutt/1.3.28i
+Content-Transfer-Encoding: 8bit
+X-Originating-Ip: 213.190.156.48
+X-Mailer: Eircom Net CRC Webmail (http://www.eircom.net/)
+Organization: Eircom Net (http://www.eircom.net/)
 Sender: ilug-admin@linux.ie
 Errors-To: ilug-admin@linux.ie
 X-Mailman-Version: 1.1
@@ -49,75 +41,41 @@ Precedence: bulk
 List-Id: Irish Linux Users' Group <ilug.linux.ie>
 X-Beenthere: ilug@linux.ie
 
-On 0020 -0700 %{!Thu, Sep 05, 2002 at  3:17:36PM -0700}, eric nichols wrote:
-> Hello again. I tried all the suggestions for the PCTel driver and at
-> the end of it, everything still goes smoothly until I type "make"
-> after I get the output from the ./configure. 
-> 
-> However, there were a couple of things I noticed along the way. After typing 
-> * cp configs/kernel-2.4...config .config
-> * make oldconfig
-> * make dep
-> The 2nd to last line I got back said that the modversions.h file was
-> not updated. When I looked at this path to the modversions.h file, it
-> was 281 lines and every line started with a # mark.
-> Is it the case
-> that nothing is read on a line after a # mark (or am I just thinking
-> of another language?) and so should I delete the # at certain places?
-No that is appropriate content for the file.  I'm not a C programmer,
-but I think that these sort of things (#include <blahblah>) are
-instructions to the compiler processed by a pre-processor in the compile
-process, and include all sorts of symbols/functions
-e.g. "#include <math.h>" gives you maths type functions.  Since they
-start with "#" they are ignored in the final compilation.
+You need to run the dos setup program for the 3c509 and turn off plug 'n' play in the card's firmware I think you will find.
 
-Regarding the rest of the compile process, you need to tell the PCtel
-software to look in the right place for the kernel headers/source. 
-I recall from your previous mail that there was a flag
-    --with-kernel-includes=/usr/src/linux-2.4
-which could be passed to the ./configure script (with the appropriate
-directory in place of /usr/src/linux-2.4).  This might allow you to
-persuade the code to compile against the correct headers.  I think this
-is the right way to proceed.
-
-Alternatively, maybe the steps above regarding "make dep" and so forth
-should have been performed in the directory where the make process is
-looking for modversions.h & Co.
-
-I don't think it is a good idea keep moving files into the directory as
-you describe below.  First of all you will move modversions.h (which you
-have done), then you would have to move all those *.ver files, after
-that, there will almost certainly be a need for further header (*.h)
-files.  This could be quickly done, but is probably bad (those files
-don't really belong there).
-
-For what it's worth I think you are very close to a successful
-compilation.
-
-m
+Bod
 
 > 
-> Also, when I was in the pctel directory and typed "make", I noticed
-> that a different subdirectory is taken to a different modversions.h
-> file. Inside this other file, there's nothing at all. And so I moved
-> the modversions.h file with 281 lines to the empty modversions.h file
-> - and got a different reply after "make". The output after I moved the
-> file over mostly looked like this:
-> /usr/src/linux-2.4.18-3/linux/modversions.h:11:33:
-> linux/modules/adb.ver: No such file or directory
-> /usr/src/linux-2.4.18-3/linux/modversions.h:12:37:
-> linux/modules/af_ax25.ver: No such file or directory
-> /usr/src/linux-2.4.18-3/linux/modversions.h:13:36:
-> linux/modules/af_ipx.ver: No such file or directory
+> Hi folks,
 > 
-> The odd lines being the path and the first half of the other lines are
-> what's written after the # in the modversions.h file. Should there be
-> a file at each of these (one at each of the 281 lines of the file)
-> that I'd have to compile/make?
+> I decided to upgrade the kernel on a machine at home from 2.2.18pre21 to the latest from kernel.org which is 2.4.19.
+> 
+> However I have encountered one problem, my network card now dosent work, well kind of dosent work...
+> 
+> Instead of one eth0 on IRQ 10 I now get:
+> Aug  4 11:31:51 mira kernel: eth0: 3c5x9 at 0x220, 10baseT port, address  00 10 5a 3e 0e 48, IRQ 5.
+> Aug  4 11:31:51 mira kernel: 3c509.c:1.18 12Mar2001 becker@scyld.com
+> Aug  4 11:31:51 mira kernel: http://www.scyld.com/network/3c509.html
+> Aug  4 11:31:51 mira kernel: eth1: 3c5x9 at 0x300, 10baseT port, address  00 10 5a be 0e 48, IRQ 10.
+> Aug  4 11:31:51 mira kernel: 3c509.c:1.18 12Mar2001 becker@scyld.com
+> Aug  4 11:31:51 mira kernel: http://www.scyld.com/network/3c509.html
+> 
+> This results in the interface(s) coming up but while packets can go out they can not come in.
+> 
+> I've tried not loading the 3c509 mdule on bootup and then `modload 3c509 IRQ=10` bit it still gets loaded as above, on IRQ 5 and 10. On 2.2 it loads to IRQ 10.
+> 
+> Anyone got any suggestions on what to do here? Its a debian 3.0 distro. This works fine when booted to 2.2 so the hardware/BIOS etc seem ok, so it seems to be 2.4 spacific. Have I missed some kernel setting?
+> 
+> Cheers,
+> ~Al
+> 
+> -- 
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+> List maintainer: listmaster@linux.ie
+> 
 
--- 
-Michael Conry   Ph.:+353-1-7161987, Web: http://www.acronymchile.com
-Key fingerprint = 5508 B563 6791 5C84 A947  CB01 997B 3598 09DE 502C
+
 
 -- 
 Irish Linux Users' Group: ilug@linux.ie

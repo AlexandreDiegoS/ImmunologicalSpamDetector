@@ -1,120 +1,65 @@
-From DNS-swap@lists.ironclad.net.au  Mon Sep  2 12:28:53 2002
-Return-Path: <DNS-swap@lists.ironclad.net.au>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From ilug-admin@linux.ie  Fri Jul 19 15:40:36 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 40C6C43F9B
-	for <zzzz@localhost>; Mon,  2 Sep 2002 07:28:52 -0400 (EDT)
-Received: from phobos [127.0.0.1]
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 248A043FAD
+	for <jm@localhost>; Fri, 19 Jul 2002 10:40:35 -0400 (EDT)
+Received: from dogma.slashnull.org [212.17.35.15]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Mon, 02 Sep 2002 12:28:52 +0100 (IST)
-Received: from lists.ironclad.net.au ([203.30.247.12]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with SMTP id g7UFQvZ30600 for
-    <zzzz@spamassassin.taint.org>; Fri, 30 Aug 2002 16:27:01 +0100
-Received: from dbsinfo.com by lists.ironclad.net.au with SMTP;
-    Sat, 31 Aug 2002 01:21:00 +1000
-Message-Id: <00c401c25039$7b055460$976fa8c0@cfl.rr.com>
-From: "Bob Musser" <BobM@dbsinfo.com>
-To: <DNS-swap@lists.ironclad.net.au>
-Subject: Tiny DNS Swap
-Date: Fri, 30 Aug 2002 11:25:31 -0400
+	for jm@localhost (single-drop); Fri, 19 Jul 2002 15:40:35 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6JEZeJ05090 for
+    <jm-ilug@jmason.org>; Fri, 19 Jul 2002 15:35:40 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id PAA10057; Fri, 19 Jul 2002 15:31:50 +0100
+Received: from mail.magicgoeshere.com (nw152-60.indigo.ie [194.125.152.60]
+    (may be forged)) by lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id PAA10024
+    for <ilug@linux.ie>; Fri, 19 Jul 2002 15:31:44 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host nw152-60.indigo.ie
+    [194.125.152.60] (may be forged) claimed to be mail.magicgoeshere.com
+Received: from bagend.magicgoeshere.com (ts15-233.dublin.indigo.ie
+    [194.125.176.233]) by mail.magicgoeshere.com (Postfix) with ESMTP id
+    3FB81F8E6 for <ilug@linux.ie>; Fri, 19 Jul 2002 15:16:38 +0100 (IST)
+Received: by bagend.magicgoeshere.com (Postfix, from userid 501) id
+    838F43C0CC; Fri, 19 Jul 2002 15:35:36 +0100 (IST)
+Date: Fri, 19 Jul 2002 15:35:36 +0100
+From: Niall O Broin <niall@linux.ie>
+To: ilug@linux.ie
+Message-Id: <20020719143536.GC2506@bagend.makalumedia.com>
+Reply-To: ilug@linux.ie
+Mail-Followup-To: Niall O Broin <niall@linux.ie>, ilug@linux.ie
 MIME-Version: 1.0
-Content-Type: multipart/alternative;
-    boundary="----=_NextPart_000_00C1_01C25017.F2F04E20"
-X-Priority: 3
-X-Msmail-Priority: Normal
-X-Mailer: Microsoft Outlook Express 6.00.2600.0000
-X-Mimeole: Produced By Microsoft MimeOLE V6.00.2600.0000
-Reply-To: "DNS-swap" <DNS-swap@lists.ironclad.net.au>
-Sender: <DNS-swap@lists.ironclad.net.au>
-Precedence: Bulk
-List-Software: LetterRip Pro 3.0.7 by Fog City Software, Inc.
-List-Subscribe: <mailto:DNS-swap-on@lists.ironclad.net.au>
-List-Digest: <mailto:DNS-swap-digest@lists.ironclad.net.au>
-List-Unsubscribe: <mailto:DNS-swap-off@lists.ironclad.net.au>
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.3.27i
+Subject: [ILUG] OSI protocol
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
+Precedence: bulk
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-(This list is sponsored by Ironclad Networks http://www.ironclad.net.au/)
+There's been some discussion just now on the ILUG IRC channel about OSI and
+protocol layers. This reminded me of a poster produced by Wandel &
+Goltermann (manufactureres of fine protocol decoders and testers) which
+illustrates this admirably. The poster is in the form of a PDF file and to
+be honest, is best appreciated if you have access to a HP DesignJet or
+somesuch device. Wandel & Goltermann has now become/been taken over by
+acterna and I couldn't find the poster there. However, it's available at
+http://www.pb.bib.de/~dozloh/fachinfo/sdn_16/decodes.pdf and some of you ma
+find it interesting.
 
-This is a multi-part message in MIME format.
-
-------=_NextPart_000_00C1_01C25017.F2F04E20
-Content-Type: text/plain;
-	charset="Windows-1252"
-Content-Transfer-Encoding: quoted-printable
-
-I'm using Simple DNS from JHSoft.  We support only a few web sites and =
-I'd like to swap secondary services with someone in a similar position.
-
-We have a static IP, DSL line and a 24/7 set of web, SQL, mail and now a =
-DNS server.  As I said, we are hosting about 10 web sites, web and DNS =
-traffic is almost nothing.  Everything is on lightly loaded APC battery =
-backups so we are very seldom down.
-
-I'd like to swap with someone also using Simple DNS to take advantage of =
-the trusted zone file transfer option.
+The top of the poster refers you to www.decodes.com for a more up to date
+online copy of the poster. However, www.decodes.com now is redirected to the
+aforementioned acterna and . . . .
 
 
+Niall
 
-Bob Musser
-Database Services, Inc.
-Makers of:
-   Process Server's Toolbox
-   Courier Service Toolbox
-BobM@dbsinfo.com
-www.dbsinfo.com
-106 Longhorn Road
-Winter Park FL 32792
-(407) 679-1539
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
-
-
-------=_NextPart_000_00C1_01C25017.F2F04E20
-Content-Type: text/html;
-	charset="Windows-1252"
-Content-Transfer-Encoding: quoted-printable
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD>
-<META http-equiv=3DContent-Type content=3D"text/html; =
-charset=3Dwindows-1252">
-<META content=3D"MSHTML 6.00.2716.2200" name=3DGENERATOR>
-<STYLE></STYLE>
-</HEAD>
-<BODY bgColor=3D#ffffff>
-<DIV><FONT size=3D2>I'm using Simple DNS from JHSoft.&nbsp; We support =
-only a few=20
-web sites and I'd like to swap secondary services with someone in a =
-similar=20
-position.</FONT></DIV>
-<DIV><FONT size=3D2></FONT>&nbsp;</DIV>
-<DIV><FONT size=3D2>We have a static IP, DSL line and a 24/7 set of web, =
-SQL, mail=20
-and now a DNS server.&nbsp; As I said, we are hosting about 10 web =
-sites, web=20
-and DNS traffic is almost nothing.&nbsp; Everything is on lightly loaded =
-APC=20
-battery backups so we are very seldom down.</FONT></DIV>
-<DIV><FONT size=3D2></FONT>&nbsp;</DIV>
-<DIV><FONT size=3D2>I'd like to swap with someone also using Simple DNS =
-to take=20
-advantage of the trusted zone file transfer option.</FONT></DIV>
-<DIV><FONT size=3D2></FONT>&nbsp;</DIV>
-<DIV><FONT size=3D2></FONT>&nbsp;</DIV>
-<DIV><FONT size=3D2></FONT>&nbsp;</DIV>
-<DIV><FONT size=3D2>Bob Musser<BR>Database Services, Inc.<BR>Makers=20
-of:<BR>&nbsp;&nbsp; Process Server's Toolbox<BR>&nbsp;&nbsp; Courier =
-Service=20
-Toolbox<BR><A =
-href=3D"mailto:BobM@dbsinfo.com">BobM@dbsinfo.com</A><BR><A=20
-href=3D"http://www.dbsinfo.com">www.dbsinfo.com</A><BR>106 Longhorn =
-Road<BR>Winter=20
-Park FL 32792<BR>(407) 679-1539</FONT></DIV>
-<DIV>&nbsp;</DIV>
-<DIV><FONT size=3D2></FONT>&nbsp;</DIV></BODY></HTML>
-
-------=_NextPart_000_00C1_01C25017.F2F04E20--
-
-
---
-To Unsubscribe: <dns-swap-off@lists.ironclad.net.au>
-Sponsor & Host: Ironclad Networks <http://www.ironclad.net.au/>
 

@@ -1,52 +1,69 @@
-From fork-admin@xent.com  Mon Aug 26 16:46:43 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Fri Aug  9 15:21:12 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 8D16644156
-	for <jm@localhost>; Mon, 26 Aug 2002 11:46:37 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 78011440DC
+	for <jm@localhost>; Fri,  9 Aug 2002 10:20:59 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Mon, 26 Aug 2002 16:46:37 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7QFjcZ31117 for <jm@jmason.org>;
-    Mon, 26 Aug 2002 16:45:39 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id CAE872940CD; Mon, 26 Aug 2002 08:43:08 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from mx.spiritone.com (mx.spiritone.com [216.99.221.5]) by
-    xent.com (Postfix) with SMTP id 326B92940B7 for <fork@xent.com>;
-    Mon, 26 Aug 2002 08:42:57 -0700 (PDT)
-Received: (qmail 7711 invoked from network); 26 Aug 2002 15:38:11 -0000
-Received: (ofmipd 216.99.213.165); 26 Aug 2002 15:37:49 -0000
-Message-Id: <D27C2881-B909-11D6-9880-00039344DDD6@ordersomewherechaos.com>
-From: "RossO" <fork@ordersomewherechaos.com>
-To: fork@spamassassin.taint.org
-MIME-Version: 1.0 (Apple Message framework v482)
-Content-Type: text/plain; charset=US-ASCII; format=flowed
-Subject: Computational Recreations
-Content-Transfer-Encoding: 7bit
-X-Mailer: Apple Mail (2.482)
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+	for jm@localhost (single-drop); Fri, 09 Aug 2002 15:20:59 +0100 (IST)
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g79EJHb06063 for
+    <jm-ilug@jmason.org>; Fri, 9 Aug 2002 15:19:17 +0100
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    webnote.net (8.9.3/8.9.3) with ESMTP id JAA04584 for <jm-ilug@jmason.org>;
+    Fri, 9 Aug 2002 09:45:00 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id JAA30217; Fri, 9 Aug 2002 09:43:15 +0100
+Received: from homer.jinny.ie ([193.120.171.3]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id JAA30182 for <ilug@linux.ie>; Fri,
+    9 Aug 2002 09:43:08 +0100
+Received: from jlooney.jinny.ie (fw [193.120.171.2]) by homer.jinny.ie
+    (8.9.3/8.11.2) with ESMTP id JAA29057 for <ilug@linux.ie>; Fri,
+    9 Aug 2002 09:42:37 +0100
+Received: (from john@localhost) by jlooney.jinny.ie (8.11.6/8.11.6) id
+    g798h0o28377 for ilug@linux.ie; Fri, 9 Aug 2002 09:43:00 +0100
+X-Authentication-Warning: jlooney.jinny.ie: john set sender to
+    jlooney@jinny.ie using -f
+Date: Fri, 9 Aug 2002 09:43:00 +0100
+From: "John P. Looney" <valen@tuatha.org>
+To: ilug@linux.ie
+Subject: Re: [ILUG] TMDA (WAS --> slashdot EW Dijkstra humor]
+Message-Id: <20020809084300.GE27461@jinny.ie>
+Reply-To: ilug@linux.ie
+Mail-Followup-To: ilug@linux.ie
+References: <9C498074D5419A44B05349F5BF2C26301CFA6C@sdubtalex01.education.gov.ie>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <9C498074D5419A44B05349F5BF2C26301CFA6C@sdubtalex01.education.gov.ie>
+User-Agent: Mutt/1.4i
+X-Os: Red Hat Linux 7.3/Linux 2.4.18-3
+X-Url: http://www.redbrick.dcu.ie/~valen
+X-Gnupg-Publickey: http://www.redbrick.dcu.ie/~valen/public.asc
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: 26 Aug 2002 08:38:09 -0700
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-Does anyone here know if the Computational Recreations columns from 
-Scientific American in the 70's/80's were compiled into a book or two? I 
-think I remember Martin Gardner publishing the earlier Mathematical 
-Recreations in a couple of hard covers, but I'm unsure about the later 
-column. Help?
+On Fri, Aug 09, 2002 at 09:30:29AM +0100, Ryan, Shane mentioned:
+> IMHO stopping spammers is a great idea but I'd rather
+> have to hit d or delete rather than have my messages
+> bounced by someone else's ISP.
 
-...Ross...
+ I'd prefer to use an ISP that didn't tolerate spammers myself.
 
-http://xent.com/mailman/listinfo/fork
+ The only way Spam lists work is because ISP's customers find they can't
+send mail to many domains, and ask the ISP to do something about it.
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
 

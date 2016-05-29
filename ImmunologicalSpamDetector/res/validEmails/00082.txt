@@ -1,56 +1,87 @@
-From fork-admin@xent.com  Mon Sep  2 16:22:24 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From ilug-admin@linux.ie  Mon Jul 22 18:12:06 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 4D8384415C
-	for <zzzz@localhost>; Mon,  2 Sep 2002 11:22:00 -0400 (EDT)
-Received: from phobos [127.0.0.1]
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 228D9440C8
+	for <jm@localhost>; Mon, 22 Jul 2002 13:12:05 -0400 (EDT)
+Received: from dogma.slashnull.org [212.17.35.15]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Mon, 02 Sep 2002 16:22:00 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g823eoZ18207 for <zzzz@spamassassin.taint.org>;
-    Mon, 2 Sep 2002 04:40:50 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 625C529416E; Sun,  1 Sep 2002 20:38:02 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from hotmail.com (dav32.law15.hotmail.com [64.4.22.89]) by
-    xent.com (Postfix) with ESMTP id B44F7294099 for <fork@xent.com>;
-    Sun,  1 Sep 2002 20:37:40 -0700 (PDT)
-Received: from mail pickup service by hotmail.com with Microsoft SMTPSVC;
-    Sun, 1 Sep 2002 20:40:02 -0700
-X-Originating-Ip: [207.202.171.254]
-From: "Mr. FoRK" <fork_list@hotmail.com>
-To: <fork@spamassassin.taint.org>
-References: <NCBBJMBPOKEEKDAILFNGGEBDFEAA.rbfar@ebuilt.com>
-Subject: Re: Java is for kiddies
+	for jm@localhost (single-drop); Mon, 22 Jul 2002 18:12:05 +0100 (IST)
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6MFGu901745 for
+    <jm-ilug@jmason.org>; Mon, 22 Jul 2002 16:16:56 +0100
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    webnote.net (8.9.3/8.9.3) with ESMTP id PAA32428 for <jm-ilug@jmason.org>;
+    Mon, 22 Jul 2002 15:27:11 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id PAA30448; Mon, 22 Jul 2002 15:26:08 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from apollo.dit.ie (apollo.dit.ie [147.252.1.121]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id PAA30415 for <ilug@linux.ie>;
+    Mon, 22 Jul 2002 15:26:01 +0100
+Received: from jupiter.dit.ie (jupiter.dit.ie [147.252.1.77]) by
+    apollo.dit.ie (8.11.6/8.11.6) with ESMTP id g6MEDaW19243 for
+    <ilug@linux.ie>; Mon, 22 Jul 2002 15:13:36 +0100
+Received: from holger ([147.252.132.189]) by mail.dit.ie (PMDF V6.1
+    #30532) with SMTP id <01KKEF1SBH5U8WX7OP@mail.dit.ie> for ilug@linux.ie;
+    Mon, 22 Jul 2002 15:23:56 +0100 (WET-DST)
+Date: Mon, 22 Jul 2002 15:26:00 +0100
+From: Richard Eibrand <richard.eibrand@dit.ie>
+To: ilug <ilug@linux.ie>
+Message-Id: <ECTQGOIA9WQGBIHXR63DBGDIGZU42LH.3d3c15f8@holger>
+Organization: DIT Kevin Street
 MIME-Version: 1.0
-Content-Type: text/plain; charset="iso-8859-1"
-Content-Transfer-Encoding: 7bit
-X-Priority: 3
-X-Msmail-Priority: Normal
-X-Mailer: Microsoft Outlook Express 5.50.4133.2400
-X-Mimeole: Produced By Microsoft MimeOLE V5.50.4133.2400
-Message-Id: <DAV32l8aii08N8yxdZj00009342@hotmail.com>
-X-Originalarrivaltime: 02 Sep 2002 03:40:02.0181 (UTC) FILETIME=[6B4C7350:01C25232]
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+X-Mailer: Opera 6.01 build 1041
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: 7BIT
+X-Priority: 3 (Normal)
+Subject: [ILUG] Dell Inspiron 2650 X problem
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Sun, 1 Sep 2002 20:43:51 -0700
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
+
+Howdy all, 
+
+I have a friend with the problem outlined below, suggestions anyone?
 
 
->
-> 6.  Hardware is getting so fast that I'm not sure if the performance
-> difference between Java and C/C++ are relevant any more.
+"I have a dell inspirion 2650 laptop, with a P4 1.6GHz proc., an Nvidia Geforce II graphics card (8Mb) and am trying  to 
+install redhat 7.3 .
+The installation goes nicely until the Xwindows setup. My graphics card IS detected but not the monitor. I have  
+randomly chosen various LCD laptop display monitors but none seem to work, problem is that when i test a  particular 
+monitor the screen doesn't default back to the nice clear picture  i have become acustomed to but  remains fuzzy and 
+flashy so it is impossible to test another monitor type. rebooting allows me to run in text mode  where i try to configure X 
+again with Xconfigurator but i run into the same problem again.
 
-When out-of-the-box parsing & transform of XML in java is 25x slower than
-C++ on the same hardware then it does matter.
+Very annoying..."
+
+Ta very, 
+
+R
+
+----------------------------------------
+Richard Eibrand,
+School of Computing
+Dublin Institute of Technology
+Kevin Street, Dublin 8
+Ireland
+
+Office : 	+353 1 402 4682
+Mobile : 	+353 87 618 1793
+Email  : 	richard.eibrand@dit.ie, 
+         	reibrand@maths.kst.dit.ie
+
+ 
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
 

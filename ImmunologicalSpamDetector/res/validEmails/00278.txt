@@ -1,83 +1,77 @@
-From rpm-list-admin@freshrpms.net  Wed Oct  9 10:49:49 2002
-Return-Path: <rpm-zzzlist-admin@freshrpms.net>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id B62FF16F6B
-	for <zzzz@localhost>; Wed,  9 Oct 2002 10:48:01 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Wed Aug  7 13:07:08 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 9F3FB440CD
+	for <jm@localhost>; Wed,  7 Aug 2002 08:07:07 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 09 Oct 2002 10:48:01 +0100 (IST)
-Received: from egwn.net (ns2.egwn.net [193.172.5.4]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g98KtcK01561 for
-    <zzzz-rpm@spamassassin.taint.org>; Tue, 8 Oct 2002 21:55:38 +0100
-Received: from auth02.nl.egwn.net (localhost [127.0.0.1]) by egwn.net
-    (8.11.6/8.11.6/EGWN) with ESMTP id g98Kh1f08923; Tue, 8 Oct 2002 22:43:01
-    +0200
-Received: from fep07-app.kolumbus.fi (fep07-0.kolumbus.fi [193.229.0.51])
-    by egwn.net (8.11.6/8.11.6/EGWN) with ESMTP id g98KgRf04205 for
-    <rpm-list@freshrpms.net>; Tue, 8 Oct 2002 22:42:27 +0200
-Received: from azrael.blades.cxm ([62.248.234.77]) by
-    fep07-app.kolumbus.fi with ESMTP id
-    <20021008204224.RXYD8133.fep07-app.kolumbus.fi@azrael.blades.cxm> for
-    <rpm-list@freshrpms.net>; Tue, 8 Oct 2002 23:42:24 +0300
-Received: (from blades@localhost) by azrael.blades.cxm (SGI-8.9.3/8.9.3)
-    id XAA27178 for rpm-list@freshrpms.net; Tue, 8 Oct 2002 23:42:14 +0300
-    (EEST)
-X-Authentication-Warning: azrael.blades.cxm: blades set sender to
-    harri.haataja@cs.helsinki.fi using -f
-From: Harri Haataja <harri.haataja@cs.helsinki.fi>
-To: rpm-zzzlist@freshrpms.net
-Subject: Re: Zoot apt/openssh & new DVD playing doc
-Message-Id: <20021008234209.B26549@azrael.smilehouse.com>
-Mail-Followup-To: rpm-zzzlist@freshrpms.net
-References: <20021008163613.0c1dcc72.matthias@rpmforge.net>
+	for jm@localhost (single-drop); Wed, 07 Aug 2002 13:07:07 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g77C8Pk27494 for
+    <jm-ilug@jmason.org>; Wed, 7 Aug 2002 13:08:25 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id NAA20908; Wed, 7 Aug 2002 13:05:58 +0100
+Received: from corvil.com. (k100-159.bas1.dbn.dublin.eircom.net
+    [159.134.100.159]) by lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id NAA20871
+    for <ilug@linux.ie>; Wed, 7 Aug 2002 13:05:49 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host k100-159.bas1.dbn.dublin.eircom.net
+    [159.134.100.159] claimed to be corvil.com.
+Received: from corvil.com (pixelbeat.local.corvil.com [172.18.1.170]) by
+    corvil.com. (8.12.5/8.12.5) with ESMTP id g77C5kn4037048; Wed,
+    7 Aug 2002 13:05:47 +0100 (IST) (envelope-from padraig.brady@corvil.com)
+Message-Id: <3D510D12.6020102@corvil.com>
+Date: Wed, 07 Aug 2002 13:05:38 +0100
+From: Padraig Brady <padraig.brady@corvil.com>
+Organization: Corvil Networks
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.9) Gecko/20020408
+X-Accept-Language: en-us, en
 MIME-Version: 1.0
-Content-Type: text/plain; charset=us-ascii
-Content-Disposition: inline
-User-Agent: Mutt/1.2.5.1i
-In-Reply-To: <20021008163613.0c1dcc72.matthias@rpmforge.net>;
-    from matthias@rpmforge.net on Tue, Oct 08, 2002 at 04:36:13PM +0200
-X-Mailscanner: Found to be clean, Found to be clean
-Sender: rpm-zzzlist-admin@freshrpms.net
-Errors-To: rpm-zzzlist-admin@freshrpms.net
-X-Beenthere: rpm-zzzlist@freshrpms.net
-X-Mailman-Version: 2.0.11
+To: Vincent Cunniffe <vincent@cunniffe.net>
+Cc: ilug <ilug@linux.ie>
+Subject: Re: [ILUG] socket latency query
+References: <3D510944.8090507@cunniffe.net>
+Content-Type: text/plain; charset=ISO-8859-15; format=flowed
+Content-Transfer-Encoding: 8bit
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-Reply-To: rpm-zzzlist@freshrpms.net
-List-Help: <mailto:rpm-zzzlist-request@freshrpms.net?subject=help>
-List-Post: <mailto:rpm-zzzlist@freshrpms.net>
-List-Subscribe: <http://lists.freshrpms.net/mailman/listinfo/rpm-zzzlist>,
-    <mailto:rpm-list-request@freshrpms.net?subject=subscribe>
-List-Id: Freshrpms RPM discussion list <rpm-zzzlist.freshrpms.net>
-List-Unsubscribe: <http://lists.freshrpms.net/mailman/listinfo/rpm-zzzlist>,
-    <mailto:rpm-list-request@freshrpms.net?subject=unsubscribe>
-List-Archive: <http://lists.freshrpms.net/pipermail/rpm-zzzlist/>
-X-Original-Date: Tue, 8 Oct 2002 23:42:14 +0300
-Date: Tue, 8 Oct 2002 23:42:14 +0300
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-On Tue, Oct 08, 2002 at 04:36:13PM +0200, Matthias Saou wrote:
-> Two new things today :
-> 
-> 1) I've had to install a Red Hat Linux 6.2 server because of an old
-> proprietary IVR software that doesn't work on newer releases :-( So
-> I've recompiled both the latest apt and openssh packages for it, and
-> they are now available with a complete "os, updates & freshrpms" apt
-> repository at apt.freshrpms.net, for those who might be interested.
+Vincent Cunniffe wrote:
+> Does anyone have any practical experience with high-performance socket 
+> code in C++ under Linux, and is there any speed difference between unix 
+> domain sockets, loopback sockets, and a real ethernet interface if all 
+> of the packets are going from one process on the machine to another 
+> process on the same machine?
 
-Oh, neat.
+In short yes. The more logic involved the longer
+the CPU is executing it. I.E. there is more logic
+executed (including NIC logic) when going down
+to the metal than when using lo. So how much
+logic is involved for each type of IPC (why
+are you limiting yourself to sockets? there are
+mutexes, shared mem, files, messages...). Anyway the
+best IPC method to choose is dictated by the data
+you want to communicate between the processes,
+as the various IPC mechanisms are tuned for
+various data types.
 
-I have similiar thing in my hands, though it might be migratable if I
-had the time to try. I've been using another 6.x repository though.
-http://apt-rpm.tuxfamily.org/apt
+IBM are running a series comparing doze and Linux IPC mechanisms.
+The socket (which references the others at the bottom) is here:
+http://www-106.ibm.com/developerworks/linux/library/l-rt6/?t=gr,Redhat=Sockets
 
-Anyone tried (dist-)upgrade from 6.x to 7? Theoretically it should drop
-in some -compat's (notably libc) and upgrade the rest and after a reboot
-and maybe a new kernel (and grub, but I have long before put those to
-v6's :) run just fine. Haven't had a spare machine to try it on myself,
-though.
+The following in google gave useful info also:
+"linux IPC mechanisms compared"
 
-_______________________________________________
-RPM-List mailing list <RPM-List@freshrpms.net>
-http://lists.freshrpms.net/mailman/listinfo/rpm-list
+Pádraig.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

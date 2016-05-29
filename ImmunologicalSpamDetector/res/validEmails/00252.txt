@@ -1,39 +1,35 @@
-From ilug-admin@linux.ie  Fri Sep  6 11:40:19 2002
+From ilug-admin@linux.ie  Tue Aug  6 11:53:13 2002
 Return-Path: <ilug-admin@linux.ie>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id 0353616F1A
-	for <zzzz@localhost>; Fri,  6 Sep 2002 11:38:17 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 71A11441E7
+	for <jm@localhost>; Tue,  6 Aug 2002 06:48:21 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Fri, 06 Sep 2002 11:38:17 +0100 (IST)
-Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g869e1C28599 for
-    <zzzz-ilug@spamassassin.taint.org>; Fri, 6 Sep 2002 10:40:01 +0100
+	for jm@localhost (single-drop); Tue, 06 Aug 2002 11:48:21 +0100 (IST)
 Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
-    webnote.net (8.9.3/8.9.3) with ESMTP id BAA19534 for <zzzz-ilug@spamassassin.taint.org>;
-    Fri, 6 Sep 2002 01:43:59 +0100
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g74BENv26148 for
+    <jm-ilug@jmason.org>; Sun, 4 Aug 2002 12:14:23 +0100
 Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
-    (8.9.3/8.9.3) with ESMTP id BAA17409; Fri, 6 Sep 2002 01:37:27 +0100
-X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
-    claimed to be lugh
-Received: from linuxmafia.com (linuxmafia.COM [198.144.195.186]) by
-    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id BAA17380 for <ilug@linux.ie>;
-    Fri, 6 Sep 2002 01:37:10 +0100
-Received: from rick by linuxmafia.com with local (Exim 3.35 #1 (Debian))
-    id 17n78V-00087V-00; Thu, 05 Sep 2002 17:38:11 -0700
-Date: Thu, 5 Sep 2002 17:38:11 -0700
-To: irish linux users group <ilug@linux.ie>
-Cc: kevin+dated+1031593647.e87527@ie.suberic.net
-Subject: Re: [ILUG] windows users accessing cvs...
-Message-Id: <20020906003811.GF12787@linuxmafia.com>
-References: <20020904184725.A19528@ie.suberic.net>
+    (8.9.3/8.9.3) with ESMTP id MAA17135; Sun, 4 Aug 2002 12:12:12 +0100
+Received: from webnote.net (mail.webnote.net [193.120.211.219]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id MAA17082 for <ilug@linux.ie>;
+    Sun, 4 Aug 2002 12:12:02 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host mail.webnote.net
+    [193.120.211.219] claimed to be webnote.net
+Received: (from lbedford@localhost) by webnote.net (8.9.3/8.9.3) id
+    MAA11216; Sun, 4 Aug 2002 12:12:01 +0100
+Message-Id: <20020804121201.A11194@mail.webnote.net>
+Date: Sun, 4 Aug 2002 12:12:01 +0100
+From: lbedford@lbedford.org
+To: deedsmis@aculink.net, ilug@linux.ie
+Subject: Re: [ILUG] One Command -- Four Types
+References: <200208041036.g74AaBr31977@cdm01.deedsmiscentral.net>
 MIME-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
-Content-Disposition: inline
-In-Reply-To: <20020904184725.A19528@ie.suberic.net>
-User-Agent: Mutt/1.4i
-From: Rick Moen <rick@linuxmafia.com>
+X-Mailer: Mutt 0.93.2
+In-Reply-To: <200208041036.g74AaBr31977@cdm01.deedsmiscentral.net>;
+    from SoloCDM on Sun, Aug 04, 2002 at 04:36:11AM -0600
 Sender: ilug-admin@linux.ie
 Errors-To: ilug-admin@linux.ie
 X-Mailman-Version: 1.1
@@ -41,22 +37,23 @@ Precedence: bulk
 List-Id: Irish Linux Users' Group <ilug.linux.ie>
 X-Beenthere: ilug@linux.ie
 
-Quoting kevin lyda (kevin+dated+1031593647.e87527@ie.suberic.net):
+On Sun, Aug 04, 2002 at 04:36:11AM -0600, SoloCDM wrote:
+> I tried several ways to force the command ln to create a link with
+> an option attached . . . it wouldn't work.
+> 
+> How are there four (/bin/dnsdomainname /bin/domainname
+> /bin/nisdomainname /bin/ypdomainname) different types of hostname
+> links with their own separate options?
+> 
+There's a switch statement in the program on argv[0].
 
-> anyone here have experience with windows cvs clients accessing a cvs
-> server *securely*.  preferably using ssh of some form (putty or cygwin's
-> openssh port) and the wincvs client?
+It's not including any options in the link.
 
-Here's something I cobbled together:
-http://sourceforge.net/docman/display_doc.php?docid=9026&group_id=13487
-
--- 
-Cheers,           "I don't like country music, but I don't mean to denigrate
-Rick Moen         those who do.  And, for the people who like country music,
-rick@linuxmafia.com         denigrate means 'put down'."      -- Bob Newhart
+L.
 
 -- 
 Irish Linux Users' Group: ilug@linux.ie
 http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
 List maintainer: listmaster@linux.ie
+
 

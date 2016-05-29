@@ -1,43 +1,37 @@
-From ilug-admin@linux.ie  Thu Aug 22 17:45:53 2002
+From ilug-admin@linux.ie  Thu Aug 22 10:46:36 2002
 Return-Path: <ilug-admin@linux.ie>
-Delivered-To: zzzz@localhost.netnoteinc.com
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 08BC143F99
-	for <zzzz@localhost>; Thu, 22 Aug 2002 12:45:53 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 144B843C46
+	for <jm@localhost>; Thu, 22 Aug 2002 05:46:08 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Thu, 22 Aug 2002 17:45:53 +0100 (IST)
+	for jm@localhost (single-drop); Thu, 22 Aug 2002 10:46:08 +0100 (IST)
 Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
-    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7MGbKZ14933 for
-    <zzzz-ilug@spamassassin.taint.org>; Thu, 22 Aug 2002 17:37:20 +0100
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7LJHuZ06380 for
+    <jm-ilug@jmason.org>; Wed, 21 Aug 2002 20:17:56 +0100
 Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
-    (8.9.3/8.9.3) with ESMTP id RAA10694; Thu, 22 Aug 2002 17:36:27 +0100
-Received: from moe.jinny.ie ([193.120.171.3]) by lugh.tuatha.org
-    (8.9.3/8.9.3) with ESMTP id RAA10669 for <ilug@linux.ie>; Thu,
-    22 Aug 2002 17:36:20 +0100
-X-Authentication-Warning: lugh.tuatha.org: Host [193.120.171.3] claimed to
-    be moe.jinny.ie
-Received: from jlooney.jinny.ie (unknown [193.120.171.2]) by moe.jinny.ie
-    (Postfix) with ESMTP id C906A7FC48 for <ilug@linux.ie>; Thu,
-    22 Aug 2002 17:36:19 +0100 (IST)
-Received: by jlooney.jinny.ie (Postfix, from userid 500) id 09E7E8B1;
-    Thu, 22 Aug 2002 17:36:42 +0100 (IST)
-Date: Thu, 22 Aug 2002 17:36:41 +0100
-From: "John P. Looney" <valen@tuatha.org>
-To: ILUG <ilug@linux.ie>
-Subject: Re: [ILUG] Sun Solaris..
-Message-Id: <20020822163641.GN3670@jinny.ie>
-Reply-To: ilug@linux.ie
-Mail-Followup-To: ILUG <ilug@linux.ie>
-References: <45130FBE2F203649A4BABDB848A9C9D00E9C8A@enterprise.wasptech.com>
+    (8.9.3/8.9.3) with ESMTP id UAA19343; Wed, 21 Aug 2002 20:16:46 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from holly.csn.ul.ie (holly.csn.ul.ie [136.201.105.4]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id UAA19307 for <ilug@linux.ie>;
+    Wed, 21 Aug 2002 20:16:31 +0100
+Received: from skynet.csn.ul.ie (skynet [136.201.105.2]) by
+    holly.csn.ul.ie (Postfix) with ESMTP id EF0312B79B for <ilug@linux.ie>;
+    Wed, 21 Aug 2002 20:15:54 +0100 (IST)
+Received: by skynet.csn.ul.ie (Postfix, from userid 2623) id A65A7E957;
+    Wed, 21 Aug 2002 20:15:54 +0100 (IST)
+Date: Wed, 21 Aug 2002 20:15:54 +0100
+To: ilug@linux.ie
+Message-Id: <20020821191551.GA6862@csn.ul.ie>
+Mail-Followup-To: deccy@csn.ul.ie, ilug@linux.ie
 MIME-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Disposition: inline
-In-Reply-To: <45130FBE2F203649A4BABDB848A9C9D00E9C8A@enterprise.wasptech.com>
-User-Agent: Mutt/1.4i
-X-Os: Red Hat Linux 7.3/Linux 2.4.18-3
-X-Url: http://www.redbrick.dcu.ie/~valen
-X-Gnupg-Publickey: http://www.redbrick.dcu.ie/~valen/public.asc
+User-Agent: Mutt/1.3.24i
+From: deccy@csn.ul.ie (Declan Houlihan)
+Subject: [ILUG] redhat kickstart
 Sender: ilug-admin@linux.ie
 Errors-To: ilug-admin@linux.ie
 X-Mailman-Version: 1.1
@@ -45,33 +39,40 @@ Precedence: bulk
 List-Id: Irish Linux Users' Group <ilug.linux.ie>
 X-Beenthere: ilug@linux.ie
 
-On Thu, Aug 22, 2002 at 05:13:01PM +0100, Fergal Moran mentioned:
-> In a nutshell - Solaris is Suns own flavour of UNIX.
+How many Redhat admins out there use the redhat kickstart?
+If you don't use it, how do you install redhat on all your 
+workstations, do you do it by hand, with the cds?
 
- Though I'm sure that this nice person would like a bit more detail.
+As we are looking at using Linux at work, I'm looking
+into setting up the kickstart. There doesn't seem to
+be a lot of documentation around about it.
 
- Solaris is quite different to Linux, though these days you can make
-solaris act a lot like linux with an extra CD of GNU tools Sun ship with
-solaris. It is based on the SysV unix family, so it's quite similar to
-other unixen like HPUX and SCO.
+Does anybody know if it would be possible to do the following:
+Get the machine to boot using DHCP and read it's kickstart
+config file from teh DHCP server and in this config file
+have the machine configured to use a static IP, so that when
+the machine is rebooted it will come up with it's new IP.
 
- Sun's hardware in general is more reliable, and a lot more expensive. One
-of the main bonuses you get by buying Sun is that you are getting your
-hardware and software from one company, so if you have a support contract,
-they have to fix it. They can't fob you off with 'that's a software
-problem, talk to the software vendor.' etc.
+Also, There was no driver on the redhat network install flopopy
+for the network card in the machine I'm installing. This required
+me to uncompress the floppy image, loop mount it, add in the module
+for the network card and compress it all up again. I'm not going
+to be able to do this every time we get a new machine, I was
+wondering if instead of having a boot floppy, you could use a boot
+cdrom, but just for the purpose of having all the network card
+modules on the cdrom. I'd still want it to get the packages from
+an NFS server on the network.
 
- If you are set on Linux, you most likely can do your own support. There
-is then a world of different hardware options. You can run Linux on Sparc,
-though some companies like RedHat don't maintain a sparc port anymore.
+Any help with this would be greatly appreciated,
+cheers,
+deccy.
 
- You can also buy your machine from linux-oriented companies like DNUK,
-who do machines designed to run linux, and their own version of linux,
-that has a few extras for their machines. Or, you can get a machine from a
-cheaper company like Dell, and it'll most likely work, most of the time.
-
-John
-
+-- 
+---------------------------------------
+Declan Houlihan
+deccy@csn.ul.ie
+http://deccy.csn.ul.ie/
+---------------------------------------
 
 -- 
 Irish Linux Users' Group: ilug@linux.ie

@@ -1,57 +1,79 @@
-From fork-admin@xent.com  Mon Aug 26 15:31:13 2002
-Return-Path: <fork-admin@xent.com>
+From ilug-admin@linux.ie  Fri Jul 19 22:07:58 2002
+Return-Path: <ilug-admin@linux.ie>
 Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 22FBD47C7F
-	for <jm@localhost>; Mon, 26 Aug 2002 10:25:17 -0400 (EDT)
-Received: from phobos [127.0.0.1]
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 05F8C440C8
+	for <jm@localhost>; Fri, 19 Jul 2002 17:07:58 -0400 (EDT)
+Received: from dogma.slashnull.org [212.17.35.15]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Mon, 26 Aug 2002 15:25:17 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7NKfYZ07433 for <jm@jmason.org>;
-    Fri, 23 Aug 2002 21:41:34 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id E2A8329413D; Fri, 23 Aug 2002 13:39:08 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from mail1.panix.com (mail1.panix.com [166.84.1.72]) by xent.com
-    (Postfix) with ESMTP id A28532940F4 for <fork@xent.com>; Fri,
-    23 Aug 2002 13:39:00 -0700 (PDT)
-Received: from 159-98.nyc.dsl.access.net (159-98.nyc.dsl.access.net
-    [166.84.159.98]) by mail1.panix.com (Postfix) with ESMTP id D6D27487BF for
-    <fork@xent.com>; Fri, 23 Aug 2002 16:40:47 -0400 (EDT)
-From: Lucas Gonze <lgonze@panix.com>
-X-X-Sender: lgonze@localhost.localdomain
-Cc: FoRK <fork@spamassassin.taint.org>
-Subject: Re: The case for spam
-In-Reply-To: <Pine.LNX.4.44.0208231600070.17440-100000@localhost.localdomain>
-Message-Id: <Pine.LNX.4.44.0208231631010.17440-100000@localhost.localdomain>
+	for jm@localhost (single-drop); Fri, 19 Jul 2002 22:07:58 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6JL51J03608 for
+    <jm-ilug@jmason.org>; Fri, 19 Jul 2002 22:05:01 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id WAA00409; Fri, 19 Jul 2002 22:04:03 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from smtp011.mail.yahoo.com (smtp011.mail.yahoo.com
+    [216.136.173.31]) by lugh.tuatha.org (8.9.3/8.9.3) with SMTP id WAA00377
+    for <ilug@linux.ie>; Fri, 19 Jul 2002 22:03:55 +0100
+Received: from p256.as1.cra.dublin.eircom.net (HELO mfrenchw2k)
+    (mfrench42@159.134.177.0 with login) by smtp.mail.vip.sc5.yahoo.com with
+    SMTP; 19 Jul 2002 21:03:45 -0000
+Message-Id: <002c01c22f67$4216c280$f264a8c0@sabeo.ie>
+From: "Matthew French" <mfrench42@yahoo.co.uk>
+To: "Irish Linux Users Group" <ilug@linux.ie>
+References: <200207191959.g6JJxHX04486@linux.local>
+Subject: Re: [ILUG] hard- vs. soft-links [was: How to copy some files ]
+Date: Fri, 19 Jul 2002 22:00:02 +0100
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-Msmail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-Mimeole: Produced By Microsoft MimeOLE V6.00.2600.0000
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Fri, 23 Aug 2002 16:33:15 -0400 (EDT)
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-> Russell Turpin:
-> > That depends on how the list is collected, or
-> > even on what the senders say about how the list
-> > is collected. 
+Brian Foster wrote:
+>  I use this fact on occasion to "save" data, via the well-
+>  known attack of hard-linking to a supposedly-temporary file
+>  I want to preserve.  the subsequent unlink(2)ing of the
+>  "temporary" file does not destroy the data.
 
-Senders should vary the recipient list to include non-targets, like party
-officials, and to exclude targets enough to give them plausible
-deniability.
+Now here is a thought: a Unix version of the "Deleted Items" folder.
 
-- Lucas
+In the root of a hard drive, create a directory ".unwanted". Then
+periodically create hard links to every file on the hard drive that does not
+have hard links.
+
+That way, when someone accidentally does "rm *" or whatever, you still have
+a link under ".unwanted"
+
+Another script can then periodically clear out enough old files to ensure
+that there is usually enough disk space.
+
+Although this sounds like a horrible hack. It would no doubt be much better
+to have a transaction oriented file system with a rollback facility.  :)
+
+- Matthew
 
 
-http://xent.com/mailman/listinfo/fork
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.comm
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
 

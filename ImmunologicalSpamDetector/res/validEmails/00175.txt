@@ -1,77 +1,81 @@
-From Stewart.Smith@ee.ed.ac.uk  Wed Aug 28 10:53:44 2002
-Return-Path: <Stewart.Smith@ee.ed.ac.uk>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From ilug-admin@linux.ie  Wed Jul 31 12:31:04 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id AFE0543F9B
-	for <zzzz@localhost>; Wed, 28 Aug 2002 05:53:42 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 1BC07440C8
+	for <jm@localhost>; Wed, 31 Jul 2002 07:31:03 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Wed, 28 Aug 2002 10:53:42 +0100 (IST)
-Received: from n16.grp.scd.yahoo.com (n16.grp.scd.yahoo.com
-    [66.218.66.71]) by dogma.slashnull.org (8.11.6/8.11.6) with SMTP id
-    g7S7xAZ15466 for <zzzz@spamassassin.taint.org>; Wed, 28 Aug 2002 08:59:10 +0100
-X-Egroups-Return: sentto-2242572-53126-1030521556-zzzz=spamassassin.taint.org@returns.groups.yahoo.com
-Received: from [66.218.67.196] by n16.grp.scd.yahoo.com with NNFMP;
-    28 Aug 2002 07:59:16 -0000
-X-Sender: Stewart.Smith@ee.ed.ac.uk
-X-Apparently-To: zzzzteana@yahoogroups.com
-Received: (EGP: mail-8_1_0_1); 28 Aug 2002 07:59:14 -0000
-Received: (qmail 46517 invoked from network); 28 Aug 2002 07:59:14 -0000
-Received: from unknown (66.218.66.217) by m3.grp.scd.yahoo.com with QMQP;
-    28 Aug 2002 07:59:14 -0000
-Received: from unknown (HELO postbox.ee.ed.ac.uk) (129.215.80.253) by
-    mta2.grp.scd.yahoo.com with SMTP; 28 Aug 2002 07:59:14 -0000
-Received: from ee.ed.ac.uk (sxs@dunblane [129.215.34.86]) by
-    postbox.ee.ed.ac.uk (8.11.0/8.11.0) with ESMTP id g7S7x8P07079 for
-    <forteana@yahoogroups.com>; Wed, 28 Aug 2002 08:59:09 +0100 (BST)
-Message-Id: <3D6C82CB.5040109@ee.ed.ac.uk>
-Organization: Scottish Microelectronics Centre
-User-Agent: Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.1b) Gecko/20020628
-X-Accept-Language: en, en-us
-To: zzzzteana@yahoogroups.com
-References: <E17jkBl-0005Z9-00@protactinium.btinternet.com>
-From: Stewart Smith <Stewart.Smith@ee.ed.ac.uk>
-X-Yahoo-Profile: stochasticus
+	for jm@localhost (single-drop); Wed, 31 Jul 2002 12:31:03 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6VBP8219157 for
+    <jm-ilug@jmason.org>; Wed, 31 Jul 2002 12:25:08 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id MAA32701; Wed, 31 Jul 2002 12:22:40 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from holly.csn.ul.ie (holly.csn.ul.ie [136.201.105.4]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id MAA32670 for <ilug@linux.ie>;
+    Wed, 31 Jul 2002 12:22:34 +0100
+Received: from skynet.csn.ul.ie (skynet [136.201.105.2]) by
+    holly.csn.ul.ie (Postfix) with ESMTP id 082582B31D for <ilug@linux.ie>;
+    Wed, 31 Jul 2002 12:22:04 +0100 (IST)
+Received: by skynet.csn.ul.ie (Postfix, from userid 2009) id CE01DE95E;
+    Wed, 31 Jul 2002 12:22:03 +0100 (IST)
+Date: Wed, 31 Jul 2002 12:22:03 +0100
+To: ILUG <ilug@linux.ie>
+Subject: Re: [ILUG] C++ and C Mailing Lists for Beginners and Advanced
+Message-Id: <20020731112202.GA30189@skynet.ie>
+Mail-Followup-To: ILUG <ilug@linux.ie>
+References: <200207311043.g6VAhuq10699@cdm01.deedsmiscentral.net>
+    <20020731125129.B11532@wanadoo.fr>
 MIME-Version: 1.0
-Mailing-List: list zzzzteana@yahoogroups.com; contact
-    forteana-owner@yahoogroups.com
-Delivered-To: mailing list zzzzteana@yahoogroups.com
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <20020731125129.B11532@wanadoo.fr>
+User-Agent: Mutt/1.3.24i
+From: caolan@csn.ul.ie (Caolan McNamara)
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
-Date: Wed, 28 Aug 2002 08:59:07 +0100
-Subject: Re: [zzzzteana] Illusionist emerges after 24 hours underwater
-Reply-To: zzzzteana@yahoogroups.com
-Content-Type: text/plain; charset=US-ASCII
-Content-Transfer-Encoding: 7bit
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-> An illusionist has emerged after 24 hours underwater in a case in New York's
-> Times Square.
+On Wed, Jul 31, 2002 at 12:51:29 +0200, David Neary wrote:
+> SoloCDM wrote:
+> > Are there any mailing lists (non-newsgroups) for C++ and C Beginners
+> > and Advanced programmers?
+> 
+> For C++, I would guess that the comp.lang.c++ FAQ is a good place
+> to start - they're likely to have links to suggested reading
+> material.
+> 
+> If you're going to do any amount of C programming, you should
+> think about getting K&R2 (The C programming language, 2nd
+> edition, by Kernighan and Ritchie), for C++ the equivalent book
+> is Stroustrup. Although the C++ book is a lot bigger :)
 
-I'd just like to recommend the newest Viz to ukers just for the hilarious "David 
-Blaine: Stalag Magician".  The ego'd one is in a WWII prison camp and sort of 
-trying to escape.  Several times he seems to have escaped and the british 
-officers celebrate before it's revealed he's been buried alive or hiding in a 
-freezer.  At one point he's asked why and says "Well it's not for publicity" 
-Cracking stuff.
+For C++, guru of the week at 
+http://www.gotw.ca/gotw/index.htm (can get them in book form and
+with extra material as Herb Sutters Essential C++ and More Essential C++)
+is a good resource. 
 
-Stew
+Scott Meyers Effective C++, More Effective C++ and Effective STL
+are truly handy books.
+
+I always felt that The C++ faq wasn't as good as the C faq, but
+it lives at http://www.parashift.com/c++-faq-lite/
+
+C.
 -- 
-Stewart Smith
-Scottish Microelectronics Centre, University of Edinburgh.
-http://www.ee.ed.ac.uk/~sxs/
+Caolan McNamara               |  caolan@skynet.ie  
+http://www.skynet.ie/~caolan  |  +353 86 8161184
+Verbing weirds language
 
-
------------------------- Yahoo! Groups Sponsor ---------------------~-->
-4 DVDs Free +s&p Join Now
-http://us.click.yahoo.com/pt6YBB/NXiEAA/MVfIAA/7gSolB/TM
----------------------------------------------------------------------~->
-
-To unsubscribe from this group, send an email to:
-forteana-unsubscribe@egroups.com
-
- 
-
-Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

@@ -1,61 +1,129 @@
-From fork-admin@xent.com  Fri Aug 23 11:09:00 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From social-admin@linux.ie  Tue Aug  6 11:08:22 2002
+Return-Path: <social-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 3CB6743F99
-	for <zzzz@localhost>; Fri, 23 Aug 2002 06:06:58 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 5612044125
+	for <jm@localhost>; Tue,  6 Aug 2002 06:03:28 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Fri, 23 Aug 2002 11:06:58 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7N8rUZ17136 for <zzzz@spamassassin.taint.org>;
-    Fri, 23 Aug 2002 09:53:30 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 7345F294192; Fri, 23 Aug 2002 01:51:08 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from argote.ch (argote.ch [80.65.224.17]) by xent.com (Postfix)
-    with ESMTP id 308B6294099 for <fork@xent.com>; Fri, 23 Aug 2002 01:50:40
-    -0700 (PDT)
-Received: by argote.ch (Postfix, from userid 500) id D5070C44E;
-    Fri, 23 Aug 2002 10:44:35 +0200 (CEST)
-To: fork@spamassassin.taint.org
-Subject: Re: Entrepreneurs
-Message-Id: <20020823084435.D5070C44E@argote.ch>
-From: harley@argote.ch (Robert Harley)
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+	for jm@localhost (single-drop); Tue, 06 Aug 2002 11:03:28 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g72MtNv14871 for
+    <jm+ilug-social@jmason.org>; Fri, 2 Aug 2002 23:55:23 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id XAA01117; Fri, 2 Aug 2002 23:53:45 +0100
+Received: from hibernia.jakma.org (hibernia.clubi.ie [212.17.32.129]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id XAA01085 for <social@linux.ie>;
+    Fri, 2 Aug 2002 23:53:38 +0100
+Received: from fogarty.jakma.org (fogarty.jakma.org [192.168.0.4]) by
+    hibernia.jakma.org (8.11.6/8.11.6) with ESMTP id g72N0aw02255;
+    Sat, 3 Aug 2002 00:00:37 +0100
+Received: from localhost (paul@localhost) by fogarty.jakma.org
+    (8.11.6/8.11.6) with ESMTP id g72N0Yx09240; Sat, 3 Aug 2002 00:00:34 +0100
+X-Authentication-Warning: fogarty.jakma.org: paul owned process doing -bs
+Date: Sat, 3 Aug 2002 00:00:34 +0100 (IST)
+From: Paul Jakma <paul@clubi.ie>
+X-X-Sender: paul@fogarty.jakma.org
+To: kevin lyda <kevin+dated+1028754135.038225@ie.suberic.net>
+Cc: ilug social <social@linux.ie>
+Subject: Re: [ILUG-Social] Re: [ILUG] Dermot Beirne/Dublin/IE/Exel is out of the office.
+In-Reply-To: <20020802220213.B25994@ie.suberic.net>
+Message-Id: <Pine.LNX.4.44.0208022302570.8981-100000@fogarty.jakma.org>
+X-Nsa: iraq saddam hammas hisballah rabin ayatollah korea vietnam revolt
+    mustard gas
+X-Dumb-Filters: aryan marijuiana cocaine heroin hardcore cum pussy porn
+    teen tit sex lesbian group
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Sender: social-admin@linux.ie
+Errors-To: social-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Fri, 23 Aug 2002 10:44:35 +0200 (CEST)
+List-Id: Irish Linux Users' Group social events <social.linux.ie>
+X-Beenthere: social@linux.ie
 
-Whore eructed:
->--]It's an amusing anecdote, I don't know if it's true or not, but
->--]certainly nothing here supports the authoritative sounding conclusion
->--]"Status: False".
->
->So thats the trick, just let any anecdotal utterances you LIKE be deemed
->true [...]
+On Fri, 2 Aug 2002, kevin lyda wrote:
 
-Exsqueeze me, but what part of "I don't know if it's true or not"
-did you fail to grok?  I personally doubt it simply because I never
-heard of Bush and Chirac going to Brighton.
+> On Fri, Aug 02, 2002 at 12:23:04PM +0100, Dermot Beirne wrote:
+> > I will be out of the office starting  02/08/2002 and will not return until
+> > 06/08/2002.
+> ...
+> > The information in this email is confidential and may be legally
+> [7+ line sig deleted]
+> 
+> an automated message to ilug.  one of those goofy confidentiality
+> signatures.  more then four lines in a sig.
 
-Next time I hear a joke, I promise not to laugh until I have checked
-out primary sources for confirmation in triplicate, OK?  Good thing
-we have you around to keep us on the straight and narrow, all the while
-inundating us with such erudite profundities as "Kill your idols folks",
-"fight the powers that be, from with out and from with in" and innumerable
-other dippy bromides.
+this is serious. the highly confidential information that dermot is
+out of the office has leaked! i think it would be best if we all
+email the "Systems Manager" as a matter of urgency. in lieu of an
+email address i suggest emailling all of postmaster, info, sales,
+hostmaster, webmaster, support and accounts (and any other address
+one can think of).
+
+now, considering the critical nature of this leak, if you do not 
+receive an adequate reply i think one would be duty bound to raise 
+the matter again, and again if needs be, until one gets a 
+satisfactory reply.
+
+also, i notice a lot of people on this lot who post from company 
+addresses do not have disclaimers on their emails. i would encourage 
+everyone in a professional position to raise the matter of 
+disclaimers internally and ensure that disclaimers are implemented 
+for company emails, stationary and phone systems.
+
+finally, the email-disclaimers advocacy site 
+
+	http://www.emaildisclaimers.com/
+
+may prove to be a useful resource. rather strangely one of the quotes 
+on the front-page of their site is:
+
+	'The disclaimers added to the end of emails are not legally 
+	binding, but it's always good practice to try and disclaim liability'
+
+	-- Michael Chissick, Head of Internet law at Field Fisher 
+	Waterhouse
+
+However, i suggest this quote, partly the initial part, be ignored
+and that other more favourable quotes (by self-aggrandising
+pundits^W^Wleading experts)  be heeded instead.  Also, there is a
+vicious rumour going round that a year or so ago a rather large
+company in the UK lost a court case where an employee sent out some
+kind of libellous email or somesuch despite the company having
+implemented email disclaimers. pay no heed to this - its just a
+rumour (http://www.weblaw.co.uk/artemail.htm).
+
+Anyway, please: Email exel.com!!!
+
+> kevin
+
+NB: This email is copyright 2002 Paul Jakma. By reading this email
+you agree to compensate me by paying me the sum of EUR200 - please
+contact the copyright author for further details on settling your
+fee. If you do not agree, please unread this email and delete this
+email immediately. Further, this email is copyright protected through
+the use of ASCII ROT-8 encryption. Circumvention of this digital
+copyright protection may be a criminal offense in certain
+jurisdictions.
+
+(and if it isnt in your jurisdiction, dont worry, the WIPO is working
+tirelessly to make sure it will be).
+
+regards,
+-- 
+Paul Jakma	paul@clubi.ie	paul@jakma.org	Key ID: 64A2FF6A
+	warning: do not ever send email to spam@dishone.st
+Fortune:
+"At least they're ___________EXPERIENCED incompetents"
 
 
-R
-http://xent.com/mailman/listinfo/fork
+
+
+
+-- 
+Irish Linux Users' Group Social Events: social@linux.ie
+http://www.linux.ie/mailman/listinfo/social for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
 

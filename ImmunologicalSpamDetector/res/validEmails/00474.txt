@@ -1,80 +1,91 @@
-From fork-admin@xent.com  Sat Sep  7 21:52:32 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id 568B316F16
-	for <jm@localhost>; Sat,  7 Sep 2002 21:52:16 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Tue Aug 20 12:43:51 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id A9B8743C32
+	for <jm@localhost>; Tue, 20 Aug 2002 07:43:51 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Sat, 07 Sep 2002 21:52:16 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g86Jl5C21549 for <jm@jmason.org>;
-    Fri, 6 Sep 2002 20:47:05 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 20ACF294172; Fri,  6 Sep 2002 12:44:03 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from cats.ucsc.edu (cats-mx2.ucsc.edu [128.114.129.35]) by
-    xent.com (Postfix) with ESMTP id 7303329409E for <fork@xent.com>;
-    Fri,  6 Sep 2002 12:43:25 -0700 (PDT)
-Received: from Tycho (dhcp-63-177.cse.ucsc.edu [128.114.63.177]) by
-    cats.ucsc.edu (8.10.1/8.10.1) with SMTP id g86HQXT03756; Fri,
-    6 Sep 2002 10:26:33 -0700 (PDT)
-From: "Jim Whitehead" <ejw@cse.ucsc.edu>
-To: "Eugen Leitl" <eugen@leitl.org>, <fork@spamassassin.taint.org>
-Subject: RE: Re[2]: Selling Wedded Bliss (was Re: Ouch...)
-Message-Id: <AMEPKEBLDJJCCDEJHAMICEGPFGAA.ejw@cse.ucsc.edu>
+	for jm@localhost (single-drop); Tue, 20 Aug 2002 12:43:51 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7KBiYZ04433 for
+    <jm-ilug@jmason.org>; Tue, 20 Aug 2002 12:44:34 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id MAA00621; Tue, 20 Aug 2002 12:43:22 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from mail03.svc.cra.dublin.eircom.net
+    (mail03.svc.cra.dublin.eircom.net [159.134.118.19]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with SMTP id MAA00495 for <ilug@linux.ie>; Tue,
+    20 Aug 2002 12:42:35 +0100
+Received: (qmail 52708 messnum 520637 invoked from
+    network[159.134.147.129/pc897.as1.galway1.eircom.net]); 20 Aug 2002
+    11:42:03 -0000
+Received: from pc897.as1.galway1.eircom.net (HELO ciaran)
+    (159.134.147.129) by mail03.svc.cra.dublin.eircom.net (qp 52708) with SMTP;
+    20 Aug 2002 11:42:03 -0000
+Message-Id: <006c01c2483e$94876a70$ac0305c0@ciaran>
+From: "Ciaran Mac Lochlainn" <ciaran17@eircom.net>
+To: "Waider" <waider@waider.ie>, "Martin Feeney" <martin@tuatha.org>
+Cc: "ILUG" <ilug@linux.ie>
+References: <200208200754.IAA20270@lugh.tuatha.org>
+    <002e01c2482a$0f166f30$ac0305c0@ciaran>
+    <20020820110507.K22471@greenspot.hq.nwcgroup.com>
+    <3D62155B.20906@waider.ie>
+Subject: Re: [ILUG] Mail sent to ILUG
+Date: Tue, 20 Aug 2002 12:41:53 +0100
 MIME-Version: 1.0
-Content-Type: text/plain; charset="us-ascii"
+Content-Type: text/plain; charset="iso-8859-15"
 Content-Transfer-Encoding: 7bit
-X-Priority: 3 (Normal)
+X-Priority: 3
 X-Msmail-Priority: Normal
-X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2911.0)
-In-Reply-To: <Pine.LNX.4.33.0209061122540.30472-100000@hydrogen.leitl.org>
-X-Mimeole: Produced By Microsoft MimeOLE V5.50.4133.2400
-Importance: Normal
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+X-Mailer: Microsoft Outlook Express 6.00.2462.0000
+X-Mimeole: Produced By Microsoft MimeOLE V6.00.2462.0000
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Fri, 6 Sep 2002 10:24:14 -0700
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-> Clearly our non-silly non-antiquated ideas about relationships have
-> resulted in mostly short-duration relationships and single-parented,
-> dysfunctional kids (not enough of them too boot, so to keep our
-> demographics from completely keeling over we're importing them from places
-> with mostly silly and antiquated ideas).
+Thanks lads,
+
+I didn't mean to criticise/give offence or anything (someone mailed me off
+list who seemed to think I did) but I was just wondering "if anything could
+be done" about those messages.
+Maybe it was a stupid question, seeing as I know virtually nothing about
+mailman, listservs, or server side spam filtering, but thanks for answering
+intelligently!
+
+Ciaran
+
+Waider elucidated:
+
+> Martin Feeney wrote:
+> | On Tue, 20 Aug 2002 10:14:59 Ciaran Mac Lochlainn wrote:
+> |
+> |> is it really necessary to send these to the list?
+> |
+> |
+> | What's happening is that the scumbag spammers are forging the from
+> | address to be ilug@linux.ie as well, so the notification to them that
+> | their email is being reviewed gets sent back to the from address:
+> | ilug@linux.ie
+> |
+> | Martin.
+> |
 >
-> At least from the viewpoint of demographics sustainability and
-> counterpressure to gerontocracy and resulting innovatiophobia we're doing
-> something wrong.
+> Not to belabour the point, but noone can legitimately send mail to ilug
+> from ilug@linux.ie, so Mailman should be catching this and stopping it.
+> Not sending confirms or whatever, just dropping the mail on the floor.
+>
+> Cheers,
+> Waider.
 
-There was a fascinating article in the Economist 1-2 weeks back (the issue
-with a pregnant-looking Statue of Liberty on the Front) that stated that
-even for the native US population, fertility had jumped in the last decade
-and a half. I think the current figure for the US is a little over 2, but
-not quite the ~2.1 of replacement rate. Combined with the very fertile
-non-native population, the article implied the US was going to have a
-significant increase in population over earlier predictions. As well, the
-population would overall be more youthful, with associated implications for
-being able to fund social programs, military spending, consumer spending,
-etc.
 
-Europe did not show the same increase in fertility.
 
-Some actual data for the US are here:
-
-http://www.census.gov/population/pop-profile/2000/chap04.pdf
-Part of:
-http://www.census.gov/population/www/pop-profile/profile2000.html
-
-- Jim
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 

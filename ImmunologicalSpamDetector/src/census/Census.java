@@ -5,16 +5,58 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Properties;
 
 import detector.Detector;
+import monitor.Monitor;
 import util.PreprocessEmail;
-import util.file.Email;
 import util.file.IOManipulation;
 import util.file.ProjectProperties;
 
 public class Census {
+	
+	public static void generateSpamDictionary(){
+		Properties projectProperties = ProjectProperties.getProperties();
+		String spamsBasePath = projectProperties.getProperty("spamsBasePath");
+		float frequentWordPercentageThreshold = Float.parseFloat(projectProperties.getProperty("frequentWordPercentageThreshold"));
+		int frequentWordThreshold = 0;
+		int biggerOccurrence = Integer.MIN_VALUE;
+		List<String> spamContentList = IOManipulation.readEmailsContents(IOManipulation.listFilesInDirectory(spamsBasePath));
+		spamContentList = PreprocessEmail.clearEmailsContents(spamContentList);
+		Map<String, Integer> wordOccurrenceMap = new LinkedHashMap<String, Integer>();
+		List<String> mostFrequentWords = new ArrayList<String>();
+		
+		for(String spamContent : spamContentList){
+			String[] wordArray = spamContent.split(" ");
+			
+			for(String word : wordArray){
+				if(word.length() > 4){
+					if(wordOccurrenceMap.containsKey(word)){
+						int occurrence = wordOccurrenceMap.get(word) + 1;
+						wordOccurrenceMap.put(word, occurrence);
+						
+						if(occurrence > biggerOccurrence){
+							biggerOccurrence = occurrence;
+							frequentWordThreshold = Math.round(biggerOccurrence * frequentWordPercentageThreshold);
+						}
+					}else{
+						wordOccurrenceMap.put(word, 1);
+					}
+				}
+			}
+		}
+		
+		for(String word : wordOccurrenceMap.keySet()){
+			if(wordOccurrenceMap.get(word) >= frequentWordThreshold){
+				mostFrequentWords.add(word);
+			}
+		}
+		
+		IOManipulation.saveContentsInFile(mostFrequentWords, projectProperties.getProperty("spamDictionaryFile"));
+	}
 	
 	public static List<Detector> generateDetectors(){
 		Properties projectProperties = ProjectProperties.getProperties();
@@ -32,7 +74,7 @@ public class Census {
 		List<Detector> acceptedDetectors = new ArrayList<Detector>();
 		Properties projectProperties = ProjectProperties.getProperties();
 		List<File> validEmails = IOManipulation.listFilesInDirectory(projectProperties.getProperty("validEmailsBasePath"));
-		List<String> emailsContents = PreprocessEmail.clearEmailsContents(Email.readEmailsContents(validEmails));
+		List<String> emailsContents = PreprocessEmail.clearEmailsContents(IOManipulation.readEmailsContents(validEmails));
 		int discardThreshold = Integer.parseInt(projectProperties.getProperty("discardThreshold"));
 		int spamIdentificationThreshold = Math.round(Float.parseFloat(projectProperties.getProperty("spamIdentificationPercentageThreshold")) * emailsContents.size());
 		
@@ -46,7 +88,7 @@ public class Census {
 				for(String keyWord : detector.getKeywords()){
 					for(String emailContentWord : emailContentWords){
 						if(keyWord.length() == emailContentWord.length()){
-							if(Census.verifyTerms(keyWord, emailContentWord)){
+							if(Monitor.verifyTerms(keyWord, emailContentWord)){
 								matchCount++;
 								break;
 							}
@@ -80,19 +122,6 @@ public class Census {
 		}
 		
 		return hammingDistance;
-	}
-	
-	public static boolean verifyTerms(String s1, String s2){
-		boolean termsMatches = false;
-		Properties projectProperties = ProjectProperties.getProperties();
-		int hammingDistanceThreshold = Integer.parseInt(projectProperties.getProperty("hammingDistanceThreshold"));
-		int hammingDistance = Census.hammingDistance(s1, s2);
-		
-		if(hammingDistance <= hammingDistanceThreshold){
-			termsMatches = true;
-		}
-		
-		return termsMatches;
 	}
 	
 	private static void storesDetectors(List<Detector> acceptedDetectors){

@@ -1,74 +1,66 @@
-From fork-admin@xent.com  Thu Aug 29 16:52:57 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From social-admin@linux.ie  Wed Aug  7 08:53:55 2002
+Return-Path: <social-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 7996B44155
-	for <zzzz@localhost>; Thu, 29 Aug 2002 11:52:54 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 3927A440C9
+	for <jm@localhost>; Wed,  7 Aug 2002 03:53:52 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Thu, 29 Aug 2002 16:52:54 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g7TFklZ18708 for <zzzz@spamassassin.taint.org>;
-    Thu, 29 Aug 2002 16:46:47 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id AA6122940DA; Thu, 29 Aug 2002 08:44:09 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from smtp1.auracom.net (smtp1.auracom.net [165.154.140.23]) by
-    xent.com (Postfix) with ESMTP id 1D5E12940DA for <FoRK@xent.com>;
-    Thu, 29 Aug 2002 08:43:15 -0700 (PDT)
-Received: from maya.dyndns.org (ts5-038.ptrb.interhop.net
-    [165.154.190.102]) by smtp1.auracom.net (8.11.2/8.11.2) with ESMTP id
-    g7TFIpD06133; Thu, 29 Aug 2002 11:18:51 -0400 (EDT)
-Received: by maya.dyndns.org (Postfix, from userid 501) id 72BCA1C38A;
-    Thu, 29 Aug 2002 11:19:27 -0400 (EDT)
-To: Eirikur Hallgrimsson <eh@mad.scientist.com>
-Cc: FoRK <FoRK@xent.com>
-Subject: Re: Internet saturation (but not in Iceland)
-References: <200208290358.03815.eh@mad.scientist.com>
-From: Gary Lawrence Murphy <garym@canada.com>
-X-Home-Page: http://www.teledyn.com
-Organization: TCI Business Innovation through Open Source Computing
-Message-Id: <m2znv5y9og.fsf@maya.dyndns.org>
-Reply-To: Gary Lawrence Murphy <garym@canada.com>
-X-Url: http://www.teledyn.com/
+	for jm@localhost (single-drop); Wed, 07 Aug 2002 08:53:52 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g777pLk16142 for
+    <jm+ilug-social@jmason.org>; Wed, 7 Aug 2002 08:51:21 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id IAA09572; Wed, 7 Aug 2002 08:49:04 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from holly.csn.ul.ie (holly.csn.ul.ie [136.201.105.4]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id IAA09529 for <social@linux.ie>;
+    Wed, 7 Aug 2002 08:48:58 +0100
+Received: from skynet.csn.ul.ie (skynet [136.201.105.2]) by
+    holly.csn.ul.ie (Postfix) with ESMTP id E89012B254 for <social@linux.ie>;
+    Wed,  7 Aug 2002 08:48:23 +0100 (IST)
+Received: by skynet.csn.ul.ie (Postfix, from userid 2009) id 94A66E956;
+    Wed,  7 Aug 2002 08:48:23 +0100 (IST)
+Date: Wed, 7 Aug 2002 08:48:23 +0100
+To: social@linux.ie
+Subject: Re: [ILUG-Social] Online Bookstores
+Message-Id: <20020807074822.GA25190@skynet.ie>
+Mail-Followup-To: social@linux.ie
+References: <20020806162122.B604@barge.tcd.ie>
 MIME-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Disposition: inline
+In-Reply-To: <20020806162122.B604@barge.tcd.ie>
+User-Agent: Mutt/1.3.24i
+From: caolan@csn.ul.ie (Caolan McNamara)
+Sender: social-admin@linux.ie
+Errors-To: social-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: 29 Aug 2002 11:19:27 -0400
+List-Id: Irish Linux Users' Group social events <social.linux.ie>
+X-Beenthere: social@linux.ie
 
->>>>> "E" == Eirikur Hallgrimsson <eh@mad.scientist.com> writes:
+On Tue, Aug 06, 2002 at 04:21:22 +0100, David O'Callaghan wrote:
+> 
+> Hello,
+> 
+> What are your recommendations for buying books (technical and
+> otherwise) online, from Irish or European sellers. Is there 
+> anywhere that has as good a selection as, say, Amazon but
+> deals in Euro?
 
-    E> Gary's news service at teledyn.com has an article on Internet
-    E> Saturation.  Let me ask you....If you were on a rock in the
-    E> middle of the Atlantic, mostly in the dark for half the year,
-    E> wouldn't *you* like a bit of internet distraction?  They've
-    E> already done the obvious and fiber-ringed the island.
+amazon.de and amazon.fr ? :-)
 
-There's lots of similar places.  Saskatchewan, for example, once
-shared with Iceland the distinction of most telephone connections per
-capita, and for a long time shared the internet penetration lead with
-Iceland (Sask is a land-locked massive expanse of ultra-flat dust with
-only two rivers and farm sizes measured in the
-hundred-thousand-hectares).
-
-It's still curious Iceland leads.  Maybe there's just a deep cultural
-curiousity and fascination with watching advertising from the rest of
-the world. Maybe they're downloading Bjork videos.
+C.
+-- 
+Caolan McNamara               |  caolan@skynet.ie  
+http://www.skynet.ie/~caolan  |  +353 86 8161184
+The way some people find fault, you'd think there was a reward
 
 -- 
-Gary Lawrence Murphy <garym@teledyn.com> TeleDynamics Communications Inc
- Business Advantage through Community Software : http://www.teledyn.com
-"Computers are useless.  They can only give you answers."(Pablo Picasso)
+Irish Linux Users' Group Social Events: social@linux.ie
+http://www.linux.ie/mailman/listinfo/social for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

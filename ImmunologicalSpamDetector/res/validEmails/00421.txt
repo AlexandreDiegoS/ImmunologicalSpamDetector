@@ -1,105 +1,81 @@
-From fork-admin@xent.com  Wed Sep  4 19:01:04 2002
-Return-Path: <fork-admin@xent.com>
-Delivered-To: yyyy@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by jmason.org (Postfix) with ESMTP id 483C116F49
-	for <jm@localhost>; Wed,  4 Sep 2002 18:59:47 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Fri Aug 16 14:00:51 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 225F043C34
+	for <jm@localhost>; Fri, 16 Aug 2002 09:00:44 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for jm@localhost (single-drop); Wed, 04 Sep 2002 18:59:47 +0100 (IST)
-Received: from xent.com ([64.161.22.236]) by dogma.slashnull.org
-    (8.11.6/8.11.6) with ESMTP id g84GkFZ10966 for <jm@jmason.org>;
-    Wed, 4 Sep 2002 17:46:17 +0100
-Received: from lair.xent.com (localhost [127.0.0.1]) by xent.com (Postfix)
-    with ESMTP id 2B544294271; Wed,  4 Sep 2002 09:43:03 -0700 (PDT)
-Delivered-To: fork@spamassassin.taint.org
-Received: from crank.slack.net (slack.net [166.84.151.181]) by xent.com
-    (Postfix) with ESMTP id C3A082941DD for <fork@xent.com>; Wed,
-    4 Sep 2002 09:42:48 -0700 (PDT)
-Received: by crank.slack.net (Postfix, from userid 596) id EC5183EE16;
-    Wed,  4 Sep 2002 12:48:04 -0400 (EDT)
-Received: from localhost (localhost [127.0.0.1]) by crank.slack.net
-    (Postfix) with ESMTP id EAB013ED4C for <fork@xent.com>; Wed,
-    4 Sep 2002 12:48:04 -0400 (EDT)
-From: Tom <tomwhore@slack.net>
-To: fork@spamassassin.taint.org
-Subject: Kill Your Gods
-Message-Id: <Pine.BSO.4.44.0209041247400.20366-100000@crank.slack.net>
+	for jm@localhost (single-drop); Fri, 16 Aug 2002 14:00:44 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7GCuua18656 for
+    <jm-ilug@jmason.org>; Fri, 16 Aug 2002 13:56:56 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id NAA27889; Fri, 16 Aug 2002 13:55:36 +0100
+Received: from hotmail.com (oe76.law4.hotmail.com [216.33.148.172]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id NAA27862 for <ilug@linux.ie>;
+    Fri, 16 Aug 2002 13:55:27 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host oe76.law4.hotmail.com
+    [216.33.148.172] claimed to be hotmail.com
+Received: from mail pickup service by hotmail.com with Microsoft SMTPSVC;
+    Fri, 16 Aug 2002 05:54:56 -0700
+X-Originating-Ip: [213.121.187.98]
+From: "David Crozier" <davidcrozier@hotmail.com>
+To: "Kenn Humborg" <kenn@bluetree.ie>
+Cc: <ilug@linux.ie>
+References: <NBBBIGEGHIGMPCNKHCECOEHBEAAA.kenn@bluetree.ie>
+Subject: Re: [ILUG] Autorun CDs
+Date: Fri, 16 Aug 2002 13:52:42 +0100
 MIME-Version: 1.0
-Content-Type: TEXT/PLAIN; charset=US-ASCII
-Sender: fork-admin@xent.com
-Errors-To: fork-admin@xent.com
-X-Beenthere: fork@spamassassin.taint.org
-X-Mailman-Version: 2.0.11
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-Msmail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.50.4807.1700
+X-Mimeole: Produced By Microsoft MimeOLE V5.50.4807.1700
+Message-Id: <OE76ox7nyeKzGZuNY1S00010025@hotmail.com>
+X-Originalarrivaltime: 16 Aug 2002 12:54:56.0015 (UTC) FILETIME=[1EF299F0:01C24524]
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Help: <mailto:fork-request@xent.com?subject=help>
-List-Post: <mailto:fork@spamassassin.taint.org>
-List-Subscribe: <http://xent.com/mailman/listinfo/fork>, <mailto:fork-request@xent.com?subject=subscribe>
-List-Id: Friends of Rohit Khare <fork.xent.com>
-List-Unsubscribe: <http://xent.com/mailman/listinfo/fork>,
-    <mailto:fork-request@xent.com?subject=unsubscribe>
-List-Archive: <http://xent.com/pipermail/fork/>
-Date: Wed, 4 Sep 2002 12:48:04 -0400 (EDT)
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-Hindus mourn 'monkey god'
+Apologies all.  I have comitted a cardinal sin by not specifying that this
+was for a windows machine.
 
 
-By Omer Farooq
-BBC reporter in Hyderabad
-
-Hundreds of people have attended the funeral of a monkey which became
-revered as a divine incarnation of a Hindu god in the southern Indian
-state of Andhra Pradesh.
-
-
-The monkey was quite old and both its hind legs were paralysed
-
-Animal rights campaigners say the monkey died of starvation and exhaustion
-after being trapped in a temple for a month by over-zealous worshippers.
-
-The animal was cremated in Anantapur district, 400 kilometres (250 miles)
-south of the state capital, Hyderabad, on Sunday.
-
-It had not eaten for three weeks.
-
-Last rites were performed by priests in the village of Timmiganipally in
-the presence of hundreds of devotees who had come to believe that the
-monkey was a reincarnation of the Hindu monkey god, Hanuman.
-
-Garlanded
-
-One animal rights activist said his group's efforts to save the monkey had
-failed because of the blind faith of the people.
+----- Original Message -----
+From: "Kenn Humborg" <kenn@bluetree.ie>
+To: "David Crozier" <davidcrozier@hotmail.com>
+Cc: <ilug@linux.ie>
+Sent: Friday, August 16, 2002 1:51 PM
+Subject: RE: [ILUG] Autorun CDs
 
 
-The monkey's death came a day after he and others tried to move the animal
-out of the temple, but were prevented by villagers.
+> > Cheers All for your words of wisdom.
+> >
+> > I came across this which has worked a treat:-
+> >
+> > http://www.avdf.com/mar97/art_autorun.html
+>
+> (This is all Windows-related autorun stuff).
+>
+> So why did you waste the time of those who looked
+> up Linux-related info for you?  If you said that it
+> was for Windows, you'd probably have gotten both
+> more relevant answers and flames for asking this on
+> a _Linux_ mailing list.
+>
+> Sheesh...
+>
+> Later,
+> Kenn
+>
 
-The monkey, which was found perched on top of an idol of Hanuman a month
-ago, attracted hundreds of devotees every day from surrounding villages,
-as well as from the neighbouring state of Karnataka.
-
-Devotees showered the monkey with fruit and flowers and worshipped it
-around the clock.
-
-'Exploited'
-
-Locals said they believed that Lord Hanuman was visiting the village, as
-the temple had stopped daily rituals after a dispute between two groups of
-residents.
-
-But animal rights campaigners complained that the animal was being
-mistreated.
-
-They filed a petition in the state's High Court saying the monkey had been
-forcibly confined in the temple.
-
-The group also alleged that people's religious feelings were being
-exploited to make money.
-
-The court then ordered the local administration to rescue the monkey - but
-villagers prevented officials from taking him for treatment in time.
-
-
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 

@@ -1,67 +1,66 @@
-From timc@2ubh.com  Thu Aug 22 17:31:00 2002
-Return-Path: <timc@2ubh.com>
-Delivered-To: zzzz@localhost.netnoteinc.com
+From ilug-admin@linux.ie  Wed Aug 21 16:58:12 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
 Received: from localhost (localhost [127.0.0.1])
-	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id A97BE43F99
-	for <zzzz@localhost>; Thu, 22 Aug 2002 12:30:58 -0400 (EDT)
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id 1711A43C32
+	for <jm@localhost>; Wed, 21 Aug 2002 11:58:10 -0400 (EDT)
 Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Thu, 22 Aug 2002 17:30:58 +0100 (IST)
-Received: from n17.grp.scd.yahoo.com (n17.grp.scd.yahoo.com
-    [66.218.66.72]) by dogma.slashnull.org (8.11.6/8.11.6) with SMTP id
-    g7MGOFZ14344 for <zzzz@spamassassin.taint.org>; Thu, 22 Aug 2002 17:24:16 +0100
-X-Egroups-Return: sentto-2242572-52744-1030033454-zzzz=spamassassin.taint.org@returns.groups.yahoo.com
-Received: from [66.218.67.201] by n17.grp.scd.yahoo.com with NNFMP;
-    22 Aug 2002 16:24:16 -0000
-X-Sender: timc@2ubh.com
-X-Apparently-To: zzzzteana@yahoogroups.com
-Received: (EGP: mail-8_1_0_1); 22 Aug 2002 16:24:14 -0000
-Received: (qmail 12796 invoked from network); 22 Aug 2002 16:24:13 -0000
-Received: from unknown (66.218.66.216) by m9.grp.scd.yahoo.com with QMQP;
-    22 Aug 2002 16:24:13 -0000
-Received: from unknown (HELO carbon) (194.73.73.92) by
-    mta1.grp.scd.yahoo.com with SMTP; 22 Aug 2002 16:24:15 -0000
-Received: from host217-36-23-185.in-addr.btopenworld.com ([217.36.23.185])
-    by carbon with esmtp (Exim 3.22 #8) id 17huko-0000JF-00 for
-    forteana@yahoogroups.com; Thu, 22 Aug 2002 17:24:14 +0100
-X-Mailer: Microsoft Outlook Express Macintosh Edition - 4.5 (0410)
-To: zzzzteana@yahoogroups.com
-X-Priority: 3
-Message-Id: <E17huko-0000JF-00@carbon>
-From: "Tim Chapman" <timc@2ubh.com>
-X-Yahoo-Profile: tim2ubh
+	for jm@localhost (single-drop); Wed, 21 Aug 2002 16:58:10 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g7LFsmZ32331 for
+    <jm-ilug@jmason.org>; Wed, 21 Aug 2002 16:54:48 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id QAA08074; Wed, 21 Aug 2002 16:52:48 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from relay07.indigo.ie (relay07.indigo.ie [194.125.133.231]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with SMTP id QAA08046 for <ilug@linux.ie>;
+    Wed, 21 Aug 2002 16:52:42 +0100
+Received: (qmail 13908 messnum 1017395 invoked from
+    network[80.247.160.141/unknown]); 21 Aug 2002 15:52:41 -0000
+Received: from unknown (HELO isgtwomem) (80.247.160.141) by
+    relay07.indigo.ie (qp 13908) with SMTP; 21 Aug 2002 15:52:41 -0000
+Message-Id: <003301c2492a$c8375a00$8da0f750@corp.emc.com>
+From: "Mark Twomey" <bauwolf@indigo.ie>
+To: <ilug@linux.ie>
+Date: Wed, 21 Aug 2002 16:52:41 +0100
 MIME-Version: 1.0
-Mailing-List: list zzzzteana@yahoogroups.com; contact
-    forteana-owner@yahoogroups.com
-Delivered-To: mailing list zzzzteana@yahoogroups.com
-Precedence: bulk
-List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
-Date: Thu, 22 Aug 2002 17:23:28 +0100
-Subject: Re: [zzzzteana] Which Muppet Are You?
-Reply-To: zzzzteana@yahoogroups.com
-Content-Type: text/plain; charset=US-ASCII
+Content-Type: text/plain; charset="iso-8859-1"
 Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-Msmail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.50.4522.1200
+X-Mimeole: Produced By Microsoft MimeOLE V5.50.4522.1200
+Subject: [ILUG] Re: [OT] MacOSX mailing list?
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
+Precedence: bulk
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-> Apols if this has been posted before:
-> 
-> http://www.pinkpaperclips.net/subs/quiz2.html
->
-So, anyone who isn't Beaker?
+Conor Wynne wrote:
 
-TimC
-Meep
+>Dunno Tim, but I'm seriously considering buying one just for osx. But I'm
+>gonna wait till they are providing the latest release first.
 
------------------------- Yahoo! Groups Sponsor ---------------------~-->
-4 DVDs Free +s&p Join Now
-http://us.click.yahoo.com/pt6YBB/NXiEAA/mG3HAA/7gSolB/TM
----------------------------------------------------------------------~->
+Every new Mac comes with an upgrade 10.2 CD as of last week.
+So if you bought one on the 12th, you'd be running 10.2 before the release
+this Friday night.
 
-To unsubscribe from this group, send an email to:
-forteana-unsubscribe@egroups.com
+>Unless someone is selling some pomme kit for cheapish/swap?
 
- 
+Good luck with that, even Mac geeks have a longer upgrade cycle than the
+average PC user, but you'd never know...
 
-Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
+M.
 
 
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 

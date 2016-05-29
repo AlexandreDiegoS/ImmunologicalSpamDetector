@@ -1,84 +1,91 @@
-From sentto-2242572-55982-1034029763-zzzz=spamassassin.taint.org@returns.groups.yahoo.com  Tue Oct  8 00:10:56 2002
-Return-Path: <sentto-2242572-55982-1034029763-zzzz=spamassassin.taint.org@returns.groups.yahoo.com>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id 0F55D16F16
-	for <zzzz@localhost>; Tue,  8 Oct 2002 00:10:56 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Mon Jul 29 11:28:02 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id A13D94414F
+	for <jm@localhost>; Mon, 29 Jul 2002 06:25:11 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Tue, 08 Oct 2002 00:10:56 +0100 (IST)
-Received: from n14.grp.scd.yahoo.com (n14.grp.scd.yahoo.com
-    [66.218.66.69]) by dogma.slashnull.org (8.11.6/8.11.6) with SMTP id
-    g97MU5K19579 for <zzzz@spamassassin.taint.org>; Mon, 7 Oct 2002 23:30:06 +0100
-X-Egroups-Return: sentto-2242572-55982-1034029763-zzzz=spamassassin.taint.org@returns.groups.yahoo.com
-Received: from [66.218.67.193] by n14.grp.scd.yahoo.com with NNFMP;
-    07 Oct 2002 22:29:23 -0000
-X-Sender: robert.chambers@baesystems.com
-X-Apparently-To: zzzzteana@yahoogroups.com
-Received: (EGP: mail-8_2_2_0); 7 Oct 2002 22:29:22 -0000
-Received: (qmail 61000 invoked from network); 7 Oct 2002 22:29:22 -0000
-Received: from unknown (66.218.66.218) by m11.grp.scd.yahoo.com with QMQP;
-    7 Oct 2002 22:29:22 -0000
-Received: from unknown (HELO n16.grp.scd.yahoo.com) (66.218.66.71) by
-    mta3.grp.scd.yahoo.com with SMTP; 7 Oct 2002 22:29:22 -0000
-Received: from [66.218.67.176] by n16.grp.scd.yahoo.com with NNFMP;
-    07 Oct 2002 22:29:21 -0000
-To: zzzzteana@yahoogroups.com
-Message-Id: <ant1s1+jomf@eGroups.com>
-In-Reply-To: <ant03s+fegg@eGroups.com>
-User-Agent: eGroups-EW/0.82
-X-Mailer: Yahoo Groups Message Poster
-From: "uncle_slacky" <robert.chambers@baesystems.com>
-X-Originating-Ip: 62.255.0.8
-X-Yahoo-Profile: uncle_slacky
+	for jm@localhost (single-drop); Mon, 29 Jul 2002 11:25:11 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6RHn7i17130 for
+    <jm-ilug@jmason.org>; Sat, 27 Jul 2002 18:49:07 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id SAA25016; Sat, 27 Jul 2002 18:45:03 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host root@localhost [127.0.0.1]
+    claimed to be lugh
+Received: from mail1.mail.iol.ie (mail1.mail.iol.ie [194.125.2.192]) by
+    lugh.tuatha.org (8.9.3/8.9.3) with ESMTP id SAA24977 for <ilug@linux.ie>;
+    Sat, 27 Jul 2002 18:44:56 +0100
+Received: from dialup125-a.ts551.cwt.esat.net ([193.203.140.125]
+    helo=Hobbiton.cod.ie) by mail1.mail.iol.ie with esmtp (Exim 3.35 #1) id
+    17YVVF-0001W4-00 for ilug@linux.ie; Sat, 27 Jul 2002 18:37:18 +0100
+Received: (from cdaly@localhost) by Hobbiton.cod.ie (8.11.6/8.9.3) id
+    g6RDRoO04681 for ilug@linux.ie; Sat, 27 Jul 2002 14:27:50 +0100
+Date: Sat, 27 Jul 2002 14:27:49 +0100
+From: Conor Daly <conor.daly@oceanfree.net>
+To: ILUG main list <ilug@linux.ie>
+Subject: Re: [ILUG] Architecture crossover trouble w RH7.2 (solved)
+Message-Id: <20020727142749.B4438@Hobbiton.cod.ie>
+Mail-Followup-To: ILUG main list <ilug@linux.ie>
+References: <0D443C91DCE9CD40B1C795BA222A729E018854FA@milexc01.maxtor.com>
 MIME-Version: 1.0
-Mailing-List: list zzzzteana@yahoogroups.com; contact
-    forteana-owner@yahoogroups.com
-Delivered-To: mailing list zzzzteana@yahoogroups.com
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.2.5i
+In-Reply-To: <0D443C91DCE9CD40B1C795BA222A729E018854FA@milexc01.maxtor.com>;
+    from conor_wynne@maxtor.com on Fri, Jul 26, 2002 at 03:56:22PM +0100
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
-Date: Mon, 07 Oct 2002 22:29:21 -0000
-Subject: [zzzzteana] Re: Latest Iraq-related news
-Reply-To: zzzzteana@yahoogroups.com
-Content-Type: text/plain; charset=US-ASCII
-Content-Transfer-Encoding: 7bit
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-Even better:
-
-http://www.ridiculopathy.com/news_detail.php?id=668
-
-White House: President's "War Boner" Must Be Satisfied
-
-..."The President can't seem to hide his excitement about a possible
-military conflict with Iraq. At a recent function honoring America's
-war widows, Bush sported a visible erection when his speech turned to
-the subject of the Middle East.
-
-'Believe me when I say this. With or without the help of other
-nations, with or without UN approval, we will penetrate Iraq's
-borders. With overwhelming force, we will pound Iraq over and over
-again without ceasing. And, once its leaders concede defeat, we will
-seed Iraq with American-style democracy.'
-
-Aides say the podium was scrubbed down thoroughly after the event with
-a special cleanser/biocide not used since the Clinton
-administration.".....
-
-
-
-
-
------------------------- Yahoo! Groups Sponsor ---------------------~-->
-Plan to Sell a Home?
-http://us.click.yahoo.com/J2SnNA/y.lEAA/MVfIAA/7gSolB/TM
----------------------------------------------------------------------~->
-
-To unsubscribe from this group, send an email to:
-forteana-unsubscribe@egroups.com
-
+On Fri, Jul 26, 2002 at 03:56:22PM +0100 or so it is rumoured hereabouts, 
+Wynne, Conor thought:
+> Surely it would be faster to save you conf files, install it on the box
+> again, copy back you confs and voila.
+> All you car about are the confs as the boite has no DATA right?
  
+Yeah, but then I'd have to remember _exactly_ which confs I'd modified and
+they're not all in /etc either...
 
-Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
+> Thats what I would do, but you sysadmins have to make life as difficult &
+> complicated as possible ;--)
 
+Yup...  In this case, I had two issues.  1. I mirrored the disk to give to
+someone else to work on but the box he has available has only a P1 or P2
+processor.  2. My celeron box has been crashing the backup software so I
+wanted to try out the backup in a different box to make sure it's hardware
+related.  Again, it's also an interesting exercise...
+ 
+> Have you thought about mirroring the system drives? Might save you serious
+> hassle down the line. 
+
+Oh, I'm doing that too.  This is going to Africa so I'm aiming for as
+robust as possible with belt, braces and probably an all-in-one jumpsuit!
+I'll be mirroring the disk but that is worth only so much (eg. lightning
+strike taking out the disk(s) or system compromise)  I'm also going for a
+backup to CDR with an automated restore http://www.mondorescue.org .  The
+admin out there wouldn't be able to build the system again if the mobo got
+fried and the replacement was the wrong arch but an i386 compatible
+install will mean just dropping in the HD and booting (ish)...
+
+Conor
+-- 
+Conor Daly <conor.daly@oceanfree.net>
+
+Domestic Sysadmin :-)
+---------------------
+Faenor.cod.ie
+  2:32pm  up 64 days, 23:49,  0 users,  load average: 0.00, 0.00, 0.00
+Hobbiton.cod.ie
+  2:19pm  up 7 days, 20:56,  1 user,  load average: 0.05, 0.02, 0.00
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 

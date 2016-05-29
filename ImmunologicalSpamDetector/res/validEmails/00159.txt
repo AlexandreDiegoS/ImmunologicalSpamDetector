@@ -1,89 +1,83 @@
-From sentto-2242572-56014-1034075987-zzzz=spamassassin.taint.org@returns.groups.yahoo.com  Tue Oct  8 12:27:48 2002
-Return-Path: <sentto-2242572-56014-1034075987-zzzz=spamassassin.taint.org@returns.groups.yahoo.com>
-Delivered-To: zzzz@localhost.spamassassin.taint.org
-Received: from localhost (jalapeno [127.0.0.1])
-	by spamassassin.taint.org (Postfix) with ESMTP id 0BE9816F17
-	for <zzzz@localhost>; Tue,  8 Oct 2002 12:27:28 +0100 (IST)
-Received: from jalapeno [127.0.0.1]
+From ilug-admin@linux.ie  Tue Jul 30 13:28:13 2002
+Return-Path: <ilug-admin@linux.ie>
+Delivered-To: yyyy@localhost.netnoteinc.com
+Received: from localhost (localhost [127.0.0.1])
+	by phobos.labs.netnoteinc.com (Postfix) with ESMTP id C9F5B440EE
+	for <jm@localhost>; Tue, 30 Jul 2002 08:28:12 -0400 (EDT)
+Received: from phobos [127.0.0.1]
 	by localhost with IMAP (fetchmail-5.9.0)
-	for zzzz@localhost (single-drop); Tue, 08 Oct 2002 12:27:28 +0100 (IST)
-Received: from n27.grp.scd.yahoo.com (n27.grp.scd.yahoo.com
-    [66.218.66.83]) by dogma.slashnull.org (8.11.6/8.11.6) with SMTP id
-    g98BJ8K12989 for <zzzz@spamassassin.taint.org>; Tue, 8 Oct 2002 12:19:08 +0100
-X-Egroups-Return: sentto-2242572-56014-1034075987-zzzz=spamassassin.taint.org@returns.groups.yahoo.com
-Received: from [66.218.67.201] by n27.grp.scd.yahoo.com with NNFMP;
-    08 Oct 2002 11:19:49 -0000
-X-Sender: timc@2ubh.com
-X-Apparently-To: zzzzteana@yahoogroups.com
-Received: (EGP: mail-8_2_2_0); 8 Oct 2002 11:19:47 -0000
-Received: (qmail 76868 invoked from network); 8 Oct 2002 11:19:46 -0000
-Received: from unknown (66.218.66.218) by m9.grp.scd.yahoo.com with QMQP;
-    8 Oct 2002 11:19:46 -0000
-Received: from unknown (HELO rhenium.btinternet.com) (194.73.73.93) by
-    mta3.grp.scd.yahoo.com with SMTP; 8 Oct 2002 11:19:48 -0000
-Received: from host217-35-11-51.in-addr.btopenworld.com ([217.35.11.51])
-    by rhenium.btinternet.com with esmtp (Exim 3.22 #8) id 17ysOx-00048e-00
-    for forteana@yahoogroups.com; Tue, 08 Oct 2002 12:19:47 +0100
-X-Mailer: Microsoft Outlook Express Macintosh Edition - 4.5 (0410)
-To: zzzzteana <zzzzteana@yahoogroups.com>
-X-Priority: 3
-Message-Id: <E17ysOx-00048e-00@rhenium.btinternet.com>
-From: "Tim Chapman" <timc@2ubh.com>
-X-Yahoo-Profile: tim2ubh
+	for jm@localhost (single-drop); Tue, 30 Jul 2002 13:28:12 +0100 (IST)
+Received: from lugh.tuatha.org (root@lugh.tuatha.org [194.125.145.45]) by
+    dogma.slashnull.org (8.11.6/8.11.6) with ESMTP id g6UCKUq26042 for
+    <jm-ilug@jmason.org>; Tue, 30 Jul 2002 13:20:30 +0100
+Received: from lugh (root@localhost [127.0.0.1]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id NAA04541; Tue, 30 Jul 2002 13:18:37 +0100
+Received: from mis.nwifhe.net ([212.219.92.232]) by lugh.tuatha.org
+    (8.9.3/8.9.3) with ESMTP id NAA04516 for <ilug@linux.ie>; Tue,
+    30 Jul 2002 13:18:32 +0100
+X-Authentication-Warning: lugh.tuatha.org: Host [212.219.92.232] claimed
+    to be mis.nwifhe.net
+Received: from soft-dev-lin.nwifhe.net (unknown [172.200.20.5]) by
+    mis.nwifhe.net (Postfix) with ESMTP id 326CCCB5F for <ilug@linux.ie>;
+    Tue, 30 Jul 2002 13:18:02 +0100 (BST)
+Subject: Re: [ILUG] Fwd: Linux Beer Hike
+From: "Patton, Tony" <tony.patton@nwifhe.ac.uk>
+To: Irish LUG <ilug@linux.ie>
+In-Reply-To: <200207301006.36137.donncha.ocaoimh@tradesignals.com>
+References: <200207301006.36137.donncha.ocaoimh@tradesignals.com>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Mailer: Ximian Evolution 1.0.5
+Date: 30 Jul 2002 13:17:25 +0100
+Message-Id: <1028031445.3321.2.camel@soft-dev-lin.nwifhe.net>
 MIME-Version: 1.0
-Mailing-List: list zzzzteana@yahoogroups.com; contact
-    forteana-owner@yahoogroups.com
-Delivered-To: mailing list zzzzteana@yahoogroups.com
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by lugh.tuatha.org id
+    NAA04516
+Sender: ilug-admin@linux.ie
+Errors-To: ilug-admin@linux.ie
+X-Mailman-Version: 1.1
 Precedence: bulk
-List-Unsubscribe: <mailto:zzzzteana-unsubscribe@yahoogroups.com>
-Date: Tue, 08 Oct 2002 12:18:52 +0100
-Subject: [zzzzteana] Lioness adopts fifth antelope
-Reply-To: zzzzteana@yahoogroups.com
-Content-Type: text/plain; charset=US-ASCII
-Content-Transfer-Encoding: 7bit
+List-Id: Irish Linux Users' Group <ilug.linux.ie>
+X-Beenthere: ilug@linux.ie
 
-http://www.guardian.co.uk/international/story/0,3604,806579,00.html
+On Tue, 2002-07-30 at 10:06, Donncha O Caoimh wrote:
+> Ar mhaith le einne anseo caint le TG4 faoin LBW?
+> 
+> Donncha.
+> 
 
-Lioness adopts fifth antelope
+----8<
 
-Rory Carroll, Africa correspondent
-Tuesday October 8, 2002
-The Guardian
+> Tá mé ag déanamh taighde don clár teilifíse An Tuath Nua (a bhíonn á
+> chraoladh ar TG4) faoi láthair, agus chonaic mé go mbedih an Linux Beer
+> Hike ar siúl i Doolin i mbliana. Bheadh spéis againn mír a dhéanamh mar
+> gheall ar an Hike ar an gclár - an mbeidh tú féin nó aon duine eile le
+> Gaeilge ar an Hike go bhfios duit?
+> 
+> Go raibh maith agat as do chabhair,
+> 
 
-Kamuniak the dysfunctional lioness has forfeited another meal by adopting
-her fifth baby oryx this year, an aberration of nature which has baffled
-wildlife experts.
-The young lioness in the Samburu national park in northern Kenay adopted her
-latest baby at the weekend, a wildlife service warden said yesterday.
-Each time Kamuniak, whose name means "the blessed one" in the local Samburu
-tongue, has tried to protect the antelopes from other predators and allowed
-the natural mothers to feed them.
-Unfortunately for her, one oryx ended up in the belly of a male lion while
-Kamuniak slept; the others were either rescued by wardens or retrieved by
-their natural mothers.
-The wardens think the latest adoptee, nicknamed Naisimari ("taken by
-force"), was adopted at the weekend.
-"She must have adopted her on Sunday because they are in harmony," said
-Gabriel Lepariyo, a warden.
-Naisimari's natural mother has been seen shadowing the odd couple at a
-distance.
-Theories to explain the phenonemon abound: not having her own cubs, Kamuniak
-is lonely; she is colour-blind and short-sighted and thinks the calves are
-cubs; the oryx were too frail to flee, breaking the classic prey behaviour
-and confusing the hunter; Kamuniak wants to be a vegetarian; Kamuniak wants
-to be loved. 
+---->8
 
------------------------- Yahoo! Groups Sponsor ---------------------~-->
-Sell a Home with Ease!
-http://us.click.yahoo.com/SrPZMC/kTmEAA/MVfIAA/7gSolB/TM
----------------------------------------------------------------------~->
+Can someone translate this for me? Lost all sense of Irish when moved
+over the border about 10 years ago. Not by choice mind you :-(
 
-To unsubscribe from this group, send an email to:
-forteana-unsubscribe@egroups.com
+Thanks
+-- 
++------------------------------------+---------------------------------+
+| Tony Patton                        |                                 |
+| MIS Software Developer/*nix        | Tel  : +44 28 7127 6443         |
+|   Systems Administrator            | Fax  : +44 28 7126 0520         |
+| North West Institute of F & H.E.   | Mob  : +44 7764 905 955         |
+| Strand Road                        |                                 |
+| Derry                              | ICQ# : 113 069 081              |
+| BT48 7BY                           |                                 |
++------------------------------------+---------------------------------+
 
- 
 
-Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/ 
-
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
 
 
