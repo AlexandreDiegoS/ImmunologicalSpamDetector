@@ -189,7 +189,7 @@ public class ISD {
 			public void actionPerformed(ActionEvent arg0) {
 				Desktop desk = Desktop.getDesktop();
 				try {
-					desk.browse(new URI("https://github.com/AlexandreDiegoS/ImmunologicalSpamDetector"));
+					desk.browse(new URI("https://drive.google.com/file/d/0BzW34zt9ari9YWVZQ1JlbElPak0/view?usp=sharing"));
 				} catch (IOException | URISyntaxException e) {
 					e.printStackTrace();
 				}
